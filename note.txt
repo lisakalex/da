@@ -1,0 +1,33 @@
+12581 ./a/cryptonews.com/news/best-nft-gambling-sites.htm
+<a href="/" class="header__logo">
+
+index.html
+did="16" 300X250-mobile.jpg
+did="11" 970x250.jpg
+did="1" 300x600.jpg
+did="2" 970x90.jpg
+
+news/index.html
+did="4" 300x600.jpg
+
+news/*.htm
+did="9" 468x60.png
+did="5" 970x250.jpg
+did="12" 970x90.jpg
+did="6" 300x600.jpg
+did="7" 300X250-mobile.jpg
+did="8" 468x60.png
+
+/var/www/huy.com/public_html/news/bitcoin-now-undervalued-vs-sp-500-according-metric.htm
+              http://huy.com/news/bitcoin-now-undervalued-vs-sp-500-according-metric.htm
+
+https://v2.cimg.co/images/icon-video.svg?2645d7e16797ce2f6ab255b58e13f4f8
+https://v2.cimg.co/images/icon-star-gradient.svg?ea81e1de07370ca5e2e6f63e98468cf3
+icon-star-gradient.svg?ea81e1de07370ca5e2e6f63e98468cf3
+http://huy-1.com/news/today-in-crypto-stepn-reveals-apple-pay-integration-huobi-ordered-to-stop-operations-in-malaysia-hotbit-closes-shop-dcg-missed-a-630m-payment-bxb-capital-raising-capital-exclusively-in-btc.htm
+http://huy-1.com/news/bitcoin2023-suffers-from-low-turnout-amidst-high-ticket-prices-and-crypto-downturn.htm
+http://huy-1.com/news/metric-of-bitcoin-btc-price-momentum-just-fell-its-lowest-since-march-now-good-time-buy.htm
+http://huy-1.com/news/this-key-on-chain-indicator-will-soon-join-the-list-of-those-signalling-a-bitcoin-btc-bull-market-is-here.htm
+http://huy-1.com/news/coinshares-report-digital-asset-fund-outflows-reach-200-million.htm
+http://huy-1.com/news/number-of-bitcoin-wallets-with-at-least-1-btc-hits-1-million-smart-money-still-moving-in.htm
+
