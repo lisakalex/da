@@ -14,6 +14,7 @@ import re
 
 start_time = time.time()
 todaytime = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
+shutil.copytree('./a/cryptonews.com', './b', dirs_exist_ok=True)
 
 
 def replace_header_footer(read_file1):
@@ -94,7 +95,7 @@ def download_json_files(read_file1):
         if loadmoretype:
             url = 'https://cryptonews.com/paged/' + loadmoretype + '-1.json'
             print(url)
-            path = './a/cryptonews.com/paged/'
+            path = './b/paged/'
             file1 = loadmoretype + '-1.json'
             download_files(url, path, file1)
 
@@ -170,12 +171,12 @@ files = ['html', 'htm']
 countreplace = 1
 
 for fl in files:
-    for filepath in glob2.iglob('./a/cryptonews.com/**/*.' + fl, recursive=True):
+    for filepath in glob2.iglob('./b/**/*.' + fl, recursive=True):
         print(str(countreplace) + ' ' + filepath)
         with open(filepath) as file:
             read_file = file.read()
 
-        # download_json_files(read_file)
+        download_json_files(read_file)
         read_file = replace_text(read_file)
         read_file = replace_links(read_file)
         read_file = decompose_tags(read_file)
@@ -187,7 +188,7 @@ for fl in files:
         with open(filepath, "w") as file:
             file.write(read_file)
 
-shutil.copytree('./a/cryptonews.com', './public_html', dirs_exist_ok=True)
+shutil.copytree('./b', './public_html', dirs_exist_ok=True)
 shutil.copytree('./replace', './public_html', dirs_exist_ok=True)
 
 finish_time = time.time() - start_time
