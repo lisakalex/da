@@ -1682,7 +1682,7 @@ p:has(>.selfcentered) {
 }
 
 .header-links__item--is-active:after {
-    background-image: linear-gradient(90deg, #930046, #590089);
+    background-image: linear-gradient(90deg, #00b900, #590089);
     bottom: 0;
     content: "";
     display: block;
@@ -4602,7 +4602,7 @@ figure table {
 }
 
 .newsletter .input-group button {
-    background-color: #930046;
+    background-color: #00b900;
     border-radius: 3px !important;
     color: #fff;
     display: inline-block;

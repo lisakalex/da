@@ -30,7 +30,11 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
-huy {
+/*change theirs button colors to our (green)*/
+.huy {
+    color: #930046;
+    color: #59008a;
+    color: #00b900;
     color: #018001;
 
 }
@@ -1686,7 +1690,7 @@ p:has(>.selfcentered) {
 }
 
 .header-links__item--is-active:after {
-    background-image: linear-gradient(90deg, #00b900, #590089);
+    background-image: linear-gradient(90deg, #00b900, #018001);
     bottom: 0;
     content: "";
     display: block;
@@ -2660,7 +2664,8 @@ body.custom-price-tracker > #widget_container .next:before {
 }
 
 .button-group a.active, .button-group a:hover, .exchange header nav a.active, .exchange header nav a:hover, .exchanges header nav a.active, .exchanges header nav a:hover {
-    background-color: rgba(89, 0, 138, .6);
+    /*background-color: rgba(89, 0, 138, .6);*/
+    background-color: #00b900;
     color: #fff
 }
 

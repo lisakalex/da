@@ -1,70 +1,22 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
+    <title id="dynamicTitle">kumpeton</title>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <!-- CSRF Token -->
-    <meta content="" name="csrf-token"/>
-    <title id="dynamicTitle">kumpeton</title>
-    <meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title">
-    <meta content=" We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="description"/>
-    <meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
-    <!--    <meta property="fb:app_id" content="1101440706625691"/>-->
-    <!--    <meta name="robots" content=" max-snippet:-1,max-image-preview:large, max-video-preview:-1,index,follow  ">-->
-    <!--    <link rel="canonical" href="https://kumkanot.com/"/>-->
-    <!-- Fonts -->
-    <!--    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">-->
-    <!--    <script src="https://v2.cimg.co/js/frontend.js?id=6b59640460bce8c302f8ea8545d90ab9" defer></script>-->
-    <!--    <link href="https://v2.cimg.co/css/frontend.css?id=eb4c8dc80bdae268d254abb4850ef461" rel="stylesheet"-->
-    <!--          media="print" onload="this.media='all'"     >-->
+    <meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+    <meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description">
     <script defer="" src="/assets/js/frontend.js"></script>
     <link href="/assets/css/frontend.css" rel="stylesheet"/>
-    <!--    <link rel="apple-touch-icon" sizes="180x180" href="https://v2.cimg.co/p/assets/apple-touch-icon.png?v=Omyvvrq5Xk">-->
-    <!--    <link rel="icon" type="image/png" sizes="32x32" href="https://v2.cimg.co/p/assets/favicon-32x32.png?v=Omyvvrq5Xk">-->
-    <!--    <link rel="icon" type="image/png" sizes="16x16" href="https://v2.cimg.co/p/assets/favicon-16x16.png?v=Omyvvrq5Xk">-->
-    <!--    <link rel="manifest" href="/site.webmanifest?v=35Xks">-->
-    <!--    <link rel="mask-icon" href="https://v2.cimg.co/p/assets/safari-pinned-tab.svg?v=Omyvvrq5Xk" color="#6200ea">-->
     <link href="/assets/images/favicon.png" rel="shortcut icon"/>
-    <!--    <meta name="msapplication-config" content="https://v2.cimg.co/p/assets/browserconfig.xml?v=Omyvvrq5Xk">-->
-    <!--    <link href='https://fonts.gstatic.com' crossorigin rel='preconnect'/>-->
-    <!--    <meta name="google-site-verification" content="c2_7pIW5gpAymnOP4qbutV1yiK5t5pZNfYt1pTAIGWc"/>-->
-    <!--    <meta name="apple-mobile-web-app-title" content="Kumkanot">-->
-    <!--    <meta name="application-name" content="Kumkanot">-->
-    <!--    <meta name="msapplication-TileColor" content="#6200ea">-->
-    <!--    <meta name="theme-color" content="#ffffff">-->
-    <!--    <meta name="msvalidate.01" content="F739E148C7096190277D8BDBEC2FBB57"/>-->
-    <!-- Styles -->
-    <!--    <style>-->
-    <!--        .exchange .board > div > .rates a img {-->
-    <!--            max-width: 16px;-->
-    <!--        }-->
-    <!--    </style>-->
-    <!--    <meta name="google-site-verification" content="c2_7pIW5gpAymnOP4qbutV1yiK5t5pZNfYt1pTAIGWc"/>-->
-    <!--    <script>-->
-    <!--        (function (w, d, s, l, i) {-->
-    <!--            w[l] = w[l] || [];-->
-    <!--            w[l].push({-->
-    <!--                'gtm.start': new Date().getTime(),-->
-    <!--                event: 'gtm.js'-->
-    <!--            });-->
-    <!--            var f = d.getElementsByTagName(s)[0],-->
-    <!--                j = d.createElement(s),-->
-    <!--                dl = l != 'dataLayer' ? '&l=' + l : '';-->
-    <!--            j.async = true;-->
-    <!--            j.src =-->
-    <!--                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;-->
-    <!--            f.parentNode.insertBefore(j, f);-->
-    <!--        })(window, document, 'script', 'dataLayer', 'GTM-MBDCFGN');-->
-    <!--    </script>-->
     <script>
         window.trans = {
-            // ago: "ago",
+            ago: "ago",
             ago_long: "minute, minutes, hour, hours, day, days",
-            // time_seconds_ago: "[time] [seconds] [ago]",
-            // time_minutes_ago: "[time] [minutes] [ago]",
-            // time_hours_ago: "[time] [hours] [ago]",
-            // time_days_ago: "[time] [days] [ago]",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
         }
 
     </script>
@@ -72,11 +24,7 @@
         window.sid = 1;
     </script>
 </head>
-
 <body>
-<noscript>
-    <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-MBDCFGN" style="display:none;visibility:hidden" width="0"></iframe>
-</noscript>
 <header class="header" id="header">
     <a class="header__logo" href="/">
         <img alt="Crypto News" src="/assets/images/logo.png"/>
@@ -107,7 +55,6 @@
                                 <li><a href="/news/blockchain-news/">Blockchain News</a></li>
                                 <li><a href="/news/press-releases/">Press Releases</a></li>
                                 <li><a href="/news/sponsored/">Sponsored</a></li>
-                                <!--                                <li><a href="/news/kumkanot-deals/">Kumkanot Deals</a></li>-->
                                 <li><a href="/news/industry-talk/">Industry Talk</a></li>
                                 <li><a href="/news/ico-news/">ICO news</a></li>
                                 <li><a href="/news/finance-news/">Finance News</a></li>
@@ -124,28 +71,9 @@
                                 <li><a href="/exclusives/features/">Features</a></li>
                                 <li><a href="/exclusives/opinions/">Opinions</a></li>
                                 <li><a href="/exclusives/people/">People In Crypto</a></li>
-                                <li><a href="/exclusives/podcast/">Podcast</a></li>
                             </ul>
                         </div>
                     </div>
-                    <!--                    <div class="col-12 col-lg-2">-->
-                    <!--                        <div class="header-links__dropdown-list">-->
-                    <!--                            <div class="header-menu__dropdown-heading">-->
-                    <!--                                <a class="heading" href="/videos/">Videos</a><span>+</span>-->
-                    <!--                            </div>-->
-                    <!--                            <ul class="header-menu__dropdown-children">-->
-                    <!--                                <li><a href="/videos/bitcoin/">Bitcoin Videos</a></li>-->
-                    <!--                                <li><a href="/videos/ethereum/">Ethereum Videos</a></li>-->
-                    <!--                                <li><a href="/videos/defi-videos/">DeFi Videos</a></li>-->
-                    <!--                                <li><a href="/videos/altcoin/">Altcoin Videos</a></li>-->
-                    <!--                                <li><a href="/videos/blockchain/">Blockchain Videos</a></li>-->
-                    <!--                                <li><a href="/videos/market/">Market Videos</a></li>-->
-                    <!--                                <li><a href="/videos/cryptosecurity/">Security Videos</a></li>-->
-                    <!--                                <li><a href="/videos/trading/">Trading Videos</a></li>-->
-                    <!--                                <li><a href="/videos/icos/">ICO Videos</a></li>-->
-                    <!--                            </ul>-->
-                    <!--                        </div>-->
-                    <!--                    </div>-->
                     <div class="col-12 col-lg-2">
                         <div class="header-links__dropdown-list">
                             <div class="header-menu__dropdown-heading">
@@ -159,9 +87,7 @@
                                 <li><a href="/guides/altcoins/">Altcoins</a></li>
                                 <li><a href="/guides/blockchain/">Blockchain</a></li>
                                 <li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
-                                <li><a href="/guides/deals/">Deals</a></li>
                                 <li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
-                                <li><a href="/guides/trading-tools/">Trading Tools</a></li>
                             </ul>
                         </div>
                     </div>
@@ -174,17 +100,14 @@
                                 <a class="heading" href="/coins/">Market Cap</a><span></span>
                             </div>
                             <div class="header-menu__dropdown-heading">
-                                <a class="heading" href="/price-tracker/">Price Tracker</a><span></span>
+                                <a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
                             </div>
                             <div class="header-menu__dropdown-heading">
-                                <a class="heading" href="/events/">Events</a><span></span>
+                                <a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
                             </div>
-                            <!--                            <div class="header-menu__dropdown-heading">-->
-                            <!--                                <a class="heading" href="/exclusives/podcast/">Podcast</a><span></span>-->
-                            <!--                            </div>-->
-                            <!--                            <div class="header-menu__dropdown-heading">-->
-                            <!--                                <a class="heading" href="/jobs/">Jobs</a><span></span>-->
-                            <!--                            </div>-->
+                            <div class="header-menu__dropdown-heading">
+                                <a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-2">
@@ -223,30 +146,6 @@
                             </ul>
                         </div>
                     </div>
-                    <!--                    <div class="col-12 col-lg-2 d-lg-none">-->
-                    <!--                        <div class="header-links__dropdown-list">-->
-                    <!--                            <div class="header-menu__dropdown-heading">-->
-                    <!--                                <a class="heading" href="#">EN </a><span>+</span>-->
-                    <!--                            </div>-->
-                    <!--                            <div class="header-menu__dropdown-children">-->
-                    <!--                                <a class="active" href="">English</a>-->
-                    <!--                                <a href="https://de.kumkanot.com">Deutsch</a>-->
-                    <!--                                <a href="https://fr.kumkanot.com">Français</a>-->
-                    <!--                                <a href="https://ru.kumkanot.com">Русский</a>-->
-                    <!--                                <a href="https://tr.kumkanot.com">Türkçe</a>-->
-                    <!--                                <a href="https://jp.kumkanot.com">日本語</a>-->
-                    <!--                                <a href="https://nl.kumkanot.com">Nederlands</a>-->
-                    <!--                                <a href="https://it.kumkanot.com">Italiano</a>-->
-                    <!--                                <a href="https://ar.kumkanot.com">العربية</a>-->
-                    <!--                                <a href="https://fa.kumkanot.com">فارسی</a>-->
-                    <!--                                <a href="https://cn.kumkanot.com">中文</a>-->
-                    <!--                                <a href="https://es.kumkanot.com">Español</a>-->
-                    <!--                                <a href="https://pt.kumkanot.com">Português</a>-->
-                    <!--                                <a href="https://dk.kumkanot.com">Dansk</a>-->
-                    <!--                                <a href="https://kr.kumkanot.com">한국어</a>-->
-                    <!--                            </div>-->
-                    <!--                        </div>-->
-                    <!--                    </div>-->
                 </div>
             </div>
         </div>
@@ -266,7 +165,6 @@
                     <li><a href="/news/blockchain-news/">Blockchain News</a></li>
                     <li><a href="/news/press-releases/">Press Releases</a></li>
                     <li><a href="/news/sponsored/">Sponsored</a></li>
-                    <!--                    <li><a href="/news/kumkanot-deals/">Kumkanot Deals</a></li>-->
                     <li><a href="/news/industry-talk/">Industry Talk</a></li>
                     <li><a href="/news/ico-news/">ICO news</a></li>
                     <li><a href="/news/finance-news/">Finance News</a></li>
@@ -280,24 +178,8 @@
                     <li><a href="/exclusives/features/">Features</a></li>
                     <li><a href="/exclusives/opinions/">Opinions</a></li>
                     <li><a href="/exclusives/people/">People In Crypto</a></li>
-                    <li><a href="/exclusives/podcast/">Podcast</a></li>
                 </ul>
             </li>
-            <!--            <li>-->
-            <!--                <a href="/videos/">Videos-->
-            <!--                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>-->
-            <!--                <ul class="sub-menu">-->
-            <!--                    <li><a href="/videos/bitcoin/">Bitcoin Videos</a></li>-->
-            <!--                    <li><a href="/videos/ethereum/">Ethereum Videos</a></li>-->
-            <!--                    <li><a href="/videos/defi-videos/">DeFi Videos</a></li>-->
-            <!--                    <li><a href="/videos/altcoin/">Altcoin Videos</a></li>-->
-            <!--                    <li><a href="/videos/blockchain/">Blockchain Videos</a></li>-->
-            <!--                    <li><a href="/videos/market/">Market Videos</a></li>-->
-            <!--                    <li><a href="/videos/cryptosecurity/">Security Videos</a></li>-->
-            <!--                    <li><a href="/videos/trading/">Trading Videos</a></li>-->
-            <!--                    <li><a href="/videos/icos/">ICO Videos</a></li>-->
-            <!--                </ul>-->
-            <!--            </li>-->
             <li>
                 <a href="/guides/">Guides
                     <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
@@ -309,26 +191,24 @@
                     <li><a href="/guides/altcoins/">Altcoins</a></li>
                     <li><a href="/guides/blockchain/">Blockchain</a></li>
                     <li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
-                    <li><a href="/guides/deals/">Deals</a></li>
                     <li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
-                    <li><a href="/guides/trading-tools/">Trading Tools</a></li>
                 </ul>
             </li>
             <li>
                 <a href="/reviews/exchanges/">Exchanges
                 </a>
             </li>
-            <!--            <li>-->
-            <!--                <a href="/exclusives/podcast/">Podcast-->
-            <!--                </a>-->
-            <!--            </li>-->
             <li>
-                <a href="#">Tools
-                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
-                <ul class="sub-menu">
-                    <li><a href="/price-tracker/">Price Tracker</a></li>
-                    <li><a href="/coins/">Market Cap</a></li>
-                </ul>
+                <a href="/coins/">Market Cap</a>
+            </li>
+            <li>
+                <a href="/news/press-releases/">Press Releases</a>
+            </li>
+            <li>
+                <a href="/news/industry-talk/">Industry Talk</a>
+            </li>
+            <li>
+                <a href="/exclusives/opinions/">Opinions</a>
             </li>
             <li>
                 <a href="#">Recommended
@@ -363,10 +243,6 @@
                     </li>
                 </ul>
             </li>
-<!--            <li>-->
-<!--                <a style="color: #018001" href="/play/">Play-->
-<!--                </a>-->
-<!--            </li>-->
         </ul>
     </div>
     <div class="header-search">
@@ -396,12 +272,6 @@
             </div>
         </form>
     </div>
-    <!--    <div class="header-lang d-none d-lg-flex">-->
-    <!--        <div class="header-lang__trigger">EN +</div>-->
-    <!--        <div class="header-lang__dropdown">-->
-    <!--            <a class="active" href="">English</a> <a href="https://de.kumkanot.com">Deutsch</a> <a href="https://fr.kumkanot.com">Français</a> <a href="https://ru.kumkanot.com">Русский</a> <a href="https://tr.kumkanot.com">Türkçe</a> <a href="https://jp.kumkanot.com">日本語</a> <a href="https://nl.kumkanot.com">Nederlands</a> <a href="https://it.kumkanot.com">Italiano</a> <a href="https://ar.kumkanot.com">العربية</a> <a href="https://fa.kumkanot.com">فارسی</a> <a-->
-    <!--                href="https://cn.kumkanot.com">中文</a> <a href="https://es.kumkanot.com">Español</a> <a href="https://pt.kumkanot.com">Português</a> <a href="https://dk.kumkanot.com">Dansk</a> <a href="https://kr.kumkanot.com">한국어</a></div>-->
-    <!--    </div>-->
 </header>
 <div class="main">
     <main>
@@ -429,8 +299,8 @@
                                     <div class="article__author mb-30 d-none d-lg-block">
                                         <a class="article__author-image" href="/editors/simon-chandler/">
                                             <img alt="Simon Chandler" class="lazyload img-fluid" data-sizes="auto" data-src="https://v2.cimg.co/authors/30/responsive-images/5a6ee21e46ede___media_library_original_300_300.jpg"
-                                                 src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+Cgk8aW1hZ2Ugd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRQUFBUUFCQUFELzJ3QkRBQU1DQWdNQ0FnTURBd01FQXdNRUJRZ0ZCUVFFQlFvSEJ3WUlEQW9NREFzS0N3c05EaElRRFE0UkRnc0xFQllRRVJNVUZSVVZEQThYR0JZVUdCSVVGUlQvMndCREFRTUVCQVVFQlFrRkJRa1VEUXNORkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCVC93QUFSQ0FBZ0FDQURBUkVBQWhFQkF4RUIvOFFBSHdBQUFRVUJBUUVCQVFFQUFBQUFBQUFBQUFFQ0F3UUZCZ2NJQ1FvTC84UUF0UkFBQWdFREF3SUVBd1VGQkFRQUFBRjlBUUlEQUFRUkJSSWhNVUVHRTFGaEJ5SnhGREtCa2FFSUkwS3h3UlZTMGZBa00ySnlnZ2tLRmhjWUdSb2xKaWNvS1NvME5UWTNPRGs2UTBSRlJrZElTVXBUVkZWV1YxaFpXbU5rWldabmFHbHFjM1IxZG5kNGVYcURoSVdHaDRpSmlwS1RsSldXbDVpWm1xS2pwS1dtcDZpcHFyS3p0TFcydDdpNXVzTER4TVhHeDhqSnl0TFQxTlhXMTlqWjJ1SGk0K1RsNXVmbzZlcng4dlAwOWZiMytQbjYvOFFBSHdFQUF3RUJBUUVCQVFFQkFRQUFBQUFBQUFFQ0F3UUZCZ2NJQ1FvTC84UUF0UkVBQWdFQ0JBUURCQWNGQkFRQUFRSjNBQUVDQXhFRUJTRXhCaEpCVVFkaGNSTWlNb0VJRkVLUm9iSEJDU016VXZBVlluTFJDaFlrTk9FbDhSY1lHUm9tSnlncEtqVTJOemc1T2tORVJVWkhTRWxLVTFSVlZsZFlXVnBqWkdWbVoyaHBhbk4wZFhaM2VIbDZnb09FaFlhSGlJbUtrcE9VbFphWG1KbWFvcU9rcGFhbnFLbXFzck8wdGJhM3VMbTZ3c1BFeGNiSHlNbkswdFBVMWRiWDJObmE0dVBrNWVibjZPbnE4dlAwOWZiMytQbjYvOW9BREFNQkFBSVJBeEVBUHdENTB1dmhITEJBV0s0QXJQbU5PVTh6OFV3UjZKSzBST0NLcE1UUko0TzAySFc3aFZEREpOSnV3MGozM3doNEtYVFkwY0NzbkkwU1BSOVRzL1B0SFVMMUZBN0h6aDhSZmgzSmVYOGttQ0FUWE5LdHlzOUNuaHVkWE9kOEkrRmJ6U05ZaTJCdHU2cmpWVWpLcmhuQStvZEFnZHRQaTNEbkFyVGM1ZVU3eTAwUjcvaFV5RFF6WlIxT0MrSlBoVnJBYm1URmViV1dwNzJGYXNjMzRROE93M2N3WW9DdzlxS0tiWVlwcXg2SUxVV2NZWGJnQ3ZUUjRMV3A2NW9LMituYWVIWURkaW9PaEk4OStKY2lhdkd3VUN1ZXBHNTEwcDhyT0w4STJSc3BTU09NMHFVYkZWcDh4M2t0bkhlMjJRUG14WFl0VGdhUC85az0iPgoJPC9pbWFnZT4KPC9zdmc+">
-                                            </img></a>
+                                                 src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+Cgk8aW1hZ2Ugd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRQUFBUUFCQUFELzJ3QkRBQU1DQWdNQ0FnTURBd01FQXdNRUJRZ0ZCUVFFQlFvSEJ3WUlEQW9NREFzS0N3c05EaElRRFE0UkRnc0xFQllRRVJNVUZSVVZEQThYR0JZVUdCSVVGUlQvMndCREFRTUVCQVVFQlFrRkJRa1VEUXNORkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCVC93QUFSQ0FBZ0FDQURBUkVBQWhFQkF4RUIvOFFBSHdBQUFRVUJBUUVCQVFFQUFBQUFBQUFBQUFFQ0F3UUZCZ2NJQ1FvTC84UUF0UkFBQWdFREF3SUVBd1VGQkFRQUFBRjlBUUlEQUFRUkJSSWhNVUVHRTFGaEJ5SnhGREtCa2FFSUkwS3h3UlZTMGZBa00ySnlnZ2tLRmhjWUdSb2xKaWNvS1NvME5UWTNPRGs2UTBSRlJrZElTVXBUVkZWV1YxaFpXbU5rWldabmFHbHFjM1IxZG5kNGVYcURoSVdHaDRpSmlwS1RsSldXbDVpWm1xS2pwS1dtcDZpcHFyS3p0TFcydDdpNXVzTER4TVhHeDhqSnl0TFQxTlhXMTlqWjJ1SGk0K1RsNXVmbzZlcng4dlAwOWZiMytQbjYvOFFBSHdFQUF3RUJBUUVCQVFFQkFRQUFBQUFBQUFFQ0F3UUZCZ2NJQ1FvTC84UUF0UkVBQWdFQ0JBUURCQWNGQkFRQUFRSjNBQUVDQXhFRUJTRXhCaEpCVVFkaGNSTWlNb0VJRkVLUm9iSEJDU016VXZBVlluTFJDaFlrTk9FbDhSY1lHUm9tSnlncEtqVTJOemc1T2tORVJVWkhTRWxLVTFSVlZsZFlXVnBqWkdWbVoyaHBhbk4wZFhaM2VIbDZnb09FaFlhSGlJbUtrcE9VbFphWG1KbWFvcU9rcGFhbnFLbXFzck8wdGJhM3VMbTZ3c1BFeGNiSHlNbkswdFBVMWRiWDJObmE0dVBrNWVibjZPbnE4dlAwOWZiMytQbjYvOW9BREFNQkFBSVJBeEVBUHdENTB1dmhITEJBV0s0QXJQbU5PVTh6OFV3UjZKSzBST0NLcE1UUko0TzAySFc3aFZEREpOSnV3MGozM3doNEtYVFkwY0NzbkkwU1BSOVRzL1B0SFVMMUZBN0h6aDhSZmgzSmVYOGttQ0FUWE5LdHlzOUNuaHVkWE9kOEkrRmJ6U05ZaTJCdHU2cmpWVWpLcmhuQStvZEFnZHRQaTNEbkFyVGM1ZVU3eTAwUjcvaFV5RFF6WlIxT0MrSlBoVnJBYm1URmViV1dwNzJGYXNjMzRROE93M2N3WW9DdzlxS0tiWVlwcXg2SUxVV2NZWGJnQ3ZUUjRMV3A2NW9LMituYWVIWURkaW9PaEk4OStKY2lhdkd3VUN1ZXBHNTEwcDhyT0w4STJSc3BTU09NMHFVYkZWcDh4M2t0bkhlMjJRUG14WFl0VGdhUC85az0iPgoJPC9pbWFnZT4KPC9zdmc+"/>
+                                        </a>
                                         <div class="article__author-info">
                                             <a class="" href="/editors/simon-chandler/">Simon Chandler</a>
                                         </div>
@@ -471,8 +341,8 @@
                                     <div class="article__author mb-30 d-none d-lg-block">
                                         <a class="article__author-image" href="/editors/ruholamin-haqshanas/">
                                             <img alt="Ruholamin Haqshanas" class="lazyload img-fluid" data-sizes="auto" data-src="https://v2.cimg.co/authors/578/responsive-images/ruholamin___media_library_original_300_316.jpg"
-                                                 src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgNDU5IDQ4NCI+Cgk8aW1hZ2Ugd2lkdGg9IjQ1OSIgaGVpZ2h0PSI0ODQiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRQUFBUUFCQUFELzJ3QkRBQU1DQWdNQ0FnTURBd01FQXdNRUJRZ0ZCUVFFQlFvSEJ3WUlEQW9NREFzS0N3c05EaElRRFE0UkRnc0xFQllRRVJNVUZSVVZEQThYR0JZVUdCSVVGUlQvMndCREFRTUVCQVVFQlFrRkJRa1VEUXNORkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCVC93QUFSQ0FBaUFDQURBUkVBQWhFQkF4RUIvOFFBR1FBQUF3RUJBUUFBQUFBQUFBQUFBQUFBQlFnSkJ3UUcvOFFBSnhBQUFRTURBd1FCQlFBQUFBQUFBQUFBQVFJREJBQUZCZ2NSSVFnU0ZFRVRJakZSZ2JIL3hBQVpBUUFEQVFFQkFBQUFBQUFBQUFBQUFBQURCQVVHQVFML3hBQWRFUUFDQXdFQkFRRUJBQUFBQUFBQUFBQUFBUUlERVFRaEVpSXgvOW9BREFNQkFBSVJBeEVBUHdDV0VPT1pMd1FPU1RYRzhQVVZydzAzSDlMWmR4Zy9NR0ZLRzIvQXBSM0pQQ25EbTFhQmNpd2x5MmQzY2dwSS9JbzBKcGk5bFB5ZUplYUxTeWsrcU1KNEhzSGgrWmVtRzl0OTFEKzBLeDVFTlN2MFVUMGh3aUV2Rld3N0hCVXBIM0lyTjNUYWthdW1DK1RKZGNOTEZ0ZVE4d3pzams4Q20rZTEvd0FZcjAxckJPY2lobUZjSEcxRFlnMWJpOVJtNXJHZDJDWEFXNit4M1NOd0ZDdVRXbzdXOFpTelJiTklNdkdHQWRnb0lGWnU2T1NOVHpUK29nM1hUS1lUR09TT3hzS1VVbjFSdWVPc0IweitVVGZ6Q1g1bDVrT2R1dzdqVitDeEdjbTlZMm1qblJUYzc3OFVpVXdwSTRQSXJ6S1hnSlAwWit5OVAwakVJaUk3UVZ3TnFnOUd0bC9rc1VVR3B2VGt2TGJXNGlTazdFZTZOeXBvQjEycGllNjY5S2pXTFNYbHRLU09TYXR4OUluMFZEMDRqTXQyMUhhMGhQSHBJRkJad0kzaHRCbERkS1QrcW4yTDBlcWZnWWJRbE5wWHNrRDZmUW8xUzhGN1dUNzZ1WkxxWjBnQjFZRzU0Q2pUMEFDUC85az0iPgoJPC9pbWFnZT4KPC9zdmc+">
-                                            </img></a>
+                                                 src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgNDU5IDQ4NCI+Cgk8aW1hZ2Ugd2lkdGg9IjQ1OSIgaGVpZ2h0PSI0ODQiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRQUFBUUFCQUFELzJ3QkRBQU1DQWdNQ0FnTURBd01FQXdNRUJRZ0ZCUVFFQlFvSEJ3WUlEQW9NREFzS0N3c05EaElRRFE0UkRnc0xFQllRRVJNVUZSVVZEQThYR0JZVUdCSVVGUlQvMndCREFRTUVCQVVFQlFrRkJRa1VEUXNORkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCVC93QUFSQ0FBaUFDQURBUkVBQWhFQkF4RUIvOFFBR1FBQUF3RUJBUUFBQUFBQUFBQUFBQUFBQlFnSkJ3UUcvOFFBSnhBQUFRTURBd1FCQlFBQUFBQUFBQUFBQVFJREJBQUZCZ2NSSVFnU0ZFRVRJakZSZ2JIL3hBQVpBUUFEQVFFQkFBQUFBQUFBQUFBQUFBQURCQVVHQVFML3hBQWRFUUFDQXdFQkFRRUJBQUFBQUFBQUFBQUFBUUlERVFRaEVpSXgvOW9BREFNQkFBSVJBeEVBUHdDV0VPT1pMd1FPU1RYRzhQVVZydzAzSDlMWmR4Zy9NR0ZLRzIvQXBSM0pQQ25EbTFhQmNpd2x5MmQzY2dwSS9JbzBKcGk5bFB5ZUplYUxTeWsrcU1KNEhzSGgrWmVtRzl0OTFEKzBLeDVFTlN2MFVUMGh3aUV2Rld3N0hCVXBIM0lyTjNUYWthdW1DK1RKZGNOTEZ0ZVE4d3pzams4Q20rZTEvd0FZcjAxckJPY2lobUZjSEcxRFlnMWJpOVJtNXJHZDJDWEFXNit4M1NOd0ZDdVRXbzdXOFpTelJiTklNdkdHQWRnb0lGWnU2T1NOVHpUK29nM1hUS1lUR09TT3hzS1VVbjFSdWVPc0IweitVVGZ6Q1g1bDVrT2R1dzdqVitDeEdjbTlZMm1qblJUYzc3OFVpVXdwSTRQSXJ6S1hnSlAwWit5OVAwakVJaUk3UVZ3TnFnOUd0bC9rc1VVR3B2VGt2TGJXNGlTazdFZTZOeXBvQjEycGllNjY5S2pXTFNYbHRLU09TYXR4OUluMFZEMDRqTXQyMUhhMGhQSHBJRkJad0kzaHRCbERkS1QrcW4yTDBlcWZnWWJRbE5wWHNrRDZmUW8xUzhGN1dUNzZ1WkxxWjBnQjFZRzU0Q2pUMEFDUC85az0iPgoJPC9pbWFnZT4KPC9zdmc+"/>
+                                        </a>
                                         <div class="article__author-info">
                                             <a class="" href="/editors/ruholamin-haqshanas/">Ruholamin Haqshanas</a>
                                         </div>
@@ -513,8 +383,8 @@
                                     <div class="article__author mb-30 d-none d-lg-block">
                                         <a class="article__author-image" href="/editors/ali-b/">
                                             <img alt="Ali B." class="lazyload img-fluid" data-sizes="auto" data-src="https://v2.cimg.co/authors/791/responsive-images/image-2023-01-10t15-56-36-418z___media_library_original_300_300.jpg"
-                                                 src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgNTAwIDUwMCI+Cgk8aW1hZ2Ugd2lkdGg9IjUwMCIgaGVpZ2h0PSI1MDAiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRQUFBUUFCQUFELzJ3QkRBQU1DQWdNQ0FnTURBd01FQXdNRUJRZ0ZCUVFFQlFvSEJ3WUlEQW9NREFzS0N3c05EaElRRFE0UkRnc0xFQllRRVJNVUZSVVZEQThYR0JZVUdCSVVGUlQvMndCREFRTUVCQVVFQlFrRkJRa1VEUXNORkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCVC93QUFSQ0FBZ0FDQURBUkVBQWhFQkF4RUIvOFFBRndBQkFRRUJBQUFBQUFBQUFBQUFBQUFBQmdjRUF2L0VBQ1lRQUFFREJBRUVBUVVBQUFBQUFBQUFBQUVDQXdRQUJRWVJFZ2NUSVVFeEZCWWlNbUgveEFBWkFRQURBUUVCQUFBQUFBQUFBQUFBQUFBQ0F3VUVCZ0gveEFBZEVRQURBQU1CQVFFQkFBQUFBQUFBQUFBQUFRSURCQkVTTVJOQi85b0FEQU1CQUFJUkF4RUFQd0IxWklaV2ZGZXQ4RW9OOVFlbVNzcEJEaDBnVk56WnZCVjFzSDZHVHB0Zy93QnJ5dXkyZHAvbEZnemV3ZG5CK1pRTDliOXNFNjlWUlJIYU9iRzRoaFE1RVV1bWFaaDBhY3RtdW90aTFSLzIxNkZSdGxOL0RvdEpLUG9Gd3k5eVJjVi9VZzYzOG1pMVUwQnZMMThLQmNaYlV1TWVKQk9xc3A5T2NxZUFHNzNPVGJab0NRZU82elhhS3V2SFViWkdac2lFRXVrSFk4ZzFneVdpbEVQK0JHOVpuRHQ4WmJ6WkFYOCtLWmlwUDRLeXByNlpNSDZoUFhxVXBza2xPNm9RK2tiTkpUTXFndE9OK0VqbFVuSlQ5OExlcks4ZEozZDdNNFcxSHlCNm9uajlJMEsxTEpia3NOOHllMFZIaHVoOHVFSXVsYkdtQjJwcTJzcFdCK1JwdXRicXVHUGJoVEhULzlrPSI+Cgk8L2ltYWdlPgo8L3N2Zz4=">
-                                            </img></a>
+                                                 src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgNTAwIDUwMCI+Cgk8aW1hZ2Ugd2lkdGg9IjUwMCIgaGVpZ2h0PSI1MDAiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRQUFBUUFCQUFELzJ3QkRBQU1DQWdNQ0FnTURBd01FQXdNRUJRZ0ZCUVFFQlFvSEJ3WUlEQW9NREFzS0N3c05EaElRRFE0UkRnc0xFQllRRVJNVUZSVVZEQThYR0JZVUdCSVVGUlQvMndCREFRTUVCQVVFQlFrRkJRa1VEUXNORkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCVC93QUFSQ0FBZ0FDQURBUkVBQWhFQkF4RUIvOFFBRndBQkFRRUJBQUFBQUFBQUFBQUFBQUFBQmdjRUF2L0VBQ1lRQUFFREJBRUVBUVVBQUFBQUFBQUFBQUVDQXdRQUJRWVJFZ2NUSVVFeEZCWWlNbUgveEFBWkFRQURBUUVCQUFBQUFBQUFBQUFBQUFBQ0F3VUVCZ0gveEFBZEVRQURBQU1CQVFFQkFBQUFBQUFBQUFBQUFRSURCQkVTTVJOQi85b0FEQU1CQUFJUkF4RUFQd0IxWklaV2ZGZXQ4RW9OOVFlbVNzcEJEaDBnVk56WnZCVjFzSDZHVHB0Zy93QnJ5dXkyZHAvbEZnemV3ZG5CK1pRTDliOXNFNjlWUlJIYU9iRzRoaFE1RVV1bWFaaDBhY3RtdW90aTFSLzIxNkZSdGxOL0RvdEpLUG9Gd3k5eVJjVi9VZzYzOG1pMVUwQnZMMThLQmNaYlV1TWVKQk9xc3A5T2NxZUFHNzNPVGJab0NRZU82elhhS3V2SFViWkdac2lFRXVrSFk4ZzFneVdpbEVQK0JHOVpuRHQ4WmJ6WkFYOCtLWmlwUDRLeXByNlpNSDZoUFhxVXBza2xPNm9RK2tiTkpUTXFndE9OK0VqbFVuSlQ5OExlcks4ZEozZDdNNFcxSHlCNm9uajlJMEsxTEpia3NOOHllMFZIaHVoOHVFSXVsYkdtQjJwcTJzcFdCK1JwdXRicXVHUGJoVEhULzlrPSI+Cgk8L2ltYWdlPgo8L3N2Zz4="/>
+                                        </a>
                                         <div class="article__author-info">
                                             <a class="" href="/editors/ali-b/">Ali B.</a>
                                         </div>
@@ -555,8 +425,8 @@
                                     <div class="article__author mb-30 d-none d-lg-block">
                                         <a class="article__author-image" href="/editors/tim-alper/">
                                             <img alt="Tim Alper" class="lazyload img-fluid" data-sizes="auto" data-src="https://v2.cimg.co/authors/4/responsive-images/5f9b00066a0e5___media_library_original_300_300.jpg"
-                                                 src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTcyNiAxNzI3Ij4KCTxpbWFnZSB3aWR0aD0iMTcyNiIgaGVpZ2h0PSIxNzI3IiB4bGluazpocmVmPSJkYXRhOmltYWdlL2pwZWc7YmFzZTY0LC85ai80QUFRU2taSlJnQUJBUUFBQVFBQkFBRC8yd0JEQUFNQ0FnTUNBZ01EQXdNRUF3TUVCUWdGQlFRRUJRb0hCd1lJREFvTURBc0tDd3NORGhJUURRNFJEZ3NMRUJZUUVSTVVGUlVWREE4WEdCWVVHQklVRlJULzJ3QkRBUU1FQkFVRUJRa0ZCUWtVRFFzTkZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlQvd0FBUkNBQWdBQ0FEQVJFQUFoRUJBeEVCLzhRQUh3QUFBUVVCQVFFQkFRRUFBQUFBQUFBQUFBRUNBd1FGQmdjSUNRb0wvOFFBdFJBQUFnRURBd0lFQXdVRkJBUUFBQUY5QVFJREFBUVJCUkloTVVFR0UxRmhCeUp4RkRLQmthRUlJMEt4d1JWUzBmQWtNMkp5Z2drS0ZoY1lHUm9sSmljb0tTbzBOVFkzT0RrNlEwUkZSa2RJU1VwVFZGVldWMWhaV21Oa1pXWm5hR2xxYzNSMWRuZDRlWHFEaElXR2g0aUppcEtUbEpXV2w1aVptcUtqcEtXbXA2aXBxckt6dExXMnQ3aTV1c0xEeE1YR3g4akp5dExUMU5YVzE5aloydUhpNCtUbDV1Zm82ZXJ4OHZQMDlmYjMrUG42LzhRQUh3RUFBd0VCQVFFQkFRRUJBUUFBQUFBQUFBRUNBd1FGQmdjSUNRb0wvOFFBdFJFQUFnRUNCQVFEQkFjRkJBUUFBUUozQUFFQ0F4RUVCU0V4QmhKQlVRZGhjUk1pTW9FSUZFS1JvYkhCQ1NNelV2QVZZbkxSQ2hZa05PRWw4UmNZR1JvbUp5Z3BLalUyTnpnNU9rTkVSVVpIU0VsS1UxUlZWbGRZV1ZwalpHVm1aMmhwYW5OMGRYWjNlSGw2Z29PRWhZYUhpSW1La3BPVWxaYVhtSm1hb3FPa3BhYW5xS21xc3JPMHRiYTN1TG02d3NQRXhjYkh5TW5LMHRQVTFkYlgyTm5hNHVQazVlYm42T25xOHZQMDlmYjMrUG42LzlvQURBTUJBQUlSQXhFQVB3RDZvc2h0cngyZGlQS2ZqbEMycjZmSmFoc0JnUlhGVXE4aDIwcVhPZkdPcC9DK2JRZkVLWGtlU1MrZVByWFJSeFBQb1JWdy9McWZZL3dtbWxtOE5RTExuSVVkYTZ6aGVoNjFieUJSV1RORWVTZkZ1NU1MRnM0RmVYaUl0bnJZVm84WUV0dnFsN0dzcnFSdTcxbFFqSk02SzdWajMvd1RGYjJ1a3hyRXdQSGF2Y2luYlU4R2RyblQzT3JwWnhNN01BQUtWbTNaRmJIemIrMEI4VnJhMXQ1STQ1QVhHZWhydGpnWE5YWlB0K1RZK1dGK0xkeXQ1dVNRL2U5YTdxT1d4V3BuVXhUa2ZUWHdOK0s3YXRicEROTGx2YzFPSnczczlqS00rWTMvQUl2ZkZsTkZ0cFlVa3cyQ090VGhjUHphczBuT3g4WGZFTHhyTnI5MUlXa0xBbjFyNkdLVVZZNFc3bkRXeWxtelcwVVpzOVMrRTNpcVRTZFhpUU9RTWp2WE5pb3B4TGc3TS8vWiI+Cgk8L2ltYWdlPgo8L3N2Zz4=">
-                                            </img></a>
+                                                 src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTcyNiAxNzI3Ij4KCTxpbWFnZSB3aWR0aD0iMTcyNiIgaGVpZ2h0PSIxNzI3IiB4bGluazpocmVmPSJkYXRhOmltYWdlL2pwZWc7YmFzZTY0LC85ai80QUFRU2taSlJnQUJBUUFBQVFBQkFBRC8yd0JEQUFNQ0FnTUNBZ01EQXdNRUF3TUVCUWdGQlFRRUJRb0hCd1lJREFvTURBc0tDd3NORGhJUURRNFJEZ3NMRUJZUUVSTVVGUlVWREE4WEdCWVVHQklVRlJULzJ3QkRBUU1FQkFVRUJRa0ZCUWtVRFFzTkZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlQvd0FBUkNBQWdBQ0FEQVJFQUFoRUJBeEVCLzhRQUh3QUFBUVVCQVFFQkFRRUFBQUFBQUFBQUFBRUNBd1FGQmdjSUNRb0wvOFFBdFJBQUFnRURBd0lFQXdVRkJBUUFBQUY5QVFJREFBUVJCUkloTVVFR0UxRmhCeUp4RkRLQmthRUlJMEt4d1JWUzBmQWtNMkp5Z2drS0ZoY1lHUm9sSmljb0tTbzBOVFkzT0RrNlEwUkZSa2RJU1VwVFZGVldWMWhaV21Oa1pXWm5hR2xxYzNSMWRuZDRlWHFEaElXR2g0aUppcEtUbEpXV2w1aVptcUtqcEtXbXA2aXBxckt6dExXMnQ3aTV1c0xEeE1YR3g4akp5dExUMU5YVzE5aloydUhpNCtUbDV1Zm82ZXJ4OHZQMDlmYjMrUG42LzhRQUh3RUFBd0VCQVFFQkFRRUJBUUFBQUFBQUFBRUNBd1FGQmdjSUNRb0wvOFFBdFJFQUFnRUNCQVFEQkFjRkJBUUFBUUozQUFFQ0F4RUVCU0V4QmhKQlVRZGhjUk1pTW9FSUZFS1JvYkhCQ1NNelV2QVZZbkxSQ2hZa05PRWw4UmNZR1JvbUp5Z3BLalUyTnpnNU9rTkVSVVpIU0VsS1UxUlZWbGRZV1ZwalpHVm1aMmhwYW5OMGRYWjNlSGw2Z29PRWhZYUhpSW1La3BPVWxaYVhtSm1hb3FPa3BhYW5xS21xc3JPMHRiYTN1TG02d3NQRXhjYkh5TW5LMHRQVTFkYlgyTm5hNHVQazVlYm42T25xOHZQMDlmYjMrUG42LzlvQURBTUJBQUlSQXhFQVB3RDZvc2h0cngyZGlQS2ZqbEMycjZmSmFoc0JnUlhGVXE4aDIwcVhPZkdPcC9DK2JRZkVLWGtlU1MrZVByWFJSeFBQb1JWdy9McWZZL3dtbWxtOE5RTExuSVVkYTZ6aGVoNjFieUJSV1RORWVTZkZ1NU1MRnM0RmVYaUl0bnJZVm84WUV0dnFsN0dzcnFSdTcxbFFqSk02SzdWajMvd1RGYjJ1a3hyRXdQSGF2Y2luYlU4R2RyblQzT3JwWnhNN01BQUtWbTNaRmJIemIrMEI4VnJhMXQ1STQ1QVhHZWhydGpnWE5YWlB0K1RZK1dGK0xkeXQ1dVNRL2U5YTdxT1d4V3BuVXhUa2ZUWHdOK0s3YXRicEROTGx2YzFPSnczczlqS00rWTMvQUl2ZkZsTkZ0cFlVa3cyQ090VGhjUHphczBuT3g4WGZFTHhyTnI5MUlXa0xBbjFyNkdLVVZZNFc3bkRXeWxtelcwVVpzOVMrRTNpcVRTZFhpUU9RTWp2WE5pb3B4TGc3TS8vWiI+Cgk8L2ltYWdlPgo8L3N2Zz4="/>
+                                        </a>
                                         <div class="article__author-info">
                                             <a class="" href="/editors/tim-alper/">Tim Alper</a>
                                         </div>
@@ -597,8 +467,8 @@
                                     <div class="article__author mb-30 d-none d-lg-block">
                                         <a class="article__author-image" href="/editors/james-spillane/">
                                             <img alt="James Spillane" class="lazyload img-fluid" data-sizes="auto" data-src="https://v2.cimg.co/authors/816/responsive-images/james-spillane___media_library_original_300_300.jpg"
-                                                 src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgNDUyIDQ1MiI+Cgk8aW1hZ2Ugd2lkdGg9IjQ1MiIgaGVpZ2h0PSI0NTIiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRQUFBUUFCQUFELzJ3QkRBQU1DQWdNQ0FnTURBd01FQXdNRUJRZ0ZCUVFFQlFvSEJ3WUlEQW9NREFzS0N3c05EaElRRFE0UkRnc0xFQllRRVJNVUZSVVZEQThYR0JZVUdCSVVGUlQvMndCREFRTUVCQVVFQlFrRkJRa1VEUXNORkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCVC93QUFSQ0FBZ0FDQURBUkVBQWhFQkF4RUIvOFFBSHdBQUFRVUJBUUVCQVFFQUFBQUFBQUFBQUFFQ0F3UUZCZ2NJQ1FvTC84UUF0UkFBQWdFREF3SUVBd1VGQkFRQUFBRjlBUUlEQUFRUkJSSWhNVUVHRTFGaEJ5SnhGREtCa2FFSUkwS3h3UlZTMGZBa00ySnlnZ2tLRmhjWUdSb2xKaWNvS1NvME5UWTNPRGs2UTBSRlJrZElTVXBUVkZWV1YxaFpXbU5rWldabmFHbHFjM1IxZG5kNGVYcURoSVdHaDRpSmlwS1RsSldXbDVpWm1xS2pwS1dtcDZpcHFyS3p0TFcydDdpNXVzTER4TVhHeDhqSnl0TFQxTlhXMTlqWjJ1SGk0K1RsNXVmbzZlcng4dlAwOWZiMytQbjYvOFFBSHdFQUF3RUJBUUVCQVFFQkFRQUFBQUFBQUFFQ0F3UUZCZ2NJQ1FvTC84UUF0UkVBQWdFQ0JBUURCQWNGQkFRQUFRSjNBQUVDQXhFRUJTRXhCaEpCVVFkaGNSTWlNb0VJRkVLUm9iSEJDU016VXZBVlluTFJDaFlrTk9FbDhSY1lHUm9tSnlncEtqVTJOemc1T2tORVJVWkhTRWxLVTFSVlZsZFlXVnBqWkdWbVoyaHBhbk4wZFhaM2VIbDZnb09FaFlhSGlJbUtrcE9VbFphWG1KbWFvcU9rcGFhbnFLbXFzck8wdGJhM3VMbTZ3c1BFeGNiSHlNbkswdFBVMWRiWDJObmE0dVBrNWVibjZPbnE4dlAwOWZiMytQbjYvOW9BREFNQkFBSVJBeEVBUHdEenI0ZGFOWmFiYlJ5T3czaXZ6K3BUbENWMmZyVkthcXF5UFRIOFVmYmZLdFlqbkhHS3dxL3ZGWTlDalI5a25JbDhiZUVMMis4UENVUXR0MjV6aXJwNFZ4Vnpub1lxS3JXUG0vV3RFYUM0ZEdYQkJxMW9mWUswNDNPOCtIR2lUYWlmMzBtMVIyelh2MW93a2ZrK0ZyVHBNNmlHNHR0QThUUUs4Z0tCaG5OZVo5WGJsZEgxQ3hzWlVyTStwenEraWFqOFA4N295L2wrM3BYcEtuN3RqNVQyM0xYNXJueGY0L3Q0UnJFN1JnYk54NlY1ZFNqSk81K2k0UEhRbkJLNW9mRFNDZWJUSHVXYllvWE5iODd1ZkN6aWtqekQ0bGVLNWJiWFdFY3BKVnVvTmUzaDFGclU4YXRLb3RqVjhOZkdYVnBMYU93V1oyVThZelhjcVN2Yzh5VlZtejRoRnhMcHB1WlZJSkdjbXVhdkNOajNNdHJ6NXJYTjN3M2NUUStEaXNQRE11T0s4RlE5NDdKejZuRzJQd0YxengzZnZQRkU3aG02NHIxcWZ1SEJWcVJ0WTl1K0UzN0dlcFIzOFU5N0N3UlRrNUZkaXEzUENtMWM2SDQ4L0RTMzBEU3haMjZBT0Z4d0s0cTlRK3l5UEIrM2xjLy8yUT09Ij4KCTwvaW1hZ2U+Cjwvc3ZnPg==">
-                                            </img></a>
+                                                 src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgNDUyIDQ1MiI+Cgk8aW1hZ2Ugd2lkdGg9IjQ1MiIgaGVpZ2h0PSI0NTIiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRQUFBUUFCQUFELzJ3QkRBQU1DQWdNQ0FnTURBd01FQXdNRUJRZ0ZCUVFFQlFvSEJ3WUlEQW9NREFzS0N3c05EaElRRFE0UkRnc0xFQllRRVJNVUZSVVZEQThYR0JZVUdCSVVGUlQvMndCREFRTUVCQVVFQlFrRkJRa1VEUXNORkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCVC93QUFSQ0FBZ0FDQURBUkVBQWhFQkF4RUIvOFFBSHdBQUFRVUJBUUVCQVFFQUFBQUFBQUFBQUFFQ0F3UUZCZ2NJQ1FvTC84UUF0UkFBQWdFREF3SUVBd1VGQkFRQUFBRjlBUUlEQUFRUkJSSWhNVUVHRTFGaEJ5SnhGREtCa2FFSUkwS3h3UlZTMGZBa00ySnlnZ2tLRmhjWUdSb2xKaWNvS1NvME5UWTNPRGs2UTBSRlJrZElTVXBUVkZWV1YxaFpXbU5rWldabmFHbHFjM1IxZG5kNGVYcURoSVdHaDRpSmlwS1RsSldXbDVpWm1xS2pwS1dtcDZpcHFyS3p0TFcydDdpNXVzTER4TVhHeDhqSnl0TFQxTlhXMTlqWjJ1SGk0K1RsNXVmbzZlcng4dlAwOWZiMytQbjYvOFFBSHdFQUF3RUJBUUVCQVFFQkFRQUFBQUFBQUFFQ0F3UUZCZ2NJQ1FvTC84UUF0UkVBQWdFQ0JBUURCQWNGQkFRQUFRSjNBQUVDQXhFRUJTRXhCaEpCVVFkaGNSTWlNb0VJRkVLUm9iSEJDU016VXZBVlluTFJDaFlrTk9FbDhSY1lHUm9tSnlncEtqVTJOemc1T2tORVJVWkhTRWxLVTFSVlZsZFlXVnBqWkdWbVoyaHBhbk4wZFhaM2VIbDZnb09FaFlhSGlJbUtrcE9VbFphWG1KbWFvcU9rcGFhbnFLbXFzck8wdGJhM3VMbTZ3c1BFeGNiSHlNbkswdFBVMWRiWDJObmE0dVBrNWVibjZPbnE4dlAwOWZiMytQbjYvOW9BREFNQkFBSVJBeEVBUHdEenI0ZGFOWmFiYlJ5T3czaXZ6K3BUbENWMmZyVkthcXF5UFRIOFVmYmZLdFlqbkhHS3dxL3ZGWTlDalI5a25JbDhiZUVMMis4UENVUXR0MjV6aXJwNFZ4Vnpub1lxS3JXUG0vV3RFYUM0ZEdYQkJxMW9mWUswNDNPOCtIR2lUYWlmMzBtMVIyelh2MW93a2ZrK0ZyVHBNNmlHNHR0QThUUUs4Z0tCaG5OZVo5WGJsZEgxQ3hzWlVyTStwenEraWFqOFA4N295L2wrM3BYcEtuN3RqNVQyM0xYNXJueGY0L3Q0UnJFN1JnYk54NlY1ZFNqSk81K2k0UEhRbkJLNW9mRFNDZWJUSHVXYllvWE5iODd1ZkN6aWtqekQ0bGVLNWJiWFdFY3BKVnVvTmUzaDFGclU4YXRLb3RqVjhOZkdYVnBMYU93V1oyVThZelhjcVN2Yzh5VlZtejRoRnhMcHB1WlZJSkdjbXVhdkNOajNNdHJ6NXJYTjN3M2NUUStEaXNQRE11T0s4RlE5NDdKejZuRzJQd0YxengzZnZQRkU3aG02NHIxcWZ1SEJWcVJ0WTl1K0UzN0dlcFIzOFU5N0N3UlRrNUZkaXEzUENtMWM2SDQ4L0RTMzBEU3haMjZBT0Z4d0s0cTlRK3l5UEIrM2xjLy8yUT09Ij4KCTwvaW1hZ2U+Cjwvc3ZnPg=="/>
+                                        </a>
                                         <div class="article__author-info">
                                             <a class="" href="/editors/james-spillane/">James Spillane</a>
                                         </div>
@@ -633,7 +503,7 @@
             <div class="pt-0 pt-lg-40">
                 <div class="row">
                     <div class="col-12 col-lg-9 pb-40 pb-md-60">
-                        <h1 class="h2">Latest Crypto News</h1>
+                        <h1 class="h2">Latest Kumkanot</h1>
                         <div class="dslot-kak pb-20 d-md-none" did="16" style="min-height:250px;"></div>
                         <div class="dslot-kak pb-20 d-none d-md-block" did="11" style="min-height:200px;"></div>
                         <section class="category_contents_details">
@@ -1005,9 +875,6 @@
             </div>
         </section>
         <section class="container">
-            <iframe class="lazyload" data-src="/price-track/price-track.htm" frameborder="0" style="width: 100%;height:200px;"></iframe>
-        </section>
-        <section class="container">
             <div class="pb-40 pb-md-60 d-flex justify-content-center">
                 <div class="dslot-kak mx-auto" did="2" style="width:100%"></div>
             </div>
@@ -1289,8 +1156,6 @@
                     </article>
                 </div>
                 <div class="order-4 col-12 col-xl-3">
-                    <h2 class="mb-30">Twitter <a class="fs-14 c-black c-h-purple align-middle" href="https://twitter.com/Kumkanot" target="_blank">@Kumkanot</a>
-                    </h2>
                     <div class="pl-20 pr-20">
                         <div class="row">
                             <div class="col-12 col-md-6 col-xl-12">
@@ -2239,32 +2104,7 @@
                 </div>
             </div>
         </section>
-        <section class="container">
-            <iframe class="lazyload" data-src="/nftdrop/list.htm" frameborder="0" id="nftdrop-iframe" style="width: 100%"></iframe>
-        </section>
         <section class="container pb-55">
-            <!--            <div class="newsletter home-newsletter">-->
-            <!--                <div class="left-side">-->
-            <!--                    <div class="h1">-->
-            <!--                        <em>-->
-            <!--                            Enter your email for our Free Daily Newsletter-->
-            <!--                        </em>-->
-            <!--                    </div>-->
-            <!--                    <p> A quick 3min read about today's crypto news!</p>-->
-            <!--                    <form id="newsletter-home">-->
-            <!--                        <div class="input-group">-->
-            <!--                            <div><input id="newsletter_email" name="email" placeholder="Email" required="" type="email"/></div>-->
-            <!--                            <div>-->
-            <!--                                <button id="newsletter-signup" type="submit">Sign Up</button>-->
-            <!--                            </div>-->
-            <!--                        </div>-->
-            <!--                    </form>-->
-            <!--                    <span class="response-msg" id="newsletter-response"></span>-->
-            <!--                </div>-->
-            <!--                <div class="img-box">-->
-            <!--                    <img alt="Image" class="img" id="newsletter-popup-img" src="https://v2.cimg.co/p/ml-300.jpeg">-->
-            <!--                    </img></div>-->
-            <!--            </div>-->
         </section>
         <section class="container" id="news">
             <h2 class="mb-30 heading--has-offset">All News</h2>
@@ -2488,7 +2328,6 @@
                             </div>
                             <div class="col-8 col-md-12">
                                 <div class="article__badge article__badge--sm">
-                                    <a class="article__badge article__badge--sm" href="/exclusives/podcast/"> Podcast </a>
                                     <div class="article__badge-date d-md-inline-block" data-utctime="2023-05-05 14:00:00">
                                     </div>
                                 </div>
@@ -2799,12 +2638,13 @@
                 </div>
             </div>
         </section>
+        <!--        me ads section-->
         <section class="dslots">
-<!--            index.html-->
-            <div class="dslot pb-20 d-md-none" did="16" style=min-height:250px;>
+            <!--            index.html-->
+            <div class="dslot pb-20 d-md-none" did="16" style="min-height:250px;">
                 <img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x250-mobile.jpg" width=""/>
             </div>
-            <div class="dslot pb-20 d-none d-md-block" did="11" style=min-height:250px;>
+            <div class="dslot pb-20 d-none d-md-block" did="11" style="min-height:250px;">
                 <img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x250.jpg" width=""/>
             </div>
             <div class="dslot" did="1" style="min-height:600px;">
@@ -2813,11 +2653,11 @@
             <div class="dslot mx-auto" did="2" style="width:100%">
                 <img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x90.jpg" width=""/>
             </div>
-<!--            news/index.html-->
+            <!--            news/index.html-->
             <div class="dslot" did="4" style="min-height:600px;">
                 <img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
             </div>
-<!--            news/*.htm-->
+            <!--            news/*.htm-->
             <div class="dslot text-right" did="9" style="min-height: 90px;">
                 <img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x90.jpg" width=""/>
             </div>
@@ -2838,22 +2678,6 @@
             </div>
         </section>
     </main>
-    <script src="https://v2.cimg.co/p/manifest.js" type="application/javascript"></script>
-    <script>window.__INITIAL_WIDGET_STATE__ = {
-        "price_tracker": "\/price-tracker\/", "data": {
-            "6": {"exchange_id": 6, "title": "Coinbase", "short": "https:\/\/v2.cimg.co\/reviewlogo\/2\/5b20d656d022d.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/2\/5b20d656d022d.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/coinbase\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/coinbase\/en"},
-            "1": {"exchange_id": 1, "title": "HitBTC", "short": "https:\/\/v2.cimg.co\/reviewlogo\/3\/5a656fe6af617.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/3\/5a656fe6af617.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/hitbtc\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/hitbtc\/en"},
-            "4": {"exchange_id": 4, "title": "Bitfinex", "short": "https:\/\/v2.cimg.co\/reviewlogo\/4\/5b20d64cb9231.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/4\/5b20d64cb9231.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/bitfinex\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/bitfinex\/en"},
-            "9": {"exchange_id": 9, "title": "Kraken", "short": "https:\/\/v2.cimg.co\/reviewlogo\/5\/5b20d7875ab17.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/5\/5b20d7875ab17.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/kraken\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/kraken\/en"},
-            "7": {"exchange_id": 7, "title": "Coinbase Pro", "short": "https:\/\/v2.cimg.co\/reviewlogo\/6\/5dcab04fee043.png", "full": "https:\/\/v2.cimg.co\/reviewlogo\/6\/5dcab04fee043.png", "review_url": "https:\/\/kumkanot.com\/reviews\/coinbase-pro\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/coinbase-pro\/en"},
-            "8": {"exchange_id": 8, "title": "Bitstamp", "short": "https:\/\/v2.cimg.co\/reviewlogo\/7\/5a74b2b325423.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/7\/5a74b2b325423.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/bitstamp\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/bitstamp\/en"},
-            "2": {"exchange_id": 2, "title": "Bittrex", "short": "https:\/\/v2.cimg.co\/reviewlogo\/8\/5dcaad3ad8297.png", "full": "https:\/\/v2.cimg.co\/reviewlogo\/8\/5dcaad3ad8297.png", "review_url": "https:\/\/kumkanot.com\/reviews\/bittrex\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/bittrex\/en"},
-            "5": {"exchange_id": 5, "title": "Binance", "short": "https:\/\/v2.cimg.co\/reviewlogo\/9\/5ab92c5f8df75.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/9\/5ab92c5f8df75.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/binance\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/binance\/en"},
-            "3": {"exchange_id": 3, "title": "bitFlyer", "short": "https:\/\/v2.cimg.co\/reviewlogo\/10\/5aba32afb43dc.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/10\/5aba32afb43dc.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/bitflyer\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/bitflyer\/en"},
-            "11": {"exchange_id": 11, "title": "KuCoin", "short": "https:\/\/v2.cimg.co\/reviewlogo\/17\/5f1ac8c747406.png", "full": "https:\/\/v2.cimg.co\/reviewlogo\/17\/5f1ac8c747406.png", "review_url": "https:\/\/kumkanot.com\/reviews\/kucoin\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/kucoin\/en"},
-            "25": {"exchange_id": 25, "title": "Crypto.com", "short": "https:\/\/v2.cimg.co\/reviewlogo\/57\/5f91b138dea97.jpg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/57\/5f91b138dea97.jpg", "review_url": "https:\/\/kumkanot.com\/reviews\/crypto-com\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/crypto-com\/en"}
-        }, "config": {"type": "summary"}, "translations": {"best_rates": "Buy\/Sell at the best rates", "profitable_exchange": "Profitable Exchange", "buy": "Buy for", "sell": "Sell for", "see_more_rates": "See more rates", "market": "Market", "highest": "Highest", "lowest": "Lowest", "view_all": "View all <span>exchanges<\/span>", "supported_currencies": "Supported Currencies", "internal_conversion": "Converted", "internal_conversion_header": "Converted Price"}
-    }; </script>
 </div>
 <footer class="footer">
     <div class="container">
@@ -2861,39 +2685,14 @@
             <div class="row">
                 <div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
                     <div class="d-lg-flex mb-40">
-<!--                        <a class="footer-logo d-inline-block mr-md-30 mb-20 mb-md-0 align-self-center" href="/">-->
-<!--                            <img alt="Crypto News" class="img-fluid w-100" src="https://v2.cimg.co/p/logo.svg"/>-->
-<!--                        </a>-->
                         <div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
                             <a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
                             <a class="mr-20" href="/about-us.htm">About Us</a>
                             <a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
                             <a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
-
-
                         </div>
                     </div>
                     <div class="footer-tags d-none d-md-block">
-<!--                        <a href="/tags/bitcoin/">Bitcoin</a>-->
-<!--                        <a href="/tags/ethereum/">Ethereum</a>-->
-<!--                        <a href="/tags/cryptocurrency/">Cryptocurrency</a>-->
-<!--                        <a href="/tags/market/">Market</a>-->
-<!--                        <a href="/tags/adoption/">Adoption</a>-->
-<!--                        <a href="/tags/blockchain/">Blockchain</a>-->
-<!--                        <a href="/tags/regulation/">Regulation</a>-->
-<!--                        <a href="/tags/altcoins/">Altcoins</a>-->
-<!--                        <a href="/tags/exchange/">Exchange</a>-->
-<!--                        <a href="/tags/trading/">Trading</a>-->
-<!--                        <a href="/tags/xrp/">XRP</a>-->
-<!--                        <a href="/tags/nft/">NFT</a>-->
-<!--                        <a href="/tags/defi/">DeFi</a>-->
-<!--                        <a href="/tags/investing/">Investing</a>-->
-<!--                        <a href="/tags/crypto/">CRYPTO</a>-->
-<!--                        <a href="/tags/mining/">Mining</a>-->
-<!--                        &lt;!&ndash;                        <a href="/tags/kumkanot/">KUMKANOT</a>&ndash;&gt;-->
-<!--                        <a href="/tags/usa/">USA</a>-->
-<!--                        <a href="/tags/south-korea/">South Korea</a>-->
-<!--                        <a href="/tags/binance/">Binance</a>-->
                     </div>
                 </div>
                 <div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
@@ -2911,7 +2710,6 @@
                                 <a href="/news/blockchain-news/">Blockchain News</a><br/>
                                 <a href="/news/press-releases/">Press Releases</a><br/>
                                 <a href="/news/sponsored/">Sponsored</a><br/>
-                                <!--                                <a href="/news/kumkanot-deals/">Kumkanot Deals</a><br/>-->
                                 <a href="/news/industry-talk/">Industry Talk</a><br/>
                                 <a href="/news/ico-news/">ICO news</a><br/>
                                 <a href="/news/finance-news/">Finance News</a><br/>
@@ -2926,26 +2724,8 @@
                                 <a href="/exclusives/features/">Features</a><br/>
                                 <a href="/exclusives/opinions/">Opinions</a><br/>
                                 <a href="/exclusives/people/">People In Crypto</a><br/>
-                                <!--                                <a href="/exclusives/podcast/">Podcast</a><br/>-->
                             </div>
                         </div>
-                        <!--                        <div class="col-12 col-lg-2">-->
-                        <!--                            <div class="header-menu__dropdown-heading">-->
-                        <!--                                <a class="mb-10 heading" href="/videos/"><b>Videos</b></a><span>+</span>-->
-                        <!--                            </div>-->
-                        <!--                            <div class="menu-list-links header-menu__dropdown-children">-->
-                        <!--                                <a href="https://www.youtube.com/channel/UCq1LxxUw6DVELFN0wOmLLQw?disable_polymer=true" target="_blank">YouTube</a><br/>-->
-                        <!--                                <a href="/videos/bitcoin/">Bitcoin Videos</a><br/>-->
-                        <!--                                <a href="/videos/ethereum/">Ethereum Videos</a><br/>-->
-                        <!--                                <a href="/videos/defi-videos/">DeFi Videos</a><br/>-->
-                        <!--                                <a href="/videos/altcoin/">Altcoin Videos</a><br/>-->
-                        <!--                                <a href="/videos/blockchain/">Blockchain Videos</a><br/>-->
-                        <!--                                <a href="/videos/market/">Market Videos</a><br/>-->
-                        <!--                                <a href="/videos/cryptosecurity/">Security Videos</a><br/>-->
-                        <!--                                <a href="/videos/trading/">Trading Videos</a><br/>-->
-                        <!--                                <a href="/videos/icos/">ICO Videos</a><br/>-->
-                        <!--                            </div>-->
-                        <!--                        </div>-->
                         <div class="col-12 col-lg-2">
                             <div class="header-menu__dropdown-heading">
                                 <a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
@@ -2958,9 +2738,7 @@
                                 <a href="/guides/altcoins/">Altcoins</a><br/>
                                 <a href="/guides/blockchain/">Blockchain</a><br/>
                                 <a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
-                                <a href="/guides/deals/">Deals</a><br/>
                                 <a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
-                                <a href="/guides/trading-tools/">Trading Tools</a><br/>
                             </div>
                         </div>
                         <div class="col-12 col-lg-2">
@@ -2984,9 +2762,9 @@
                                 <div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
                                 <div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
                                 <div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
-                                <div class="header-menu__dropdown-heading"><a class="heading" href="/price-tracker/">Price Tracker</a></div>
-                                <div class="header-menu__dropdown-heading"><a class="heading" href="/events/">Events</a></div>
-                                <!--                                <div class="header-menu__dropdown-heading"><a class="heading" href="/jobs/">Jobs</a></div>-->
+                                <div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+                                <div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+                                <div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
                             </div>
                         </div>
                     </div>
@@ -2995,24 +2773,18 @@
                             <a class="mb-10 heading" href="/news/"><b>News</b></a>
                         </div>
                         <div class="menu-list-links header-menu__dropdown-children">
-                            <a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a
-                                href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+                            <a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a
+                                href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
                         <div class="header-menu__dropdown-heading">
                             <a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
                         </div>
                         <div class="menu-list-links header-menu__dropdown-children">
                             <a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
-                        <!--                        <div class="header-menu__dropdown-heading">-->
-                        <!--                            <a class="mb-10 heading" href="/videos/"><b>Videos</b></a>-->
-                        <!--                        </div>-->
-                        <!--                        <div class="menu-list-links header-menu__dropdown-children">-->
-                        <!--                            <a href="https://www.youtube.com/channel/UCq1LxxUw6DVELFN0wOmLLQw?disable_polymer=true" target="_blank">YouTube</a><br/><a href="/videos/bitcoin/">Bitcoin Videos</a><br/><a href="/videos/ethereum/">Ethereum Videos</a><br/><a href="/videos/defi-videos/">DeFi Videos</a><br/><a href="/videos/altcoin/">Altcoin Videos</a><br/><a href="/videos/blockchain/">Blockchain Videos</a><br/><a href="/videos/market/">Market Videos</a><br/><a href="/videos/cryptosecurity/">Security-->
-                        <!--                            Videos</a><br/><a href="/videos/trading/">Trading Videos</a><br/><a href="/videos/icos/">ICO Videos</a><br/></div>-->
                         <div class="header-menu__dropdown-heading">
                             <a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
                         </div>
                         <div class="menu-list-links header-menu__dropdown-children">
-                            <a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><a href="/guides/deals/">Deals</a><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><a href="/guides/trading-tools/">Trading Tools</a><br/>
+                            <a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
                         </div>
                         <div class="header-menu__dropdown-heading">
                             <a class="mb-10 heading" href="#"><b>Recommended</b></a>
@@ -3031,40 +2803,14 @@
                             <a class="mb-10 heading" href="/coins/">
                                 <b>Market Cap</b>
                             </a>
-                            <a class="mb-10 heading" href="/price-tracker/">
-                                <b>Price Tracker</b>
-                            </a>
-                            <a class="mb-10 heading" href="/events/">
-                                <b>Events</b>
-                            </a>
-                            <!--                            <a class="mb-10 heading" href="/jobs/">-->
-                            <!--                                <b>Jobs</b>-->
-                            <!--                            </a>-->
+                            <a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+                            <a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+                            <a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
                     <div class="footer-tags">
-<!--                        <a href="/tags/bitcoin/">Bitcoin</a>-->
-<!--                        <a href="/tags/ethereum/">Ethereum</a>-->
-<!--                        <a href="/tags/cryptocurrency/">Cryptocurrency</a>-->
-<!--                        <a href="/tags/market/">Market</a>-->
-<!--                        <a href="/tags/adoption/">Adoption</a>-->
-<!--                        <a href="/tags/blockchain/">Blockchain</a>-->
-<!--                        <a href="/tags/regulation/">Regulation</a>-->
-<!--                        <a href="/tags/altcoins/">Altcoins</a>-->
-<!--                        <a href="/tags/exchange/">Exchange</a>-->
-<!--                        <a href="/tags/trading/">Trading</a>-->
-<!--                        <a href="/tags/xrp/">XRP</a>-->
-<!--                        <a href="/tags/nft/">NFT</a>-->
-<!--                        <a href="/tags/defi/">DeFi</a>-->
-<!--                        <a href="/tags/investing/">Investing</a>-->
-<!--                        <a href="/tags/crypto/">CRYPTO</a>-->
-<!--                        <a href="/tags/mining/">Mining</a>-->
-<!--                        &lt;!&ndash;                        <a href="/tags/kumkanot/">KUMKANOT</a>&ndash;&gt;-->
-<!--                        <a href="/tags/usa/">USA</a>-->
-<!--                        <a href="/tags/south-korea/">South Korea</a>-->
-<!--                        <a href="/tags/binance/">Binance</a>-->
                     </div>
                 </div>
             </div>
@@ -3075,125 +2821,15 @@
                     <div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
                 </div>
                 <div class="col-12 col-md-6 text-center text-md-right">
-
                 </div>
             </div>
         </div>
     </div>
 </footer>
-<script>
-    window.sid = 1;
-    window.gdproptions = {
-
-        cookieName: 'gdpr',
-        cookieConfig: {
-            domain: window.location.hostname,
-            path: '/'
-        },
-        heading: 'GDPR Notice',
-        description: 'We use cookies to offer a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements.By clicking accept, you consent to our privacy policy &amp; use of cookies.' + ' (<a href="/privacy-policy.htm" >Privacy Policy</a>)',
-        acceptLabel: 'Confirm all',
-        settingsLabel: 'Preferences',
-        closeLabel: 'Close Window',
-        choices: {
-            necessary: {
-                label: 'Required',
-                description:
-                    '',
-                value: true
-            },
-            analytics: false,
-            tracking: false,
-            marketing: false,
-
-        },
-        showEditIcon: false,
-        categories: {
-
-            necessary: function () {
-            }
-        }
-    }
-
-    window.addEventListener('load', function () {
-
-        if (document.getElementsByTagName('oembed').length) {
-            new Embedo({
-                twitter: true,  // Enable twitter SDK
-                instagram: true,  // Enable instagram SDK
-                pinterest: true  // Enable pinterest SDK,
-            });
-        }
-
-    })
-    window.cid = 36128
-</script>
-<script async="" src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
-<script>
-    window.onesignal_app_id = "7433c474-47ca-421e-88a6-dad515cf9aab";
-    var OneSignal = window.OneSignal || [];
-    OneSignal.push(function () {
-        OneSignal.init({
-            appId: "7433c474-47ca-421e-88a6-dad515cf9aab",
-        });
-    });
-</script>
-<script>
-    window.trans = {
-        ago: "ago",
-        ago_long: "minute, minutes, hour, hours, day, days",
-        time_seconds_ago: "[time] [seconds] [ago]",
-        time_minutes_ago: "[time] [minutes] [ago]",
-        time_hours_ago: "[time] [hours] [ago]",
-        time_days_ago: "[time] [days] [ago]",
-    }
-
-</script>
-<script src="https://v2.cimg.co/p/manifest.js" type="application/javascript"></script>
 <div class="modal" id="newsletter-modal">
     <div class="modal__content text-white">
         <div class="close__icon hide-modal" data-id="newsletter-modal">X</div>
-        <div class="modal__body newsletter">
-            <div class="left-side">
-                <div class="h1">
-                    <em>
-                        Enter your email for our Free Daily Newsletter
-                    </em>
-                </div>
-                <p> A quick 3min read about today's crypto news!</p>
-                <form id="newsletter-form">
-                    <div class="input-group">
-                        <div><input id="newsletter_email" name="email" placeholder="Email" required="" type="email"/></div>
-                        <div>
-                            <button id="newsletter-signup" type="submit">Sign Up</button>
-                        </div>
-                    </div>
-                </form>
-                <span class="response-msg" id="newsletter-response"></span>
-            </div>
-            <div class="img-box">
-                <img alt="Image" class="img" id="newsletter-popup-img" src="https://v2.cimg.co/p/ml-300.jpeg">
-                </img></div>
-        </div>
     </div>
 </div>
-<script>
-    window.__INITIAL_WIDGET_STATE__ = {
-        "price_tracker": "\/price-tracker\/", "data": {
-            "6": {"exchange_id": 6, "title": "Coinbase", "short": "https:\/\/v2.cimg.co\/reviewlogo\/2\/5b20d656d022d.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/2\/5b20d656d022d.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/coinbase\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/coinbase\/en"},
-            "1": {"exchange_id": 1, "title": "HitBTC", "short": "https:\/\/v2.cimg.co\/reviewlogo\/3\/5a656fe6af617.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/3\/5a656fe6af617.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/hitbtc\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/hitbtc\/en"},
-            "4": {"exchange_id": 4, "title": "Bitfinex", "short": "https:\/\/v2.cimg.co\/reviewlogo\/4\/5b20d64cb9231.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/4\/5b20d64cb9231.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/bitfinex\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/bitfinex\/en"},
-            "9": {"exchange_id": 9, "title": "Kraken", "short": "https:\/\/v2.cimg.co\/reviewlogo\/5\/5b20d7875ab17.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/5\/5b20d7875ab17.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/kraken\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/kraken\/en"},
-            "7": {"exchange_id": 7, "title": "Coinbase Pro", "short": "https:\/\/v2.cimg.co\/reviewlogo\/6\/5dcab04fee043.png", "full": "https:\/\/v2.cimg.co\/reviewlogo\/6\/5dcab04fee043.png", "review_url": "https:\/\/kumkanot.com\/reviews\/coinbase-pro\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/coinbase-pro\/en"},
-            "8": {"exchange_id": 8, "title": "Bitstamp", "short": "https:\/\/v2.cimg.co\/reviewlogo\/7\/5a74b2b325423.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/7\/5a74b2b325423.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/bitstamp\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/bitstamp\/en"},
-            "2": {"exchange_id": 2, "title": "Bittrex", "short": "https:\/\/v2.cimg.co\/reviewlogo\/8\/5dcaad3ad8297.png", "full": "https:\/\/v2.cimg.co\/reviewlogo\/8\/5dcaad3ad8297.png", "review_url": "https:\/\/kumkanot.com\/reviews\/bittrex\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/bittrex\/en"},
-            "5": {"exchange_id": 5, "title": "Binance", "short": "https:\/\/v2.cimg.co\/reviewlogo\/9\/5ab92c5f8df75.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/9\/5ab92c5f8df75.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/binance\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/binance\/en"},
-            "3": {"exchange_id": 3, "title": "bitFlyer", "short": "https:\/\/v2.cimg.co\/reviewlogo\/10\/5aba32afb43dc.svg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/10\/5aba32afb43dc.svg", "review_url": "https:\/\/kumkanot.com\/reviews\/bitflyer\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/bitflyer\/en"},
-            "11": {"exchange_id": 11, "title": "KuCoin", "short": "https:\/\/v2.cimg.co\/reviewlogo\/17\/5f1ac8c747406.png", "full": "https:\/\/v2.cimg.co\/reviewlogo\/17\/5f1ac8c747406.png", "review_url": "https:\/\/kumkanot.com\/reviews\/kucoin\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/kucoin\/en"},
-            "25": {"exchange_id": 25, "title": "Crypto.com", "short": "https:\/\/v2.cimg.co\/reviewlogo\/57\/5f91b138dea97.jpg", "full": "https:\/\/v2.cimg.co\/reviewlogo\/57\/5f91b138dea97.jpg", "review_url": "https:\/\/kumkanot.com\/reviews\/crypto-com\/", "download_url": "https:\/\/rapi.kumkanot.com\/ext\/crypto-com\/en"}
-        }, "config": {"type": "summary"}, "translations": {"best_rates": "Buy\/Sell at the best rates", "profitable_exchange": "Profitable Exchange", "buy": "Buy for", "sell": "Sell for", "see_more_rates": "See more rates", "market": "Market", "highest": "Highest", "lowest": "Lowest", "view_all": "View all <span>exchanges<\/span>", "supported_currencies": "Supported Currencies", "internal_conversion": "Converted", "internal_conversion_header": "Converted Price"}
-    };
-
-</script>
 </body>
 </html>

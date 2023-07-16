@@ -14,11 +14,14 @@ import re
 
 start_time = time.time()
 todaytime = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
-shutil.copytree('./a/cryptonews.com', './b', dirs_exist_ok=True)
+
+shutil.rmtree('./a/cryptonews.com/tags/', ignore_errors=True)
+shutil.rmtree('./b/', ignore_errors=True)
+shutil.copytree('./a/cryptonews.com', './b/', dirs_exist_ok=True)
 
 
 def replace_header_footer(read_file1):
-    with open('./me-index.html', 'r') as file1:
+    with open('me-index.html', 'r') as file1:
         soup = BeautifulSoup(file1.read(), features="html.parser")
 
     head = soup.find("head")
@@ -134,14 +137,22 @@ def decompose_tags(read_file1):
 
     tags_links = soup.find_all("a")
     for t in tags_links:
-        if '/tags/' in t['href']:
-            t.decompose()
+        if t.has_attr('href'):
+            if '/tags/' in t['href']:
+                t.decompose()
+
+    videos = soup.find_all("section")
+    for v in videos:
+        videosh2 = v.find("h2")
+        if videosh2 is not None:
+            if 'Videos' in videosh2.text:
+                v.decompose()
 
     return str(soup)
 
 
 def insert_ads(read_file1):
-    with open('./me-index.html', 'r') as file1:
+    with open('me-index.html', 'r') as file1:
         soup = BeautifulSoup(file1.read(), features="html.parser")
 
     soup1 = BeautifulSoup(read_file1, features='html.parser')
@@ -160,6 +171,8 @@ def replace_text(read_file1):
     read_file1 = read_file1.replace('CryptoNews', 'Kumkanot')
     read_file1 = read_file1.replace('CRYPTONEWS', 'KUMKANOT')
     read_file1 = read_file1.replace('Crypto News', 'Kumkanot')
+    read_file1 = read_file1.replace('#930046', '#00b900')
+    read_file1 = read_file1.replace('#59008a', '#018001')
 
     return read_file1
 
@@ -188,8 +201,10 @@ for fl in files:
         with open(filepath, "w") as file:
             file.write(read_file)
 
-shutil.copytree('./b', './public_html', dirs_exist_ok=True)
-shutil.copytree('./replace', './public_html', dirs_exist_ok=True)
+shutil.rmtree('./public_html', ignore_errors=True)
+
+shutil.copytree('./b/', './public_html/', dirs_exist_ok=True)
+shutil.copytree('./replace/', './public_html/', dirs_exist_ok=True)
 
 finish_time = time.time() - start_time
 finish_time = round(finish_time / 60, 2)

@@ -31,3 +31,13 @@ http://huy-1.com/news/this-key-on-chain-indicator-will-soon-join-the-list-of-tho
 http://huy-1.com/news/coinshares-report-digital-asset-fund-outflows-reach-200-million.htm
 http://huy-1.com/news/number-of-bitcoin-wallets-with-at-least-1-btc-hits-1-million-smart-money-still-moving-in.htm
 kak
+
+http://huy-1.com/news/m11-credit-restarts-crypto-lending-maple-finance-after-ftx-fallout-heres-what-you-need-know.htm
+linear-gradient(107deg,#00b900,#59008a)
+#920047
+/notfound.html
+
+~~~
+change theirs button colors to our (green)
+    read_file1 = read_file1.replace('#930046', '#00b900')
+    read_file1 = read_file1.replace('#59008a', '#018001')
