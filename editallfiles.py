@@ -15,9 +15,10 @@ import re
 start_time = time.time()
 todaytime = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 
-shutil.rmtree('./a/cryptonews.com/tags/', ignore_errors=True)
+# shutil.rmtree('./a/cryptonews.com/tags/', ignore_errors=True)
 shutil.rmtree('./b/', ignore_errors=True)
 shutil.copytree('./a/cryptonews.com', './b/', dirs_exist_ok=True)
+shutil.rmtree('./b/cryptonews.com/tags/', ignore_errors=True)
 
 
 def replace_header_footer(read_file1):
@@ -110,6 +111,10 @@ def decompose_tags(read_file1):
     if newsletter:
         newsletter.decompose()
 
+    newsletter_modal = soup.find('div', class_='modal')
+    if newsletter_modal:
+        newsletter_modal.decompose()
+
     iframes = soup.findAll('iframe')
     for iframe in iframes:
         if iframe:
@@ -165,6 +170,27 @@ def insert_ads(read_file1):
     return str(soup1)
 
 
+def insert_cookie(read_file1):
+    with open('me-index.html', 'r') as file1:
+        soup = BeautifulSoup(file1.read(), features="html.parser")
+
+    scripts = soup.body.findAll('script')
+    soup1 = BeautifulSoup(read_file1, features='html.parser')
+    try:
+        soup1.body.append(scripts[0])
+    except Exception as e:
+        print(e)
+        pass
+
+    try:
+        soup1.body.append(scripts[1])
+    except Exception as e:
+        print(e)
+        pass
+
+    return str(soup1)
+
+
 def replace_text(read_file1):
     read_file1 = read_file1.replace('cryptonews', 'kumkanot')
     read_file1 = read_file1.replace('Cryptonews', 'Kumkanot')
@@ -195,6 +221,7 @@ for fl in files:
         read_file = decompose_tags(read_file)
         read_file = replace_header_footer(read_file)
         read_file = insert_ads(read_file)
+        read_file = insert_cookie(read_file)
 
         countreplace = countreplace + 1
 
