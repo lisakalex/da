@@ -2,7 +2,7 @@
 var cc = initCookieConsent();
 
 // example logo
-var logo = '<img src="/assets/images/logo-3.png" alt="Logo" loading="lazy" style="margin-left: -4px; margin-bottom: -5px; height: 35px">';
+var logo = '<img src="/assets/images/logo.png" alt="Logo" loading="lazy" style="margin-left: -4px; margin-bottom: -5px; height: 35px">';
 var cookie = '🍪';
 
 // run plugin with config object
@@ -79,7 +79,7 @@ cc.run({
                 blocks: [
                     {
                         title: 'Cookie usage 📢',
-                        description: 'We use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="/terms/index.php" class="cc-link">terms and conditions</a>.'
+                        description: 'We use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="/terms-and-conditions.htm" class="cc-link">terms and conditions</a>.'
                     }, {
                         title: 'Strictly necessary cookies',
                         description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly',
@@ -121,7 +121,7 @@ cc.run({
                         }
                     }, {
                         title: 'More information',
-                        description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="/cookie-policy/index.php">cookies policy</a>.',
+                        description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="/privacy-policy.htm">cookies policy</a>.',
                     }
                 ]
             }

@@ -4,19 +4,17 @@ from bs4 import BeautifulSoup
 import requests
 import time
 from pathlib import Path
-import os
 import shutil
 from datetime import datetime
-import unittest
-import re
 
 # https://beautiful-soup-4.readthedocs.io/en/latest/
 
 start_time = time.time()
 todaytime = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 
-# shutil.rmtree('./a/cryptonews.com/tags/', ignore_errors=True)
 shutil.rmtree('./b/', ignore_errors=True)
+shutil.rmtree('./public_html', ignore_errors=True)
+shutil.copytree('./replace/', './b/', dirs_exist_ok=True)
 shutil.copytree('./a/cryptonews.com', './b/', dirs_exist_ok=True)
 shutil.rmtree('./b/cryptonews.com/tags/', ignore_errors=True)
 
@@ -47,14 +45,8 @@ def replace_header_footer(read_file1):
 
 
 def replace_links(read_file1):
-    # replace = [
-    #     ['https://cryptonews.com', ''],
-    #     ['xxx', 'yyy']
-    # ]
-
     soup = BeautifulSoup(read_file1, features="html.parser")
     links = soup.find_all('a')
-    # for r in replace:
     for link in links:
         href = link.get('href')
         if href:
@@ -90,11 +82,9 @@ def download_files(url, path, file1):
 
 
 def download_json_files(read_file1):
-    # print('kak')
     soup = BeautifulSoup(read_file1, features="html.parser")
     soup1 = soup.find_all("a")
     for link in soup1:
-        # print(link)
         loadmoretype = link.get('loadmoretype')
         if loadmoretype:
             url = 'https://cryptonews.com/paged/' + loadmoretype + '-1.json'
@@ -203,15 +193,12 @@ def replace_text(read_file1):
     return read_file1
 
 
-# find and replace string
 files = ['html', 'htm']
-# files = ['php']
-# files = ['json']
-countreplace = 1
+count_replace = 1
 
 for fl in files:
     for filepath in glob2.iglob('./b/**/*.' + fl, recursive=True):
-        print(str(countreplace) + ' ' + filepath)
+        print(str(count_replace) + ' ' + filepath)
         with open(filepath) as file:
             read_file = file.read()
 
@@ -223,22 +210,18 @@ for fl in files:
         read_file = insert_ads(read_file)
         read_file = insert_cookie(read_file)
 
-        countreplace = countreplace + 1
+        count_replace = count_replace + 1
 
         with open(filepath, "w") as file:
             file.write(read_file)
 
-shutil.rmtree('./public_html', ignore_errors=True)
-
 shutil.copytree('./b/', './public_html/', dirs_exist_ok=True)
-shutil.copytree('./replace/', './public_html/', dirs_exist_ok=True)
-
 finish_time = time.time() - start_time
 finish_time = round(finish_time / 60, 2)
 
-print('copied ' + str(countreplace) + ' files, time taken ' + str(finish_time) + ' min')
+print('copied ' + str(count_replace) + ' files, time taken ' + str(finish_time) + ' min')
 
 with open('count_replace.txt', "a") as file:
-    file.write(todaytime + ' files ' + str(countreplace) + ', time ' + str(finish_time) + ' min\n')
+    file.write(todaytime + ' files ' + str(count_replace) + ', time ' + str(finish_time) + ' min\n')
 
 ha = None
