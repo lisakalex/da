@@ -16,7 +16,11 @@ shutil.rmtree('./b/', ignore_errors=True)
 shutil.rmtree('./public_html', ignore_errors=True)
 shutil.copytree('./replace/', './b/', dirs_exist_ok=True)
 shutil.copytree('./a/cryptonews.com', './b/', dirs_exist_ok=True)
-shutil.rmtree('./b/cryptonews.com/tags/', ignore_errors=True)
+shutil.rmtree('./b/tags/', ignore_errors=True)
+shutil.rmtree('./b/events/', ignore_errors=True)
+shutil.rmtree('./b/jobs/', ignore_errors=True)
+shutil.rmtree('./b/price-tracker/', ignore_errors=True)
+shutil.rmtree('./b/videos/', ignore_errors=True)
 
 
 def replace_header_footer(read_file1):

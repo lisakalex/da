@@ -1,0 +1,2 @@
+#0 8 * * * cd /var/www/da.com/a/ && wget https://cryptonews.com/
+40 19 * * * cd /var/www/da.com/ && ./editallfiles.py

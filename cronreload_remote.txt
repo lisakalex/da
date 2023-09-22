@@ -1,0 +1,2 @@
+#0 7 * * * cd /var/www/html/a/ && wget https://cryptonews.com/
+#0 19 * * * cd /var/www/html/ && ./editallfiles.py
