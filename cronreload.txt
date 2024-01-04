@@ -1,0 +1,21 @@
+#0 7 * * * /var/www/hyip.com/public_html/sh/get_hyip_seeds.py
+#* * * * * /var/www/hyip.com/public_html/sh/seed1.sh
+#* * * * * /var/www/hyip.com/public_html/sh/monitor.sh
+#* * * * * /var/www/hyip.com/public_html/sh/hyip.sh
+#* * * * * /var/www/hyip.com/public_html/sh/hyip1.sh
+#* * * * * /var/www/hyip.com/public_html/sh/rate.sh
+#0 19 * * * /usr/bin/php8.1 /var/www/hyip.com/public_html/sh/copyall.php
+#* * * * * /usr/bin/php8.1 /var/www/hyip.com/public_html/pay_cron.php
+#* * * * * /bin/bash -l -c 'date > ~/cron-test.txt'
+#* * * * * /var/www/hyip.com/public_html/sh/get_top.py
+#0 7 * * * cd /var/www/da.com/a/ && wget -i ./download.txt
+#0 7 * * * cd /var/www/da.com/ && ./downloadfiles.py
+#0 19 * * * cd /var/www/da-1.com/ && ./editallfiles.py
+#* * * * * cd /var/www/da-1.com/test/click-iframe/ && ./tor.py
+#*/3 * * * * cd /var/www/ && ./tor.py
+#* * * * * cd /var/www/da-1.com/ && ./tor.py
+#* * * * * cd /var/www/da-1.com/ && ./tor1.py
+#* * * * * cd /var/www/da-1.com/ && ./tor2.py
+#* * * * * cd /var/www/da-1.com/ && ./tor3.py
+#* * * * * cd /var/www/da-1.com/ && ./tor4.py
+#* * * * * cd /var/www/da-1.com/ && ./tor5.py

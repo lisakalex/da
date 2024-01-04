@@ -1,0 +1,16 @@
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://cryptonews.com/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK
+Disallow: *&sort
+                    Disallow: *&typ
+                    Disallow: *?s
+                    Disallow: *?paged=
+                    Disallow: *?q
+                    Disallow: /ext/
+
+                    

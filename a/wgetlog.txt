@@ -1,0 +1,3349 @@
+--2024-01-04 15:58:05--  https://cryptonews.com/
+Resolving cryptonews.com (cryptonews.com)... 104.26.1.151, 172.67.69.61, 104.26.0.151, ...
+Connecting to cryptonews.com (cryptonews.com)|104.26.1.151|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/index.html’
+
+     0K .......... .......... .......... .......... ..........  239M
+    50K .......... .......... .......... .......... .......... 4.65M
+   100K .......... .......... .......... .......... .......... 2.77M
+   150K .......... .......... .......... .......... .......... 16.3M
+   200K .......... .......... .......... .......... ..........  490K
+   250K .......... .......... .......... .......... .......... 15.6M
+   300K .......... .......... .......... .......... .......... 13.8M
+   350K .......... .......... .........                        20.3M=0.1s
+
+2024-01-04 15:58:06 (2.62 MB/s) - ‘cryptonews.com/index.html’ saved [388967]
+
+Loading robots.txt; please ignore errors.
+--2024-01-04 15:58:06--  https://cryptonews.com/robots.txt
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain]
+Saving to: ‘cryptonews.com/robots.txt’
+
+     0K                                                        91.4M=0s
+
+2024-01-04 15:58:06 (91.4 MB/s) - ‘cryptonews.com/robots.txt’ saved [390]
+
+--2024-01-04 15:58:06--  https://cryptonews.com/apple-touch-icon.png
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2785 (2.7K) [image/png]
+Saving to: ‘cryptonews.com/apple-touch-icon.png’
+
+     0K ..                                                    100% 2.65G=0s
+
+2024-01-04 15:58:06 (2.65 GB/s) - ‘cryptonews.com/apple-touch-icon.png’ saved [2785/2785]
+
+--2024-01-04 15:58:06--  https://cryptonews.com/favicon-48x48.png
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 694 [image/png]
+Saving to: ‘cryptonews.com/favicon-48x48.png’
+
+     0K                                                       100%  553M=0s
+
+2024-01-04 15:58:06 (553 MB/s) - ‘cryptonews.com/favicon-48x48.png’ saved [694/694]
+
+--2024-01-04 15:58:06--  https://cryptonews.com/favicon-192x192.png
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1377 (1.3K) [image/png]
+Saving to: ‘cryptonews.com/favicon-192x192.png’
+
+     0K .                                                     100%  519M=0s
+
+2024-01-04 15:58:06 (519 MB/s) - ‘cryptonews.com/favicon-192x192.png’ saved [1377/1377]
+
+--2024-01-04 15:58:06--  https://cryptonews.com/site.webmanifest
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 426 [application/octet-stream]
+Saving to: ‘cryptonews.com/site.webmanifest’
+
+     0K                                                       100%  198M=0s
+
+2024-01-04 15:58:06 (198 MB/s) - ‘cryptonews.com/site.webmanifest’ saved [426/426]
+
+--2024-01-04 15:58:06--  https://cryptonews.com/safari-pinned-tab.svg
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/svg+xml]
+Saving to: ‘cryptonews.com/safari-pinned-tab.svg’
+
+     0K                                                         214M=0s
+
+2024-01-04 15:58:06 (214 MB/s) - ‘cryptonews.com/safari-pinned-tab.svg’ saved [947]
+
+--2024-01-04 15:58:06--  https://cryptonews.com/favicon.ico
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/x-icon]
+Saving to: ‘cryptonews.com/favicon.ico’
+
+     0K .......... ....                                         196M=0s
+
+2024-01-04 15:58:06 (196 MB/s) - ‘cryptonews.com/favicon.ico’ saved [15086]
+
+--2024-01-04 15:58:06--  https://cryptonews.com/xmlrpc.php?rsd
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 403 Forbidden
+2024-01-04 15:58:07 ERROR 403: Forbidden.
+
+--2024-01-04 15:58:07--  https://cryptonews.com/news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/index.html’
+
+     0K .......... .......... .......... .......... .......... 24.5M
+    50K .......... .......... .......... .......... .......... 14.8M
+   100K .......... .......... .......... .......... .......... 19.5M
+   150K .......... ......                                      90.9M=0.008s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:07 (20.4 MB/s) - ‘cryptonews.com/news/index.html’ saved [170144]
+
+--2024-01-04 15:58:07--  https://cryptonews.com/news/bitcoin-news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-news/index.html’
+
+     0K .......... .......... .......... .......... .......... 22.3M
+    50K .......... .......... .......... .......... ..........  379K
+   100K .......... .......... .......... .......... .......... 13.2M
+   150K .......... .........                                    204M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:08 (1.20 MB/s) - ‘cryptonews.com/news/bitcoin-news/index.html’ saved [173565]
+
+--2024-01-04 15:58:08--  https://cryptonews.com/news/ethereum-news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/ethereum-news/index.html’
+
+     0K .......... .......... .......... .......... .......... 10.8M
+    50K .......... .......... .......... .......... ..........  380K
+   100K .......... .......... .......... .......... .......... 12.2M
+   150K .......... ..........                                  61.7M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:08 (1.18 MB/s) - ‘cryptonews.com/news/ethereum-news/index.html’ saved [174152]
+
+--2024-01-04 15:58:08--  https://cryptonews.com/news/nft-news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/nft-news/index.html’
+
+     0K .......... .......... .......... .......... .......... 13.2M
+    50K .......... .......... .......... .......... ..........  364K
+   100K .......... .......... .......... .......... .......... 12.0M
+   150K .......... ..........                                   145M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:09 (1.14 MB/s) - ‘cryptonews.com/news/nft-news/index.html’ saved [174261]
+
+--2024-01-04 15:58:09--  https://cryptonews.com/news/defi-news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/defi-news/index.html’
+
+     0K .......... .......... .......... .......... .......... 17.0M
+    50K .......... .......... .......... .......... .......... 11.7M
+   100K .......... .......... .......... .......... .......... 21.8M
+   150K .......... .......                                     26.2M=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:09 (16.4 MB/s) - ‘cryptonews.com/news/defi-news/index.html’ saved [171940]
+
+--2024-01-04 15:58:09--  https://cryptonews.com/news/altcoin-news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/altcoin-news/index.html’
+
+     0K .......... .......... .......... .......... .......... 28.2M
+    50K .......... .......... .......... .......... ..........  397K
+   100K .......... .......... .......... .......... .......... 15.4M
+   150K .......... ........                                    70.1M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:10 (1.26 MB/s) - ‘cryptonews.com/news/altcoin-news/index.html’ saved [172916]
+
+--2024-01-04 15:58:10--  https://cryptonews.com/news/blockchain-news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/blockchain-news/index.html’
+
+     0K .......... .......... .......... .......... .......... 34.5M
+    50K .......... .......... .......... .......... ..........  369K
+   100K .......... .......... .......... .......... .......... 9.30M
+   150K .......... ........                                    30.9M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:10 (1.15 MB/s) - ‘cryptonews.com/news/blockchain-news/index.html’ saved [172962]
+
+--2024-01-04 15:58:10--  https://cryptonews.com/news/press-releases/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/press-releases/index.html’
+
+     0K .......... .......... .......... .......... .......... 24.5M
+    50K .......... .......... .......... .......... .......... 11.2M
+   100K .......... .......... .......... .......... .......... 58.6M
+   150K .......... ........                                    8.85M=0.009s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:11 (17.9 MB/s) - ‘cryptonews.com/news/press-releases/index.html’ saved [172160]
+
+--2024-01-04 15:58:11--  https://cryptonews.com/news/sponsored/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/sponsored/index.html’
+
+     0K .......... .......... .......... .......... .......... 24.5M
+    50K .......... .......... .......... .......... ..........  381K
+   100K .......... .......... .......... .......... .......... 14.3M
+   150K .......... ......                                       145M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:11 (1.19 MB/s) - ‘cryptonews.com/news/sponsored/index.html’ saved [170570]
+
+--2024-01-04 15:58:11--  https://cryptonews.com/news/cryptonews-deals/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/cryptonews-deals/index.html’
+
+     0K .......... .......... .......... .......... .......... 13.7M
+    50K .......... .......... .......... .......... .......... 16.1M
+   100K .......... .......... .......... .......... .......... 13.6M
+   150K .......... ....                                         120M=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:12 (15.6 MB/s) - ‘cryptonews.com/news/cryptonews-deals/index.html’ saved [168517]
+
+--2024-01-04 15:58:12--  https://cryptonews.com/news/industry-talk/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/industry-talk/index.html’
+
+     0K .......... .......... .......... .......... .......... 20.3M
+    50K .......... .......... .......... .......... ..........  381K
+   100K .......... .......... .......... .......... .......... 16.8M
+   150K .......... ..........                                  18.7M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:13 (1.21 MB/s) - ‘cryptonews.com/news/industry-talk/index.html’ saved [174522]
+
+--2024-01-04 15:58:13--  https://cryptonews.com/news/ico-news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/ico-news/index.html’
+
+     0K .......... .......... .......... .......... .......... 21.8M
+    50K .......... .......... .......... .......... .......... 11.6M
+   100K .......... .......... .......... .......... .......... 29.1M
+   150K .......... ..                                           287M=0.008s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:13 (19.4 MB/s) - ‘cryptonews.com/news/ico-news/index.html’ saved [166880]
+
+--2024-01-04 15:58:13--  https://cryptonews.com/news/finance-news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/finance-news/index.html’
+
+     0K .......... .......... .......... .......... .......... 17.6M
+    50K .......... .......... .......... .......... .......... 12.6M
+   100K .......... .......... .......... .......... .......... 13.1M
+   150K .......... ......                                       109M=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:13 (15.4 MB/s) - ‘cryptonews.com/news/finance-news/index.html’ saved [170231]
+
+--2024-01-04 15:58:13--  https://cryptonews.com/news/technology-news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/technology-news/index.html’
+
+     0K .......... .......... .......... .......... .......... 12.8M
+    50K .......... .......... .......... .......... .......... 15.8M
+   100K .......... .......... .......... .......... .......... 19.8M
+   150K .......... .....                                        135M=0.009s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:14 (17.0 MB/s) - ‘cryptonews.com/news/technology-news/index.html’ saved [169479]
+
+--2024-01-04 15:58:14--  https://cryptonews.com/news/price-predictions/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/price-predictions/index.html’
+
+     0K .......... .......... .......... .......... .......... 24.4M
+    50K .......... .......... .......... .......... .......... 17.8M
+   100K .......... .......... .......... .......... .......... 18.8M
+   150K .......... .........                                   15.3M=0.009s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:14 (19.3 MB/s) - ‘cryptonews.com/news/price-predictions/index.html’ saved [173648]
+
+--2024-01-04 15:58:14--  https://cryptonews.com/exclusives/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/exclusives/index.html’
+
+     0K .......... .......... .......... .......... .......... 27.4M
+    50K .......... .......... .......... .......... ..........  383K
+   100K .......... .......... .......... .......... .......... 18.8M
+   150K .......... .......                                     97.7M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:15 (1.21 MB/s) - ‘cryptonews.com/exclusives/index.html’ saved [171476]
+
+--2024-01-04 15:58:15--  https://cryptonews.com/exclusives/features/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/exclusives/features/index.html’
+
+     0K .......... .......... .......... .......... .......... 12.6M
+    50K .......... .......... .......... .......... .......... 14.7M
+   100K .......... .......... .......... .......... .......... 31.9M
+   150K .......... ..........                                   279M=0.009s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:15 (18.9 MB/s) - ‘cryptonews.com/exclusives/features/index.html’ saved [174676]
+
+--2024-01-04 15:58:15--  https://cryptonews.com/exclusives/opinions/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/exclusives/opinions/index.html’
+
+     0K .......... .......... .......... .......... .......... 12.3M
+    50K .......... .......... .......... .......... ..........  377K
+   100K .......... .......... .......... .......... .......... 14.0M
+   150K .......... .......                                     25.7M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:16 (1.16 MB/s) - ‘cryptonews.com/exclusives/opinions/index.html’ saved [171506]
+
+--2024-01-04 15:58:16--  https://cryptonews.com/exclusives/people/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/exclusives/people/index.html’
+
+     0K .......... .......... .......... .......... ..........  142M
+    50K .......... .......... .......... .......... ..........  379K
+   100K .......... .......... .......... .......... .......... 13.6M
+   150K .......... ..........                                  33.9M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:16 (1.22 MB/s) - ‘cryptonews.com/exclusives/people/index.html’ saved [174341]
+
+--2024-01-04 15:58:16--  https://cryptonews.com/exclusives/podcast/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/exclusives/podcast/index.html’
+
+     0K .......... .......... .......... .......... .......... 19.2M
+    50K .......... .......... .......... .......... ..........  386K
+   100K .......... .......... .......... .......... .......... 8.99M
+   150K .......... .........                                    123M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:17 (1.20 MB/s) - ‘cryptonews.com/exclusives/podcast/index.html’ saved [173625]
+
+--2024-01-04 15:58:17--  https://cryptonews.com/guides/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/index.html’
+
+     0K .......... .......... .......... .......... .......... 16.7M
+    50K .......... .......... .......... .......... .......... 16.2M
+   100K .......... .......... ....                              130M=0.006s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:17 (19.8 MB/s) - ‘cryptonews.com/guides/index.html’ saved [127128]
+
+--2024-01-04 15:58:17--  https://cryptonews.com/guides/bitcoin/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/bitcoin/index.html’
+
+     0K .......... .......... .......... .......... .......... 91.7M
+    50K .......... .......... .......... .......... .......... 16.6M
+   100K .......... ..                                          74.3M=0.004s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:18 (30.2 MB/s) - ‘cryptonews.com/guides/bitcoin/index.html’ saved [115305]
+
+--2024-01-04 15:58:18--  https://cryptonews.com/guides/ethereum/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/ethereum/index.html’
+
+     0K .......... .......... .......... .......... .......... 7.94M
+    50K .......... .......... .......... .......... ..........  370M
+   100K ...                                                    5.89T=0.006s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:18 (16.0 MB/s) - ‘cryptonews.com/guides/ethereum/index.html’ saved [105638]
+
+--2024-01-04 15:58:18--  https://cryptonews.com/guides/nft/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/nft/index.html’
+
+     0K .......... .......... .......... .......... .......... 22.0M
+    50K .......... .......... .......... .......... ..........  389K
+   100K ......                                                 39.7M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:19 (814 KB/s) - ‘cryptonews.com/guides/nft/index.html’ saved [109071]
+
+--2024-01-04 15:58:19--  https://cryptonews.com/guides/defi-guides/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/defi-guides/index.html’
+
+     0K .......... .......... .......... .......... .......... 23.6M
+    50K .......... .......... .......... .......... ...        15.8M=0.005s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:19 (19.2 MB/s) - ‘cryptonews.com/guides/defi-guides/index.html’ saved [95770]
+
+--2024-01-04 15:58:19--  https://cryptonews.com/guides/altcoins/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/altcoins/index.html’
+
+     0K .......... .......... .......... .......... .......... 20.9M
+    50K .......... .......... .......... .......... ..........  385K
+   100K .                                                      2.75T=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:20 (767 KB/s) - ‘cryptonews.com/guides/altcoins/index.html’ saved [103913]
+
+--2024-01-04 15:58:20--  https://cryptonews.com/guides/blockchain/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/blockchain/index.html’
+
+     0K .......... .......... .......... .......... .......... 20.9M
+    50K .......... .......... .......... .......... ....       19.9M=0.005s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:20 (20.5 MB/s) - ‘cryptonews.com/guides/blockchain/index.html’ saved [96658]
+
+--2024-01-04 15:58:20--  https://cryptonews.com/guides/cryptocurrency/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/cryptocurrency/index.html’
+
+     0K .......... .......... .......... .......... .......... 20.1M
+    50K .......... .......... .......... .......... ..........  396K
+   100K .......... .                                            170M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:21 (864 KB/s) - ‘cryptonews.com/guides/cryptocurrency/index.html’ saved [113978]
+
+--2024-01-04 15:58:21--  https://cryptonews.com/guides/deals/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/deals/index.html’
+
+     0K .......... .......... .......... .......... .......... 19.5M
+    50K .......... .......... .......... .......... ..         30.7M=0.004s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:21 (23.4 MB/s) - ‘cryptonews.com/guides/deals/index.html’ saved [94928]
+
+--2024-01-04 15:58:21--  https://cryptonews.com/guides/icos/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/icos/index.html’
+
+     0K .......... .......... .......... .......... .......... 13.7M
+    50K .......... .......... .......... .......... ....        366K=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:22 (754 KB/s) - ‘cryptonews.com/guides/icos/index.html’ saved [96873]
+
+--2024-01-04 15:58:22--  https://cryptonews.com/guides/trading-tools/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/trading-tools/index.html’
+
+     0K .......... .......... .......... .......... .......... 18.0M
+    50K .......... .......... .......... .......... ..         36.4M=0.004s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:22 (23.5 MB/s) - ‘cryptonews.com/guides/trading-tools/index.html’ saved [94965]
+
+--2024-01-04 15:58:22--  https://cryptonews.com/guides/wallet-guides/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/wallet-guides/index.html’
+
+     0K .......... .......... .......... .......... .......... 13.2M
+    50K .......... .......... .......... .......... ........    376K=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:23 (742 KB/s) - ‘cryptonews.com/guides/wallet-guides/index.html’ saved [100846]
+
+--2024-01-04 15:58:23--  https://cryptonews.com/news/best-crypto-to-buy.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/best-crypto-to-buy.htm’
+
+     0K .......... .......... .......... .......... .......... 11.4M
+    50K .......... .......... .......... .......... .......... 7.05M
+   100K .......... .......... .......... .......... ..........  429K
+   150K .......... .......... .......... .......... .......... 13.9M
+   200K .......... .......... .......... .......... .......... 14.9M
+   250K ..                                                      129M=0.1s
+
+2024-01-04 15:58:23 (1.83 MB/s) - ‘cryptonews.com/news/best-crypto-to-buy.htm’ saved [258903]
+
+--2024-01-04 15:58:23--  https://cryptonews.com/news/best-crypto-presales.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/best-crypto-presales.htm’
+
+     0K .......... .......... .......... .......... .......... 20.4M
+    50K .......... .......... .......... .......... .......... 14.7M
+   100K .......... .......... .......... .......... .......... 9.24M
+   150K .......... .......... .......... .......... .......... 14.2M
+   200K .......... .......... .......... ...                    104M=0.01s
+
+2024-01-04 15:58:23 (15.4 MB/s) - ‘cryptonews.com/news/best-crypto-presales.htm’ saved [238623]
+
+--2024-01-04 15:58:23--  https://cryptonews.com/news/new-cryptocurrency.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/new-cryptocurrency.htm’
+
+     0K .......... .......... .......... .......... .......... 13.9M
+    50K .......... .......... .......... .......... .......... 12.2M
+   100K .......... .......... .......... .......... .......... 12.7M
+   150K .......... .......... .......... .......... .......... 23.2M
+   200K .......... .......... .......... .......... .......... 8.87M
+   250K ......                                                  332M=0.02s
+
+2024-01-04 15:58:23 (13.2 MB/s) - ‘cryptonews.com/news/new-cryptocurrency.htm’ saved [262718]
+
+--2024-01-04 15:58:23--  https://cryptonews.com/news/next-cryptocurrency-to-explode.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/next-cryptocurrency-to-explode.htm’
+
+     0K .......... .......... .......... .......... .......... 20.1M
+    50K .......... .......... .......... .......... .......... 19.9M
+   100K .......... .......... .......... .......... .......... 14.5M
+   150K .......... .......... .......... .......... .......... 14.3M
+   200K .......... .......... .......... ......                40.9M=0.01s
+
+2024-01-04 15:58:24 (18.4 MB/s) - ‘cryptonews.com/news/next-cryptocurrency-to-explode.htm’ saved [242046]
+
+--2024-01-04 15:58:24--  https://cryptonews.com/news/best-crypto-icos.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/best-crypto-icos.htm’
+
+     0K .......... .......... .......... .......... .......... 13.7M
+    50K .......... .......... .......... .......... .......... 28.3M
+   100K .......... .......... .......... .......... .......... 9.29M
+   150K .......... .......... .......... .......... .......... 24.1M
+   200K .......... .......... .......... .......... .......... 16.1M
+   250K .......... .......... .......... .........             10.6M=0.02s
+
+2024-01-04 15:58:24 (14.7 MB/s) - ‘cryptonews.com/news/best-crypto-icos.htm’ saved [296726]
+
+--2024-01-04 15:58:24--  https://cryptonews.com/news/crypto-launches.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/crypto-launches.htm’
+
+     0K .......... .......... .......... .......... .......... 4.06M
+    50K .......... .......... .......... .......... .......... 27.4M
+   100K .......... .......... .......... .......... .......... 57.8M
+   150K .......... .......... .......... .......... .......... 23.9M
+   200K .......... .........                                    173M=0.02s
+
+2024-01-04 15:58:24 (12.7 MB/s) - ‘cryptonews.com/news/crypto-launches.htm’ saved [224373]
+
+--2024-01-04 15:58:24--  https://cryptonews.com/news/best-bitcoin-betting-sites.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/best-bitcoin-betting-sites.htm’
+
+     0K .......... .......... .......... .......... .......... 19.2M
+    50K .......... .......... .......... .......... .......... 14.7M
+   100K .......... .......... .......... .......... .......... 15.7M
+   150K .......... .......... .......... .......... .......... 31.4M
+   200K .......... .......... .......... .......... .......... 12.2M
+   250K .......... .......... .......... .......... .......... 17.6M
+   300K .......... .......... ...                              23.7M=0.02s
+
+2024-01-04 15:58:24 (17.3 MB/s) - ‘cryptonews.com/news/best-bitcoin-betting-sites.htm’ saved [331572]
+
+--2024-01-04 15:58:24--  https://cryptonews.com/news/best-bitcoin-casinos.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/best-bitcoin-casinos.htm’
+
+     0K .......... .......... .......... .......... .......... 17.7M
+    50K .......... .......... .......... .......... .......... 15.3M
+   100K .......... .......... .......... .......... .......... 16.1M
+   150K .......... .......... .......... .......... ..........  389K
+   200K .......... .......... .......... .......... .......... 17.1M
+   250K .......... .......... .......... .......... .          24.2M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:25 (2.00 MB/s) - ‘cryptonews.com/news/best-bitcoin-casinos.htm’ saved [298116]
+
+--2024-01-04 15:58:25--  https://cryptonews.com/news/best-bitcoin-gambling-sites.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/best-bitcoin-gambling-sites.htm’
+
+     0K .......... .......... .......... .......... .......... 24.4M
+    50K .......... .......... .......... .......... .......... 17.5M
+   100K .......... .......... .......... .......... ..........  387K
+   150K .......... .......... .......... .......... .......... 12.5M
+   200K .......... .......... .......... .......... .......... 4.14M
+   250K ......                                                  272M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:26 (1.68 MB/s) - ‘cryptonews.com/news/best-bitcoin-gambling-sites.htm’ saved [262900]
+
+--2024-01-04 15:58:26--  https://cryptonews.com/news/best-bitcoin-blackjack-sites.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/best-bitcoin-blackjack-sites.htm’
+
+     0K .......... .......... .......... .......... .......... 16.9M
+    50K .......... .......... .......... .......... .......... 22.2M
+   100K .......... .......... .......... .......... ..........  372K
+   150K .......... .......... .......... .......... .......... 14.3M
+   200K .......... .......... .......... .......... .........  23.8M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:27 (1.68 MB/s) - ‘cryptonews.com/news/best-bitcoin-blackjack-sites.htm’ saved [255371]
+
+--2024-01-04 15:58:27--  https://cryptonews.com/news/best-bitcoin-slots-sites.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/best-bitcoin-slots-sites.htm’
+
+     0K .......... .......... .......... .......... .......... 24.3M
+    50K .......... .......... .......... .......... .......... 16.9M
+   100K .......... .......... .......... .......... ..........  389K
+   150K .......... .......... .......... .......... .......... 28.9M
+   200K .......... .......... .......... .......... .......... 20.6M
+   250K                                                         985G=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:28 (1.78 MB/s) - ‘cryptonews.com/news/best-bitcoin-slots-sites.htm’ saved [256529]
+
+--2024-01-04 15:58:28--  https://cryptonews.com/news/best-crash-gambling-sites.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/best-crash-gambling-sites.htm’
+
+     0K .......... .......... .......... .......... .......... 16.6M
+    50K .......... .......... .......... .......... .......... 12.8M
+   100K .......... .......... .......... .......... ..........  406K
+   150K .......... .......... .......... .......... .......... 17.4M
+   200K .......... .......... .......... .......... .......... 14.8M
+   250K .......... .........                                   8.52M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:28 (1.90 MB/s) - ‘cryptonews.com/news/best-crash-gambling-sites.htm’ saved [275708]
+
+--2024-01-04 15:58:28--  https://cryptonews.com/news/best-anonymous-casinos.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/best-anonymous-casinos.htm’
+
+     0K .......... .......... .......... .......... ..........  144M
+    50K .......... .......... .......... .......... .......... 2.30M
+   100K .......... .......... .......... .......... .......... 21.3M
+   150K .......... .......... .......... .......... .......... 13.4M
+   200K .......... ........                                    64.9M=0.03s
+
+2024-01-04 15:58:29 (7.70 MB/s) - ‘cryptonews.com/news/best-anonymous-casinos.htm’ saved [224251]
+
+--2024-01-04 15:58:29--  https://cryptonews.com/news/non-gamstop-casinos-uk.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/non-gamstop-casinos-uk.htm’
+
+     0K .......... .......... .......... .......... .......... 11.2M
+    50K .......... .......... .......... .......... .......... 27.6M
+   100K .......... .......... .......... .......... .......... 11.6M
+   150K .......... .......... .......... .......... .......... 14.1M
+   200K .......... .......... .......... .......... .......... 8.88M
+   250K .......                                                72.9M=0.02s
+
+2024-01-04 15:58:29 (13.0 MB/s) - ‘cryptonews.com/news/non-gamstop-casinos-uk.htm’ saved [263946]
+
+--2024-01-04 15:58:29--  https://cryptonews.com/news/best-telegram-casinos.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/best-telegram-casinos.htm’
+
+     0K .......... .......... .......... .......... ..........  306M
+    50K .......... .......... .......... .......... .......... 23.3M
+   100K .......... .......... .......... .......... .......... 14.1M
+   150K .......... .......... .......... .......... .......... 25.4M
+   200K .......... .......... ....                             21.2M=0.009s
+
+2024-01-04 15:58:29 (25.0 MB/s) - ‘cryptonews.com/news/best-telegram-casinos.htm’ saved [230303]
+
+--2024-01-04 15:58:29--  https://cryptonews.com/review_categories/exchanges/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/review_categories/exchanges/index.html’
+
+     0K .......... .......... .......... .......... .......... 15.0M
+    50K .......... .......... .......... .......... .......... 12.4M
+   100K .......... .......... .......... .......... .......... 15.0M
+   150K .......... .......... .......                           160M=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:30 (16.3 MB/s) - ‘cryptonews.com/review_categories/exchanges/index.html’ saved [182151]
+
+--2024-01-04 15:58:30--  https://cryptonews.com/news/best-instant-withdrawal-bitcoin-casinos.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/best-instant-withdrawal-bitcoin-casinos.htm’
+
+     0K .......... .......... .......... .......... .......... 12.8M
+    50K .......... .......... .......... .......... ..........  385K
+   100K .......... .......... .......... .......... .......... 21.3M
+   150K .......... .......... .......... .......... .......... 11.5M
+   200K .......... .......... .......... .......... .......... 15.0M
+   250K .......... .......... .......... .......... ...        33.2M=0.1s
+
+2024-01-04 15:58:30 (1.98 MB/s) - ‘cryptonews.com/news/best-instant-withdrawal-bitcoin-casinos.htm’ saved [300679]
+
+--2024-01-04 15:58:30--  https://cryptonews.com/news/casino-utan-svensk-licens.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/casino-utan-svensk-licens.htm’
+
+     0K .......... .......... .......... .......... .......... 13.0M
+    50K .......... .......... .......... .......... .......... 25.5M
+   100K .......... .......... .......... .......... .......... 10.3M
+   150K .......... .......... .......... .......... .......... 36.0M
+   200K .......... .......... .......... .......... .......... 8.68M
+   250K .......... .......... ........                         43.9M=0.02s
+
+2024-01-04 15:58:31 (15.1 MB/s) - ‘cryptonews.com/news/casino-utan-svensk-licens.htm’ saved [285334]
+
+--2024-01-04 15:58:31--  https://cryptonews.com/news/bitgets-resilience-and-growth-strategy-in-the-crypto-bear-market-gracy-chen-explains.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitgets-resilience-and-growth-strategy-in-the-crypto-bear-market-gracy-chen-explains.htm’
+
+     0K .......... .......... .......... .......... .......... 4.79M
+    50K .......... .......... .......... .......... .......... 18.5M
+   100K .......... .......... .......... .......... .......... 64.7M
+   150K ........                                                207M=0.01s
+
+2024-01-04 15:58:31 (11.4 MB/s) - ‘cryptonews.com/news/bitgets-resilience-and-growth-strategy-in-the-crypto-bear-market-gracy-chen-explains.htm’ saved [162392]
+
+--2024-01-04 15:58:31--  https://cryptonews.com/editors/david-pokima/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/editors/david-pokima/index.html’
+
+     0K .......... .......... .......... .......... .......... 11.9M
+    50K .......... .......... .......... .......... .......... 17.3M
+   100K .......... .......... .......... .......... ........   26.9M=0.009s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:31 (16.7 MB/s) - ‘cryptonews.com/editors/david-pokima/index.html’ saved [152375]
+
+--2024-01-04 15:58:31--  https://cryptonews.com/news/ceo-of-collapsed-crypto-fund-hyperverse-seems-to-not-exist-at-all-more-news.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/ceo-of-collapsed-crypto-fund-hyperverse-seems-to-not-exist-at-all-more-news.htm’
+
+     0K .......... .......... .......... .......... .......... 6.28M
+    50K .......... .......... .......... .......... .......... 11.6M
+   100K .......... .......... .......... .......... ..........  107M
+   150K ..........                                             89.8M=0.01s
+
+2024-01-04 15:58:31 (12.5 MB/s) - ‘cryptonews.com/news/ceo-of-collapsed-crypto-fund-hyperverse-seems-to-not-exist-at-all-more-news.htm’ saved [164231]
+
+--2024-01-04 15:58:31--  https://cryptonews.com/editors/sead-fadilpasic/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/editors/sead-fadilpasic/index.html’
+
+     0K .......... .......... .......... .......... .......... 19.2M
+    50K .......... .......... .......... .......... .......... 26.0M
+   100K .......... .......... .......... .......... ......     30.0M=0.006s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:32 (24.1 MB/s) - ‘cryptonews.com/editors/sead-fadilpasic/index.html’ saved [150254]
+
+--2024-01-04 15:58:32--  https://cryptonews.com/news/the-road-to-digital-euro-ecb-publishes-crucial-rulebook-draft.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/the-road-to-digital-euro-ecb-publishes-crucial-rulebook-draft.htm’
+
+     0K .......... .......... .......... .......... .......... 15.1M
+    50K .......... .......... .......... .......... .......... 25.0M
+   100K .......... .......... .......... .......... .......... 14.2M
+   150K ....                                                   8.58M=0.009s
+
+2024-01-04 15:58:32 (16.5 MB/s) - ‘cryptonews.com/news/the-road-to-digital-euro-ecb-publishes-crucial-rulebook-draft.htm’ saved [158492]
+
+--2024-01-04 15:58:32--  https://cryptonews.com/editors/fredrik-vold/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/editors/fredrik-vold/index.html’
+
+     0K .......... .......... .......... .......... .......... 20.7M
+    50K .......... .......... .......... .......... .......... 16.8M
+   100K .......... .......... .......... .......... ......     15.2M=0.008s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:33 (17.3 MB/s) - ‘cryptonews.com/editors/fredrik-vold/index.html’ saved [150242]
+
+--2024-01-04 15:58:33--  https://cryptonews.com/news/gamma-strategies-launches-investigation-into-security-incident-following-exploit-draining-over-211-9-eth.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/gamma-strategies-launches-investigation-into-security-incident-following-exploit-draining-over-211-9-eth.htm’
+
+     0K .......... .......... .......... .......... ..........  119M
+    50K .......... .......... .......... .......... .......... 17.2M
+   100K .......... .......... .......... .......... .......... 22.6M
+   150K .........                                               172M=0.005s
+
+2024-01-04 15:58:33 (28.6 MB/s) - ‘cryptonews.com/news/gamma-strategies-launches-investigation-into-security-incident-following-exploit-draining-over-211-9-eth.htm’ saved [163813]
+
+--2024-01-04 15:58:33--  https://cryptonews.com/editors/hassan-shittu/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/editors/hassan-shittu/index.html’
+
+     0K .......... .......... .......... .......... .......... 22.7M
+    50K .......... .......... .......... .......... .......... 14.1M
+   100K .......... .......... .......... .......... .........  17.5M=0.008s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:33 (17.4 MB/s) - ‘cryptonews.com/editors/hassan-shittu/index.html’ saved [152815]
+
+--2024-01-04 15:58:33--  https://cryptonews.com/news/binance-labs-invests-in-memelands-native-ecosystem-token-memecoin-meme.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/binance-labs-invests-in-memelands-native-ecosystem-token-memecoin-meme.htm’
+
+     0K .......... .......... .......... .......... .......... 33.4M
+    50K .......... .......... .......... .......... .......... 32.2M
+   100K .......... .......... .......... .......... .........  13.7M=0.006s
+
+2024-01-04 15:58:33 (22.4 MB/s) - ‘cryptonews.com/news/binance-labs-invests-in-memelands-native-ecosystem-token-memecoin-meme.htm’ saved [152662]
+
+--2024-01-04 15:58:33--  https://cryptonews.com/news/bitcoins-flash-crash-sends-shockwaves-through-gaming-token-market.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoins-flash-crash-sends-shockwaves-through-gaming-token-market.htm’
+
+     0K .......... .......... .......... .......... .......... 15.4M
+    50K .......... .......... .......... .......... .......... 37.6M
+   100K .......... .......... .......... .......... .......... 6.30M
+   150K .......                                                97.3M=0.01s
+
+2024-01-04 15:58:33 (12.5 MB/s) - ‘cryptonews.com/news/bitcoins-flash-crash-sends-shockwaves-through-gaming-token-market.htm’ saved [160833]
+
+--2024-01-04 15:58:33--  https://cryptonews.com/bitcoin-news
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://cryptonews.com/bitcoin-news/ [following]
+--2024-01-04 15:58:34--  https://cryptonews.com/bitcoin-news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://cryptonews.com/news/bitcoin-news/ [following]
+--2024-01-04 15:58:34--  https://cryptonews.com/news/bitcoin-news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-news/index.html’
+
+     0K .......... .......... .......... .......... .......... 14.3M
+    50K .......... .......... .......... .......... .......... 49.1M
+   100K .......... .......... .......... .......... .......... 12.9M
+   150K .......... ..........                                  88.3M=0.008s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:34 (19.7 MB/s) - ‘cryptonews.com/news/bitcoin-news/index.html’ saved [174185]
+
+--2024-01-04 15:58:34--  https://cryptonews.com/videos
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://cryptonews.com/videos/ [following]
+--2024-01-04 15:58:34--  https://cryptonews.com/videos/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/videos/index.html’
+
+     0K .......... .......... .......... .......... .......... 17.2M
+    50K .......... .......... .......... .......... ..........  372K
+   100K .......... .......... .......... .......... .......... 26.6M
+   150K .......... .......... .......... .......... .......... 21.9M
+   200K .......... .......... .......... .......... .......... 20.8M
+   250K .......... ..                                          26.6M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:35 (1.78 MB/s) - ‘cryptonews.com/videos/index.html’ saved [268370]
+
+--2024-01-04 15:58:35--  https://cryptonews.com/news/1-8-billion-cryptos-lost-across-751-security-breaches-in-2023-certik-report.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/1-8-billion-cryptos-lost-across-751-security-breaches-in-2023-certik-report.htm’
+
+     0K .......... .......... .......... .......... .......... 25.4M
+    50K .......... .......... .......... .......... .......... 21.4M
+   100K .......... .......... .......... .......... .......    10.0M=0.009s
+
+2024-01-04 15:58:35 (16.3 MB/s) - ‘cryptonews.com/news/1-8-billion-cryptos-lost-across-751-security-breaches-in-2023-certik-report.htm’ saved [151516]
+
+--2024-01-04 15:58:35--  https://cryptonews.com/news/dydx-reveals-post-mortem-findings-identifies-attacker-and-considers-legal-measures.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/dydx-reveals-post-mortem-findings-identifies-attacker-and-considers-legal-measures.htm’
+
+     0K .......... .......... .......... .......... .......... 29.2M
+    50K .......... .......... .......... .......... .......... 11.9M
+   100K .......... .......... .......... .......... .......... 13.1M
+   150K ......                                                 19.0M=0.01s
+
+2024-01-04 15:58:35 (15.5 MB/s) - ‘cryptonews.com/news/dydx-reveals-post-mortem-findings-identifies-attacker-and-considers-legal-measures.htm’ saved [160017]
+
+--2024-01-04 15:58:35--  https://cryptonews.com/news/top-crypto-gainers-today-on-dextools-opsec-anva-orbt.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/top-crypto-gainers-today-on-dextools-opsec-anva-orbt.htm’
+
+     0K .......... .......... .......... .......... .......... 18.4M
+    50K .......... .......... .......... .......... .......... 7.55M
+   100K .......... .......... .......... .......... .......... 56.2M
+   150K .......                                                 188M=0.01s
+
+2024-01-04 15:58:36 (15.4 MB/s) - ‘cryptonews.com/news/top-crypto-gainers-today-on-dextools-opsec-anva-orbt.htm’ saved [161667]
+
+--2024-01-04 15:58:36--  https://cryptonews.com/news/arbitrums-total-value-locked-surges-past-2-5-billion-as-token-nears-2.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/arbitrums-total-value-locked-surges-past-2-5-billion-as-token-nears-2.htm’
+
+     0K .......... .......... .......... .......... .......... 14.0M
+    50K .......... .......... .......... .......... .......... 31.7M
+   100K .......... .......... .......... .......... ...        10.8M=0.009s
+
+2024-01-04 15:58:36 (15.7 MB/s) - ‘cryptonews.com/news/arbitrums-total-value-locked-surges-past-2-5-billion-as-token-nears-2.htm’ saved [146447]
+
+--2024-01-04 15:58:36--  https://cryptonews.com/altcoin-news
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://cryptonews.com/altcoin-news/ [following]
+--2024-01-04 15:58:36--  https://cryptonews.com/altcoin-news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://cryptonews.com/news/altcoin-news/ [following]
+--2024-01-04 15:58:36--  https://cryptonews.com/news/altcoin-news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/altcoin-news/index.html’
+
+     0K .......... .......... .......... .......... .......... 47.6M
+    50K .......... .......... .......... .......... .......... 71.8M
+   100K .......... .......... .......... .......... .......... 4.83M
+   150K .......... ........                                     257M=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:37 (13.8 MB/s) - ‘cryptonews.com/news/altcoin-news/index.html’ saved [172328]
+
+--2024-01-04 15:58:37--  https://cryptonews.com/news/huobi-korea-announces-closure-citing-challenging-business-environment.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/huobi-korea-announces-closure-citing-challenging-business-environment.htm’
+
+     0K .......... .......... .......... .......... .......... 15.3M
+    50K .......... .......... .......... .......... .......... 3.70M
+   100K .......... .......... .......... .......... ..........  198M
+   150K ....                                                   8.73T=0.02s
+
+2024-01-04 15:58:37 (9.08 MB/s) - ‘cryptonews.com/news/huobi-korea-announces-closure-citing-challenging-business-environment.htm’ saved [158398]
+
+--2024-01-04 15:58:37--  https://cryptonews.com/news/indias-digital-rupee-hit-1-million-daily-transactions-in-december-report.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/indias-digital-rupee-hit-1-million-daily-transactions-in-december-report.htm’
+
+     0K .......... .......... .......... .......... .......... 17.2M
+    50K .......... .......... .......... .......... .......... 21.9M
+   100K .......... .......... .......... .......... .......... 13.7M
+   150K .                                                      2.51T=0.009s
+
+2024-01-04 15:58:37 (17.1 MB/s) - ‘cryptonews.com/news/indias-digital-rupee-hit-1-million-daily-transactions-in-december-report.htm’ saved [154980]
+
+--2024-01-04 15:58:37--  https://cryptonews.com/news/crypto-assets-under-management-surged-14-as-daily-trading-volumes-recorded-33-increase-in-december.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/crypto-assets-under-management-surged-14-as-daily-trading-volumes-recorded-33-increase-in-december.htm’
+
+     0K .......... .......... .......... .......... .......... 18.0M
+    50K .......... .......... .......... .......... .......... 24.6M
+   100K .......... .......... .......... .......... .......... 27.5M
+   150K .......                                                93.3M=0.007s
+
+2024-01-04 15:58:37 (23.4 MB/s) - ‘cryptonews.com/news/crypto-assets-under-management-surged-14-as-daily-trading-volumes-recorded-33-increase-in-december.htm’ saved [160878]
+
+--2024-01-04 15:58:37--  https://cryptonews.com/news/orbit-bridge-hacker-suspected-in-coinspaid-and-coinex-breaches.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/orbit-bridge-hacker-suspected-in-coinspaid-and-coinex-breaches.htm’
+
+     0K .......... .......... .......... .......... .......... 15.6M
+    50K .......... .......... .......... .......... .......... 30.6M
+   100K .......... .......... .......... .......... .......... 14.2M
+   150K .........                                              22.9M=0.009s
+
+2024-01-04 15:58:38 (18.2 MB/s) - ‘cryptonews.com/news/orbit-bridge-hacker-suspected-in-coinspaid-and-coinex-breaches.htm’ saved [163459]
+
+--2024-01-04 15:58:38--  https://cryptonews.com/news/bitcoin-ordinals-founder-market-forces-not-censorship-should-shape-future.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-ordinals-founder-market-forces-not-censorship-should-shape-future.htm’
+
+     0K .......... .......... .......... .......... .......... 14.8M
+    50K .......... .......... .......... .......... .......... 12.6M
+   100K .......... .......... .......... .......... .......... 24.3M
+   150K .......                                                 352M=0.009s
+
+2024-01-04 15:58:38 (16.7 MB/s) - ‘cryptonews.com/news/bitcoin-ordinals-founder-market-forces-not-censorship-should-shape-future.htm’ saved [161480]
+
+--2024-01-04 15:58:38--  https://cryptonews.com/news
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://cryptonews.com/news/ [following]
+--2024-01-04 15:58:38--  https://cryptonews.com/news/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/index.html’
+
+     0K .......... .......... .......... .......... .......... 20.5M
+    50K .......... .......... .......... .......... .......... 17.3M
+   100K .......... .......... .......... .......... .......... 17.5M
+   150K .......... .......                                     27.7M=0.009s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:38 (19.0 MB/s) - ‘cryptonews.com/news/index.html’ saved [171284]
+
+--2024-01-04 15:58:38--  https://cryptonews.com/guides/5-methods-to-buy-bitcoin-with-paypal-instantly.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/5-methods-to-buy-bitcoin-with-paypal-instantly.htm’
+
+     0K .......... .......... .......... .......... .......... 15.8M
+    50K .......... .......... .......... .......... .......... 13.2M
+   100K .....                                                  9.96T=0.007s
+
+2024-01-04 15:58:39 (15.1 MB/s) - ‘cryptonews.com/guides/5-methods-to-buy-bitcoin-with-paypal-instantly.htm’ saved [107874]
+
+--2024-01-04 15:58:39--  https://cryptonews.com/guides/how-to-buy-bitcoin-with-paypal.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/how-to-buy-bitcoin-with-paypal.htm’
+
+     0K .......... .......... .......... .......... .......... 25.4M
+    50K .......... .......... .......... .......... .......... 20.8M
+   100K .....                                                   209M=0.004s
+
+2024-01-04 15:58:39 (24.0 MB/s) - ‘cryptonews.com/guides/how-to-buy-bitcoin-with-paypal.htm’ saved [108016]
+
+--2024-01-04 15:58:39--  https://cryptonews.com/guides/should-i-buy-bitcoin.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/should-i-buy-bitcoin.htm’
+
+     0K .......... .......... .......... .......... .......... 8.97M
+    50K .......... .......... .......... .......... .......... 31.8M
+   100K ...                                                    5.95T=0.007s
+
+2024-01-04 15:58:40 (14.4 MB/s) - ‘cryptonews.com/guides/should-i-buy-bitcoin.htm’ saved [105672]
+
+--2024-01-04 15:58:40--  https://cryptonews.com/guides/countries-in-which-bitcoin-is-banned-or-legal.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/countries-in-which-bitcoin-is-banned-or-legal.htm’
+
+     0K .......... .......... .......... .......... .......... 20.7M
+    50K .......... .......... .......... .......... ..........  375K
+   100K .......... .........                                   9.50M=0.1s
+
+2024-01-04 15:58:40 (869 KB/s) - ‘cryptonews.com/guides/countries-in-which-bitcoin-is-banned-or-legal.htm’ saved [122720]
+
+--2024-01-04 15:58:40--  https://cryptonews.com/guides/best-altcoins.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/best-altcoins.htm’
+
+     0K .......... .......... .......... .......... .......... 40.0M
+    50K .......... .......... .......... .......... ..........  373K
+   100K .......... .......... .......... .......... .......... 13.8M
+   150K .......... .......... .......... .......... .....      16.8M=0.1s
+
+2024-01-04 15:58:41 (1.35 MB/s) - ‘cryptonews.com/guides/best-altcoins.htm’ saved [200261]
+
+--2024-01-04 15:58:41--  https://cryptonews.com/guides/how-to-store-cryptocurrency-safely.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/how-to-store-cryptocurrency-safely.htm’
+
+     0K .......... .......... .......... .......... .......... 14.6M
+    50K .......... .......... .......... .......... .......... 14.0M
+   100K .......... ........                                     159M=0.007s
+
+2024-01-04 15:58:41 (16.6 MB/s) - ‘cryptonews.com/guides/how-to-store-cryptocurrency-safely.htm’ saved [121035]
+
+--2024-01-04 15:58:41--  https://cryptonews.com/guides/best-vpns-for-cryptocurrency-transactions.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/best-vpns-for-cryptocurrency-transactions.htm’
+
+     0K .......... .......... .......... .......... .......... 28.2M
+    50K .......... .......... .......... .......... .......... 73.0M
+   100K .......... ....                                        83.9M=0.003s
+
+2024-01-04 15:58:43 (43.6 MB/s) - ‘cryptonews.com/guides/best-vpns-for-cryptocurrency-transactions.htm’ saved [117469]
+
+--2024-01-04 15:58:43--  https://cryptonews.com/guides/ledger-nano-s-review-pros-and-cons.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/ledger-nano-s-review-pros-and-cons.htm’
+
+     0K .......... .......... .......... .......... .......... 18.9M
+    50K .......... .......... .......... .......... ..........  380K
+   100K .......... ...                                         14.6M=0.1s
+
+2024-01-04 15:58:44 (843 KB/s) - ‘cryptonews.com/guides/ledger-nano-s-review-pros-and-cons.htm’ saved [116704]
+
+--2024-01-04 15:58:44--  https://cryptonews.com/guides/sorare-review-a-beginners-guide-to-sorare-fantasy-football.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/sorare-review-a-beginners-guide-to-sorare-fantasy-football.htm’
+
+     0K .......... .......... .......... .......... .......... 43.0M
+    50K .......... .......... .......... .......... ..........  381K
+   100K .....                                                  70.6M=0.1s
+
+2024-01-04 15:58:44 (799 KB/s) - ‘cryptonews.com/guides/sorare-review-a-beginners-guide-to-sorare-fantasy-football.htm’ saved [108292]
+
+--2024-01-04 15:58:44--  https://cryptonews.com/guides/opensea-nft-marketplace-review.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/opensea-nft-marketplace-review.htm’
+
+     0K .......... .......... .......... .......... .......... 20.8M
+    50K .......... .......... .......... .......... ..........  382K
+   100K .........                                              9.68M=0.1s
+
+2024-01-04 15:58:45 (813 KB/s) - ‘cryptonews.com/guides/opensea-nft-marketplace-review.htm’ saved [111637]
+
+--2024-01-04 15:58:45--  https://cryptonews.com/guides/rarible-nft-marketplace-review.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/rarible-nft-marketplace-review.htm’
+
+     0K .......... .......... .......... .......... .......... 66.6M
+    50K .......... .......... .......... .......... ..........  355K
+   100K .......                                                70.8M=0.1s
+
+2024-01-04 15:58:45 (755 KB/s) - ‘cryptonews.com/guides/rarible-nft-marketplace-review.htm’ saved [109579]
+
+--2024-01-04 15:58:45--  https://cryptonews.com/guides/metamask-guide-how-to-set-up-get-started.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/metamask-guide-how-to-set-up-get-started.htm’
+
+     0K .......... .......... .......... .......... .......... 12.2M
+    50K .......... .......... .......... .......... ..........  396K
+   100K .......                                                 232M=0.1s
+
+2024-01-04 15:58:46 (828 KB/s) - ‘cryptonews.com/guides/metamask-guide-how-to-set-up-get-started.htm’ saved [110380]
+
+--2024-01-04 15:58:46--  https://cryptonews.com/guides/how-to-invest-in-ethereum.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/how-to-invest-in-ethereum.htm’
+
+     0K .......... .......... .......... .......... .......... 14.3M
+    50K .......... .......... .......... .......... ..........  387K
+   100K .......... ..                                           389M=0.1s
+
+2024-01-04 15:58:46 (851 KB/s) - ‘cryptonews.com/guides/how-to-invest-in-ethereum.htm’ saved [115600]
+
+--2024-01-04 15:58:46--  https://cryptonews.com/guides/before-you-sell-ethereum.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/before-you-sell-ethereum.htm’
+
+     0K .......... .......... .......... .......... .......... 19.2M
+    50K .......... .......... .......... .......... .......... 23.9M
+   100K ...                                                    50.1M=0.005s
+
+2024-01-04 15:58:47 (21.8 MB/s) - ‘cryptonews.com/guides/before-you-sell-ethereum.htm’ saved [106321]
+
+--2024-01-04 15:58:47--  https://cryptonews.com/guides/what-is-ethereum.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/what-is-ethereum.htm’
+
+     0K .......... .......... .......... .......... .......... 16.8M
+    50K .......... .......... .......... .......... .......... 12.7M
+   100K ....                                                    105M=0.007s
+
+2024-01-04 15:58:47 (15.0 MB/s) - ‘cryptonews.com/guides/what-is-ethereum.htm’ saved [106707]
+
+--2024-01-04 15:58:47--  https://cryptonews.com/guides/best-ethereum-wallets.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/best-ethereum-wallets.htm’
+
+     0K .......... .......... .......... .......... .......... 12.5M
+    50K .......... .......... .......... .......... ..........  374K
+   100K .......... .......... .......... .......... .......... 15.2M
+   150K ...                                                    7.45T=0.1s
+
+2024-01-04 15:58:48 (1.07 MB/s) - ‘cryptonews.com/guides/best-ethereum-wallets.htm’ saved [157695]
+
+--2024-01-04 15:58:48--  https://cryptonews.com/guides
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://cryptonews.com/guides/ [following]
+--2024-01-04 15:58:48--  https://cryptonews.com/guides/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/guides/index.html’
+
+     0K .......... .......... .......... .......... .......... 60.6M
+    50K .......... .......... .......... .......... .......... 18.4M
+   100K .......... .......... ....                              139M=0.004s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:58:48 (33.4 MB/s) - ‘cryptonews.com/guides/index.html’ saved [127128]
+
+--2024-01-04 15:58:48--  https://cryptonews.com/news/bitcoin-price-prediction-jpmorgan-talks-etf-cipher-buys-miners-amid-drop.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-price-prediction-jpmorgan-talks-etf-cipher-buys-miners-amid-drop.htm’
+
+     0K .......... .......... .......... .......... .......... 15.0M
+    50K .......... .......... .......... .......... .......... 24.7M
+   100K .......... .......... .......... .......... .......... 17.5M
+   150K .......... .                                            970M=0.008s
+
+2024-01-04 15:58:49 (19.7 MB/s) - ‘cryptonews.com/news/bitcoin-price-prediction-jpmorgan-talks-etf-cipher-buys-miners-amid-drop.htm’ saved [165564]
+
+--2024-01-04 15:58:49--  https://cryptonews.com/news/tuttle-capital-files-for-six-leveraged-and-inverse-bitcoin-etfs-with-sec.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/tuttle-capital-files-for-six-leveraged-and-inverse-bitcoin-etfs-with-sec.htm’
+
+     0K .......... .......... .......... .......... .......... 12.9M
+    50K .......... .......... .......... .......... .......... 50.5M
+   100K .......... .......... .......... .......... .......... 13.6M
+   150K .......... ..                                           390M=0.008s
+
+2024-01-04 15:58:49 (18.9 MB/s) - ‘cryptonews.com/news/tuttle-capital-files-for-six-leveraged-and-inverse-bitcoin-etfs-with-sec.htm’ saved [165978]
+
+--2024-01-04 15:58:49--  https://cryptonews.com/news/the-big-list-retail-revolution-with-cryptocurrency-retailers-embracing-digital-payments.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/the-big-list-retail-revolution-with-cryptocurrency-retailers-embracing-digital-payments.htm’
+
+     0K .......... .......... .......... .......... .......... 19.1M
+    50K .......... .......... .......... .......... .......... 15.4M
+   100K .......... .......... .......... .......... .......... 17.3M
+   150K .......... ...                                         28.5M=0.009s
+
+2024-01-04 15:58:49 (17.8 MB/s) - ‘cryptonews.com/news/the-big-list-retail-revolution-with-cryptocurrency-retailers-embracing-digital-payments.htm’ saved [167845]
+
+--2024-01-04 15:58:49--  https://cryptonews.com/news/goldman-sachs-set-to-become-authorized-participant-in-blackrock-and-grayscales-bitcoin-etfs-report.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/goldman-sachs-set-to-become-authorized-participant-in-blackrock-and-grayscales-bitcoin-etfs-report.htm’
+
+     0K .......... .......... .......... .......... .......... 22.5M
+    50K .......... .......... .......... .......... .......... 9.73M
+   100K .......... .......... .......... .......... .......... 13.0M
+   150K .....                                                  9.57T=0.01s
+
+2024-01-04 15:58:49 (13.8 MB/s) - ‘cryptonews.com/news/goldman-sachs-set-to-become-authorized-participant-in-blackrock-and-grayscales-bitcoin-etfs-report.htm’ saved [158860]
+
+--2024-01-04 15:58:49--  https://cryptonews.com/news/bitcoin-price-prediction-as-etf-approval-date-approaches-quick-pump-to-50000-incoming.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-price-prediction-as-etf-approval-date-approaches-quick-pump-to-50000-incoming.htm’
+
+     0K .......... .......... .......... .......... .......... 16.3M
+    50K .......... .......... .......... .......... .......... 25.0M
+   100K .......... .......... .......... .......... .......... 16.3M
+   150K ..........                                              219M=0.008s
+
+2024-01-04 15:58:49 (19.6 MB/s) - ‘cryptonews.com/news/bitcoin-price-prediction-as-etf-approval-date-approaches-quick-pump-to-50000-incoming.htm’ saved [164663]
+
+--2024-01-04 15:58:49--  https://cryptonews.com/news/sec-to-finalize-comments-on-spot-bitcoin-etfs-with-nasdaq-nyse.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/sec-to-finalize-comments-on-spot-bitcoin-etfs-with-nasdaq-nyse.htm’
+
+     0K .......... .......... .......... .......... .......... 40.1M
+    50K .......... .......... .......... .......... .......... 23.4M
+   100K .......... .......... .......... .......... .......... 15.4M
+   150K .....                                                  9.69T=0.006s
+
+2024-01-04 15:58:50 (23.4 MB/s) - ‘cryptonews.com/news/sec-to-finalize-comments-on-spot-bitcoin-etfs-with-nasdaq-nyse.htm’ saved [158929]
+
+--2024-01-04 15:58:50--  https://cryptonews.com/news/we-have-heard-nothing-to-indicate-anything-but-approval-etf-analyst-says.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/we-have-heard-nothing-to-indicate-anything-but-approval-etf-analyst-says.htm’
+
+     0K .......... .......... .......... .......... .......... 9.15M
+    50K .......... .......... .......... .......... .......... 34.8M
+   100K .......... .......... .......... .......... .......... 13.3M
+   150K .....                                                  10.2T=0.01s
+
+2024-01-04 15:58:50 (14.6 MB/s) - ‘cryptonews.com/news/we-have-heard-nothing-to-indicate-anything-but-approval-etf-analyst-says.htm’ saved [159226]
+
+--2024-01-04 15:58:50--  https://cryptonews.com/news/matrixport-analysis-sec-to-reject-etf-applications-in-january-with-final-approval-pushed-to-q2-2024.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/matrixport-analysis-sec-to-reject-etf-applications-in-january-with-final-approval-pushed-to-q2-2024.htm’
+
+     0K .......... .......... .......... .......... .......... 28.0M
+    50K .......... .......... .......... .......... .......... 25.9M
+   100K .......... .......... .......... .......... .......... 17.1M
+   150K ......                                                 5.80M=0.008s
+
+2024-01-04 15:58:50 (20.3 MB/s) - ‘cryptonews.com/news/matrixport-analysis-sec-to-reject-etf-applications-in-january-with-final-approval-pushed-to-q2-2024.htm’ saved [160013]
+
+--2024-01-04 15:58:50--  https://cryptonews.com/news/ethereum-foundation-announces-devcon-7-conference-in-bangkok-thailand-november-12-15-2024.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/ethereum-foundation-announces-devcon-7-conference-in-bangkok-thailand-november-12-15-2024.htm’
+
+     0K .......... .......... .......... .......... ..........  135M
+    50K .......... .......... .......... .......... .......... 30.5M
+   100K .......... .......... .......... .......... .......... 14.0M
+   150K ........                                                133M=0.005s
+
+2024-01-04 15:58:50 (28.1 MB/s) - ‘cryptonews.com/news/ethereum-foundation-announces-devcon-7-conference-in-bangkok-thailand-november-12-15-2024.htm’ saved [162303]
+
+--2024-01-04 15:58:50--  https://cryptonews.com/news/evms-evolve-with-parallelized-technology-offering-blockchain-scalability-transaction-speed-and-fee-efficiency.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/evms-evolve-with-parallelized-technology-offering-blockchain-scalability-transaction-speed-and-fee-efficiency.htm’
+
+     0K .......... .......... .......... .......... .......... 23.5M
+    50K .......... .......... .......... .......... .......... 19.9M
+   100K .......... .......... .......... .......... .......... 17.1M
+   150K ..........                                              101M=0.007s
+
+2024-01-04 15:58:50 (20.9 MB/s) - ‘cryptonews.com/news/evms-evolve-with-parallelized-technology-offering-blockchain-scalability-transaction-speed-and-fee-efficiency.htm’ saved [164586]
+
+--2024-01-04 15:58:50--  https://cryptonews.com/news/vitalik-buterin-proposes-simplified-ethereum-proof-of-stake-design.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/vitalik-buterin-proposes-simplified-ethereum-proof-of-stake-design.htm’
+
+     0K .......... .......... .......... .......... .......... 12.8M
+    50K .......... .......... .......... .......... .......... 34.8M
+   100K .......... .......... .......... .......... .......... 10.5M
+   150K ...                                                    6.77T=0.01s
+
+2024-01-04 15:58:51 (15.2 MB/s) - ‘cryptonews.com/news/vitalik-buterin-proposes-simplified-ethereum-proof-of-stake-design.htm’ saved [157322]
+
+--2024-01-04 15:58:51--  https://cryptonews.com/news/donald-trump-sells-2-4-million-ethereum-arkham-intelligence.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/donald-trump-sells-2-4-million-ethereum-arkham-intelligence.htm’
+
+     0K .......... .......... .......... .......... .......... 20.8M
+    50K .......... .......... .......... .......... .......... 16.5M
+   100K .......... .......... .......... .......... .......... 22.6M
+   150K ......                                                  350M=0.007s
+
+2024-01-04 15:58:51 (20.5 MB/s) - ‘cryptonews.com/news/donald-trump-sells-2-4-million-ethereum-arkham-intelligence.htm’ saved [160590]
+
+--2024-01-04 15:58:51--  https://cryptonews.com/news/ethereum-smart-contract-framework-updated-to-combat-security-concerns.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/ethereum-smart-contract-framework-updated-to-combat-security-concerns.htm’
+
+     0K .......... .......... .......... .......... .......... 11.4M
+    50K .......... .......... .......... .......... .......... 24.8M
+   100K .......... .......... .......... .......... .......... 22.9M
+   150K ..........                                             81.6M=0.008s
+
+2024-01-04 15:58:51 (18.4 MB/s) - ‘cryptonews.com/news/ethereum-smart-contract-framework-updated-to-combat-security-concerns.htm’ saved [164258]
+
+--2024-01-04 15:58:51--  https://cryptonews.com/news/taipei-blockchain-week-opens-with-vitalik-buterin-binances-richard-teng.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/taipei-blockchain-week-opens-with-vitalik-buterin-binances-richard-teng.htm’
+
+     0K .......... .......... .......... .......... .......... 19.4M
+    50K .......... .......... .......... .......... .......... 23.7M
+   100K .......... .......... .......... .......... .......... 11.8M
+   150K ........                                               15.8M=0.009s
+
+2024-01-04 15:58:51 (16.8 MB/s) - ‘cryptonews.com/news/taipei-blockchain-week-opens-with-vitalik-buterin-binances-richard-teng.htm’ saved [162212]
+
+--2024-01-04 15:58:51--  https://cryptonews.com/news/vitalik-buterin-proposes-enshrined-zk-evm-for-enhanced-ethereum-main-chain-efficiency.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/vitalik-buterin-proposes-enshrined-zk-evm-for-enhanced-ethereum-main-chain-efficiency.htm’
+
+     0K .......... .......... .......... .......... .......... 20.8M
+    50K .......... .......... .......... .......... .......... 21.2M
+   100K .......... .......... .......... .......... .......... 14.2M
+   150K ......                                                  112M=0.008s
+
+2024-01-04 15:58:52 (18.8 MB/s) - ‘cryptonews.com/news/vitalik-buterin-proposes-enshrined-zk-evm-for-enhanced-ethereum-main-chain-efficiency.htm’ saved [160253]
+
+--2024-01-04 15:58:52--  https://cryptonews.com/news/sec-delays-decision-on-invesco-galaxys-ethereum-etf-until-february-2024.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/sec-delays-decision-on-invesco-galaxys-ethereum-etf-until-february-2024.htm’
+
+     0K .......... .......... .......... .......... .......... 17.8M
+    50K .......... .......... .......... .......... .......... 22.5M
+   100K .......... .......... .......... .......... .......... 11.2M
+   150K ....                                                   9.15T=0.009s
+
+2024-01-04 15:58:52 (16.3 MB/s) - ‘cryptonews.com/news/sec-delays-decision-on-invesco-galaxys-ethereum-etf-until-february-2024.htm’ saved [158630]
+
+--2024-01-04 15:58:52--  https://cryptonews.com/news/bitcoin-blockchain-sets-new-record-december-2023-nft-sales-surpass-881-million-for-first-time-ever.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-blockchain-sets-new-record-december-2023-nft-sales-surpass-881-million-for-first-time-ever.htm’
+
+     0K .......... .......... .......... .......... .......... 30.2M
+    50K .......... .......... .......... .......... .......... 21.0M
+   100K .......... .......... .......... .......... .......... 10.4M
+   150K ........                                               52.8M=0.009s
+
+2024-01-04 15:58:52 (17.6 MB/s) - ‘cryptonews.com/news/bitcoin-blockchain-sets-new-record-december-2023-nft-sales-surpass-881-million-for-first-time-ever.htm’ saved [162298]
+
+--2024-01-04 15:58:52--  https://cryptonews.com/news/sothebys-reports-close-to-35-million-in-digital-art-sales-for-2023-declares-it-one-of-the-most-exciting-years.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/sothebys-reports-close-to-35-million-in-digital-art-sales-for-2023-declares-it-one-of-the-most-exciting-years.htm’
+
+     0K .......... .......... .......... .......... .......... 20.9M
+    50K .......... .......... .......... .......... .......... 19.9M
+   100K .......... .......... .......... .......... ..         18.0M=0.007s
+
+2024-01-04 15:58:53 (19.6 MB/s) - ‘cryptonews.com/news/sothebys-reports-close-to-35-million-in-digital-art-sales-for-2023-declares-it-one-of-the-most-exciting-years.htm’ saved [146262]
+
+--2024-01-04 15:58:53--  https://cryptonews.com/news/chinas-ministry-of-industry-aims-to-foster-nft-and-dapp-growth-despite-crypto-ban.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/chinas-ministry-of-industry-aims-to-foster-nft-and-dapp-growth-despite-crypto-ban.htm’
+
+     0K .......... .......... .......... .......... .......... 15.9M
+    50K .......... .......... .......... .......... .......... 13.2M
+   100K .......... .......... .......... .......... .......... 18.9M
+   150K ........                                                185M=0.009s
+
+2024-01-04 15:58:53 (16.5 MB/s) - ‘cryptonews.com/news/chinas-ministry-of-industry-aims-to-foster-nft-and-dapp-growth-despite-crypto-ban.htm’ saved [162786]
+
+--2024-01-04 15:58:53--  https://cryptonews.com/news/super-mario-inspired-nft-fetches-over-240k-at-sothebys-auction.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/super-mario-inspired-nft-fetches-over-240k-at-sothebys-auction.htm’
+
+     0K .......... .......... .......... .......... .......... 15.1M
+    50K .......... .......... .......... .......... .......... 24.1M
+   100K .......... .......... .......... .......... .......... 19.9M
+   150K ......                                                  164M=0.008s
+
+2024-01-04 15:58:53 (19.7 MB/s) - ‘cryptonews.com/news/super-mario-inspired-nft-fetches-over-240k-at-sothebys-auction.htm’ saved [160377]
+
+--2024-01-04 15:58:53--  https://cryptonews.com/news/trump-released-latest-mugshot-nfts-commemorating-his-previous-arrest.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/trump-released-latest-mugshot-nfts-commemorating-his-previous-arrest.htm’
+
+     0K .......... .......... .......... .......... .......... 17.9M
+    50K .......... .......... .......... .......... .......... 39.5M
+   100K .......... .......... .......... .......... .......... 14.0M
+   150K .....                                                  10.6T=0.007s
+
+2024-01-04 15:58:53 (20.4 MB/s) - ‘cryptonews.com/news/trump-released-latest-mugshot-nfts-commemorating-his-previous-arrest.htm’ saved [159421]
+
+--2024-01-04 15:58:53--  https://cryptonews.com/news/fifa-enters-nft-arena-offering-fans-digital-collectibles-and-world-cup-tickets.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/fifa-enters-nft-arena-offering-fans-digital-collectibles-and-world-cup-tickets.htm’
+
+     0K .......... .......... .......... .......... .......... 18.4M
+    50K .......... .......... .......... .......... ..........  373K
+   100K .......... .......... .......... .......... .......... 12.8M
+   150K .........                                               205M=0.1s
+
+2024-01-04 15:58:54 (1.11 MB/s) - ‘cryptonews.com/news/fifa-enters-nft-arena-offering-fans-digital-collectibles-and-world-cup-tickets.htm’ saved [163819]
+
+--2024-01-04 15:58:54--  https://cryptonews.com/news/pudgy-penguins-unveils-web3-game-pudgy-world-powered-by-zksync-era.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/pudgy-penguins-unveils-web3-game-pudgy-world-powered-by-zksync-era.htm’
+
+     0K .......... .......... .......... .......... ..........  122M
+    50K .......... .......... .......... .......... ..........  438K
+   100K .......... .......... .......... .......... ..........  141M
+   150K .........                                              1.17M=0.1s
+
+2024-01-04 15:58:55 (1.27 MB/s) - ‘cryptonews.com/news/pudgy-penguins-unveils-web3-game-pudgy-world-powered-by-zksync-era.htm’ saved [163037]
+
+--2024-01-04 15:58:55--  https://cryptonews.com/news/south-korean-regulator-rules-nfts-are-not-subject-to-crypto-law.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/south-korean-regulator-rules-nfts-are-not-subject-to-crypto-law.htm’
+
+     0K .......... .......... .......... .......... .......... 16.6M
+    50K .......... .......... .......... .......... ..........  151M
+   100K .......... .......... .......... .......... .......... 4.12M
+   150K ......                                                  163M=0.02s
+
+2024-01-04 15:58:57 (10.1 MB/s) - ‘cryptonews.com/news/south-korean-regulator-rules-nfts-are-not-subject-to-crypto-law.htm’ saved [160003]
+
+--2024-01-04 15:58:57--  https://cryptonews.com/news/south-korea-proposes-ban-on-crypto-purchases-with-credit-cards.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/south-korea-proposes-ban-on-crypto-purchases-with-credit-cards.htm’
+
+     0K .......... .......... .......... .......... .......... 28.9M
+    50K .......... .......... .......... .......... ..........  220K
+   100K .......... .......... .......... .......... .......... 1.76M
+   150K .....                                                  9.90T=0.3s
+
+2024-01-04 15:58:57 (606 KB/s) - ‘cryptonews.com/news/south-korea-proposes-ban-on-crypto-purchases-with-credit-cards.htm’ saved [159041]
+
+--2024-01-04 15:58:57--  https://cryptonews.com/news/jihan-wu-defends-spot-etf-report-responsible-for-market-crash.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/jihan-wu-defends-spot-etf-report-responsible-for-market-crash.htm’
+
+     0K .......... .......... .......... .......... ..........  116M
+    50K .......... .......... .......... .......... ..........  180K
+   100K .......... .......... .......... .......... .......... 2.07M
+   150K ......                                                 47.9M=0.3s
+
+2024-01-04 15:58:58 (517 KB/s) - ‘cryptonews.com/news/jihan-wu-defends-spot-etf-report-responsible-for-market-crash.htm’ saved [160305]
+
+--2024-01-04 15:58:58--  https://cryptonews.com/news/s-korean-city-of-incheon-seizes-375000-worth-of-crypto-from-tax-dodgers.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/s-korean-city-of-incheon-seizes-375000-worth-of-crypto-from-tax-dodgers.htm’
+
+     0K .......... .......... .......... .......... .......... 2.79M
+    50K .......... .......... .......... .......... .......... 1.89M
+   100K .......... .......... .......... .......... .......... 2.57M
+   150K ......                                                 44.4M=0.06s
+
+2024-01-04 15:58:58 (2.44 MB/s) - ‘cryptonews.com/news/s-korean-city-of-incheon-seizes-375000-worth-of-crypto-from-tax-dodgers.htm’ saved [160086]
+
+--2024-01-04 15:58:58--  https://cryptonews.com/news/crypto-investment-products-record-243-million-inflows-in-final-week-of-2023-yearly-total-reaches-2-2-billion-coinshares.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/crypto-investment-products-record-243-million-inflows-in-final-week-of-2023-yearly-total-reaches-2-2-billion-coinshares.htm’
+
+     0K .......... .......... .......... .......... .......... 2.29M
+    50K .......... .......... .......... .......... .......... 2.57M
+   100K .......... .......... .......... .......... .......... 2.52M
+   150K ........                                               3.47M=0.06s
+
+2024-01-04 15:58:58 (2.50 MB/s) - ‘cryptonews.com/news/crypto-investment-products-record-243-million-inflows-in-final-week-of-2023-yearly-total-reaches-2-2-billion-coinshares.htm’ saved [162800]
+
+--2024-01-04 15:58:58--  https://cryptonews.com/news/south-korean-gaming-giant-wemade-must-pay-41m-crypto-tax-bill.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/south-korean-gaming-giant-wemade-must-pay-41m-crypto-tax-bill.htm’
+
+     0K .......... .......... .......... .......... .......... 2.32M
+    50K .......... .......... .......... .......... .......... 2.35M
+   100K .......... .......... .......... .......... .......... 3.29M
+   150K ......                                                  124M=0.06s
+
+2024-01-04 15:58:59 (2.70 MB/s) - ‘cryptonews.com/news/south-korean-gaming-giant-wemade-must-pay-41m-crypto-tax-bill.htm’ saved [160201]
+
+--2024-01-04 15:58:59--  https://cryptonews.com/news/federal-reserve-expects-rate-cuts-in-2024-but-path-remains-foggy-minutes-reveal.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/federal-reserve-expects-rate-cuts-in-2024-but-path-remains-foggy-minutes-reveal.htm’
+
+     0K .......... .......... .......... .......... ..........  250M
+    50K .......... .......... .......... .......... .......... 1.70M
+   100K .......... .......... .......... .......... ...        4.04M=0.04s
+
+2024-01-04 15:58:59 (3.55 MB/s) - ‘cryptonews.com/news/federal-reserve-expects-rate-cuts-in-2024-but-path-remains-foggy-minutes-reveal.htm’ saved [146444]
+
+--2024-01-04 15:58:59--  https://cryptonews.com/news/bitget-exchange-reports-significant-growth-in-employees-and-user-base-highlights-focus-on-bitcoin-expansion-in-2024.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitget-exchange-reports-significant-growth-in-employees-and-user-base-highlights-focus-on-bitcoin-expansion-in-2024.htm’
+
+     0K .......... .......... .......... .......... .......... 1.70M
+    50K .......... .......... .......... .......... .......... 6.94M
+   100K .......... .......... .......... .......... .......... 2.72M
+   150K .......                                                20.8M=0.05s
+
+2024-01-04 15:58:59 (2.84 MB/s) - ‘cryptonews.com/news/bitget-exchange-reports-significant-growth-in-employees-and-user-base-highlights-focus-on-bitcoin-expansion-in-2024.htm’ saved [161453]
+
+--2024-01-04 15:58:59--  https://cryptonews.com/news/solana-based-jupiter-to-distribute-1-billion-jup-tokens-in-upcoming-airdrop.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/solana-based-jupiter-to-distribute-1-billion-jup-tokens-in-upcoming-airdrop.htm’
+
+     0K .......... .......... .......... .......... .......... 3.24M
+    50K .......... .......... .......... .......... .......... 2.22M
+   100K .......... .......... .......... .......... .......... 3.02M
+   150K .........                                               169M=0.05s
+
+2024-01-04 15:58:59 (2.92 MB/s) - ‘cryptonews.com/news/solana-based-jupiter-to-distribute-1-billion-jup-tokens-in-upcoming-airdrop.htm’ saved [163053]
+
+--2024-01-04 15:58:59--  https://cryptonews.com/news/eba-to-extend-stress-testing-to-assess-impact-of-strains-in-non-bank-financial-institutions-including-crypto-entities.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/eba-to-extend-stress-testing-to-assess-impact-of-strains-in-non-bank-financial-institutions-including-crypto-entities.htm’
+
+     0K .......... .......... .......... .......... .......... 2.88M
+    50K .......... .......... .......... .......... .......... 3.37M
+   100K .......... .......... .......... .......... ....       2.98M=0.05s
+
+2024-01-04 15:59:00 (3.07 MB/s) - ‘cryptonews.com/news/eba-to-extend-stress-testing-to-assess-impact-of-strains-in-non-bank-financial-institutions-including-crypto-entities.htm’ saved [147817]
+
+--2024-01-04 15:59:00--  https://cryptonews.com/news/is-binance-ceo-richard-teng-changing-the-industrys-messianic-narrative-more-news.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/is-binance-ceo-richard-teng-changing-the-industrys-messianic-narrative-more-news.htm’
+
+     0K .......... .......... .......... .......... .......... 10.5M
+    50K .......... .......... .......... .......... ..........  262K
+   100K .......... .......... .......... .......... ..........  122M
+   150K .........                                              4.76M=0.2s
+
+2024-01-04 15:59:01 (805 KB/s) - ‘cryptonews.com/news/is-binance-ceo-richard-teng-changing-the-industrys-messianic-narrative-more-news.htm’ saved [162891]
+
+--2024-01-04 15:59:01--  https://cryptonews.com/news/fidelity-undercuts-bitcoin-etf-market-with-low-0-39-fee.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/fidelity-undercuts-bitcoin-etf-market-with-low-0-39-fee.htm’
+
+     0K .......... .......... .......... .......... .......... 3.04M
+    50K .......... .......... .......... .......... .......... 3.73M
+   100K .......... .......... .......... .......... .......... 3.33M
+   150K .....                                                  4.60M=0.05s
+
+2024-01-04 15:59:01 (3.38 MB/s) - ‘cryptonews.com/news/fidelity-undercuts-bitcoin-etf-market-with-low-0-39-fee.htm’ saved [159644]
+
+--2024-01-04 15:59:01--  https://cryptonews.com/news/record-1-1-trillion-in-crypto-exchange-volume-driven-by-spot-bitcoin-etf-anticipation.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/record-1-1-trillion-in-crypto-exchange-volume-driven-by-spot-bitcoin-etf-anticipation.htm’
+
+     0K .......... .......... .......... .......... ..........  198M
+    50K .......... .......... .......... .......... .......... 1.42M
+   100K .......... .......... .......... .......... .......... 2.98M
+   150K ......                                                  195M=0.05s
+
+2024-01-04 15:59:02 (3.00 MB/s) - ‘cryptonews.com/news/record-1-1-trillion-in-crypto-exchange-volume-driven-by-spot-bitcoin-etf-anticipation.htm’ saved [160594]
+
+--2024-01-04 15:59:02--  https://cryptonews.com/news/over-460-million-longs-liquidated-in-past-hour-as-bitcoin-drops-8-on-spot-etf-delay-rumors.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/over-460-million-longs-liquidated-in-past-hour-as-bitcoin-drops-8-on-spot-etf-delay-rumors.htm’
+
+     0K .......... .......... .......... .......... .......... 3.38M
+    50K .......... .......... .......... .......... .......... 3.63M
+   100K .......... .......... .......... .......... .......... 2.36M
+   150K .....                                                  10.6T=0.05s
+
+2024-01-04 15:59:02 (3.13 MB/s) - ‘cryptonews.com/news/over-460-million-longs-liquidated-in-past-hour-as-bitcoin-drops-8-on-spot-etf-delay-rumors.htm’ saved [159434]
+
+--2024-01-04 15:59:02--  https://cryptonews.com/news/bitcoin-etf-is-fully-priced-in-argues-analyst-glen-goodman.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-etf-is-fully-priced-in-argues-analyst-glen-goodman.htm’
+
+     0K .......... .......... .......... .......... .......... 3.31M
+    50K .......... .......... .......... .......... .......... 4.23M
+   100K .......... .......... .......... .......... .......... 3.07M
+   150K ......                                                 3.67M=0.04s
+
+2024-01-04 15:59:02 (3.48 MB/s) - ‘cryptonews.com/news/bitcoin-etf-is-fully-priced-in-argues-analyst-glen-goodman.htm’ saved [159797]
+
+--2024-01-04 15:59:02--  https://cryptonews.com/news/wallet-drainers-make-off-with-295-million-from-320000-users-in-2023-scam-sniffer.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/wallet-drainers-make-off-with-295-million-from-320000-users-in-2023-scam-sniffer.htm’
+
+     0K .......... .......... .......... .......... .......... 3.37M
+    50K .......... .......... .......... .......... .......... 4.58M
+   100K .......... .......... .......... .......... ...        3.47M=0.04s
+
+2024-01-04 15:59:03 (3.75 MB/s) - ‘cryptonews.com/news/wallet-drainers-make-off-with-295-million-from-320000-users-in-2023-scam-sniffer.htm’ saved [146990]
+
+--2024-01-04 15:59:03--  https://cryptonews.com/news/square-enix-in-2024-doubling-down-on-blockchain-ai-and-metaverse-technologies.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/square-enix-in-2024-doubling-down-on-blockchain-ai-and-metaverse-technologies.htm’
+
+     0K .......... .......... .......... .......... .......... 3.88M
+    50K .......... .......... .......... .......... .......... 3.55M
+   100K .......... .......... .......... .......... .......... 3.26M
+   150K .......                                                2.95M=0.04s
+
+2024-01-04 15:59:03 (3.51 MB/s) - ‘cryptonews.com/news/square-enix-in-2024-doubling-down-on-blockchain-ai-and-metaverse-technologies.htm’ saved [161128]
+
+--2024-01-04 15:59:03--  https://cryptonews.com/terms-and-conditions.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/terms-and-conditions.htm’
+
+     0K .......... .......... .......... .......... .......... 3.38M
+    50K .......... .......... .......... .......... ........   7.72M=0.02s
+
+2024-01-04 15:59:03 (4.67 MB/s) - ‘cryptonews.com/terms-and-conditions.htm’ saved [100710]
+
+--2024-01-04 15:59:03--  https://cryptonews.com/about-us.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/about-us.htm’
+
+     0K .......... .......... .......... .......... .......... 3.84M
+    50K .......... .......... .......... .......... ....       4.90M=0.02s
+
+2024-01-04 15:59:03 (4.28 MB/s) - ‘cryptonews.com/about-us.htm’ saved [96396]
+
+--2024-01-04 15:59:03--  https://cryptonews.com/privacy-policy.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/privacy-policy.htm’
+
+     0K .......... .......... .......... .......... .......... 3.93M
+    50K .......... .......... .......... .......... ...        5.35M=0.02s
+
+2024-01-04 15:59:04 (4.48 MB/s) - ‘cryptonews.com/privacy-policy.htm’ saved [95427]
+
+--2024-01-04 15:59:04--  https://cryptonews.com/disclaimer.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/disclaimer.htm’
+
+     0K .......... .......... .......... .......... .......... 4.00M
+    50K .......... .......... .......... .......... .          4.32M=0.02s
+
+2024-01-04 15:59:04 (4.14 MB/s) - ‘cryptonews.com/disclaimer.htm’ saved [93568]
+
+--2024-01-04 15:59:04--  https://cryptonews.com/have-a-story.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/have-a-story.htm’
+
+     0K .......... .......... .......... .......... .......... 3.88M
+    50K .......... .......... .......... .......... .          5.51M=0.02s
+
+2024-01-04 15:59:04 (4.49 MB/s) - ‘cryptonews.com/have-a-story.htm’ saved [94160]
+
+--2024-01-04 15:59:04--  https://cryptonews.com/advertising.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/advertising.htm’
+
+     0K .......... .......... .......... .......... .......... 3.99M
+    50K .......... .......... .......... .......... ..         6.86M=0.02s
+
+2024-01-04 15:59:04 (4.94 MB/s) - ‘cryptonews.com/advertising.htm’ saved [94850]
+
+--2024-01-04 15:59:04--  https://cryptonews.com/editors/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/editors/index.html’
+
+     0K .......... .......... .......... .......... .......... 4.14M
+    50K .......... .......... .......... .......... .......... 3.92M
+   100K .......... .......... .......... .......... .......... 5.65M
+   150K .......... .......... .......... .......... .........   436K=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:05 (1.33 MB/s) - ‘cryptonews.com/editors/index.html’ saved [204426]
+
+--2024-01-04 15:59:05--  https://cryptonews.com/news/page/2/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/page/2/index.html’
+
+     0K .......... .......... .......... .......... .......... 4.19M
+    50K .......... .......... .......... .......... ..........  406K
+   100K .......... .......... .......... .......... ..         5.26M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:06 (1000 KB/s) - ‘cryptonews.com/news/page/2/index.html’ saved [146067]
+
+--2024-01-04 15:59:06--  https://cryptonews.com/news/feed/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified []
+Saving to: ‘cryptonews.com/news/feed/index.html’
+
+     0K .......... .......... .......... .......... ..........  354K
+    50K .......... .......... .......... .......... .......... 2.47M
+   100K .......... .......... .......... .......... ..........  458K
+   150K .......... .......... ..........                       11.0M=0.3s
+
+2024-01-04 15:59:06 (661 KB/s) - ‘cryptonews.com/news/feed/index.html’ saved [184616]
+
+--2024-01-04 15:59:06--  https://cryptonews.com/news/top-gamblefi-presale-tg-casino-heads-for-tgc-dex-launch-today-dont-miss-out.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/top-gamblefi-presale-tg-casino-heads-for-tgc-dex-launch-today-dont-miss-out.htm’
+
+     0K .......... .......... .......... .......... .......... 4.32M
+    50K .......... .......... .......... .......... .......... 4.39M
+   100K .......... .......... .......... .......... ........    131K=0.4s
+
+2024-01-04 15:59:07 (381 KB/s) - ‘cryptonews.com/news/top-gamblefi-presale-tg-casino-heads-for-tgc-dex-launch-today-dont-miss-out.htm’ saved [151592]
+
+--2024-01-04 15:59:07--  https://cryptonews.com/news/is-terra-luna-classic-going-to-zero-lunc-price-drops-20-as-novel-mining-protocol-takes-all-the-attention.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/is-terra-luna-classic-going-to-zero-lunc-price-drops-20-as-novel-mining-protocol-takes-all-the-attention.htm’
+
+     0K .......... .......... .......... .......... .......... 45.8M
+    50K .......... .......... .......... .......... .......... 4.61M
+   100K .......... .......... .......... .......... .......... 4.09M
+   150K .......... ........                                    1.21M=0.04s
+
+2024-01-04 15:59:07 (4.27 MB/s) - ‘cryptonews.com/news/is-terra-luna-classic-going-to-zero-lunc-price-drops-20-as-novel-mining-protocol-takes-all-the-attention.htm’ saved [172562]
+
+--2024-01-04 15:59:07--  https://cryptonews.com/news/why-cardano-ada-and-shiba-inu-shib-holders-are-buying-into-the-newly-launched-pushd-pushd-presale-craze.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/why-cardano-ada-and-shiba-inu-shib-holders-are-buying-into-the-newly-launched-pushd-pushd-presale-craze.htm’
+
+     0K .......... .......... .......... .......... .......... 4.50M
+    50K .......... .......... .......... .......... .......... 2.74M
+   100K .......... .......... .......... .......... .......... 4.85M
+   150K ..                                                     19.0M=0.04s
+
+2024-01-04 15:59:07 (3.83 MB/s) - ‘cryptonews.com/news/why-cardano-ada-and-shiba-inu-shib-holders-are-buying-into-the-newly-launched-pushd-pushd-presale-craze.htm’ saved [156373]
+
+--2024-01-04 15:59:07--  https://cryptonews.com/news/opsec-token-shoots-up-50000-overnight-and-this-unlisted-meme-coin-could-be-next.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/opsec-token-shoots-up-50000-overnight-and-this-unlisted-meme-coin-could-be-next.htm’
+
+     0K .......... .......... .......... .......... .......... 4.17M
+    50K .......... .......... .......... .......... .......... 4.59M
+   100K .......... .......... .......... .......... .......... 4.38M
+   150K .......... ..                                          10.8M=0.03s
+
+2024-01-04 15:59:08 (4.58 MB/s) - ‘cryptonews.com/news/opsec-token-shoots-up-50000-overnight-and-this-unlisted-meme-coin-could-be-next.htm’ saved [166405]
+
+--2024-01-04 15:59:08--  https://cryptonews.com/news/radiologex-unveils-r-dee-protocol-network-and-announces-limited-rdgx-token-pre-sale.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/radiologex-unveils-r-dee-protocol-network-and-announces-limited-rdgx-token-pre-sale.htm’
+
+     0K .......... .......... .......... .......... .......... 4.73M
+    50K .......... .......... .......... .......... .......... 3.57M
+   100K .......... .......... .......... .......... .......... 5.19M
+   150K ...                                                    6.80T=0.03s
+
+2024-01-04 15:59:08 (4.49 MB/s) - ‘cryptonews.com/news/radiologex-unveils-r-dee-protocol-network-and-announces-limited-rdgx-token-pre-sale.htm’ saved [157339]
+
+--2024-01-04 15:59:08--  https://cryptonews.com/news/xrp-price-prediction-as-xrp-drops-below-0-60-support-time-to-buy-the-dip.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/xrp-price-prediction-as-xrp-drops-below-0-60-support-time-to-buy-the-dip.htm’
+
+     0K .......... .......... .......... .......... .......... 3.80M
+    50K .......... .......... .......... .......... .......... 6.79M
+   100K .......... .......... .......... .......... .......... 3.20M
+   150K .......... ..                                           486M=0.04s
+
+2024-01-04 15:59:08 (4.50 MB/s) - ‘cryptonews.com/news/xrp-price-prediction-as-xrp-drops-below-0-60-support-time-to-buy-the-dip.htm’ saved [166739]
+
+--2024-01-04 15:59:08--  https://cryptonews.com/news/solana-price-prediction-as-sol-falls-9-overnight-are-investors-regaining-confidence.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/solana-price-prediction-as-sol-falls-9-overnight-are-investors-regaining-confidence.htm’
+
+     0K .......... .......... .......... .......... .......... 2.48M
+    50K .......... .......... .......... .......... .......... 11.3M
+   100K .......... .......... .......... .......... .......... 4.70M
+   150K .........                                              78.4M=0.03s
+
+2024-01-04 15:59:08 (4.52 MB/s) - ‘cryptonews.com/news/solana-price-prediction-as-sol-falls-9-overnight-are-investors-regaining-confidence.htm’ saved [163573]
+
+--2024-01-04 15:59:08--  https://cryptonews.com/news/solana-sol-rival-retik-finance-retik-raises-4m-in-its-presale-like-a-breeze.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/solana-sol-rival-retik-finance-retik-raises-4m-in-its-presale-like-a-breeze.htm’
+
+     0K .......... .......... .......... .......... .......... 4.87M
+    50K .......... .......... .......... .......... .......... 5.56M
+   100K .......... .......... .......... .......... .......... 4.67M
+   150K ..                                                     4.73T=0.03s
+
+2024-01-04 15:59:08 (5.09 MB/s) - ‘cryptonews.com/news/solana-sol-rival-retik-finance-retik-raises-4m-in-its-presale-like-a-breeze.htm’ saved [156201]
+
+--2024-01-04 15:59:08--  https://cryptonews.com/news/the-future-of-bitcoin-is-here-in-the-form-of-predict-to-earn-sensation-green-bitcoin-gbtc.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/the-future-of-bitcoin-is-here-in-the-form-of-predict-to-earn-sensation-green-bitcoin-gbtc.htm’
+
+     0K .......... .......... .......... .......... .......... 4.16M
+    50K .......... .......... .......... .......... .......... 5.00M
+   100K .......... .......... .......... .......... .......... 4.77M
+   150K ......                                                 3.47M=0.03s
+
+2024-01-04 15:59:09 (4.56 MB/s) - ‘cryptonews.com/news/the-future-of-bitcoin-is-here-in-the-form-of-predict-to-earn-sensation-green-bitcoin-gbtc.htm’ saved [160256]
+
+--2024-01-04 15:59:09--  https://cryptonews.com/news/page/3/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/page/3/index.html’
+
+     0K .......... .......... .......... .......... .......... 4.53M
+    50K .......... .......... .......... .......... .......... 4.51M
+   100K .......... .......... .......... .......... ....       5.99M=0.03s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:09 (4.89 MB/s) - ‘cryptonews.com/news/page/3/index.html’ saved [147510]
+
+--2024-01-04 15:59:09--  https://cryptonews.com/news/page/1629/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/page/1629/index.html’
+
+     0K .......... .......... .......... .......... .......... 3.91M
+    50K .......... .......... .......... .......... .......... 3.33M
+   100K .......... .......... .                                26.9M=0.03s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:10 (4.26 MB/s) - ‘cryptonews.com/news/page/1629/index.html’ saved [124819]
+
+--2024-01-04 15:59:10--  https://cryptonews.com/news/bitcoin-news/page/2/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-news/page/2/index.html’
+
+     0K .......... .......... .......... .......... .......... 4.99M
+    50K .......... .......... .......... .......... ..........  405K
+   100K .......... .......... .......... .......... ...        4.51M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:11 (1003 KB/s) - ‘cryptonews.com/news/bitcoin-news/page/2/index.html’ saved [146545]
+
+--2024-01-04 15:59:11--  https://cryptonews.com/news/bitcoin-news/feed/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified []
+Saving to: ‘cryptonews.com/news/bitcoin-news/feed/index.html’
+
+     0K .......... .......... .......... .......... ..........  362K
+    50K .......... .......... .......... .......... .......... 2.67M
+   100K .......... .......... .......... .......... ..........  420K
+   150K .......... .......... ......                           3.26M=0.3s
+
+2024-01-04 15:59:11 (621 KB/s) - ‘cryptonews.com/news/bitcoin-news/feed/index.html’ saved [180234]
+
+--2024-01-04 15:59:11--  https://cryptonews.com/news/crypto-veteran-lyn-alden-targets-200000-bitcoin-says-100000-would-be-disappointing-for-this-bull-market.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/crypto-veteran-lyn-alden-targets-200000-bitcoin-says-100000-would-be-disappointing-for-this-bull-market.htm’
+
+     0K .......... .......... .......... .......... .......... 3.77M
+    50K .......... .......... .......... .......... .......... 6.49M
+   100K .......... .......... .......... .......... .......... 6.02M
+   150K .......                                                2.92M=0.03s
+
+2024-01-04 15:59:12 (4.94 MB/s) - ‘cryptonews.com/news/crypto-veteran-lyn-alden-targets-200000-bitcoin-says-100000-would-be-disappointing-for-this-bull-market.htm’ saved [161696]
+
+--2024-01-04 15:59:12--  https://cryptonews.com/news/bitcoin-price-prediction-saylor-sells-stocks-cleansparks-new-desk.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-price-prediction-saylor-sells-stocks-cleansparks-new-desk.htm’
+
+     0K .......... .......... .......... .......... .......... 4.45M
+    50K .......... .......... .......... .......... .......... 6.71M
+   100K .......... .......... .......... .......... .......... 4.56M
+   150K .......... ..                                          4.67M=0.03s
+
+2024-01-04 15:59:12 (5.03 MB/s) - ‘cryptonews.com/news/bitcoin-price-prediction-saylor-sells-stocks-cleansparks-new-desk.htm’ saved [166814]
+
+--2024-01-04 15:59:12--  https://cryptonews.com/news/microstrategys-michael-saylor-to-sell-216-million-company-shares-for-bitcoin.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/microstrategys-michael-saylor-to-sell-216-million-company-shares-for-bitcoin.htm’
+
+     0K .......... .......... .......... .......... .......... 4.67M
+    50K .......... .......... .......... .......... .......... 6.44M
+   100K .......... .......... .......... .......... .......... 5.40M
+   150K .......                                                12.2M=0.03s
+
+2024-01-04 15:59:12 (5.55 MB/s) - ‘cryptonews.com/news/microstrategys-michael-saylor-to-sell-216-million-company-shares-for-bitcoin.htm’ saved [161136]
+
+--2024-01-04 15:59:12--  https://cryptonews.com/news/bitcoin-atms-see-first-decline-in-a-decade-with-11-drop.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-atms-see-first-decline-in-a-decade-with-11-drop.htm’
+
+     0K .......... .......... .......... .......... .......... 2.36M
+    50K .......... .......... .......... .......... ..........  106M
+   100K .......... .......... .......... .......... .......... 11.1M
+   150K ........                                               15.2M=0.03s
+
+2024-01-04 15:59:12 (5.94 MB/s) - ‘cryptonews.com/news/bitcoin-atms-see-first-decline-in-a-decade-with-11-drop.htm’ saved [162662]
+
+--2024-01-04 15:59:12--  https://cryptonews.com/news/bitcoin-price-prediction-as-market-cap-nears-900-billion-can-btc-maintain-its-momentum.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-price-prediction-as-market-cap-nears-900-billion-can-btc-maintain-its-momentum.htm’
+
+     0K .......... .......... .......... .......... .......... 6.27M
+    50K .......... .......... .......... .......... .......... 7.03M
+   100K .......... .......... .......... .......... .......... 4.85M
+   150K ..........                                              391M=0.02s
+
+2024-01-04 15:59:12 (6.32 MB/s) - ‘cryptonews.com/news/bitcoin-price-prediction-as-market-cap-nears-900-billion-can-btc-maintain-its-momentum.htm’ saved [164431]
+
+--2024-01-04 15:59:12--  https://cryptonews.com/news/jim-cramer-calls-bitcoin-technological-marvel-says-its-here-to-stay.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/jim-cramer-calls-bitcoin-technological-marvel-says-its-here-to-stay.htm’
+
+     0K .......... .......... .......... .......... .......... 8.96M
+    50K .......... .......... .......... .......... .......... 6.25M
+   100K .......... .......... .......... .......... .......... 4.18M
+   150K ....                                                   7.53T=0.02s
+
+2024-01-04 15:59:13 (6.03 MB/s) - ‘cryptonews.com/news/jim-cramer-calls-bitcoin-technological-marvel-says-its-here-to-stay.htm’ saved [157741]
+
+--2024-01-04 15:59:13--  https://cryptonews.com/news/who-has-the-best-bitcoin-etf-blackrocks-fee-still-a-mystery.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/who-has-the-best-bitcoin-etf-blackrocks-fee-still-a-mystery.htm’
+
+     0K .......... .......... .......... .......... .......... 7.73M
+    50K .......... .......... .......... .......... .......... 5.44M
+   100K .......... .......... .......... .......... .......... 6.60M
+   150K .....                                                   198M=0.02s
+
+2024-01-04 15:59:13 (6.67 MB/s) - ‘cryptonews.com/news/who-has-the-best-bitcoin-etf-blackrocks-fee-still-a-mystery.htm’ saved [159016]
+
+--2024-01-04 15:59:13--  https://cryptonews.com/news/bitcoin-sets-new-daily-record-with-over-731000-transactions.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-sets-new-daily-record-with-over-731000-transactions.htm’
+
+     0K .......... .......... .......... .......... .......... 5.40M
+    50K .......... .......... .......... .......... .......... 6.55M
+   100K .......... .......... .......... .......... .......... 4.48M
+   150K .......                                                93.5M=0.03s
+
+2024-01-04 15:59:13 (5.59 MB/s) - ‘cryptonews.com/news/bitcoin-sets-new-daily-record-with-over-731000-transactions.htm’ saved [161142]
+
+--2024-01-04 15:59:13--  https://cryptonews.com/news/bitcoin-price-prediction-breaks-45k-etf-approval-looms-ais-100k-forecast.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-price-prediction-breaks-45k-etf-approval-looms-ais-100k-forecast.htm’
+
+     0K .......... .......... .......... .......... .......... 5.59M
+    50K .......... .......... .......... .......... .......... 7.05M
+   100K .......... .......... .......... .......... .......... 3.28M
+   150K .......... ...                                         1000M=0.03s
+
+2024-01-04 15:59:13 (5.22 MB/s) - ‘cryptonews.com/news/bitcoin-price-prediction-breaks-45k-etf-approval-looms-ais-100k-forecast.htm’ saved [167370]
+
+--2024-01-04 15:59:13--  https://cryptonews.com/news/bitcoin-price-rally-to-breach-50000-this-month-matrixport.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-price-rally-to-breach-50000-this-month-matrixport.htm’
+
+     0K .......... .......... .......... .......... .......... 5.14M
+    50K .......... .......... .......... .......... .......... 6.37M
+   100K .......... .......... .......... .......... .......... 4.89M
+   150K ....                                                   51.4M=0.03s
+
+2024-01-04 15:59:13 (5.54 MB/s) - ‘cryptonews.com/news/bitcoin-price-rally-to-breach-50000-this-month-matrixport.htm’ saved [158195]
+
+--2024-01-04 15:59:13--  https://cryptonews.com/news/bitcoin-news/page/3/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-news/page/3/index.html’
+
+     0K .......... .......... .......... .......... .......... 5.99M
+    50K .......... .......... .......... .......... .......... 5.39M
+   100K .......... .......... .......... .......... .....      7.33M=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:14 (6.11 MB/s) - ‘cryptonews.com/news/bitcoin-news/page/3/index.html’ saved [149392]
+
+--2024-01-04 15:59:14--  https://cryptonews.com/news/bitcoin-news/page/387/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-news/page/387/index.html’
+
+     0K .......... .......... .......... .......... .......... 5.38M
+    50K .......... .......... .......... .......... .......... 3.32M
+   100K .......... .......... .......... ..........             282M=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:14 (5.74 MB/s) - ‘cryptonews.com/news/bitcoin-news/page/387/index.html’ saved [144054]
+
+--2024-01-04 15:59:14--  https://cryptonews.com/news/ethereum-news/page/2/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/ethereum-news/page/2/index.html’
+
+     0K .......... .......... .......... .......... .......... 5.38M
+    50K .......... .......... .......... .......... .......... 7.82M
+   100K .......... .......... .......... .......... ....       5.37M=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:15 (6.03 MB/s) - ‘cryptonews.com/news/ethereum-news/page/2/index.html’ saved [148303]
+
+--2024-01-04 15:59:15--  https://cryptonews.com/news/ethereum-news/feed/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified []
+Saving to: ‘cryptonews.com/news/ethereum-news/feed/index.html’
+
+     0K .......... .......... .......... .......... ..........  366K
+    50K .......... .......... .......... .......... .......... 5.83M
+   100K .......... .......... .......... .......... ..........  399K
+   150K .......... .......... .......... ..........            6.99M=0.3s
+
+2024-01-04 15:59:15 (691 KB/s) - ‘cryptonews.com/news/ethereum-news/feed/index.html’ saved [195115]
+
+--2024-01-04 15:59:15--  https://cryptonews.com/news/ether-supply-hits-lowest-level-since-shanghai-upgrade-decreasing-by-over-309500-coins.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/ether-supply-hits-lowest-level-since-shanghai-upgrade-decreasing-by-over-309500-coins.htm’
+
+     0K .......... .......... .......... .......... .......... 5.36M
+    50K .......... .......... .......... .......... .......... 6.44M
+   100K .......... .......... .......... .......... .......... 6.52M
+   150K ........                                               5.76M=0.03s
+
+2024-01-04 15:59:16 (6.04 MB/s) - ‘cryptonews.com/news/ether-supply-hits-lowest-level-since-shanghai-upgrade-decreasing-by-over-309500-coins.htm’ saved [162249]
+
+--2024-01-04 15:59:16--  https://cryptonews.com/news/ethereums-decentralization-questioned-as-block-builders-censor-transactions-tied-to-us-sanctions.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/ethereums-decentralization-questioned-as-block-builders-censor-transactions-tied-to-us-sanctions.htm’
+
+     0K .......... .......... .......... .......... .......... 6.50M
+    50K .......... .......... .......... .......... .......... 6.85M
+   100K .......... .......... .......... .......... .......... 4.71M
+   150K .........                                              1.12M=0.03s
+
+2024-01-04 15:59:16 (4.69 MB/s) - ‘cryptonews.com/news/ethereums-decentralization-questioned-as-block-builders-censor-transactions-tied-to-us-sanctions.htm’ saved [163253]
+
+--2024-01-04 15:59:16--  https://cryptonews.com/news/sec-delays-decision-on-grayscales-spot-ethereum-etf-until-january-2024.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/sec-delays-decision-on-grayscales-spot-ethereum-etf-until-january-2024.htm’
+
+     0K .......... .......... .......... .......... .......... 6.11M
+    50K .......... .......... .......... .......... .......... 7.39M
+   100K .......... .......... .......... .......... .......... 5.62M
+   150K .....                                                  11.1T=0.02s
+
+2024-01-04 15:59:17 (6.54 MB/s) - ‘cryptonews.com/news/sec-delays-decision-on-grayscales-spot-ethereum-etf-until-january-2024.htm’ saved [159727]
+
+--2024-01-04 15:59:17--  https://cryptonews.com/news/vitalik-buterin-plans-to-redesign-ethereum-staking-praises-utxo.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/vitalik-buterin-plans-to-redesign-ethereum-staking-praises-utxo.htm’
+
+     0K .......... .......... .......... .......... .......... 6.20M
+    50K .......... .......... .......... .......... .......... 7.08M
+   100K .......... .......... .......... .......... .......... 4.75M
+   150K .......                                                 154M=0.03s
+
+2024-01-04 15:59:17 (6.13 MB/s) - ‘cryptonews.com/news/vitalik-buterin-plans-to-redesign-ethereum-staking-praises-utxo.htm’ saved [161286]
+
+--2024-01-04 15:59:17--  https://cryptonews.com/news/steven-nerayoff-lawsuits-will-reveal-facts-supporting-claims-against-key-ethereum-figures-says-attorney.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/steven-nerayoff-lawsuits-will-reveal-facts-supporting-claims-against-key-ethereum-figures-says-attorney.htm’
+
+     0K .......... .......... .......... .......... .......... 6.12M
+    50K .......... .......... .......... .......... ..........  375K
+   100K .......... .......... .......... .......... .......... 4.58M
+   150K .......... ..                                           274M=0.2s
+
+2024-01-04 15:59:18 (1.04 MB/s) - ‘cryptonews.com/news/steven-nerayoff-lawsuits-will-reveal-facts-supporting-claims-against-key-ethereum-figures-says-attorney.htm’ saved [166046]
+
+--2024-01-04 15:59:18--  https://cryptonews.com/news/unidentified-whale-deposits-10000-eth-worth-20-million-in-new-blast-l2-project.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/unidentified-whale-deposits-10000-eth-worth-20-million-in-new-blast-l2-project.htm’
+
+     0K .......... .......... .......... .......... .......... 9.30M
+    50K .......... .......... .......... .......... .......... 6.26M
+   100K .......... .......... .......... .......... .......... 5.56M
+   150K ......                                                 3.58M=0.02s
+
+2024-01-04 15:59:18 (6.48 MB/s) - ‘cryptonews.com/news/unidentified-whale-deposits-10000-eth-worth-20-million-in-new-blast-l2-project.htm’ saved [160257]
+
+--2024-01-04 15:59:18--  https://cryptonews.com/news/erc-4437-promised-an-ethereum-revolution-adoption-figures-tell-a-different-story.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/erc-4437-promised-an-ethereum-revolution-adoption-figures-tell-a-different-story.htm’
+
+     0K .......... .......... .......... .......... .......... 5.24M
+    50K .......... .......... .......... .......... .......... 19.0M
+   100K .......... .......... .......... .......... .......... 7.04M
+   150K .....                                                  9.38T=0.02s
+
+2024-01-04 15:59:19 (8.04 MB/s) - ‘cryptonews.com/news/erc-4437-promised-an-ethereum-revolution-adoption-figures-tell-a-different-story.htm’ saved [158759]
+
+--2024-01-04 15:59:19--  https://cryptonews.com/news/ethereum-exchange-outflows-exceed-1-billion-in-3-weeks-intotheblock-reports.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/ethereum-exchange-outflows-exceed-1-billion-in-3-weeks-intotheblock-reports.htm’
+
+     0K .......... .......... .......... .......... .......... 5.74M
+    50K .......... .......... .......... .......... .......... 8.45M
+   100K .......... .......... .......... .......... .......... 3.66M
+   150K .....                                                  11.0T=0.03s
+
+2024-01-04 15:59:19 (5.51 MB/s) - ‘cryptonews.com/news/ethereum-exchange-outflows-exceed-1-billion-in-3-weeks-intotheblock-reports.htm’ saved [159623]
+
+--2024-01-04 15:59:19--  https://cryptonews.com/news/nerayoff-follows-through-releases-2015-vitalik-buterin-recordings-detailing-ethereum-corruption-whats-going-on.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/nerayoff-follows-through-releases-2015-vitalik-buterin-recordings-detailing-ethereum-corruption-whats-going-on.htm’
+
+     0K .......... .......... .......... .......... .......... 6.06M
+    50K .......... .......... .......... .......... ..........  382K
+   100K .......... .......... .......... .......... .......... 5.08M
+   150K .......... .......                                     80.2M=0.1s
+
+2024-01-04 15:59:20 (1.10 MB/s) - ‘cryptonews.com/news/nerayoff-follows-through-releases-2015-vitalik-buterin-recordings-detailing-ethereum-corruption-whats-going-on.htm’ saved [171765]
+
+--2024-01-04 15:59:20--  https://cryptonews.com/news/blackrock-files-spot-ether-etf-application.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/blackrock-files-spot-ether-etf-application.htm’
+
+     0K .......... .......... .......... .......... .......... 5.93M
+    50K .......... .......... .......... .......... .......... 5.85M
+   100K .......... .......... .......... .......... .......... 7.86M
+   150K ....                                                   7.46T=0.02s
+
+2024-01-04 15:59:20 (6.60 MB/s) - ‘cryptonews.com/news/blackrock-files-spot-ether-etf-application.htm’ saved [157699]
+
+--2024-01-04 15:59:20--  https://cryptonews.com/news/play-the-blackrock-ethereum-etf-price-pump-with-ethetf-token-already-400-gains-at-launch.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/play-the-blackrock-ethereum-etf-price-pump-with-ethetf-token-already-400-gains-at-launch.htm’
+
+     0K .......... .......... .......... .......... .......... 8.87M
+    50K .......... .......... .......... .......... ..........  384K
+   100K .......... .......... .......... .......... .......... 4.67M
+   150K ..........                                              189M=0.1s
+
+2024-01-04 15:59:21 (1.07 MB/s) - ‘cryptonews.com/news/play-the-blackrock-ethereum-etf-price-pump-with-ethetf-token-already-400-gains-at-launch.htm’ saved [164355]
+
+--2024-01-04 15:59:21--  https://cryptonews.com/news/celsius-moves-10-million-in-ethereum-to-exchange-following-bankruptcy-plan-approval.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/celsius-moves-10-million-in-ethereum-to-exchange-following-bankruptcy-plan-approval.htm’
+
+     0K .......... .......... .......... .......... .......... 6.29M
+    50K .......... .......... .......... .......... ..........  389K
+   100K .......... .......... .......... .......... .......... 5.66M
+   150K ........                                                275M=0.1s
+
+2024-01-04 15:59:22 (1.07 MB/s) - ‘cryptonews.com/news/celsius-moves-10-million-in-ethereum-to-exchange-following-bankruptcy-plan-approval.htm’ saved [162791]
+
+--2024-01-04 15:59:22--  https://cryptonews.com/news/ethereum-news/page/3/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/ethereum-news/page/3/index.html’
+
+     0K .......... .......... .......... .......... ..........  112M
+    50K .......... .......... .......... .......... ..........  148M
+   100K .......... .......... .......... .......... ..          174M=0.001s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:24 (139 MB/s) - ‘cryptonews.com/news/ethereum-news/page/3/index.html’ saved [145760]
+
+--2024-01-04 15:59:24--  https://cryptonews.com/news/ethereum-news/page/63/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/ethereum-news/page/63/index.html’
+
+     0K .......... .......... .......... .......... ..........  149M
+    50K .......... .......... .......... .......... ..........  173M
+   100K .......... .......... ...                               212M=0.001s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:25 (168 MB/s) - ‘cryptonews.com/news/ethereum-news/page/63/index.html’ saved [126459]
+
+--2024-01-04 15:59:25--  https://cryptonews.com/news/nft-news/page/2/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/nft-news/page/2/index.html’
+
+     0K .......... .......... .......... .......... .......... 6.51M
+    50K .......... .......... .......... .......... ..........  386K
+   100K .......... .......... .......... .......... ..         7.28M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:26 (998 KB/s) - ‘cryptonews.com/news/nft-news/page/2/index.html’ saved [145903]
+
+--2024-01-04 15:59:26--  https://cryptonews.com/news/nft-news/feed/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified []
+Saving to: ‘cryptonews.com/news/nft-news/feed/index.html’
+
+     0K .......... .......... .......... .......... ..........  365K
+    50K .......... .......... .......... .......... .......... 1.25M
+   100K .......... .......... .......... .......... ..........  478K
+   150K .....                                                  56.6M=0.3s
+
+2024-01-04 15:59:26 (556 KB/s) - ‘cryptonews.com/news/nft-news/feed/index.html’ saved [159661]
+
+--2024-01-04 15:59:26--  https://cryptonews.com/news/megadeth-drops-nft-collection-offers-exclusive-access-to-metaverse-and-real-world-events.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/megadeth-drops-nft-collection-offers-exclusive-access-to-metaverse-and-real-world-events.htm’
+
+     0K .......... .......... .......... .......... .......... 6.27M
+    50K .......... .......... .......... .......... .......... 8.48M
+   100K .......... .......... .......... .......... .......... 7.26M
+   150K .....                                                  9.54T=0.02s
+
+2024-01-04 15:59:27 (7.47 MB/s) - ‘cryptonews.com/news/megadeth-drops-nft-collection-offers-exclusive-access-to-metaverse-and-real-world-events.htm’ saved [158846]
+
+--2024-01-04 15:59:27--  https://cryptonews.com/news/heres-why-gamers-are-splurging-on-square-enixs-quirky-nft-characters.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/heres-why-gamers-are-splurging-on-square-enixs-quirky-nft-characters.htm’
+
+     0K .......... .......... .......... .......... .......... 7.77M
+    50K .......... .......... .......... .......... .......... 7.56M
+   100K .......... .......... .......... .......... .......... 2.74M
+   150K .........                                               281M=0.03s
+
+2024-01-04 15:59:27 (5.10 MB/s) - ‘cryptonews.com/news/heres-why-gamers-are-splurging-on-square-enixs-quirky-nft-characters.htm’ saved [163440]
+
+--2024-01-04 15:59:27--  https://cryptonews.com/news/cryptopunks-and-bored-apes-dip-as-nft-500-index-falls-despite-crypto-rally.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/cryptopunks-and-bored-apes-dip-as-nft-500-index-falls-despite-crypto-rally.htm’
+
+     0K .......... .......... .......... .......... .......... 6.90M
+    50K .......... .......... .......... .......... .......... 7.06M
+   100K .......... .......... .......... .......... .......... 6.68M
+   150K ....                                                   25.0M=0.02s
+
+2024-01-04 15:59:28 (7.03 MB/s) - ‘cryptonews.com/news/cryptopunks-and-bored-apes-dip-as-nft-500-index-falls-despite-crypto-rally.htm’ saved [158354]
+
+--2024-01-04 15:59:28--  https://cryptonews.com/news/bored-ape-avatars-debut-in-robloxs-new-kingship-islands-game.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bored-ape-avatars-debut-in-robloxs-new-kingship-islands-game.htm’
+
+     0K .......... .......... .......... .......... .......... 24.1M
+    50K .......... .......... .......... .......... .......... 62.3M
+   100K .......... .......... .......... .......... .......... 15.1M
+   150K ......                                                 5.03M=0.007s
+
+2024-01-04 15:59:28 (21.1 MB/s) - ‘cryptonews.com/news/bored-ape-avatars-debut-in-robloxs-new-kingship-islands-game.htm’ saved [159788]
+
+--2024-01-04 15:59:28--  https://cryptonews.com/news/rari-foundation-launches-testnet-for-rari-chain-on-arbitrum.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/rari-foundation-launches-testnet-for-rari-chain-on-arbitrum.htm’
+
+     0K .......... .......... .......... .......... .......... 5.98M
+    50K .......... .......... .......... .......... .......... 9.63M
+   100K .......... .......... .......... .......... .......... 5.89M
+   150K ...                                                    5.73T=0.02s
+
+2024-01-04 15:59:29 (6.95 MB/s) - ‘cryptonews.com/news/rari-foundation-launches-testnet-for-rari-chain-on-arbitrum.htm’ saved [156750]
+
+--2024-01-04 15:59:29--  https://cryptonews.com/news/today-in-crypto-toniq-launches-first-ordinals-specific-nft-marketplace-built-on-bitcoin-l2-neobank-brighty-reveals-european-b2b-platform-brighty-business.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/today-in-crypto-toniq-launches-first-ordinals-specific-nft-marketplace-built-on-bitcoin-l2-neobank-brighty-reveals-european-b2b-platform-brighty-business.htm’
+
+     0K .......... .......... .......... .......... .......... 8.10M
+    50K .......... .......... .......... .......... ..........  385K
+   100K .......... .......... .......... .......... .......... 8.00M
+   150K .......... .                                           6.03M=0.1s
+
+2024-01-04 15:59:29 (1.10 MB/s) - ‘cryptonews.com/news/today-in-crypto-toniq-launches-first-ordinals-specific-nft-marketplace-built-on-bitcoin-l2-neobank-brighty-reveals-european-b2b-platform-brighty-business.htm’ saved [165620]
+
+--2024-01-04 15:59:29--  https://cryptonews.com/news/first-of-its-kind-nft-centric-wallet-by-magic-eden-set-to-transform-digital-collecting-nfts-making-a-comeback.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/first-of-its-kind-nft-centric-wallet-by-magic-eden-set-to-transform-digital-collecting-nfts-making-a-comeback.htm’
+
+     0K .......... .......... .......... .......... .......... 6.98M
+    50K .......... .......... .......... .......... ..........  380K
+   100K .......... .......... .......... .......... .......... 9.81M
+   150K ..........                                             5.34M=0.1s
+
+2024-01-04 15:59:30 (1.08 MB/s) - ‘cryptonews.com/news/first-of-its-kind-nft-centric-wallet-by-magic-eden-set-to-transform-digital-collecting-nfts-making-a-comeback.htm’ saved [164395]
+
+--2024-01-04 15:59:30--  https://cryptonews.com/news/square-enixs-nft-game-symbiogenesis-sets-auction-dates-launches-december-21-heres-what-you-need-to-know.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/square-enixs-nft-game-symbiogenesis-sets-auction-dates-launches-december-21-heres-what-you-need-to-know.htm’
+
+     0K .......... .......... .......... .......... .......... 19.1M
+    50K .......... .......... .......... .......... ..........  528K
+   100K .......... .......... .......... .......... .......... 2.82M
+   150K ........                                                115M=0.1s
+
+2024-01-04 15:59:31 (1.35 MB/s) - ‘cryptonews.com/news/square-enixs-nft-game-symbiogenesis-sets-auction-dates-launches-december-21-heres-what-you-need-to-know.htm’ saved [161834]
+
+--2024-01-04 15:59:31--  https://cryptonews.com/news/trader-cashes-in-12m-as-blur-nft-platform-airdrops-300m-tokens-to-users.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/trader-cashes-in-12m-as-blur-nft-platform-airdrops-300m-tokens-to-users.htm’
+
+     0K .......... .......... .......... .......... .......... 4.40M
+    50K .......... .......... .......... .......... .......... 8.67M
+   100K .......... .......... .......... .......... .......... 4.51M
+   150K .....                                                  10.7T=0.03s
+
+2024-01-04 15:59:31 (5.52 MB/s) - ‘cryptonews.com/news/trader-cashes-in-12m-as-blur-nft-platform-airdrops-300m-tokens-to-users.htm’ saved [159459]
+
+--2024-01-04 15:59:31--  https://cryptonews.com/news/today-in-crypto-binance-saw-significant-outflows-since-cz-announcement-kucoin-launches-kucard-10101-art-reveals-sale-of-banksys-turf-war.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/today-in-crypto-binance-saw-significant-outflows-since-cz-announcement-kucoin-launches-kucard-10101-art-reveals-sale-of-banksys-turf-war.htm’
+
+     0K .......... .......... .......... .......... .......... 4.41M
+    50K .......... .......... .......... .......... ..........  394K
+   100K .......... .......... .......... .......... .......... 4.04M
+   150K .......... ...                                          210M=0.2s
+
+2024-01-04 15:59:32 (1.06 MB/s) - ‘cryptonews.com/news/today-in-crypto-binance-saw-significant-outflows-since-cz-announcement-kucoin-launches-kucard-10101-art-reveals-sale-of-banksys-turf-war.htm’ saved [167255]
+
+--2024-01-04 15:59:32--  https://cryptonews.com/news/ubisofts-nostalgic-leap-into-nfts-rayman-and-beyond-good-evil-characters-enter-the-sandbox.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/ubisofts-nostalgic-leap-into-nfts-rayman-and-beyond-good-evil-characters-enter-the-sandbox.htm’
+
+     0K .......... .......... .......... .......... .......... 5.20M
+    50K .......... .......... .......... .......... .......... 7.32M
+   100K .......... .......... .......... .......... .......... 6.06M
+   150K ........                                                829K=0.03s
+
+2024-01-04 15:59:32 (4.56 MB/s) - ‘cryptonews.com/news/ubisofts-nostalgic-leap-into-nfts-rayman-and-beyond-good-evil-characters-enter-the-sandbox.htm’ saved [161832]
+
+--2024-01-04 15:59:32--  https://cryptonews.com/news/this-new-rtfkt-virtual-sneakers-by-nike-do-not-require-owning-nft-whats-going-on.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/this-new-rtfkt-virtual-sneakers-by-nike-do-not-require-owning-nft-whats-going-on.htm’
+
+     0K .......... .......... .......... .......... .......... 5.84M
+    50K .......... .......... .......... .......... .......... 6.90M
+   100K .......... .......... .......... .......... .......... 4.97M
+   150K .....                                                  11.0T=0.03s
+
+2024-01-04 15:59:33 (6.03 MB/s) - ‘cryptonews.com/news/this-new-rtfkt-virtual-sneakers-by-nike-do-not-require-owning-nft-whats-going-on.htm’ saved [159641]
+
+--2024-01-04 15:59:33--  https://cryptonews.com/news/nft-news/page/3/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/nft-news/page/3/index.html’
+
+     0K .......... .......... .......... .......... .......... 5.65M
+    50K .......... .......... .......... .......... .......... 5.85M
+   100K .......... .......... .......... .......... ....       7.57M=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:33 (6.21 MB/s) - ‘cryptonews.com/news/nft-news/page/3/index.html’ saved [147622]
+
+--2024-01-04 15:59:33--  https://cryptonews.com/news/nft-news/page/36/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/nft-news/page/36/index.html’
+
+     0K .......... .......... .......... .......... .......... 7.26M
+    50K .......... .......... .......... .......... .......... 7.56M
+   100K ......                                                 6.34M=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:33 (7.33 MB/s) - ‘cryptonews.com/news/nft-news/page/36/index.html’ saved [109420]
+
+--2024-01-04 15:59:34--  https://cryptonews.com/news/defi-news/page/2/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/defi-news/page/2/index.html’
+
+     0K .......... .......... .......... .......... .......... 5.65M
+    50K .......... .......... .......... .......... ..........  393K
+   100K .......... .......... .......... .......... ...        6.85M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:34 (1011 KB/s) - ‘cryptonews.com/news/defi-news/page/2/index.html’ saved [147182]
+
+--2024-01-04 15:59:34--  https://cryptonews.com/news/defi-news/feed/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified []
+Saving to: ‘cryptonews.com/news/defi-news/feed/index.html’
+
+     0K .......... .......... .......... .......... ..........  364K
+    50K .......... .......... .......... .......... ..........  367K
+   100K .......... .......... .......... .......... .......... 5.60M
+   150K .......... ......                                      15.0M=0.3s
+
+2024-01-04 15:59:35 (587 KB/s) - ‘cryptonews.com/news/defi-news/feed/index.html’ saved [170052]
+
+--2024-01-04 15:59:35--  https://cryptonews.com/news/crypto-scammers-swipe-123k-in-steth-from-nest-wallet-founder-in-fake-airdrop.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/crypto-scammers-swipe-123k-in-steth-from-nest-wallet-founder-in-fake-airdrop.htm’
+
+     0K .......... .......... .......... .......... .......... 5.09M
+    50K .......... .......... .......... .......... .......... 7.96M
+   100K .......... .......... .......... .......... .......... 6.14M
+   150K ......                                                 4.92M=0.03s
+
+2024-01-04 15:59:35 (6.12 MB/s) - ‘cryptonews.com/news/crypto-scammers-swipe-123k-in-steth-from-nest-wallet-founder-in-fake-airdrop.htm’ saved [160656]
+
+--2024-01-04 15:59:35--  https://cryptonews.com/news/crypto-market-turns-spotlight-on-parallelized-evm-trend-for-enhanced-blockchain-scalability.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/crypto-market-turns-spotlight-on-parallelized-evm-trend-for-enhanced-blockchain-scalability.htm’
+
+     0K .......... .......... .......... .......... .......... 6.15M
+    50K .......... .......... .......... .......... .......... 7.50M
+   100K .......... .......... .......... .......... .........  8.96M=0.02s
+
+2024-01-04 15:59:35 (7.36 MB/s) - ‘cryptonews.com/news/crypto-market-turns-spotlight-on-parallelized-evm-trend-for-enhanced-blockchain-scalability.htm’ saved [153078]
+
+--2024-01-04 15:59:35--  https://cryptonews.com/news/iosco-publishes-policy-recommendations-for-decentralized-finance-defi.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/iosco-publishes-policy-recommendations-for-decentralized-finance-defi.htm’
+
+     0K .......... .......... .......... .......... .......... 5.15M
+    50K .......... .......... .......... .......... .......... 7.90M
+   100K .......... .......... .......... .......... .......... 6.57M
+   150K ......                                                 86.9M=0.02s
+
+2024-01-04 15:59:36 (6.59 MB/s) - ‘cryptonews.com/news/iosco-publishes-policy-recommendations-for-decentralized-finance-defi.htm’ saved [160066]
+
+--2024-01-04 15:59:36--  https://cryptonews.com/news/ethereumpow-core-team-disbands-to-achieve-full-decentralization-as-onedao-provides-transitional-support.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/ethereumpow-core-team-disbands-to-achieve-full-decentralization-as-onedao-provides-transitional-support.htm’
+
+     0K .......... .......... .......... .......... .......... 7.28M
+    50K .......... .......... .......... .......... .......... 6.34M
+   100K .......... .......... .......... .......... .......... 7.00M
+   150K .....                                                  4.63M=0.02s
+
+2024-01-04 15:59:36 (6.73 MB/s) - ‘cryptonews.com/news/ethereumpow-core-team-disbands-to-achieve-full-decentralization-as-onedao-provides-transitional-support.htm’ saved [159565]
+
+--2024-01-04 15:59:36--  https://cryptonews.com/news/singapore-based-crypto-investment-firm-cake-group-files-for-liquidation.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/singapore-based-crypto-investment-firm-cake-group-files-for-liquidation.htm’
+
+     0K .......... .......... .......... .......... .......... 6.83M
+    50K .......... .......... .......... .......... .......... 6.79M
+   100K .......... .......... .......... .......... .......... 7.66M
+   150K ....                                                   7.59T=0.02s
+
+2024-01-04 15:59:37 (7.27 MB/s) - ‘cryptonews.com/news/singapore-based-crypto-investment-firm-cake-group-files-for-liquidation.htm’ saved [157775]
+
+--2024-01-04 15:59:37--  https://cryptonews.com/news/jpmorgan-report-highlights-resurgence-in-defi-and-nft-sectors.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/jpmorgan-report-highlights-resurgence-in-defi-and-nft-sectors.htm’
+
+     0K .......... .......... .......... .......... .......... 7.94M
+    50K .......... .......... .......... .......... .......... 3.75M
+   100K .......... .......... .......... .......... .......... 16.5M
+   150K ...                                                    7.04T=0.02s
+
+2024-01-04 15:59:37 (6.79 MB/s) - ‘cryptonews.com/news/jpmorgan-report-highlights-resurgence-in-defi-and-nft-sectors.htm’ saved [157469]
+
+--2024-01-04 15:59:37--  https://cryptonews.com/news/kyberswap-director-demands-executive-control-and-asset-surrender-in-bold-negotiation-terms.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/kyberswap-director-demands-executive-control-and-asset-surrender-in-bold-negotiation-terms.htm’
+
+     0K .......... .......... .......... .......... .......... 6.89M
+    50K .......... .......... .......... .......... ..........  378K
+   100K .......... .......... .......... .......... .......... 7.00M
+   150K .....                                                  18.5M=0.1s
+
+2024-01-04 15:59:38 (1.04 MB/s) - ‘cryptonews.com/news/kyberswap-director-demands-executive-control-and-asset-surrender-in-bold-negotiation-terms.htm’ saved [159658]
+
+--2024-01-04 15:59:38--  https://cryptonews.com/news/how-defi-can-bridge-the-forex-gap-in-africa-according-to-banking-ceo.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/how-defi-can-bridge-the-forex-gap-in-africa-according-to-banking-ceo.htm’
+
+     0K .......... .......... .......... .......... .......... 8.06M
+    50K .......... .......... .......... .......... ..........  393K
+   100K .......... .......... .......... .......... .......... 6.43M
+   150K .........                                               280M=0.1s
+
+2024-01-04 15:59:38 (1.10 MB/s) - ‘cryptonews.com/news/how-defi-can-bridge-the-forex-gap-in-africa-according-to-banking-ceo.htm’ saved [163069]
+
+--2024-01-04 15:59:38--  https://cryptonews.com/news/defi-users-seek-clarity-as-australias-tax-office-fails-to-explain-new-capital-gains-tax-rules.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/defi-users-seek-clarity-as-australias-tax-office-fails-to-explain-new-capital-gains-tax-rules.htm’
+
+     0K .......... .......... .......... .......... .......... 8.45M
+    50K .......... .......... .......... .......... ..........  412K
+   100K .......... .......... .......... .......... .......... 7.45M
+   150K .......                                                48.2M=0.1s
+
+2024-01-04 15:59:39 (1.14 MB/s) - ‘cryptonews.com/news/defi-users-seek-clarity-as-australias-tax-office-fails-to-explain-new-capital-gains-tax-rules.htm’ saved [160802]
+
+--2024-01-04 15:59:39--  https://cryptonews.com/news/aragon-dao-backs-lawsuit-against-founding-team-allocates-300000-in-funding.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/aragon-dao-backs-lawsuit-against-founding-team-allocates-300000-in-funding.htm’
+
+     0K .......... .......... .......... .......... .......... 7.22M
+    50K .......... .......... .......... .......... .......... 9.12M
+   100K .......... .......... .......... .......... .......... 6.17M
+   150K .......                                                 141M=0.02s
+
+2024-01-04 15:59:40 (7.66 MB/s) - ‘cryptonews.com/news/aragon-dao-backs-lawsuit-against-founding-team-allocates-300000-in-funding.htm’ saved [161289]
+
+--2024-01-04 15:59:40--  https://cryptonews.com/news/de-fi-2-0-revolutionizing-socialfi-antivirus-secures-5-million-in-funding.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/de-fi-2-0-revolutionizing-socialfi-antivirus-secures-5-million-in-funding.htm’
+
+     0K .......... .......... .......... .......... .......... 8.20M
+    50K .......... .......... .......... .......... .......... 7.96M
+   100K .......... .......... .......... .......... .......... 7.14M
+   150K ........                                                178M=0.02s
+
+2024-01-04 15:59:40 (8.15 MB/s) - ‘cryptonews.com/news/de-fi-2-0-revolutionizing-socialfi-antivirus-secures-5-million-in-funding.htm’ saved [162212]
+
+--2024-01-04 15:59:40--  https://cryptonews.com/news/dydx-dex-and-yfi-token-hit-by-9-million-targeted-attack-heres-what-happened.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/dydx-dex-and-yfi-token-hit-by-9-million-targeted-attack-heres-what-happened.htm’
+
+     0K .......... .......... .......... .......... .......... 8.06M
+    50K .......... .......... .......... .......... ..........  381K
+   100K .......... .......... .......... .......... .......... 5.28M
+   150K .....                                                   102M=0.1s
+
+2024-01-04 15:59:41 (1.03 MB/s) - ‘cryptonews.com/news/dydx-dex-and-yfi-token-hit-by-9-million-targeted-attack-heres-what-happened.htm’ saved [158760]
+
+--2024-01-04 15:59:41--  https://cryptonews.com/news/white-hat-hackers-awarded-300k-after-uncovering-critical-chainlink-vrf-vulnerability.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/white-hat-hackers-awarded-300k-after-uncovering-critical-chainlink-vrf-vulnerability.htm’
+
+     0K .......... .......... .......... .......... .......... 11.7M
+    50K .......... .......... .......... .......... ..........  353K
+   100K .......... .......... .......... .......... .......... 7.26M
+   150K ......                                                 20.9M=0.2s
+
+2024-01-04 15:59:41 (1023 KB/s) - ‘cryptonews.com/news/white-hat-hackers-awarded-300k-after-uncovering-critical-chainlink-vrf-vulnerability.htm’ saved [160070]
+
+--2024-01-04 15:59:41--  https://cryptonews.com/news/irs-holds-hearing-on-digital-asset-reporting-regulations-following-pushback.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/irs-holds-hearing-on-digital-asset-reporting-regulations-following-pushback.htm’
+
+     0K .......... .......... .......... .......... .......... 6.17M
+    50K .......... .......... .......... .......... .......... 11.5M
+   100K .......... .......... .......... .......... .......... 6.49M
+   150K ....                                                   9.05T=0.02s
+
+2024-01-04 15:59:42 (7.69 MB/s) - ‘cryptonews.com/news/irs-holds-hearing-on-digital-asset-reporting-regulations-following-pushback.htm’ saved [158573]
+
+--2024-01-04 15:59:42--  https://cryptonews.com/news/decentralized-ai-startup-ritual-raises-25-million.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/decentralized-ai-startup-ritual-raises-25-million.htm’
+
+     0K .......... .......... .......... .......... .......... 8.92M
+    50K .......... .......... .......... .......... ..........  365K
+   100K .......... .......... .......... .......... .......... 9.32M
+   150K ......                                                 57.6M=0.1s
+
+2024-01-04 15:59:42 (1.04 MB/s) - ‘cryptonews.com/news/decentralized-ai-startup-ritual-raises-25-million.htm’ saved [160736]
+
+--2024-01-04 15:59:42--  https://cryptonews.com/news/uniswap-v3-users-costly-liquidity-pool-error-700000-lost-to-mev-bot.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/uniswap-v3-users-costly-liquidity-pool-error-700000-lost-to-mev-bot.htm’
+
+     0K .......... .......... .......... .......... .......... 7.22M
+    50K .......... .......... .......... .......... ..........  381K
+   100K .......... .......... .......... .......... .......... 5.11M
+   150K .......                                                 154M=0.1s
+
+2024-01-04 15:59:43 (1.04 MB/s) - ‘cryptonews.com/news/uniswap-v3-users-costly-liquidity-pool-error-700000-lost-to-mev-bot.htm’ saved [161175]
+
+--2024-01-04 15:59:43--  https://cryptonews.com/news/uk-treasury-unveils-crypto-asset-regulatory-framework-heres-what-you-need-to-know.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/uk-treasury-unveils-crypto-asset-regulatory-framework-heres-what-you-need-to-know.htm’
+
+     0K .......... .......... .......... .......... .......... 7.97M
+    50K .......... .......... .......... .......... ..........  343K
+   100K .......... .......... .......... .......... .......... 66.6M
+   150K .....                                                  10.4T=0.2s
+
+2024-01-04 15:59:43 (1020 KB/s) - ‘cryptonews.com/news/uk-treasury-unveils-crypto-asset-regulatory-framework-heres-what-you-need-to-know.htm’ saved [159295]
+
+--2024-01-04 15:59:43--  https://cryptonews.com/news/pancakeswap-integrates-brils-portfolio-manager-to-diversify-liquidity-pools.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/pancakeswap-integrates-brils-portfolio-manager-to-diversify-liquidity-pools.htm’
+
+     0K .......... .......... .......... .......... .......... 7.50M
+    50K .......... .......... .......... .......... ..........  385K
+   100K .......... .......... .......... .......... .......... 10.8M
+   150K .......                                                12.0M=0.1s
+
+2024-01-04 15:59:44 (1.09 MB/s) - ‘cryptonews.com/news/pancakeswap-integrates-brils-portfolio-manager-to-diversify-liquidity-pools.htm’ saved [161681]
+
+--2024-01-04 15:59:44--  https://cryptonews.com/news/defi-news/page/3/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/defi-news/page/3/index.html’
+
+     0K .......... .......... .......... .......... .......... 7.49M
+    50K .......... .......... .......... .......... .......... 6.11M
+   100K .......... .......... .......... .......... ...        13.0M=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:44 (7.88 MB/s) - ‘cryptonews.com/news/defi-news/page/3/index.html’ saved [146912]
+
+--2024-01-04 15:59:44--  https://cryptonews.com/news/defi-news/page/21/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/defi-news/page/21/index.html’
+
+     0K .......... .......... .......... .......... .......... 7.52M
+    50K .......... .......... .......... .......... .......... 10.7M
+   100K .......... .......... .......... ..                    11.2M=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:45 (9.31 MB/s) - ‘cryptonews.com/news/defi-news/page/21/index.html’ saved [135843]
+
+--2024-01-04 15:59:45--  https://cryptonews.com/news/altcoin-news/page/2/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/altcoin-news/page/2/index.html’
+
+     0K .......... .......... .......... .......... .......... 50.5M
+    50K .......... .......... .......... .......... ..........  380K
+   100K .......... .......... .......... .......... ....       13.0M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:45 (1.04 MB/s) - ‘cryptonews.com/news/altcoin-news/page/2/index.html’ saved [148425]
+
+--2024-01-04 15:59:45--  https://cryptonews.com/news/altcoin-news/feed/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified []
+Saving to: ‘cryptonews.com/news/altcoin-news/feed/index.html’
+
+     0K .......... .......... .......... .......... ..........  381K
+    50K .......... .......... .......... .......... .......... 5.45M
+   100K .......... .......... .......... .......... .......... 1.86M
+   150K .......... .......... .......... ..                     320K=0.3s
+
+2024-01-04 15:59:46 (681 KB/s) - ‘cryptonews.com/news/altcoin-news/feed/index.html’ saved [186817]
+
+--2024-01-04 15:59:46--  https://cryptonews.com/news/cboe-predicts-spot-bitcoin-etfs-to-draw-investments-from-pension-funds-and-ria-based-funds.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/cboe-predicts-spot-bitcoin-etfs-to-draw-investments-from-pension-funds-and-ria-based-funds.htm’
+
+     0K .......... .......... .......... .......... .......... 17.3M
+    50K .......... .......... .......... .......... .......... 13.8M
+   100K .......... .......... .......... .......... .......... 7.41M
+   150K ........                                               13.3M=0.01s
+
+2024-01-04 15:59:46 (11.4 MB/s) - ‘cryptonews.com/news/cboe-predicts-spot-bitcoin-etfs-to-draw-investments-from-pension-funds-and-ria-based-funds.htm’ saved [161843]
+
+--2024-01-04 15:59:46--  https://cryptonews.com/news/solana-surpasses-ethereum-in-7-day-stablecoin-trading-volume-for-first-time-ever.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/solana-surpasses-ethereum-in-7-day-stablecoin-trading-volume-for-first-time-ever.htm’
+
+     0K .......... .......... .......... .......... .......... 8.94M
+    50K .......... .......... .......... .......... ..........  879K
+   100K .......... .......... .......... .......... .......... 8.51M
+   150K ........                                               4.09M=0.07s
+
+2024-01-04 15:59:47 (2.21 MB/s) - ‘cryptonews.com/news/solana-surpasses-ethereum-in-7-day-stablecoin-trading-volume-for-first-time-ever.htm’ saved [162173]
+
+--2024-01-04 15:59:47--  https://cryptonews.com/news/russia-will-begin-collecting-taxes-in-digital-rubles-from-2025.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/russia-will-begin-collecting-taxes-in-digital-rubles-from-2025.htm’
+
+     0K .......... .......... .......... .......... .......... 10.5M
+    50K .......... .......... .......... .......... .......... 10.1M
+   100K .......... .......... .......... .......... .......... 8.53M
+   150K ......                                                 5.06M=0.02s
+
+2024-01-04 15:59:47 (9.27 MB/s) - ‘cryptonews.com/news/russia-will-begin-collecting-taxes-in-digital-rubles-from-2025.htm’ saved [160444]
+
+--2024-01-04 15:59:47--  https://cryptonews.com/news/is-it-too-late-to-buy-sei-sei-price-rallies-35-as-new-meme-coin-approaches-launch-time-to-buy.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/is-it-too-late-to-buy-sei-sei-price-rallies-35-as-new-meme-coin-approaches-launch-time-to-buy.htm’
+
+     0K .......... .......... .......... .......... .......... 6.76M
+    50K .......... .......... .......... .......... .......... 10.5M
+   100K .......... .......... .......... .......... ........   8.81M=0.02s
+
+2024-01-04 15:59:48 (8.40 MB/s) - ‘cryptonews.com/news/is-it-too-late-to-buy-sei-sei-price-rallies-35-as-new-meme-coin-approaches-launch-time-to-buy.htm’ saved [151865]
+
+--2024-01-04 15:59:48--  https://cryptonews.com/news/analyst-ftx-legal-battle-set-to-extend-over-years-in-8-billion-creditor-fight.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/analyst-ftx-legal-battle-set-to-extend-over-years-in-8-billion-creditor-fight.htm’
+
+     0K .......... .......... .......... .......... .......... 7.33M
+    50K .......... .......... .......... .......... .......... 8.80M
+   100K .......... .......... .......... .......... .......... 7.47M
+   150K .......                                                 101M=0.02s
+
+2024-01-04 15:59:48 (8.19 MB/s) - ‘cryptonews.com/news/analyst-ftx-legal-battle-set-to-extend-over-years-in-8-billion-creditor-fight.htm’ saved [161634]
+
+--2024-01-04 15:59:48--  https://cryptonews.com/news/tellors-13-hour-meteoric-rise-and-fall-raises-manipulation-suspicions.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/tellors-13-hour-meteoric-rise-and-fall-raises-manipulation-suspicions.htm’
+
+     0K .......... .......... .......... .......... ..........  438M
+    50K .......... .......... .......... .......... .......... 59.7M
+   100K .......... .......... .......... .......... ......     8.90M=0.006s
+
+2024-01-04 15:59:48 (23.6 MB/s) - ‘cryptonews.com/news/tellors-13-hour-meteoric-rise-and-fall-raises-manipulation-suspicions.htm’ saved [150454]
+
+--2024-01-04 15:59:48--  https://cryptonews.com/news/spot-bitcoin-etf-approval-is-unlikely-to-change-regulatory-environment-in-the-us-more-news.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/spot-bitcoin-etf-approval-is-unlikely-to-change-regulatory-environment-in-the-us-more-news.htm’
+
+     0K .......... .......... .......... .......... .......... 8.13M
+    50K .......... .......... .......... .......... ..........  386K
+   100K .......... .......... .......... .......... .......... 6.33M
+   150K .......... .                                           10.7M=0.1s
+
+2024-01-04 15:59:49 (1.09 MB/s) - ‘cryptonews.com/news/spot-bitcoin-etf-approval-is-unlikely-to-change-regulatory-environment-in-the-us-more-news.htm’ saved [165264]
+
+--2024-01-04 15:59:49--  https://cryptonews.com/news/crypto-exchange-listing-and-delisting-announcements-january-2-2024.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/crypto-exchange-listing-and-delisting-announcements-january-2-2024.htm’
+
+     0K .......... .......... .......... .......... .......... 7.78M
+    50K .......... .......... .......... .......... ..........  389K
+   100K .......... .......... .......... .......... .......... 6.17M
+   150K .......... .......... .                                14.2M=0.1s
+
+2024-01-04 15:59:50 (1.16 MB/s) - ‘cryptonews.com/news/crypto-exchange-listing-and-delisting-announcements-january-2-2024.htm’ saved [176089]
+
+--2024-01-04 15:59:50--  https://cryptonews.com/news/new-mickey-meme-coin-capitalizes-on-cartoons-public-domain-status.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/new-mickey-meme-coin-capitalizes-on-cartoons-public-domain-status.htm’
+
+     0K .......... .......... .......... .......... .......... 6.87M
+    50K .......... .......... .......... .......... .......... 9.32M
+   100K .......... .......... .......... .......... .......... 7.43M
+   150K ......                                                  103M=0.02s
+
+2024-01-04 15:59:50 (8.06 MB/s) - ‘cryptonews.com/news/new-mickey-meme-coin-capitalizes-on-cartoons-public-domain-status.htm’ saved [160357]
+
+--2024-01-04 15:59:50--  https://cryptonews.com/news/sec-reportedly-overwhelmed-with-paperwork-as-deadline-for-spot-bitcoin-etfs-approach.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/sec-reportedly-overwhelmed-with-paperwork-as-deadline-for-spot-bitcoin-etfs-approach.htm’
+
+     0K .......... .......... .......... .......... .......... 49.9M
+    50K .......... .......... .......... .......... ..........  388K
+   100K .......... .......... .......... .......... .......... 7.80M
+   150K .......                                                7.07M=0.1s
+
+2024-01-04 15:59:51 (1.12 MB/s) - ‘cryptonews.com/news/sec-reportedly-overwhelmed-with-paperwork-as-deadline-for-spot-bitcoin-etfs-approach.htm’ saved [160991]
+
+--2024-01-04 15:59:51--  https://cryptonews.com/news/china-raises-alarm-over-corrupt-officials-exploiting-cold-storage-cryptocurrency-for-illicit-cross-border-transactions.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/china-raises-alarm-over-corrupt-officials-exploiting-cold-storage-cryptocurrency-for-illicit-cross-border-transactions.htm’
+
+     0K .......... .......... .......... .......... .......... 8.09M
+    50K .......... .......... .......... .......... .......... 8.76M
+   100K .......... .......... .......... .......... .......... 8.29M
+   150K .......                                                8.06M=0.02s
+
+2024-01-04 15:59:51 (8.36 MB/s) - ‘cryptonews.com/news/china-raises-alarm-over-corrupt-officials-exploiting-cold-storage-cryptocurrency-for-illicit-cross-border-transactions.htm’ saved [160846]
+
+--2024-01-04 15:59:51--  https://cryptonews.com/news/orbit-chain-hacker-swaps-stolen-usdt-for-eth-rakes-in-1-45-million-profits.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/orbit-chain-hacker-swaps-stolen-usdt-for-eth-rakes-in-1-45-million-profits.htm’
+
+     0K .......... .......... .......... .......... .......... 8.23M
+    50K .......... .......... .......... .......... .......... 8.02M
+   100K .......... .......... .......... .......... .......... 9.61M
+   150K ....                                                   9.00T=0.02s
+
+2024-01-04 15:59:52 (8.84 MB/s) - ‘cryptonews.com/news/orbit-chain-hacker-swaps-stolen-usdt-for-eth-rakes-in-1-45-million-profits.htm’ saved [158548]
+
+--2024-01-04 15:59:52--  https://cryptonews.com/news/altcoin-news/page/3/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/altcoin-news/page/3/index.html’
+
+     0K .......... .......... .......... .......... .......... 7.59M
+    50K .......... .......... .......... .......... .......... 9.59M
+   100K .......... .......... .......... .......... ...        8.91M=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:52 (8.60 MB/s) - ‘cryptonews.com/news/altcoin-news/page/3/index.html’ saved [147000]
+
+--2024-01-04 15:59:52--  https://cryptonews.com/news/altcoin-news/page/393/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/altcoin-news/page/393/index.html’
+
+     0K .......... .......... .......... .......... .......... 51.9M
+    50K .......... .......... .......... .......... .......... 6.53M
+   100K .......... .......... .....                            32.7M=0.009s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:52 (13.4 MB/s) - ‘cryptonews.com/news/altcoin-news/page/393/index.html’ saved [128996]
+
+--2024-01-04 15:59:52--  https://cryptonews.com/news/blockchain-news/page/2/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/blockchain-news/page/2/index.html’
+
+     0K .......... .......... .......... .......... .......... 10.5M
+    50K .......... .......... .......... .......... ..........  379K
+   100K .......... .......... .......... .......... ...        15.7M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:53 (1.01 MB/s) - ‘cryptonews.com/news/blockchain-news/page/2/index.html’ saved [146872]
+
+--2024-01-04 15:59:53--  https://cryptonews.com/news/blockchain-news/feed/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified []
+Saving to: ‘cryptonews.com/news/blockchain-news/feed/index.html’
+
+     0K .......... .......... .......... .......... ..........  373K
+    50K .......... .......... .......... .......... .......... 2.63M
+   100K .......... .......... .......... .......... .......... 3.71M
+   150K                                                        1.07T=0.2s
+
+2024-01-04 15:59:53 (909 KB/s) - ‘cryptonews.com/news/blockchain-news/feed/index.html’ saved [154186]
+
+--2024-01-04 15:59:53--  https://cryptonews.com/news/coindcx-clarifies-fraud-complaints-against-scam-crypto-app-sharing-its-name.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/coindcx-clarifies-fraud-complaints-against-scam-crypto-app-sharing-its-name.htm’
+
+     0K .......... .......... .......... .......... .......... 13.2M
+    50K .......... .......... .......... .......... .......... 7.43M
+   100K .......... .......... .......... .......... .......... 8.32M
+   150K ...                                                    7.38T=0.02s
+
+2024-01-04 15:59:54 (9.31 MB/s) - ‘cryptonews.com/news/coindcx-clarifies-fraud-complaints-against-scam-crypto-app-sharing-its-name.htm’ saved [157656]
+
+--2024-01-04 15:59:54--  https://cryptonews.com/news/etherscan-officially-acquires-solscan.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/etherscan-officially-acquires-solscan.htm’
+
+     0K .......... .......... .......... .......... .......... 2.21M
+    50K .......... .......... .......... .......... ..........  273M
+   100K .......... .......... .......... .......... .......... 65.9M
+   150K ...                                                    6.82T=0.02s
+
+2024-01-04 15:59:54 (6.52 MB/s) - ‘cryptonews.com/news/etherscan-officially-acquires-solscan.htm’ saved [157347]
+
+--2024-01-04 15:59:54--  https://cryptonews.com/news/radiant-capital-reports-exploit-of-4-5-million-ethereum-loss.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/radiant-capital-reports-exploit-of-4-5-million-ethereum-loss.htm’
+
+     0K .......... .......... .......... .......... .......... 7.10M
+    50K .......... .......... .......... .......... .......... 8.10M
+   100K .......... .......... .......... .......... .......... 8.54M
+   150K .....                                                  10.9T=0.02s
+
+2024-01-04 15:59:55 (8.17 MB/s) - ‘cryptonews.com/news/radiant-capital-reports-exploit-of-4-5-million-ethereum-loss.htm’ saved [159603]
+
+--2024-01-04 15:59:55--  https://cryptonews.com/news/blockchain-news/page/3/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/blockchain-news/page/3/index.html’
+
+     0K .......... .......... .......... .......... .......... 7.40M
+    50K .......... .......... .......... .......... .......... 6.62M
+   100K .......... .......... .......... .......... ......     14.9M=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:55 (8.40 MB/s) - ‘cryptonews.com/news/blockchain-news/page/3/index.html’ saved [149856]
+
+--2024-01-04 15:59:55--  https://cryptonews.com/news/blockchain-news/page/217/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/blockchain-news/page/217/index.html’
+
+     0K .......... .......... .......... .......... .......... 7.60M
+    50K .......... .......... .......... .......... .......... 9.47M
+   100K .......... .......... ....                             6.66M=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:56 (8.02 MB/s) - ‘cryptonews.com/news/blockchain-news/page/217/index.html’ saved [127299]
+
+--2024-01-04 15:59:56--  https://cryptonews.com/news/press-releases/page/2/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/press-releases/page/2/index.html’
+
+     0K .......... .......... .......... .......... .......... 9.27M
+    50K .......... .......... .......... .......... ..........  405K
+   100K .......... .......... .......... .......... ..         6.97M=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2024-01-04 15:59:56 (1.04 MB/s) - ‘cryptonews.com/news/press-releases/page/2/index.html’ saved [146204]
+
+--2024-01-04 15:59:56--  https://cryptonews.com/news/press-releases/feed/
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified []
+Saving to: ‘cryptonews.com/news/press-releases/feed/index.html’
+
+     0K .......... .......... .......... .......... ..........  394K
+    50K .......... .......... .......... .......... .......... 5.65M
+   100K .......... .......... .......... .......... ..........  380K
+   150K .......... ..                                           153M=0.3s
+
+2024-01-04 15:59:57 (609 KB/s) - ‘cryptonews.com/news/press-releases/feed/index.html’ saved [166572]
+
+--2024-01-04 15:59:57--  https://cryptonews.com/news/whales-market-announces-the-launch-of-its-revolutionary-dapp-and-token-on-the-solana-network.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/whales-market-announces-the-launch-of-its-revolutionary-dapp-and-token-on-the-solana-network.htm’
+
+     0K .......... .......... .......... .......... .......... 13.9M
+    50K .......... .......... .......... .......... .......... 8.30M
+   100K .......... .......... .......... .......... .......... 5.88M
+   150K ...                                                    5.91T=0.02s
+
+2024-01-04 15:59:57 (8.45 MB/s) - ‘cryptonews.com/news/whales-market-announces-the-launch-of-its-revolutionary-dapp-and-token-on-the-solana-network.htm’ saved [156847]
+
+--2024-01-04 15:59:57--  https://cryptonews.com/news/matic-breaks-above-1-as-major-pump-seems-likely-how-does-it-stack-up-against-gfox.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/matic-breaks-above-1-as-major-pump-seems-likely-how-does-it-stack-up-against-gfox.htm’
+
+     0K .......... .......... .......... .......... .......... 9.03M
+    50K .......... .......... .......... .......... .......... 3.91M
+   100K .......... .......... .......... .......... ..........  160M
+   150K ..                                                     4.06T=0.02s
+
+2024-01-04 15:59:58 (8.16 MB/s) - ‘cryptonews.com/news/matic-breaks-above-1-as-major-pump-seems-likely-how-does-it-stack-up-against-gfox.htm’ saved [155830]
+
+--2024-01-04 15:59:58--  https://cryptonews.com/news/bitcoin-btc-faces-downside-threat-from-altcoins-like-solana-sol-borroe-finance-roe.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-btc-faces-downside-threat-from-altcoins-like-solana-sol-borroe-finance-roe.htm’
+
+     0K .......... .......... .......... .......... .......... 7.34M
+    50K .......... .......... .......... .......... .......... 6.55M
+   100K .......... .......... .......... .......... .......... 8.88M
+   150K .                                                      3.13T=0.02s
+
+2024-01-04 15:59:58 (7.56 MB/s) - ‘cryptonews.com/news/bitcoin-btc-faces-downside-threat-from-altcoins-like-solana-sol-borroe-finance-roe.htm’ saved [155321]
+
+--2024-01-04 15:59:58--  https://cryptonews.com/news/bitcoin-miners-profit-from-transaction-fees-algorand-and-inqubeta-set-for-positive-trajectory.htm
+Reusing existing connection to cryptonews.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cryptonews.com/news/bitcoin-miners-profit-from-transaction-fees-algorand-and-inqubeta-set-for-positive-trajectory.htm’
+
+     0K .......... .......... .......... .......... .......... 7.89M
+    50K .......... .......... .......... .......... .......... 6.24M
+   100K .......... .......... .......... .......... .......... 10.1M
+   150K ..

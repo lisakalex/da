@@ -1,0 +1,691 @@
+12581 ./a/cryptonews.com/news/best-nft-gambling-sites.htm
+<a href="/" class="header__logo">
+/home/al/books/other/www.gnu.org/software/wget/manual/wget.html
+
+~~~
+Count The Files By Extension Recursively
+https://www.2daygeek.com/how-to-count-files-by-extension-in-linux/
+
+Count The Files By Specific Extension Recursively Using ls
+ls -lR | grep --count \.html$
+
+Count All The Files Extension Recursively
+find . -type f | sed -n 's/..*\.//p' | sort | uniq -c
+
+Recursively counting all files
+find . -type f | wc -l
+
+~~~
+count all words Recursively (Grep Recursive and Count)
+https://stackoverflow.com/questions/884591/grep-recursive-and-count
+
+grep -roh "https://cryptonews.com" | grep -v "^Binary.*matches$" | grep -c ^
+
+this gives closer result to Intellij
+grep -r "word" * | tee >(wc -l)
+index.html
+did="16" 300X250-mobile.jpg
+did="11" 970x250.jpg
+did="1" 300x600.jpg
+did="2" 970x90.jpg
+jjh
+news/index.html
+did="4" 300x600.jpg
+
+news/*.htm
+did="9" 468x60.png
+did="5" 970x250.jpg
+did="12" 970x90.jpg
+did="6" 300x600.jpg
+did="7" 300X250-mobile.jpg
+did="8" 468x60.png
+
+/var/www/huy.com/public_html/news/bitcoin-now-undervalued-vs-sp-500-according-metric.htm
+              http://huy.com/news/bitcoin-now-undervalued-vs-sp-500-according-metric.htm
+
+https://v2.cimg.co/images/icon-video.svg?2645d7e16797ce2f6ab255b58e13f4f8
+https://v2.cimg.co/images/icon-star-gradient.svg?ea81e1de07370ca5e2e6f63e98468cf3
+icon-star-gradient.svg?ea81e1de07370ca5e2e6f63e98468cf3
+http://huy-1.com/news/today-in-crypto-stepn-reveals-apple-pay-integration-huobi-ordered-to-stop-operations-in-malaysia-hotbit-closes-shop-dcg-missed-a-630m-payment-bxb-capital-raising-capital-exclusively-in-btc.htm
+http://huy-1.com/news/bitcoin2023-suffers-from-low-turnout-amidst-high-ticket-prices-and-crypto-downturn.htm
+http://huy-1.com/news/metric-of-bitcoin-btc-price-momentum-just-fell-its-lowest-since-march-now-good-time-buy.htm
+http://huy-1.com/news/this-key-on-chain-indicator-will-soon-join-the-list-of-those-signalling-a-bitcoin-btc-bull-market-is-here.htm
+http://huy-1.com/news/coinshares-report-digital-asset-fund-outflows-reach-200-million.htm
+http://huy-1.com/news/number-of-bitcoin-wallets-with-at-least-1-btc-hits-1-million-smart-money-still-moving-in.htm
+kak
+
+http://huy-1.com/news/m11-credit-restarts-crypto-lending-maple-finance-after-ftx-fallout-heres-what-you-need-know.htm
+linear-gradient(107deg,#00b900,#59008a)
+#920047
+/notfound.html
+
+~~~
+change theirs button colors to our (green)
+    read_file1 = read_file1.replace('#930046', '#00b900')
+    read_file1 = read_file1.replace('#59008a', '#018001')
+
+~~~
+fuck firefox
+
+change header color (lines in frontend.css)
+1479
+4676
+1776
+1782
+1569
+1576
+
+fa4723
+b63d02
+fcc3b2
+http://intspeed.com/
+
+	Alias /assets "/var/www/intspeed.com/assets"
+
+	<Directory "/var/www/intspeed.com/assets">
+		Options Indexes FollowSymLinks MultiViews
+		Require all granted
+		AllowOverride None
+		Order allow,deny
+		Allow from all
+	</Directory>
+
+	Alias /assets "/var/www/da-1.com/assets"
+
+	<Directory "/var/www/da-1.com/assets">
+		Options Indexes FollowSymLinks MultiViews
+		Require all granted
+		AllowOverride None
+		Order allow,deny
+		Allow from all
+	</Directory>
+
+	       -t, --target-directory=DIRECTORY
+                  specify the DIRECTORY in which to create the links
+
+first commit after add-email-contact 926040c9e2afcd0204ffc1f6dd6a0e1c1687951e
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<style>@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');</style>
+
+<style>@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&display=swap');</style>
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+
+Montserrat-6610f2
+Montserrat-Alternates-6610f2
+Rajdhani-e83e8c
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+</style>
+<style>\n' +
+                '  @import url(\'https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap\');\n' +
+                '</style>
+
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+<!--    <script type="rocketlazyloadscript" data-rocket-src='https://cryptonews.com/wp-content/themes/cryptonews/assets/js/frontend.js?ver=1.1688466991' id='frontend-js-js' defer></script>-->
+    <script type="rocketlazyloadscript" data-rocket-src='/assets/js/new/frontend-1.js' id='frontend-js-js' defer></script>
+
+<!--    <link data-minify="1" rel='stylesheet' id='style-css-css' href='https://cryptonews.com/wp-content/cache/min/1/wp-content/themes/cryptonews/style.css?ver=1698672909' media='all'/>-->
+    <link data-minify="1" rel='stylesheet' id='style-css-css' href='/assets/css/new/style-1.css' media='all'/>
+
+    http://huy-1.com/
+
+poshol na h
+
+"
+
+                Terms & Conditions
+
+
+GeneralThese General Terms and Conditions (“Agreement”) govern the terms by which you may use and access the CryptoNews (the “Site”) and/or any services provided therein. By accessing or using the Site and any service provided through the Site (the “Service”), you hereby represent, warrant and undertake that you have read, understood, and agree to be bound by the terms of this Agreement thereby making them a binding agreement between you and us, whether or not you are a registered user of our Site.This Agreement applies to each visitor, user, and others who access or use the Site and/or Service (“User(s)”).Data ProtectionThe protection of your personal information is very important to us. Therefore, we take appropriate actions to protect personal information of Users collected, stored or used by us. Before agreeing to this Agreement, please read our Privacy Policy to understand how your personal information is handled when accessing or using our internet services, which such Privacy Policy is hereby incorporated by reference into this Agreement.Proprietary RightsAll Content published by CryptoNews on the Site (apart from User-submitted Content), including, without limitation, images, photographs, graphics, animations, videos, audio and text (the “Site Content”) are owned by CryptoNews and/or its licensors and is protected by copyright and other intellectual property or other proprietary rights. You hereby acknowledge that by using the Site and any Service you obtain no rights in the Site Content, or any part thereof. Copying and/or amending all or part of the Site Content, particularly for commercial or advertising use requires the prior written permission of CryptoNews. The making or amending of copies (either saved or printed) of opinions, reviews or other statements for personal and not commercial use is permitted provided that legends or other references will not be falsified or deleted. Any other copying, amending, distribution or publication of Site Content without the prior written permission of CryptoNews is prohibited.Protection of trade marksThe “CryptoNews” marks and logos are trademarks. The use or the display of these trademarks without explicit written permission of CryptoNews is prohibited. Nothing on the Site should be construed as granting, by implication, estoppel, or otherwise, any right or license to use any of the “CryptoNews” marks without the prior explicit written consent of CryptoNews.Links to Other WebsitesThe Site may contain links and references to other websites. We may, from time to time, at our sole discretion, add or remove links to other websites. These links are provided for your convenience, and access to any such websites is at your own risk. You are encouraged to review the terms of use, privacy policy, and other policies or disclaimers provided on these website prior to any use thereof. We do not review, approve, monitor, endorse, warrant, or make any representation with respect to such websites. In no event will we be responsible for the information contained in such websites, their practices or for your use of or inability to use such websites. You explicitly relieve us from any and all liability arising from your use of any third-party website.Restriction of LiabilityCryptoNews uses reasonable efforts to ensure that the information available on the Site is accurate at all times. However, we cannot guarantee that such information will be fault-free and we cannot be responsible for services offered by us as agents for third parties or for any aspect of the relationship between you and that third party. CryptoNews does not assume liability for any errors and omissions and reserves the right to change information, specifications and descriptions of any listed Service. Without derogating from the foregoing, it is agreed and understood that the Site and Service are provided on an “As Is” and “with all faults” basis, and without warranty or condition of any kind, either express or implied.CryptoNews further makes no representations about the fitness for a particular purpose of any product or service referred to on the Site. CryptoNews makes no warranty that the Service will meet your expectations, or that data and content obtained through Site and any Service will be accurate, reliable or current, or that the Service will be available on an uninterrupted, secure, or error-free basis. Whilst we will endeavour to correct errors and omissions as quickly as possible after being notified of them, you acknowledge and agree that use of the Service is at your own discretion and sole risk.ViolationsPlease report any violations of the terms of this Agreement using our Contact Us form.Modifications to the Service and to this AgreementCryptoNews reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with or without notice to you. You agree that CryptoNews shall not be liable to you or to any third party for any modification, suspension or discontinuance of the Service. In addition, CryptoNews may modify the terms of this Agreement at any time. If we do make changes to the terms of this Agreement, we will post the amended version of this Agreement on the Site. We encourage you to frequently visit our Site to determine if any changes to this Agreement have been implemented. For ease of determining if any changes have been made we shall post the date the Agreement was last changed on the top of the page. Your continued use of the Service after any such change constitutes your acceptance of the new terms of this Agreement. If you do not agree to any of these terms, do not use or access (or continue to access) the Service.General TermsThis Agreement, together with the Privacy Policy and any other legal notices published by CryptoNews on the Site shall constitute the entire agreement between you and CryptoNews concerning use of the Site and the Service. If any provision of this Agreement is deemed invalid by a court of competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of this Agreement, which shall remain in full force and effect. No waiver of any term of this Agreement shall be deemed a further or continuing waiver of such term or any other term, and CryptoNews’ failure to assert any right or provision under this Agreement shall not constitute a waiver of such right or provision.This Agreement is governed by the laws of the Isle of Man, without regards to its conflict of laws principles, and any dispute arising from this Agreement shall be brought exclusively before the courts of the Isle of Man. Notwithstanding the foregoing, nothing in this clause shall limit the right of CryptoNews to take proceedings against you in any other court of competent jurisdiction, nor shall the taking of proceedings in any one or more jurisdictions preclude the taking of proceedings in any other jurisdictions, whether concurrently or not, to the extent permitted by the law of such other jurisdiction. You may not transfer or assign your rights or obligations under this Agreement to any third party without the prior written approval of CryptoNews.CryptoNews may assign this Agreement in whole or in part at its discretion. The English language version of this Agreement shall be the prevailing version in the event of any discrepancy between any translated versions of this Agreement.
+
+"
+
+~~~
+15706 ./b/news/russia-survey-90-dont-want-paid-digital-rubles-cbdc-setback.htm
+15707 ./b/news/bitcoin-price-prediction-btc-slips-25-as-regulatory-winds-national-reserves-shape-future.htm
+Traceback (most recent call last):
+  File "/var/www/huy.com/./editallfiles.py", line 288, in <module>
+    read_file = replace_links(read_file)
+  File "/var/www/huy.com/./editallfiles.py", line 125, in replace_links
+    href = link.get('href')
+  File "/home/al/.venv/lib/python3.10/site-packages/bs4/element.py", line 1493, in get
+    return self.attrs.get(key, default)
+AttributeError: 'NoneType' object has no attribute 'get'
+
+~~~
+editors pick --
+edit links --
+insert ads --
+fix cookies --
+replace empty image --
+
+~~~
+#menu-header > li:nth-child(9) > ul
+document.querySelector("#menu-header > li:nth-child(9) > ul")
+//*[@id="menu-header"]/li[9]/ul
+huy
+~~~
+The main difference is in this example:
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Yandex</title>
+
+</head>
+<body>
+    <a href="((http://yandex.ru))">Яндекс</a>,
+    <a href="((http://yandex.com))">Yandex</a>
+</body>
+<script>
+
+var elems1 = document.getElementsByTagName('a'), // return 2 lements, elems1.length = 2
+    elems2 = document.querySelectorAll("a");  // return 2 elements, elems2.length = 2
+
+document.body.appendChild(document.createElement("a"));
+
+console.log(elems1.length, elems2.length);  // now elems1.length = 3!
+                                            // while elems2.length = 2
+</script>
+</html>
+Because querySelectorAll returns a static (not live) list of elements.
+
+~~~
+Using data attributes
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
+
+<article
+  id="electric-cars"
+  data-columns="3"
+  data-index-number="12314"
+  data-parent="cars">
+  …
+</article>
+
+const article = document.querySelector("#electric-cars");
+// The following would also work:
+// const article = document.getElementById("electric-cars")
+
+article.dataset.columns; // "3"
+article.dataset.indexNumber; // "12314"
+article.dataset.parent; // "cars"
+
+~~~
+ssh al@82.165.5.243
+
+on local machine copy from remote
+al@da:~$ scp al@82.165.5.243:~/syslog .
+
+~~~
+/var/www/da.com/a - now is used for downloading with download.txt
+/var/www/da.com/c - moved a here
+
+~~~
+download multiple URLs using wget using a single command
+https://stackoverflow.com/questions/14578264/how-to-download-multiple-urls-using-wget-using-a-single-command
+wget https://cryptonews.com/ -i download.txt
+wget https://cryptonews.com/ -i /var/www/da.com/download.txt
+
+~~~
+my ip 82.43.108.150
+
+~~~
+Clear RAM Memory Cache, Buffer and Swap Space on Linux
+sudo sync; echo 3 > /proc/sys/vm/drop_caches
+
+~~~
+remote server
+install chrome
+https://tecadmin.net/how-to-install-google-chrome-on-ubuntu-22-04/
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+error: cannot copy extracted data for './opt/google/chrome/icudtl.dat' to '/opt/google/chrome/icudtl.dat.dpkg-new': unexpected end of file or stream
+delete google-chrome-stable_current_amd64.deb
+run sudo apt-get clean
+download again google-chrome-stable_current_amd64.deb
+
+sudo apt install xvfb
+sudo apt install xvfbwrapper
+pip install selenium
+pip install stem
+pip install fake-useragent
+
+~~~
+free up disk space on an Ubuntu
+https://webdock.io/en/docs/how-guides/system-maintenance/how-free-disk-space-ubuntu-nginx-or-apache-web-server
+
+sudo df -h
+sudo du -h --max-depth=1 /var 2>/dev/null
+
+this saved 1G of memory
+sudo journalctl --vacuum-size=1M
+
+sudo rm /var/log/*.gz
+
+~~~
+crontab /var/www/da-1.com/cronreload.txt
+* * * * * cd /var/www/da-1.com/ && ./tor.py
+
+remote
+crontab /var/www/cronreload_remote.txt
+* * * * * cd /var/www/ && ./tor.py
+
+0 * * * *  DISPLAY=:0 python my_script.py
+
+~~~
+mysql -u root -p
+
+huy g h
+
+~~~
+al@da:~$ ssh al@82.165.5.243
+sign_and_send_pubkey: signing failed for ED25519 "/home/al/.ssh/id_ed25519" from agent: agent refused operation
+al@82.165.5.243's password:
+
+~~~
+https://www.amkamdam.com/ works from crontab without DISPLAY=:0, (* * * * * cd /var/www/ && ./tor.py).
+The .py has "from xvfbwrapper import Xvfb"
+ (xvfb and xvfbwrapper both installed )
+     display = Xvfb()
+     display.start()
+
+load average: 0.26, 0.43, 0.30
+mysql stopped
+tor is on
+
+crontab:
+0 7 * * * /var/www/hindex/sh/get_hyip_seeds.py
+* * * * * /var/www/hindex/sh/get_top.py
+* * * * * /var/www/hindex/sh/seed1.sh
+* * * * * /var/www/hindex/sh/monitor.sh
+* * * * * /var/www/hindex/sh/hyip.sh
+* * * * * /var/www/hindex/sh/hyip1.sh
+* * * * * /var/www/hindex/sh/rate.sh
+0 19 * * * /usr/bin/php8.1 /var/www/hindex/sh/copyall.php
+* * * * * /usr/bin/php8.1 /var/www/hindex/pay_cron.php
+* * * * * /bin/bash -l -c 'date > ~/cron-test.txt'
+#0 7 * * * cd /var/www/a/ && wget https://cryptonews.com/
+#0 19 * * * cd /var/www/ && ./editallfiles.py
+* * * * * cd /var/www/ && ./tor.py
+#* * * * * DISPLAY=:0 cd /var/www/ && ./tor.py
+
+~~~
+24262
+
+/var/www/da.com/d/cryptonews.com/exclusives/4-influential-cryptocurrency-projects-1124.htm
+
+FINISHED --2023-12-01 12:57:09--
+Total wall clock time: 13s
+Downloaded: 86 files, 1.6M in 1.1s (1.50 MB/s)
+
+FINISHED --2023-12-01 12:59:13--
+Total wall clock time: 12s
+Downloaded: 86 files, 1.6M in 1.4s (1.17 MB/s)
+
+32666 ./a/cryptonews.com/news/47-countries-adopt-new-carf-framework-on-automatic-exchange-of-information-between-tax-authorities.htm
+32667 ./a/cryptonews.com/news/crypto-listing-and-delisting-announcements-week-18-6465.htm
+32668 ./a/cryptonews.com/news/solana-founder-unfazed-by-ftx-troubles-growing-blockchain-competition-heres-latest.htm
+^CTraceback (most recent call last):
+  File "/var/www/da.com/./editallfiles.py", line 81, in <module>
+    read_file = insert_in_head(read_file)
+  File "/var/www/da.com/./editallfiles.py", line 61, in insert_in_head
+    soup1 = BeautifulSoup(read_file1, features='html.parser')
+  File "/home/al/.venv/lib/python3.10/site-packages/bs4/__init__.py", line 333, in __init__
+    self._feed()
+  File "/home/al/.venv/lib/python3.10/site-packages/bs4/__init__.py", line 451, in _feed
+    self.builder.feed(self.markup)
+  File "/home/al/.venv/lib/python3.10/site-packages/bs4/builder/_htmlparser.py", line 399, in feed
+    parser.feed(markup)
+  File "/usr/lib/python3.10/html/parser.py", line 110, in feed
+    self.goahead(0)
+  File "/usr/lib/python3.10/html/parser.py", line 170, in goahead
+    k = self.parse_starttag(i)
+  File "/usr/lib/python3.10/html/parser.py", line 344, in parse_starttag
+    self.handle_starttag(tag, attrs)
+  File "/home/al/.venv/lib/python3.10/site-packages/bs4/builder/_htmlparser.py", line 158, in handle_starttag
+    if tag and tag.is_empty_element and handle_empty_element:
+  File "/home/al/.venv/lib/python3.10/site-packages/bs4/element.py", line 1532, in __bool__
+    def __bool__(self):
+KeyboardInterrupt
+
+al@da:/var/www/da.com$
+
+https://cryptonews.com/news/altcoin-news/index.html
+https://cryptonews.com/news/altcoin-news/page/2/index.html
+
+https://cryptonews.com/news/
+https://cryptonews.com/news/altcoin-news
+https://cryptonews.com/news/bitcoin-news
+https://cryptonews.com/news/blockchain-news
+https://cryptonews.com/news/cryptonews-deals
+https://cryptonews.com/news/defi-news
+https://cryptonews.com/news/ethereum-news
+https://cryptonews.com/news/feed
+https://cryptonews.com/news/finance-news
+https://cryptonews.com/news/ico-news
+https://cryptonews.com/news/industry-talk
+https://cryptonews.com/news/nft-news
+https://cryptonews.com/news/press-releases
+https://cryptonews.com/news/price-predictions
+https://cryptonews.com/news/quick-reviews
+https://cryptonews.com/news/sponsored
+https://cryptonews.com/news/technology-news
+
+~~~
+FINISHED --2023-12-06 20:45:52--
+Total wall clock time: 54m 57s
+Downloaded: 2458 files, 324M in 6m 29s (853 KB/s)
+
+time 5.97 min
+
+gandon
+gandon
+gandon
+
+~~~
+extend the trial period of JetBrains IDE
+https://www.quora.com/Is-there-a-way-to-extend-the-trial-period-of-JetBrains-IDE
+
+#########
+
+for product in IntelliJIdea WebStorm DataGrip PhpStorm CLion PyCharm GoLand RubyMine; do
+
+echo "Resetting trial period for $product"
+echo "removing evaluation key..."
+
+rm -rf ~/.config/$product*/eval
+
+# Above path not working on latest version. Fixed below
+
+rm -rf ~/.config/JetBrains/$product*/eval
+
+echo "removing all evlsprt properties in options.xml..."
+
+sed -i 's/evlsprt//' ~/.config/$product*/options/other.xml
+
+# Above path not working on latest version. Fixed below
+
+sed -i 's/evlsprt//' ~/.config/JetBrains/$product*/options/other.xml
+
+echo
+
+done
+
+echo "removing userPrefs files..."
+
+rm -rf ~/.java/.userPrefs
+
+#########
+
+Happy Coding :)
+
+~~~
+https://blog.cpming.top/p/permanent-trial-jetbrains-product
+
+~~~
+https://stackoverflow.com/questions/26584948/how-do-i-remove-my-intellij-license-in-2019-3
+For Linux to reset current 30 days expiration license, you must run code:
+
+rm ~/.config/JetBrains/IntelliJIdea2019.3/options/other.xml
+rm -rf ~/.config/JetBrains/IntelliJIdea2019.3/eval/*
+rm -rf .java/.userPrefs
+
+~~~
+cd ~/.config/JetBrains/PyCharm2020.1
+rm eval/PyCharm201.evaluation.key
+sed -i '/evlsprt/d' options/other.xml
+cd ~/.java/.userPrefs/jetbrains
+rm -rf pycharm*
+
+~~~
+wget --no-clobber  --no-timestamping https://www.allhyipmonitors.com/
+
+~~~
+[Errno 21] Is a directory: './a/cryptonews.com/news/altcoin-news/page/3/'
+346 200 0.718 /news/altcoin-news/page/3/
+[Errno 21] Is a directory: './a/cryptonews.com/news/altcoin-news/page/5/'
+347 200 1.54 /news/altcoin-news/page/5/
+[Errno 21] Is a directory: './a/cryptonews.com/news/altcoin-news/page/6/'
+348 200 1.327 /news/altcoin-news/page/6/
+[Errno 21] Is a directory: './a/cryptonews.com/news/altcoin-news/page/386/'
+349 200 1.536 /news/altcoin-news/page/386/
+[Errno 21] Is a directory: './a/cryptonews.com/news/altcoin-news/page/5/'
+350 200 0.715 /news/altcoin-news/page/5/
+351 200 0.616 /news/bitcoin-news/index.html
+
+<a class="article__badge article__badge--sm" href="https://cryptonews.com/news/bitcoin-news/">  Bitcoin News </a>
+'https://cryptonews.com/news/sec-chair-gensler-discusses-impact-of-court-rulings-on-reevaluating-bitcoin-etf-decisions.htm'
+
+https://cryptonews.com/news/taiwan-police-target-crypto-influencers-linked-to-polymarket-election-betting.htm
+
+~~~
+<VirtualHost *:443>
+	# The ServerName directive sets the request scheme, hostname and port that
+	# the server uses to identify itself. This is used when creating
+	# redirection URLs. In the context of virtual hosts, the ServerName
+	# specifies what hostname must appear in the request's Host: header to
+	# match this virtual host. For the default virtual host (this file) this
+	# value is not decisive as it is used as a last resort host regardless.
+	# However, you must set it for any further virtual host explicitly.
+	#ServerName www.example.com
+
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html
+	ServerName amkamdam.com
+	SSLEngine on
+	SSLCertificateFile /etc/ssl/certs/amkamdam.com_ssl_certificate.cer
+	SSLCertificateKeyFile /etc/ssl/private/_.amkamdam.com_private_key.key
+	SSLCertificateChainFile /etc/ssl/certs/_.amkamdam.com_ssl_certificate_INTERMEDIATE.cer
+
+	ErrorDocument 404 /notfound.html
+
+	# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+	# error, crit, alert, emerg.
+	# It is also possible to configure the loglevel for particular
+	# modules, e.g.
+	#LogLevel info ssl:warn
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+	# For most configuration files from conf-available/, which are
+	# enabled or disabled at a global level, it is possible to
+	# include a line for only one particular virtual host. For example the
+	# following line enables the CGI configuration for this host only
+	# after it has been globally disabled with "a2disconf".
+	#Include conf-available/serve-cgi-bin.conf
+</VirtualHost>
+
+<VirtualHost *:80>
+   ServerName amkamdam.com
+   Redirect permanent / https://amkamdam.com
+</VirtualHost>
+
+~~~
+<VirtualHost *:80>
+	# The ServerName directive sets the request scheme, hostname and port that
+	# the server uses to identify itself. This is used when creating
+	# redirection URLs. In the context of virtual hosts, the ServerName
+	# specifies what hostname must appear in the request's Host: header to
+	# match this virtual host. For the default virtual host (this file) this
+	# value is not decisive as it is used as a last resort host regardless.
+	# However, you must set it for any further virtual host explicitly.
+	#ServerName www.example.com
+
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html
+
+	ErrorDocument 404 /notfound.html
+
+	# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+	# error, crit, alert, emerg.
+	# It is also possible to configure the loglevel for particular
+	# modules, e.g.
+	#LogLevel info ssl:warn
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+	# For most configuration files from conf-available/, which are
+	# enabled or disabled at a global level, it is possible to
+	# include a line for only one particular virtual host. For example the
+	# following line enables the CGI configuration for this host only
+	# after it has been globally disabled with "a2disconf".
+	#Include conf-available/serve-cgi-bin.conf
+</VirtualHost>
+
+<VirtualHost *:80>
+   ServerName amkamdam.com
+   Redirect permanent / https://amkamdam.com
+</VirtualHost>
+
+~~~
+new server
+The server user name is root.
+The password for accessing your server is YN6ujnD0.
+
+ssh root@212.227.199.128
+this is reinstall of ubuntu - the old key had to be removed
+ssh-keygen -f "/home/al/.ssh/known_hosts" -R "212.227.199.128"
+ssh-copy-id al@212.227.199.128
+adduser al
+adduser al sudo
+sudo apt update
+sudo apt upgrade
+sudo install apache2
+sudo usermod -a -G www-data al
+sudo chown -R al:www-data www/
+systemctl status apache2
+systemctl restart apache2
+cat /etc/apache2/sites-available/000-default.conf
+
+<VirtualHost *:80>
+        # The ServerName directive sets the request scheme, hostname and port that
+        # the server uses to identify itself. This is used when creating
+        # redirection URLs. In the context of virtual hosts, the ServerName
+        # specifies what hostname must appear in the request's Host: header to
+        # match this virtual host. For the default virtual host (this file) this
+        # value is not decisive as it is used as a last resort host regardless.
+        # However, you must set it for any further virtual host explicitly.
+        #ServerName www.example.com
+
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/html
+
+        # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+        # error, crit, alert, emerg.
+        # It is also possible to configure the loglevel for particular
+        # modules, e.g.
+        #LogLevel info ssl:warn
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+        # For most configuration files from conf-available/, which are
+        # enabled or disabled at a global level, it is possible to
+        # include a line for only one particular virtual host. For example the
+        # following line enables the CGI configuration for this host only
+        # after it has been globally disabled with "a2disconf".
+        #Include conf-available/serve-cgi-bin.conf
+</VirtualHost>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+
+canges to 000-default.conf
+sudo nano /etc/apache2/sites-available/000-default.conf
+<VirtualHost *:443>
+        SSLEngine on
+        SSLCertificateFile /etc/ssl/certs/amkamdam.com_ssl_certificate.cer
+        SSLCertificateKeyFile /etc/ssl/private/_.amkamdam.com_private_key.key
+        SSLCertificateChainFile /etc/ssl/certs/_.amkamdam.com_ssl_certificate_INTERMEDIATE.cer
+
+        ErrorDocument 404 /notfound.html
+
+<VirtualHost *:80>
+        ServerName amkamdam.com
+        Redirect permanent / https://amkamdam.com
+</VirtualHost>
+
+sudo apache2ctl configtest (without 'sudo a2enmod' ssl it said syntax errors)
+
+al@da:~$ scp ~/_.amkamdam.com_private_key.key al@212.227.199.128:~/
+al@da:~$ scp ~/amkamdam.com_ssl_certificate.cer al@212.227.199.128:~/
+al@da:~$ scp ~/_.amkamdam.com_ssl_certificate_INTERMEDIATE.cer al@212.227.199.128:~/
+
+al@ubuntu:~$ sudo cp amkamdam.com_ssl_certificate.cer /etc/ssl/certs/
+al@ubuntu:~$ sudo cp _.amkamdam.com_ssl_certificate_INTERMEDIATE.cer /etc/ssl/certs/
+al@ubuntu:~$ sudo cp _.amkamdam.com_private_key.key /etc/ssl/private/
+
+sudo a2enmod ssl
+systemctl restart apache2
+
+sudo apt install python3.10-venv
+python3 -m venv ~/.venv
+source ~/.venv/bin/activate
+python3 -m pip install -r /var/www/requirements.txt
+
+install chrome
+wget has mirror on so it downloads some directories as well
+al@ubuntu:~$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+al@ubuntu:~$ cd ~/dl.google.com/linux/direct
+
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+this is the chrome version - Unpacking google-chrome-stable (120.0.6099.129-1)
+
+ installing missing chrome dependencies.
+(after you have run sudo dpkg -i google-chrome-stable_current_i386.deb).
+sudo apt-get install -f
+
+xvfb
+https://www.geeksforgeeks.org/how-to-install-xvfb-on-ubuntu/
+sudo apt install xvfb
+
+tor
+https://justhackerthings.com/post/using-tor-from-the-command-line/
+
+sudo apt install tor
+Next, edit /etc/tor/torrc:
+
+sudo nano /etc/tor/torrc
+Find the line containing the following:
+
+#ControlPort 9051
+…and uncomment it.
+
+Next, find the following line:
+
+#CookieAuthentication 1
+Uncomment it, and change 1 to 0.
+
+Finally, restart the tor service:
+
+sudo /etc/init.d/tor restart
+
+/var/www/cronreload_remote.txt
+
+tail -f wgetlog.txt
+ls -lR | grep --count \.html$
+ls -lR | grep --count \.htm$
+
+huy
+
+cat /dev/null > /var/log/syslog
+cat /dev/null > /var/log/tor/debug.log.2.gz
+
+ku ku

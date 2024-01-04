@@ -1,0 +1,7 @@
+* * * * * /bin/bash -l -c 'date > ~/cron-test.txt'
+0 0 * * * cd /var/www/a/ && wget https://cryptonews.com/
+0 14 * * * cd /var/www/ && ./editallfiles.py
+#* * * * * cd /var/www/ && ./tor.py
+#* * * * * cd /var/www/ && ./tor1.py
+#* * * * * cd /var/www/ && ./tor2.py
+#*/3 * * * * cd /var/www/ && ./tor.py

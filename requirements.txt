@@ -1,0 +1,7 @@
+beautifulsoup4==4.12.2
+fake_useragent==1.4.0
+glob2==0.7
+Requests==2.31.0
+selenium==4.16.0
+stem==1.8.2
+xvfbwrapper==0.2.9
