@@ -4,7 +4,7 @@ function setSite(color, font) {
 }
 
 $(function () {
-
+        // debugger
         let href = location.href
         let origin = location.origin
         let pathname = location.pathname
@@ -202,7 +202,26 @@ $(function () {
         $("body > div.main > main > section:nth-child(5) > div > div").load('/me-index.html [did="2"] > a');
 
         //news/index.html
-        $("body > div.main > main > div:nth-child(2) > div > div > div.col-12.col-lg-3 > div.dslot").load('/me-index.html [did="4"] > a');
+        if (pathname === '/news/') {
+            $("body > div.main > main > div:nth-child(2) > div > div > div.col-12.col-lg-3 > div.dslot").load('/me-index.html [did="4-news"] > iframe');
+        }
+
+        if (pathname === '/news/bitcoin-news/') {
+            $("body > div.main > main > div:nth-child(2) > div > div > div.col-12.col-lg-3 > div.dslot").load('/me-index.html [did="4-bitcoin-news"] > iframe');
+        }
+
+        if (pathname === '/news/ethereum-news/') {
+            $("body > div.main > main > div:nth-child(2) > div > div > div.col-12.col-lg-3 > div.dslot").load('/me-index.html [did="4-ethereum-news"] > iframe');
+        }
+
+        if (pathname === '/news/nft-news/') {
+            $("body > div.main > main > div:nth-child(2) > div > div > div.col-12.col-lg-3 > div.dslot").load('/me-index.html [did="4-nft-news"] > iframe');
+        }
+
+        if (pathname === '/news/press-releases/') {
+            $("body > div.main > main > div:nth-child(2) > div > div > div.col-12.col-lg-3 > div.dslot").load('/me-index.html [did="4-press-releases"] > iframe');
+        }
+        // $("body > div.main > main > div:nth-child(2) > div > div > div.col-12.col-lg-3 > div.dslot").load('/me-index.html [did="4"] > iframe');
 
         // news/*.htm
         $("body > div.main > div:nth-child(1) > div:nth-child(2) > main > div > div.col-12.col-md-9.mb-40 > div.article-single__content.category_contents_details > div.dslot.text-right").load('/me-index.html [did="9"] > a');

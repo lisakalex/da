@@ -1,0 +1,3228 @@
+kumpenot@yandex.com
+ZzabulaDdura19.&
+huy
+zabuladura
+
+TalkTalk Wi-Fi Hub
+star
+Zaichik1XXX35
+
+lisakalex@gmail.com
+huyxxx35
+
+mega.nz
+huy
+
+alexlisak@hotmail.com
+http://hindex.uk/
+hindexuk_hyip
+
+amkamdam@gmail.com
+huy
+
+ionos.co.uk
+lisakalex@gmail.com
+huy
+Zaichik1.%26
+6XWJCdaO
+82.165.5.243
+ssh al@82.165.5.243
+CONTRACT NO. 97128639
+Account number: 893069187
+support@amkamdam.com
+https://email.ionos.co.uk/
+https://amkamdam.com/tdetail/
+
+NAME SERVER	TYPE
+ns1036.ui-dns.biz	IONOS Nameserver
+ns1070.ui-dns.com	IONOS Nameserver
+ns1118.ui-dns.de	IONOS Nameserver
+ns1036.ui-dns.org	IONOS Nameserver
+
+cloudflare
+brit.ns.cloudflare.com
+lex.ns.cloudflare.com
+
+https://www.freehosting.com/
+alexlisak@hotmail.com
+http://hindex.uk/cronreload.txt
+hindexuk_hyip
+
+https://display.coinzilla.com/
+Zaichik111
+
+Domain
+hindex.uk
+Username
+hindexuk
+Server Name
+panel.freehosting.com
+IP Address
+195.201.179.80
+Nameservers
+ns1.freehosting.com (144.217.241.178)
+ns2.freehosting.com (94.130.110.63)
+SSL Status
+ No SSL Detected
+
+ftp
+ Login:	hindexuk1@hindex.uk
+ Password:	huy
+ Path:	/home/hindexuk/domains/hindex.uk
+
+~~~
+https://domains.lcn.com/
+hperformance.uk
+
+https://kumpenot.com
+https://ku5.kumpenot.com
+https://www.zamahost.com/
+
+info@kumpenot.com
+kumpenot@protonmail.com
+huy
+rwsetdyfuygkuhlinknlbvyjctxhr
+
+https://dashboard.tawk.to/?lang=en#/chat
+https://ku5.kumpenot.com/me/add_url.php
+
+~~~
+upload
+tar -czf docs.tgz docs &&  gpg -c docs.tgz && rm -rf docs.tgz
+tar -czf idea.tgz idea &&  gpg -c idea.tgz && rm -rf idea.tgz
+tar -czf sites.tgz sites &&  gpg -c sites.tgz && rm -rf sites.tgz
+
+https://mega.nz/
+https://icedrive.net/
+https://disk.yandex.com/
+https://mega.nz/fm/YLgCRAhY
+
+~~~
+cpanela
+https://server-rr.zamahost.com:2083/
+Username: kumpenot
+Password: pY5wJ4U[4vp8C@
+
++8529583452
+
+gerkum23
+honkum237
+John Kumpenot
+johnkumpenot
+
+https://twitter.com/kumpenot
+
+http://kumpenot.app.link/ccjPCNw9sab
+
+
+No. 5, 17/F Bonham Trade Centre, 50 Bonham Strand, Sheung Wan, Hong Kong
+52-60 Tabernacle Street, London, United Kingdom, EC2A 4NJ
+findiklun@protonmail.com
+huy
+
+&.1kihciaZ
+~~~
+kali persistence
+https://www.youtube.com/watch?v=SEVGxIUkhSA
+https://docs.kali.org/downloading/kali-linux-live-usb-persistence
+after writing to usb drive use minitool, in empty space, that's left create patition:
+persistence primary ext4
+
+sudo mkdir -p /mnt/my_usb
+sudo mount /dev/sda3 /mnt/my_usb
+echo "/ union" > /mnt/my_usb/persistence.conf
+umount /dev/sda3 && reboot
+
+~~~
+get handshakes
+airmon-ng check
+airmon-ng check kill
+airmon-ng start wlan1
+
+mnesia
+/usr/sbin/airmon-ng check kill
+/usr/sbin/airmon-ng start wlan1
+
+or without killing anything
+ifconfig wlan1 down
+iwconfig wlan1 mode monitor
+ifconfig wlan up
+
+/sbin/ifconfig wlan1 down && /sbin/iwconfig wlan1 mode monitor && /sbin/ifconfig wlan1 up
+
+and then revert by
+changing mode monitor to " managed "
+
+get all available handshakes automatickly
+https://www.aircrack-ng.org/doku.php?id=besside-ng
+To crack automatically all WEP networks in range and get also possible WPA handshakes:
+
+besside-ng wlan1mon
+
+list capchad handshakes
+cat besside.log
+or use py program
+/root/soft/ssid.py -i wpa.cap
+
+after you've done restart network manager
+service network-manager start
+look for wpa.cap file in home directory
+
+crack
+aircrack-ng -w /usr/share/wordlists/rockyou.txt /root/*.cap
+aircrack-ng -w /media/amnesia/RECORDS/docs/wordlists/rockyou.txt /media/amnesia/RECORDS/docs/aircrack/1/wpa.cap
+
+get a handshacke of one host
+airodump-ng wlan1mon
+airodump-ng -c6 -w ~/Documents/star -d 08:BD:43:12:C1:F0 wlan1mon
+aireplay-ng --deauth 0 -a 08:BD:43:12:C1:F0 -c 6C:C2:6B:0E:1A:89 wlan1mon
+
+use airodump-ng
+airodump-ng wlan1
+
+-w to write to a spesific directory, da will be a file name
+airodump-ng -w /media/root/RECORDS/docs/aircrack/3/da wlan1mon
+
+monitor one bssid
+airmon-ng check kill
+/sbin/ifconfig wlan1 down
+/sbin/iwconfig wlan1 mode monitor
+/sbin/ifconfig wlan up
+
+airodump-ng -w /media/amnesia/RECORDS/docs/aircrack/ku/da --bssid 5A:63:FE:11:7E:E4 -c 1 wlan1
+airodump-ng -w /media/amnesia/RECORDS/docs/aircrack/ku/da --bssid 08:BD:43:12:C1:F0 -c 11 wlan1
+
+airmon-ng check kill && /sbin/ifconfig wlan1 down && /sbin/iwconfig wlan1 mode monitor && /sbin/ifconfig wlan up
+
+/sbin/iwconfig
+~~~
+Sat 16 Nov 2019 15:04:16 UTC
+install electrum
+use appimage
+https://electrum.org/#download
+
+Verifying GPG signature
+gpg --keyserver keys.gnupg.net --recv-keys 6694D8DE7BE8EE5631BED9502BD5824B7F9470E6
+
+gpg --verify electrum-3.3.8-x86_64.AppImage.asc electrum-3.3.8-x86_64.AppImage
+
+https://electrum.readthedocs.io/en/latest/tails.html
+
+https://electrum.readthedocs.io/en/latest/gpg-check.html
+seed:
+ill erosion pledge boss salmon unfair profit rail exist poet cherry document
+on tails electrum automaticly connecte through tor network the blue dot means tor
+https://www.reddit.com/r/Electrum/comments/dz9rkh/electrum_with_tails_os_40/
+
+~~~
+hindex
+broom demand must easy engine output foil crash height another assault flower
+
+~~~
+install soft
+install from
+.tar.gz files
+tar -xzvf FILENAME.tar.gz
+
+.tar.bz2 files
+tar -xjvf FILENAME.tar.bz2
+
+.tar files
+tar -xvf FILENAME.tar
+
+go to the extracted directory
+./configure
+sudo make
+sudo make install
+
+install from .deb
+https://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt
+sudo apt install ./name.deb
+
+or
+sudo dpkg -i DEB_PACKAGE
+If dpkg reports an error due to dependency problems, you can run:
+sudo apt-get install -f
+
+~~~
+verify GPG signatures:
+https://www.maketecheasier.com/generate-gpg-keys-linux/
+(example with electrum)
+
+download public key
+https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc
+copy and paste to a file with extention .gpg
+
+downlod signature
+https://download.electrum.org/3.3.8/electrum-3.3.8-x86_64.AppImage.asc
+save with extentio .asc
+
+import private key
+gpg --import electrumpgp.gpg
+
+use the unique key to check fingerprints: (gpg: key "2BD5824B7F9470E6":)
+gpg --fingerprint 2BD5824B7F9470E6
+
+verify signature
+gpg --verify electrum_sig.asc electrum-3.3.8-x86_64.AppImage
+
+~~~
+export your public key
+gpg --armor --export findiklun@protonmail.com > pub_key.asc
+
+decrypt someone's message
+gpg -d
+then paste mesagge or creat afile
+
+useful commands
+gpg --list-keys
+gpg --list-sigs
+
+--quick-gen-key
+
+encrypt
+gpg -c vot.ovpn
+
+decrypt to a file
+gpg -o vot.ovpn -d vot.ovpn.gpg
+
+decrypt to stdout
+gpg -d vot.ovpn.gpg
+
+backup
+export-backup
+
+decrypt old gpg version file (it was a fuck)
+https://stackoverflow.com/questions/30318041/gpg-decryption-failed-bad-session-key
+gpg --output docs.tgz --pinentry loopback --decrypt docs.tgz.gpg
+gpg -o docs.tgz --pinentry loopback -d docs.tgz.gpg
+
+~~~
+atom plugins:
+atom-idle-autosave
+
+~~~
+15-12-2019 11:58
+electrum real
+couldn't recover with copay or bitpay only with electrum.
+cat tip across seed improve auction pen elevator worry skin lava ready
+
+~~~
+install tor on ubuntu
+https://tb-manual.torproject.org/installation/
+https://www.torproject.org/download/
+extract the archive with the command tar -xf [TB archive].
+From inside the Tor Browser directory, you can launch Tor Browser by running:
+‪./start-tor-browser.desktop
+
+torrents
+https://solidtorrents.to/search?q=java+programming&page=3
+https://torrentz2.nz
+
+use tor browser on kali
+https://medium.com/@jamesmacwhite/running-the-tor-browser-on-kali-linux-the-proper-way-d33a38b54e96
+Creating a Linux user is simple:
+adduser --home-dir /home/kali kali---------- wrong
+useradd --home-dir /home/kali kali
+apt install torbrowser-launcher
+xhost si:localuser:kali
+launch:
+sudo -u kali -H torbrowser-launcher
+
+sudo -u da -H torbrowser-launcher
+xhost si:localuser:da
+
+ubuntu
+https://stackoverflow.com/questions/47583526/cant-install-python3-pyqt5-on-ubuntu-17
+sudo add-apt-repository universe
+sudo apt-get update
+sudo apt install torbrowser-launcher
+
+~~~
+monero
+https://www.xmrwallet.com
+https://web.getmonero.org/downloads/
+http://xmrguide42y34onq.onion/tails/gui/install
+monero amnesia
+seed:
+zero rudely asked olive perfect vague omission click nozzle claim gossip vehicle noted sunken pipeline border gusts puddle ethics maverick pram liquid duplex enmity gusts
+
+has money:
+upcoming owed tagged science knowledge exhale framed playful textbook hive civilian pedantic needed refer nozzle september touchy bluntly honked bounced dove karate fuming gone upcoming
+4AzAsD3HmwpXLS64WFQ2ZdWPQmN3rbBUAPbKFEe3tLHEa6KBQRqvHhGHgHhKTXmL48Zdx9hvmQETMRg7X5pY3uYAQQc83Re
+
+wallet restore hight 2012000
+
+jogger nexus nocturnal mesh meeting amply sensible kernels darted hatchet biscuit arena hawk buckets beware shocking family fountain bugs building icing skulls begun bite sensible
+
+~~~
+new wallet for shop
+monero
+seed
+igloo tolerant galaxy deepest flippant awkward zones rally drunk testing guru nirvana malady ceiling richly toxic stellar pepper echo leech moisture neither hitched javelin drunk
+
+address
+44uJsrEhp6ZZESy9pXkh4b54SG7orKeeCjfxu3kM7ijhabKkDJntP753vieub8nqPUBrh4Ax8xvb99YLdoQNQ6TEG5GAk7W
+
+electrum
+clean_shop
+kidney visual attack merry clinic tube unfair stone gain absorb resource swarm
+
+~~~
+new name
+beduimonal
+kumpenot
+
+~~~
+https://mail.yandex.com
+kumpenot@yandex.com
+kumpenot@protonmail.com
+
+~~~
+sudo /home/amnesia/Tor\ Browser/docs/vpn/vot.sh
+kumpenot@yandex.com
+huy
+ZzabulaDdura19.&
+
+new terminal window
+sudo su
+su vpnuser
+tor-browser --new-instance
+
+Options for Browser, enter in browser: ( about:config )
+look for proxy
+
+double click and delete all
+network.proxy.socks
+network.proxy.socks_port
+
+set to false  - double click
+network.proxy.socks_remote_dns
+
+network.dns.disabled - set to False
+
+when adding new account save only vot.sh file, it is
+
+https://kumpenot.com/
+kumpenot@yandex.com
+
+vpn over tor
+http://aprovpnacgvqwh76.onion/
+https://anonymous-vpn.biz/setup/how-to-set-up-anonymous-vpn-over-tor-in-tails-os/
+
+vot.sh file
+https://anonymous-vpn.biz/cons-u/img/vot.sh
+http://aprovpnacgvqwh76.onion/sign-in/
+
+
+sudo su
+cd Persistent
+chmod +x vot.sh
+sudo /home/amnesia/Persistent/vot.sh
+sudo /home/amnesia/Tor\ Browser/docs/vpn/vot.sh
+
+new terminal window
+sudo su
+su vpnuser
+tor-browser --new-instance
+
+become superuser on Ubuntu
+https://www.cyberciti.biz/faq/become-superuser-on-ubuntu-linux/#:~:text=Open%20a%20terminal%20Window%2FApp,open%20the%20terminal%20on%20Ubuntu.&text=When%20promoted%20provide%20your%20own,as%20root%20user%20on%20Ubuntu.
+sudo -i
+back to normal user
+exit
+or
+logout
+
+~~~
+mikudavun@yandex.com
+
+~~~
+tor over vpn
+https://anonymous-vpn.biz/how-to-set-up-vpn-at-tails/
+rename any .ovpn file to tov.ovpn and change domain to ip
+example: remote bg.aprovpn.com 443 rename to remote 195.123.226.128 443
+to look for ip in terminal: nslookup
+or go to http://www.kloth.net/services/nslookup.php
+
+~~~
+uninstalling tor browser
+Locate your Tor Browser folder. On Linux, there is no default location, however the folder will be named "tor-browser_en-US" if you are running the English Tor Browser.
+Delete the Tor Browser folder.
+Empty your Trash.
+Note that your operating system’s standard "Uninstall" utility is not used.
+
+~~~
+ifconfig
+https://www.linuxquestions.org/questions/red-hat-31/ifconfig-command-not-found-389491/
+in tails ifconfig not working but this is working:
+/sbin/ifconfig
+
+~~~
+SquirrelMail
+findiklun
+huy
+findiklun@torbox3uiot6wchz.onion
+
+~~~
+macchanger
+set MAC address
+sudo /sbin/ifconfig wlan1 down
+sudo macchanger -m 70:2B:1D:75:17:1e nhh wlan1
+sudo macchanger -m 00:1A:8E:75:17:1e wlan1
+sudo macchanger -m b4:6b:fc:75:17:1e wlan1
+sudo /sbin/ifconfig wlan1 up
+macchanger -s wlan1
+
+Set random vendor MAC of any kind
+macchanger -A wlan1
+
+Prints the current MAC
+macchanger -s wlan1
+Current MAC:   b4:6b:fc:c7:91:21 (unknown)
+Permanent MAC: b4:6b:fc:27:26:8a (unknown) - inspiron wlan0
+
+amnesia@amnesia:~$ macchanger -s wlan0
+Current MAC:   b4:6b:fc:75:17:1e (unknown)
+Permanent MAC: b4:6b:fc:27:26:8a (unknown) - inspiron wlan0
+
+amnesia@amnesia:~$ macchanger -s wlan1
+Current MAC:   d2:4d:f8:4e:2a:f2 (unknown)
+Permanent MAC: 00:c0:ca:97:da:5d (ALFA, INC.)
+
+make it look like this
+https://udger.com/resources/mac-address-vendor-detail?name=3way_networks_ltd
+00:1A:8E:75:17:1e
+unknown (last connected to btwifi)
+7a:f2:7d:e2:87:5b
+
+real tails
+/sbin/ifconfig wlan1 down
+macchanger -m 7a:f2:7d:e2:8a:5a wlan1
+/sbin/ifconfig wlan1 up
+
+/sbin/ifconfig wlan1 down && macchanger -m 7a:f2:7d:e2:8a:5a wlan1 && /sbin/ifconfig wlan1 up
+
+ifconfig wlan1 down && macchanger -m 7a:f2:7d:e2:8a:5a wlan1 && ifconfig wlan1 up
+
+~~~
+wasabi
+https://docs.wasabiwallet.io/using-wasabi/InstallPackage.html#debian-and-ubuntu
+sudo dpkg -i Wasabi-1.1.10.deb
+
+~~~
+Use Monero To Anonymize Bitcoin
+1. initial btc wallet on clear net, send to first tor wallet (taint)
+2. first btc wallet on tor, exchange to xmr on changelly.com
+3. receive xmr to wallet on tor
+4. go to xmr.to and send xmr and provide second btc wallet (clean)
+5. receive clean btc to second wallet on tor
+
+https://changelly.com/
+Minimum amount: 0.001875 BTC
+Login: findiklun@protonmail.com
+Password: YamNkQim7qmM
+
+https://xmr.to/
+
+btc to xmr
+https://changenow.io/
+
+~~~
+install wireshark on tails
+use synaptic package manager
+install wireshark and wireshark-common
+run as root
+sudo su
+root@amnesia:~# wireshark
+
+~~~
+glogg text editor
+http://glogg.bonnefon.org/download.html
+apt-get install glogg
+
+~~~
+Useful one-liners for wordlist manipulation
+
+Remove duplicates
+awk '!(count[$0]++)' old.txt > new.txt
+
+Sort by length
+awk '{print length, $0}' old.txt | sort -n | cut -d " " -f2- > new.txt
+
+Sort by alphabetical order
+sort old.txt | uniq > new.txt
+
+Merge multiple text files into one
+cat file1.txt file2.txt > combined.txt
+or
+cat *.txt > combined.txt
+
+Remove all blank lines
+egrep -v "^[[:space:]]*$" old.txt > new.txt
+
+~~~
+email
+findiklun@yandex.ru
+
+~~~
+hashcat
+hashcat -m 2500 -a 0 /root/Downloads/6494_1573106454.hccapx /usr/share/wordlists/rockyou.txt --force
+cd .hashcat
+root@kali:~/.hashcat# cat hashcat.potfile
+
+Fri 08 Nov 2019 06:44:09 UTC
+convert .cap to .hccapx
+http://stuffjasondoes.com/2018/07/18/converting-aircrack-ng-hashes-to-hccapx-format-and-cracking-with-hashcat/
+
+wget https://raw.githubusercontent.com/hashcat/hashcat-utils/master/src/cap2hccapx.c
+or can be here:
+wget http://stuffjasondoes.com/tools/cap2hccapx.c
+
+gcc -o cap2hccapx cap2hccapx.c
+mv cap2hccapx /bin
+rm cap2hccapx.c
+
+from any directory
+cap2hccapx capture-01.cap capturefile-01.hccapx
+
+wlan.bssid
+
+/run/live/persistence/sda3/rw/root/.hashcat
+/root/.hashcat
+
+view hashcat.potfile
+cat /root/.hashcat/hashcat.potfile
+
+/usr/share/hashcat/rules
+
+~~~
+http://hidden24vowyrcic.onion
+findik
+findiklun@protonmail.com
+huy
+
+http://empiremktxgjovhm.onion
+shej3jwuaoa63bdu.onion
+lam3eblmjjdihykc.onion
+pqyxta3ubfxgtwug.onion
+oc3xr2pw4zzkxgjm.onion
+54trbf3rby6ppekp.onion
+username: findik
+findiklun@protonmail.com
+huy
+third division multiplication bmw multiplication day mastercard for minutes
+123456
+da
+ku
+
+~~~
+- Type "about:config" in your address bar.
+- Search for "javascript".
+- Set "javscript.enabled" to "false".
+
+~~~
+White House Market
+auzbdiguv5qtp37xoma3n4xfch62duxtdiu4cfrrwbxgckipd4aktxid.onion
+username: findik
+findiklun@protonmail.com
+huy
+pub key:
+/media/amnesia/RECORDS/docs/keys/pub_key.asc
+
+~~~
+https://koddos.net
+John Findik
+544  Lightning Point Drive
+Collierville
+Tennessee
+38017
++16464007658
+findiklun@protonmail.com
+huy
+
+~~~
+jenkins
+e1aa7250758842568c2f50b1446ca0ef
+
+reset password
+/var/lib/jenkins/config.xml
+or windows
+C:\Program Files (x86)\Jenkis\config.xml
+set <useSecurity>true</useSecurity> to false
+
+restart Jenkins
+service jenkins restart
+or windows
+https://stackoverflow.com/questions/44174587/how-to-restart-jenkins-in-windows
+1) Click "Start" button
+2) Find and right-click Command Prompt. Then choose Run as administrator. 3) Execute the command "net stop jenkins" and "net start jenkins"
+
+to enable the security
+navigate to "Manage Jenkins" to set the administrator password again.
+set <useSecurity>false</useSecurity> to true
+restart jenkins
+
+~~~
+elite market
+http://elite6c3wh756biv7v2fyhnoitizvl2gmoisq7xgmp2b2c5ryicottyd.onion/index.php
+mnemonic: big fish page perform once many word still people states
+Login phrase: da
+
+~~~~
+findik
+findiklun@protonmail.com
+huy
+
+~~~
+stop windows asking for password on startup
+https://www.youtube.com/watch?v=jXQ7Aj5uBe4
+https://www.youtube.com/watch?v=Em6ZSMIhavk
+enter netplwiz in search
+
+~~~
+use iproute2 (installed on tails) instead of net-tools (ifconfig)
+https://wiki.linuxfoundation.org/networking/iproute2
+ip address show
+
+~~~
+topup lebara
+For a SIM with a top up or a plan, simply dial 5588 from your Lebara phone. You will receive an SMS confirming that your plan is now active
+
+If you have a FREE SIM you'll need to top up to get started.
+
+~~~
+https://centregold.com
+findiklun@protonmail.com
+huy
+city of birth: da
+Dave Brown
+dob: 3/1/20
+3 Green st
+Redhill
+RH1 IWQ
+01737123321
+
+~~~
+http://agarthaourmnyhq3.onion
+thin system probably rhythm fight nose became joined motion oil turn sir
+
+~~~
+huy
+taint btc wallet
+frost cattle salute chest apology depend soda analyst autumn final economy fence
+
+bc1qxs8u7n94ancg5ygzdnnmvxdpsujhjgkk6pqwg2
+
+clean btc wallet
+hint bleak enable flash dust shadow demand grass build father mail fragile
+
+bc1qs3e87yde2r3m76rc96rc9nwpvpsuhmsvusz2jc
+
+~~~
+monero
+4AzAsD3HmwpXLS64WFQ2ZdWPQmN3rbBUAPbKFEe3tLHEa6KBQRqvHhGHgHhKTXmL48Zdx9hvmQETMRg7X5pY3uYAQQc83Re
+
+~~~
+xmrto-xaCcyU
+8B3UEXPYbDcf9QqY6CEDTJaqwQmnD9jZfZCCpnj1jrhBeDmCc4ZoQ7gRkvA3uL6gjh3bU2uDSAfRhh5ivNKYrfCaByPzQms
+
+moz-extension://5a547a3d-6067-481c-89cc-75cf8c88659f/mega/secure.html#F!vSRVxabI!NRbd2DOxQrlL-Yv2fBIGgQ
+
+https://mega.nz/#F!vSRVxabI!NRbd2DOxQrlL-Yv2fBIGgQ
+
+~~~
+Ubuntu Uninstall and Reinstall Chrome
+https://code.luasoftware.com/tutorials/linux/ubuntu-uninstall-and-reinstall-chrome
+
+sudo apt-get purge google-chrome-stable
+rm ~/.config/google-chrome/ -rf
+
+go to
+https://www.google.com/chrome/
+
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+install chrome
+https://www.tecmint.com/install-google-chrome-on-kali-linux/
+apt update
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+apt install ./google-chrome-stable_current_amd64.deb
+google-chrome --no-sandbox
+
+~~~
+https://www.lifewire.com/create-users-useradd-command-3572157
+add new user
+useradd -m ku
+
+set password
+passwd ku
+
+delete user
+userdel -r ku
+
+~~~
+protonvpn.com
+https://protonvpn.com/support/linux-vpn-tool/
+https://github.com/ProtonVPN/protonvpn-cli-ng/blob/master/USAGE.md
+
+sudo apt install -y openvpn dialog python3-pip python3-setuptools
+sudo pip3 install protonvpn-cli
+sudo protonvpn init
+username: findiklun
+password: huy
+
+connect
+sudo protonvpn c
+disconnect
+sudo protonvpn d
+status
+sudo protonvpn s
+
+tcps@bk.ru
+findiklun
+huy
+connect:
+sudo pvpn -c
+disconnect:
+sudo protonvpn-cli -disconnect
+current wan:
+protonvpn-cli --ip
+
+~~~
+tor browser
+https://medium.com/@jamesmacwhite/running-the-tor-browser-on-kali-linux-the-proper-way-d33a38b54e96
+
+~~~
+mega
+https://mega.nz
+lisakalex@gmail.com
+recovery key
+5Et5b4_6zl9pKaIXGvnFPQ
+
+~~~
+TTUK13BVFR4RHQM
+
+~~~
+monero explorer
+https://minergate.com/blockchain/xmr/blocks
+
+~~~
+Install IntelliJ IDEA
+sudo tar -xzf ideaIU-*.tar.gz -C /opt
+
+Uninstall IntelliJ IDEA
+If you are running a standalone IntelliJ IDEA instance, the default IDE directories are preserved when you remove your
+instance in case you want to keep your settings for later or to use them with another instance, another version, or another IDE.
+You can remove those directories if you are sure you won't need them.
+
+1. Delete the installation directory.
+
+2. Remove the following directories:
+
+Syntax
+~/.config/JetBrains/<product><version>
+
+~/.cache/JetBrains/<product><version>
+
+~/.local/share/JetBrains/<product><version>
+
+Example
+~/.config/JetBrains/IntelliJIdea2023.3
+
+~/.cache/JetBrains/IntelliJIdea2023.3
+
+~/.local/share/JetBrains/IntelliJIdea2023.3
+
+~~~
+intellyj
+start
+/home/amnesia/Persistent/idea-IU-172.4343.14/bin/idea.sh
+/home/ubuntu/idea-IU-172.4343.14/bin/idea.sh
+
+install php plugin
+https://plugins.jetbrains.com/plugin/8024-magento-phpstorm/versions
+https://plugins.jetbrains.com/plugin/7631-php-composer-json-support/versions
+https://plugins.jetbrains.com/plugin/6610-php/versions
+
+change home directory
+https://stackoverflow.com/questions/26449737/how-to-force-intellij-to-use-a-different-home-folder
+to change the user.home path edit idea.exe.vmoptions file add 
+-javaagent:/home/amnesia/Persistent/idea-IU-172.4343.14/bin/JetbrainsCrack.jar
+-Duser.home=/home/amnesia/Persistent/idea-IU-172.4343.14
+
+change to Tor Browser directory
+-javaagent:/home/amnesia/Tor Browser/idea/bin/JetbrainsCrack.jar
+-Duser.home=/home/amnesia/Tor Browser/idea
+
+~~~
+xampp
+install
+sudo /home/amnesia/Persistent/xampp-linux-x64-7.4.3-0-installer.run
+
+start
+https://www.apachefriends.org/faq_linux.html
+sudo /opt/lampp/lampp start
+
+graphical tool
+cd /opt/lampp
+sudo ./manager-linux-x64.run
+
+~~~
+https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/
+
+archive and encrypt
+tar czf logs.tgz logs && gpg -c logs.tgz
+
+archive
+tar -czf kukuda.tgz kukuda
+
+extract
+tar -xzf kukuda.tgz
+
+~~~
+Inspiron 7373 2-in-1
+
+~~~
+https://www.howtogeek.com/howto/14912/create-a-persistent-bootable-ubuntu-usb-flash-drive/
+
+
+sudo apt-get install --reinstall mkusb guidus dus mkusb-common
+https://help.ubuntu.com/community/mkusb
+
+~~~
+install httrack
+sudo apt-get install httrack
+https://www.quora.com/How-do-I-install-HTTrack-on-Ubuntu-via-Terminal
+
+~~~
+set time
+https://www.digitalocean.com/community/tutorials/how-to-set-up-time-synchronization-on-ubuntu-16-04
+
+check time:
+date
+
+list time zones:
+timedatectl list-timezones
+
+choose your zone and set:
+sudo timedatectl set-timezone Europe/London
+
+query the status of timesyncd:
+timedatectl
+
+Network time on: yes means that timesyncd is enabled, and NTP synchronized: yes indicates that the time has been successfully synced.
+
+~~~
+ledger
+use ledger manager and ledger live
+https://support.ledger.com/hc/en-us/articles/360005434914
+https://shop.ledger.com/pages/ledger-live
+https://support.ledger.com/hc/en-us/articles/360006523674
+https://support.ledger.com/hc/en-us/articles/360006395553-Download-and-install-Ledger-Live
+linux
+https://support.ledger.com/hc/en-us/articles/115005165269
+
+Go to https://www.ledger.com/pages/ledger-live.
+Download the Ledger Live AppImage.
+Make the file executable.
+In a terminal: chmod +x ledger-live-*.AppImage
+Launch the AppImage by double clicking on it or via your terminal.
+
+Check if the plugdev group exists by entering the command:
+cat /etc/group | grep plugdev
+
+Check if you are in the group plugdev with the command:
+groups
+
+Enter the following command to automatically add the rules and reload udev:
+wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash
+
+~~~
+https://www.bitaddress.org
+https://www.test.bitaddress.org - ?
+
+xmrto-aAcYNz
+kumpenot@protonmail.com
+
+~~~
+tor fine
+https://www.zamahost.com/
+kumpenot@yandex.com
+huy
+Huy Kumpenot
+55 Bond st
+New york
+05055
+USA
++1.45678933649
+
+info@kumpenot.com
+
+support@zamahost.com
+care@zamahost.com
+
+1) Open the filezilla.
+
+2) Click on file > site manager
+
+3) Click on New site
+
+– Host: 192.99.77.200
+– Protocol: FTP – File Transfer Protocol
+– Encryption: Require explicit FTP over TLS
+– Login type: Ask for Password
+– User: kumpenot
+– Account: blank
+– Comments blank
+
+4) Click on Transfer Settings and choose "Passive".
+
+5) Click on connect and enter the password for the FTP.
+
+
+~~~
+tor fine
+https://mega.nz
+kumpenot@yandex.com
+huy
+
+~~~
+tor fine
+http://aprovpnacgvqwh76.onion
+mikudavun@yandex.com
+huy
+
+~~~
+tor fine
+https://mail.yandex.com/
+kumpenot@yandex.com
+huy
+
+~~~
+wget
+copy a site like httrack
+https://www.gnu.org/software/wget/manual/wget.html
+
+use /home/al.wgetrc for configuration
+
+wget https://cryptonews.com/ -i download.txt
+
+wget https://cryptonews.com/ |& tee wlog.txt
+
+Use header with wget
+header='--header=User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+wget --mirror --page-requisites --no-parent --random-wait --trust-server-names "$header" http://da.com/ |& tee huy.txt
+wget --mirror --page-requisites --no-parent --random-wait --trust-server-names http://da.com/ |& tee huy.txt
+
+Use header with wget
+header='--header=User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+wget --mirror --adjust-extension --page-requisites --no-parent --random-wait --convert-links "$header" https://www.allhyipmonitors.com/
+
+If downloading got stuck use -c
+wget -c --mirror --adjust-extension --page-requisites --no-parent "$header" https://www.allhyipmonitors.com/
+
+wget --mirror --adjust-extension --page-requisites --no-parent https://coinzilla.com/
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent --no-directories https://coinzilla.com/
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://coinzilla.com/
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://coinzilla.com/
+
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent --user=lisakalex@gmail.com --password='huy' https://display.coinzilla.com/
+
+get past the login page with Wget?
+https://stackoverflow.com/questions/1324421/how-to-get-past-the-login-page-with-wget
+
+--content-disposition
+--trust-server-names
+
+
+~~~
+archive, encript, copy to Tor Browser ready for uploading
+
+cd /media/amnesia/RECORDS/records/docs && tar -czf logs.tgz logs && gpg -c logs.tgz && mv logs.tgz.gpg /home/amnesia/Tor\ Browser && rm -rf logs.tgz
+
+cd /media/amnesia/RECORDS/ && tar -czf records.tgz records && gpg -c records.tgz && mv records.tgz.gpg /home/amnesia/Tor\ Browser && rm -rf records.tgz
+
+no memory stick
+upload
+cd /home/amnesia/Tor\ Browser && tar -czf huy.tgz huy && gpg -c huy.tgz && rm -rf huy.tgz && rm -rf huy
+download
+cd /home/amnesia/Tor\ Browser && gpg -o huy.tgz -d huy.tgz.gpg && tar -xzf huy.tgz && rm -rf huy.tgz && rm -rf huy.tgz.gpg
+
+~~~
+clean email
+kumpenot@yandex.com
+kumpenot@protonmail.com
+info@kumpenot.com
+admin@kumpenot.com
+
+~~~
+run electrum testnet
+electrum --testnet
+cd /opt
+./electrum-4.1.4-x86_64.AppImage --testnet
+
+electrum testnet
+send
+torch merry crystal fit thank guilt blur quit finger wheel remain satoshi
+
+receive
+crowd blur mushroom work pulp choose earth illegal review choose ripple mind
+
+benefit palace govern future whip stand trap despair green message patient honey
+
+~~~
+php password
+https://www.php.net/manual/en/function.password-hash.php
+
+~~~
+https://en.bitcoin.it/wiki/Testnet#Faucets
+https://testnet-faucet.mempool.co/
+
+~~~
+file_get_contents - huy not working
+use cURL
+https://stackoverflow.com/questions/12294124/php-file-get-contents-not-working
+
+$url = "http://www.google.com";
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+$data = curl_exec($ch);
+curl_close($ch);
+echo $data;
+
+~~~
+electrum
+https://bitcoin.stackexchange.com/questions/22606/more-receive-addresses-with-electrum
+https://github.com/spesmilo/electrum/blob/0dcaa13d314225826c40bf578e199adda1e5c23e/lib/wallet.py#L1551
+
+(Tested with Electrum 3.0):
+If you need to change the gap limit, enter this in the Console tab and restart the client
+
+wallet.change_gap_limit(10)
+wallet.storage.write()
+
+To view/verify the current gap limit, type the follwing in the console:
+wallet.gap_limit
+
+viable cactus access inmate decrease noble amused dove arm coil fame draw
+
+~~~
+mysqli_insert_id() - shit -?
+https://www.php.net/manual/en/mysqli.insert-id.php
+use
+SELECT MAX(`id`) FROM `table`
+
+~~~
+https://www.cronjobservices.com/
+https://cron-job.org
+    195.201.26.157
+    116.203.134.67
+    116.203.129.16
+
+http://kumpenot.com/later88/pay_cron.php
+
+http://kumpenot.com/kumpenot/pay_cron.php
+http://kumpenot.com/kumpenot/pay_email.php
+
+~~~
+<!-- Begin Web-Stat code v 7.0 -->
+<span id="wts1983340"></span>
+<script>var wts=document.createElement('script');wts.async=true;
+wts.src='https://wts.one/log7.js';document.head.appendChild(wts);
+wts.onload = function(){ wtslog7(1983340,3); };
+</script><noscript><a href="https://www.web-stat.com">
+<img src="https://wts.one/7/3/1983340.png" 
+alt="Web-Stat web traffic analysis"></a></noscript>
+<!-- End Web-Stat code v 7.0 -->
+
+~~~
+file upload
+https://www.w3schools.com/php/php_file_upload.asp
+
+~~~
+https://www.guru99.com/free-cloud-storage.html
+
+https://mega.nz
+kumpenot@yandex.com
+huy
+
+https://icedrive.net
+kumpenot@yandex.com
+
+https://disk.yandex.com/client/disk
+kumpenot@yandex.com
+huy
+
+~~~
+install gimp
+https://itsfoss.com/gimp-2-10-release/
+sudo apt install gimp
+
+rounded rectangle gimp
+https://alvinalexander.com/design/how-to-create-rounded-rectangle-in-gimp/
+
+Add transparency to the image. For the purposes of this tutorial I’ll assume that you have only one layer in your image, so click Layer > Transparency > Add Alpha Channel. (More on this shortly.)
+Click Select > All.
+Click Select > Rounded Rectangle. When the dialog appears, choose a percentage. Apple iOS icons use about 42%. Click OK.
+Click Select > Invert. This changes the selection from “everything inside the rounded rectangle” to “everything outside the rounded rectangle.”
+Click Edit > Clear. At this point you should have a nice rounded rectangle image.
+
+kumpenot@yandex.com
+huy
+ZzabulaDdura19.&
+
+https://kumpenot.com
+info@kumpenot.com
+Daku Guradza
+https://www.trustpilot.com/evaluate/kumpenot.com
+kumpenot.com+3b88731f03@invite.trustpilot.com
+
+~~~
+192.99.77.200
+kumpenot.com.
+dns1.zamahost.com
+dns2.zamahost.com
+dns3.zamahost.com
+dns4.zamahost.com
+
+~~~
+https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/
+sync; echo 3 > /proc/sys/vm/drop_caches
+
+check memory
+free -h
+
+~~~
+https://www.lngiftcard.com
+5387-3805-2211-6597
+5387380522116597
+04/22
+215
+
+F6F8F9
+
+~~~
+fonts and Material Symbols
+to add fonts
+mkdir ~/.fonts
+copy all .ttf here
+
+https://fonts.google.com/specimen/Aclonica?preview.text=kumpenot&preview.text_type=custom&sidebar.open=true&selection.family=Aclonica
+
+~~~
+https://cryptalker.com/bitcoin-advertising/
+adroll
+mobidea/academy/crypto-advertising-network
+moz.com/top500
+serpwoo.com/blog/experts/increasing
+
+
+~~~
+https://www.alexa.com/siteinfo/kumpenot.com
+https://host.io/kumpenot.com
+https://siterankdata.com/kumpenot.com
+
+gerkum23
+honkum237
+
+~~~
+https://github.com/kumpenot-ltd/
+
+~~~
+03/10/2020 go live 
+21/10/2020 first adverts started on https://a-ads.com and had two 
+customers registed.
+
+~~~
+upload files when using vpn
+open root terminal
+cd /usr/local/lib/tor-browser/TorBrowser/
+mkdir ku
+cd ku/
+cp -r /home/amnesia/Tor\ Browser/docs .
+chmod 777 -R docs
+now you can brows to this directory
+
+~~~
+https://mmgp.ru/
+gerkum23
+
+https://bitcoindiscussionforum.com/
+gerkum23
+
+~~~
+https://read.cash
+bitcoincash:
+qq4zvkn2c8qcpwd43hj5cwfkhf3t9z3lu5grfeuwyl
+announce purchase audit okay begin soccer human caught dumb huge combine exile
+
+m/44'/0'/0'
+using BIP39. It's pretty important too.
+
+~~~
+GIMP: Make Selection a New Layer
+https://logosbynick.com/gimp-make-selection-new-layer/
+
+~~~
+new taint2
+breeze barrel dish dwarf rule sand senior force during effort volume color
+
+~~~
+set all directories to 755 and files to 644
+chmod -R a=r,u+w,a+X dir
+
+might need to set all to 777 first
+chmod -R 777 dir
+
+~~~
+stop opencart signing out
+THis works
+https://forum.opencart.com/viewtopic.php?t=6001
+The fix is to create your own session directory
+open and edit /cart/system/library/session.php
+add just before the
+session_set_cookie_params(0, '/');
+change
+$garbage_timeout = 3600; // 3600 seconds = 60 minutes = 1 hour
+ini_set('session.gc_maxlifetime', $garbage_timeout);
+ini_set('session.save_path','/path/to/your/cart/create a directory/my_sessions');
+
+also change the new my_sessions directory to 777
+
+~~~
+clip board manager
+install from package manager copyQ
+
+https://www.fragrancesus.com/
+style="height: 100px"
+
+rwsetdyfuygkuhlinknlbvyjctxhr
+
+https://www.revive-adserver.com/support/
+https://github.com/revive-adserver/revive-adserver/
+https://www.youtube.com/watch?v=EgctMTD8yOI
+
+~~~
+fix open cart filters - FixFilter OC2x - fixes default Opencart filter
+https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=23603&filter_license=0&filter_member=AlexDW
+
+1. Upload file fix_filter.ocmod.xml from folder 2x in Extensions->Installer
+2. Refresh the modifications cache (press Refresh button) in Extensions->Modifications
+
+it copies /catalog/model/catalog/product.php file to system/storage/modification/catalog/model/catalog/product.php
+and updates it
+
+~~~
+Definitions
+29.4 British MPG = 9.61 Liters per 100 km 
+Liters100km = 	(100 * 4.54609) / (1.609344 * MPGuk)
+
+Imperial Gallon = 4.54609 Liters
+Mile = 1.609344 Kilometers
+
+another way do not know which is right
+To convert UK mpg to kilometers per liter (km/L), divide the UK mpg value by 2.8248094. For example, to convert 30 mpg to km/L, divide 30 by 2.8248094, that makes 10.62 km/L is 30 UK mpg.
+
+US
+235.215/(29.4 US mpg) = 8 L/100 km
+
+~~~
+new eamil for shop
+opashop@yandex.com
+ZzabulaDdura19.&
+sec quextion your favourit musician name: opashop
+name: opashop
+last name: opashop
+
+opshop@tutanota.com
+https://mail.tutanota.com
+0036b9d80dc3dd9fb6865269dc57b796b89d2a120273e746ae7210e3aca138b4
+
+mega
+opshop2@protonmail.com
+q2n3mDMf7PYmB7OiINBDig
+
+~~~
+xdebug
+https://xdebug.org/
+https://xdebug.org/wizard
+
+after install
+copy xdebug.so from
+/usr/lib/php/20190902/xdebug.so
+to
+/opt/lampp/lib/php/extensions/no-debug-non-zts-20190902/xdebug.so
+
+edit php.ini in /opt/lampp/etc add this
+
+[xdebug]
+zend_extension=/opt/lampp/lib/php/extensions/no-debug-non-zts-20190902/xdebug.so
+xdebug.mode=debug
+;xdebug.log=/opt/lampp/xdebug.log
+
+restart PHP-FPM
+systemctl restart php7.4-fpm.service
+
+~
+Configuring for:
+PHP Api Version:         20200930
+Zend Module Api No:      20200930
+Zend Extension Api No:   420200930
+
+
+in phpstorm settings
+php -> debug change port to 9003
+
+add chrome extention Xdebug helper
+in Xdebug helper -> option set IDE key to PHPSTORM
+
+locale
+/opt/lampp/etc/php.ini
+/opt/lampp/lib/php/extensions/no-debug-non-zts-20190902/xdebug.so
+
+remote
+/etc/php/7.4/apache2/php.ini
+/usr/lib/php/20190902/xdebug.so
+
+xdebug remote
+https://www.youtube.com/watch?v=xDXMNtTsif0
+
+sudo apt install php-xdebug
+find xdebug.ini
+cd /etc/php/7.4/mods-available
+add
+zend_extension=/usr/lib/php/20190902/xdebug.so
+xdebug.remote_enable=1
+xdebug.remote_handler=dbgp
+xdebug.remote_mode=req
+xdebug.remote_host=http://192.236.160.198/
+xdebug.remote_port=9000
+xdebug.remote_connect_back=1
+
+check
+php -m -c
+
+~~~
+find file
+https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/
+
+~~~
+* * * * * /bin/bash -l -c 'date > ~/cron-test.txt'
+* * * * * /opt/lampp/htdocs/hyip/test.sh
+* * * * * /opt/lampp/htdocs/hyip/seed1.sh
+* * * * * /opt/lampp/htdocs/hyip/monitor.sh
+* * * * * /opt/lampp/htdocs/hyip/hyip.sh
+* * * * * /opt/lampp/htdocs/hyip/hyip1.sh
+* * * * * /opt/lampp/htdocs/hyip/performance.sh
+#0 1 * * * /opt/lampp/bin/php /opt/lampp/htdocs/hyip/seed.php
+#0 13 * * * /opt/lampp/bin/php /opt/lampp/htdocs/hyip/copyall.php
+
+~~~
+tcps@bk.ru
+huy
+
+~~~
+fix wifi
+after os update it fixed itself
+
+reinstall driver
+https://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers
+
+~~~
+install ifuse
+https://www.maketecheasier.com/easily-mount-your-iphone-as-an-external-drive-in-ubuntu/
+
+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
+
+~~~
+Your license information:
+Domain: jkfund.com
+License code: UW4T4AZWP4HV6GW6QH2G
+Enter this license code when install.php script asks you.
+(IonCube - PHP <= 5.6 zip archive - recommended version) (Last Update: 17, Oct 2020).
+
+Installation:
+1. Generate a license code for your domain.
+2. Download an archive.
+2. Upload the files from the arhive to your server. Upload the files in binary mode only.
+3. Create a 'tmpl_c' folder (if not exists) and set 777 permissions for this folder.
+  Rename settings_default.php file to settings.php
+4. Run the install.php script and follow the instructions.
+
+~~~
+        $start_time = microtime(true);
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $pu);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        // https://stackoverflow.com/questions/17801094/php-curl-how-to-add-the-user-agent-value-or-overcome-the-servers-blocking-curl-r
+        curl_setopt($ch,CURLOPT_USERAGENT,'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13');
+        $contents = curl_exec($ch);
+
+eco microtime(true) - $start_time;
+
+~~~
+wget
+copy a site like httrack
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://creditfy.net/
+
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent --user=dadada --password='huy' https://zion-finance.com
+
+~~~
+/home/da/Documents/idea/IdeaProjects/da/da.iml
+
+https://linuxconfig.org/how-to-allow-gui-root-login-on-ubuntu-20-04-focal-fossa-linux
+
+~~~
+exec -a "$0" "$HERE/chrome" "$@" --no-sandbox
+--user-data-dir
+
+        $start_time1 = microtime(true);
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $pu);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        // https://stackoverflow.com/questions/17801094/php-curl-how-to-add-the-user-agent-value-or-overcome-the-servers-blocking-curl-r
+        curl_setopt($ch,CURLOPT_USERAGENT,'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13');
+        $contents = curl_exec($ch);
+
+microtime(true) - $start_time1
+
+~~~
+tar -czf docs.tgz docs &&  gpg -c docs.tgz && rm -rf docs.tgz
+
+~~~
+start phpstorm
+/home/da/Downloads/[FTUApps.com]\ -\ JetBrains\ PhpStorm\ 2020.1\ build\ 201.6668.153\ Win\ \&\ MacOS\ &\ Linux\ +\ Crack/JetBrains\ PhpStorm\ 2020.1\ build\ 201.6668.153\ for\ Linux/PhpStorm-201.6668.153/bin phpstorm.sh
+
+Log path '/opt/idea/.IntelliJIdea2017.2/system/log' is inaccessible.
+If you have modified the 'idea.log.path' property please make sure it is correct,
+otherwise please re-install the IDE.
+
+~~~
+da@da:~$ lspci -vvnn | grep -A 9 Network
+03:00.0 Network controller [0280]: Broadcom Inc. and subsidiaries BCM4312 802.11b/g LP-PHY [14e4:4315] (rev 01)
+	Subsystem: Dell Wireless 1397 WLAN Mini-Card [1028:000c]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 17
+	Region 0: Memory at f0400000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: b43-pci-bridge
+	Kernel modules: ssb
+
+~~~
+fuck mysql
+
+*** Some errors have been detected on the server!
+Please look at the bottom of this window.***
+
+https://stackoverflow.com/questions/27370372/phpmyadmin-pop-up-error-notice-keeps-appearing-when-clicking-on-columns-of-datab
+
+Append the following line
+
+$cfg['SendErrorReports'] = 'never';
+inside /etc/phpmyadmin/config.inc.php file to disable this annoying window.
+
+~~~
+tor
+https://justhackerthings.com/post/using-tor-from-the-command-line/
+adduser /etc/init.d/tor start
+sudo /etc/init.d/tor stop
+sudo /etc/init.d/tor restart
+
+check your ip
+curl ifconfig.me
+
+The torify command can be used to run any command through tor.
+torify curl ifconfig.me 2>/dev/null
+
+force Tor to generate a new circuit, and thus a new IP
+echo -e 'AUTHENTICATE ""\r\nsignal NEWNYM\r\nQUIT' | nc 127.0.0.1 9051
+
+~~~
+Reset Opencart admin password
+https://www.knowband.com/blog/opencart-tutorials/how-to-reset-opencart-admin-password/
+
+~~~
+div put in a row
+style="display: flex; flex-direction: row;"
+
+~~~
+sudo /opt/lampp/lampp start
+sudo /opt/lampp/lampp restart
+sudo /opt/lampp/lampp stop
+
+~~~
+service cron status
+grep CRON /var/log/syslog
+service cron start
+service cron stop
+sudo service cron reload
+
+~~~
+#f8fcfe
+
+sudo chown -R da hyip/
+
+~~~
+https://datatables.net/
+https://datatables.net/examples/styling/display.html
+
+Failed to change read-only status for the following files:
+https://www.amcharts.com/demos/line-chart-with-scroll-and-zoom/
+
+~~~
+Copy your cron to some file,
+
+crontab -l > filename
+Now filename has your cron, you can apply your cron using
+
+crontab filename
+
+crontab /opt/lampp/htdocs/hyip/sh/cronreload.txt
+crontab /opt/lampp/htdocs/tihuy/sh/cronreload.txt
+crontab /var/www/html/sh/cronreload.txt
+
+#* * * * * /opt/lampp/htdocs/hyip/da.sh
+#* * * * * /opt/lampp/htdocs/hyip/sh/test.sh
+#* * * * * /opt/lampp/htdocs/hyip/sh/seed1.sh
+#* * * * * /opt/lampp/htdocs/hyip/sh/monitor.sh
+#* * * * * /opt/lampp/htdocs/hyip/sh/hyip.sh
+#* * * * * /opt/lampp/htdocs/hyip/sh/hyip1.sh
+#* * * * * /opt/lampp/htdocs/hyip/sh/rate.sh
+
+#* * * * * /home/da/da.sh
+* * * * * /bin/bash -l -c 'date > ~/cron-test.txt'
+#0 1 * * * /opt/lampp/bin/php /opt/lampp/htdocs/hyip/seed.php
+#0 13 * * * /opt/lampp/bin/php /opt/lampp/htdocs/hyip/copyall.php
+
+~~~
+* * * * * /opt/lampp/htdocs/hyip/sh/seed1.sh
+* * * * * /opt/lampp/htdocs/hyip/sh/monitor.sh
+* * * * * /opt/lampp/htdocs/hyip/sh/hyip.sh
+* * * * * /opt/lampp/htdocs/hyip/sh/hyip1.sh
+* * * * * /opt/lampp/htdocs/hyip/sh/rate.sh
+#0 1 * * * /opt/lampp/bin/php /opt/lampp/htdocs/hyip/sh/seed.php
+#0 13 * * * /opt/lampp/bin/php /opt/lampp/htdocs/hyip/sh/copyall.php
+#0 0 * * * /opt/lampp/bin/php /opt/lampp/htdocs/hyip/sh/banner_status.php
+* * * * * /opt/lampp/bin/php /opt/lampp/htdocs/hyip/pay_cron.php
+* * * * * /opt/lampp/htdocs/hyip/sh/test.sh
+* * * * * /bin/bash -l -c 'date > ~/cron-test.txt'
+
+~~~
+#* * * * * /opt/lampp/htdocs/hyip/sh/seed1.sh
+#* * * * * /opt/lampp/htdocs/hyip/sh/monitor.sh
+#* * * * * /opt/lampp/htdocs/hyip/sh/hyip.sh
+#* * * * * /opt/lampp/htdocs/hyip/sh/hyip1.sh
+#* * * * * /opt/lampp/htdocs/hyip/sh/rate.sh
+#0 1 * * * /opt/lampp/bin/php /opt/lampp/htdocs/hyip/sh/seed.php
+#0 13 * * * /opt/lampp/bin/php /opt/lampp/htdocs/hyip/sh/copyall.php
+#* * * * * /opt/lampp/bin/php /opt/lampp/htdocs/hyip/pay_cron.php
+#* * * * * /opt/lampp/htdocs/hyip/sh/test.sh
+#* * * * * /bin/bash -l -c 'date > ~/cron-test.txt'
+
+
+~~~
+educate cricket match frame mercy vapor royal you spoon type stone sight
+
+~~~
+install phpstorm
+when started for the first time had message:
+No JDK found. Please validate either PHPSTORM_JDK, JDK_HOME or JAVA_HOME environment variable points to valid JDK installation
+
+https://intellij-support.jetbrains.com/hc/en-us/community/posts/360008077739-No-JDK-found-Please-validate-either-PHPSTORM-JDK-JDK-HOME-or-JAVA-HOME-environment-variable-points-to-valid-JDK-installation-
+
+Would it be possible to just reinstall it either by unpacking the tarball to the fresh and empty directory (very important!)
+
+~~~
+recaptcha
+https://www.bronco.co.uk/our-ideas/how-to-add-google-recaptcha-to-a-form-phphtml/
+
+~~~
+screanshot python
+https://www.geeksforgeeks.org/get_screenshot_as_file-driver-method-selenium-python/
+
+~~~
+kill a process
+ps aux | grep -i apt
+sudo kill process id
+or force kill it with SIGKILL signal:
+sudo kill -9 process id
+
+~~~
+https://obsproject.com/download
+
+~~~
+download sources devtools
+https://stackoverflow.com/questions/20710504/how-do-you-save-an-entire-folder-from-google-chromes-developer-tools-sources-t
+https://chrome.google.com/webstore/detail/save-all-resources/abpdnfjocnmdomablahdcfnoggeeiedb/related?hl=en-US
+
+~~~
+install tor browser on ubuntu
+https://linuxize.com/post/how-to-install-tor-browser-on-ubuntu-18-04/
+
+~~~
+run selenium with crontab (python)
+https://stackoverflow.com/questions/23908319/run-selenium-with-crontab-python
+
+for Xvfb use pyvirtualdisplay https://github.com/ponty/PyVirtualDisplay
+
+from pyvirtualdisplay import Display
+
+with Display() as disp:
+    # display is active
+    print(disp.is_alive()) # True
+# display is stopped
+print(disp.is_alive()) # False
+
+works on machine with display (not needed)
+0 * * * *  DISPLAY=:0 python my_script.py
+
+for all commands executed by the crontab
+DISPLAY=:0
+
+
+on server
+https://stackoverflow.com/questions/1418082/is-it-possible-to-hide-the-browser-in-selenium-rc/14155698#14155698
+$ sudo apt-get install xvfb
+$ pip install xvfbwrapper
+
+Python code for running headless would look like this:
+from selenium import webdriver
+from xvfbwrapper import Xvfb
+
+display = Xvfb()
+display.start()
+
+# now Firefox will run in a virtual display.
+# you will not see the browser.
+driver = webdriver.Firefox()
+driver.get('http://www.google.com')
+
+from selenium.webdriver.chrome.service import Service
+
+if chromedriver in venv or not starndard location add location:
+driver = webdriver.Chrome(options=options, executable_path="/var/www/html/py/chromedriver")
+or
+options = Options()
+options.add_argument('--headless')
+options.add_argument("hide-scrollbars")
+options.add_argument(
+    "user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36")
+service = Service(executable_path="/var/www/html/py/chromedriver")
+driver = webdriver.Chrome(options=options, service=service)
+
+print(driver.title)
+driver.quit()
+
+display.stop()
+
+
+30 * * * *  google-chrome
+0  * * * *  python my_script.py
+
+~~~
+apt-get install python3-bs4
+
+~~~
+https://dev.mysql.com/doc/connector-python/en/connector-python-examples.html
+
+~~~
+html dom
+https://simplehtmldom.sourceforge.io/
+https://sourceforge.net/projects/simplehtmldom/
+
+~~~
+ledger S
+update software
+for linux users add udev rules
+https://support.ledger.com/hc/en-us/articles/360002731113-Update-Ledger-Nano-S-firmware?docs=true
+https://github.com/LedgerHQ/udev-rules/blob/master/20-hw1.rules
+
+~~~
+change domain nameservers
+https://www.hostinger.co.uk/tutorials/how-to-change-domain-nameservers
+
+~~~
+Flush Your DNS Cache in Google Chrome
+chrome://net-internals/#dns
+https://www.hostinger.com/tutorials/how-to-flush-dns
+
+~~~
+https://platform.cloudways.com/server/650898/access_detail
+master_rdkmwwshfp
+BQB9AVDs
+https://188.166.174.147:4200/
+master_rdkmwwshfp@188.166.174.147
+
+ssh master_rdkmwwshfp@188.166.174.147ssh master_rdkmwwshfp@188.166.174.147ssh master_rdkmwwshfp@188.166.174.147
+
+/home/master/applications/awywpcfqcw/public_html
+
+APPLICATION URL
+hindex.xyz
+For SSH/SFTP access to your Application.
+Read this
+ADMIN PANEL
+URL:
+hindex.xyz/wp-admin/
+Username:
+lisakalex@gmail.com
+Password:
+7c8huCpkcM
+MYSQL ACCESS
+DB Name:
+awywpcfqcw
+Username:
+awywpcfqcw
+Password:
+3AKNfk3GrK
+
+~~~
+hostwinds.com
+HOSTNAME	cvps.hostwindsdns.com
+
+ns1.cvps.hostwindsdns.com
+ns2.cvps.hostwindsdns.com
+
+HOSTNAME	hwsrv-901788.hostwindsdns.com
+PRIMARY IP	192.236.160.198
+ASSIGNED IPS	2a0d:7c40:3000:aa4::2
+NAMESERVERS	mdns5.hostwindsdns.com
+mdns6.hostwindsdns.com
+
+ssh root@192.236.160.198
+password: mMp9MKYaCD4pY
+password: huy
+
+https://www.youtube.com/watch?v=vpk_1gldOAE
+ClientAliveCountMax 0
+
+~~~
+https://askubuntu.com/questions/410244/is-there-a-command-to-list-all-users-also-to-add-delete-modify-users-in-the
+add user:
+adduser user
+
+then add gpg key to the server
+https://www.baeldung.com/linux/ssh-copy-id-automate
+ssh-copy-id al@212.227.199.128
+
+To add a user to the sudo group:
+adduser user sudo
+
+list all users:
+cat /etc/passwd
+
+https://linuxize.com/post/how-to-add-user-to-group-in-linux/
+Add an Existing User to a Group
+sudo usermod -a -G groupname username
+
+Display User Groups
+id username
+
+Testing Sudo-Enabled Users
+su USERNAME
+sudo ls -la /root
+
+~~~
+install lamp
+https://betterprogramming.pub/how-to-install-lamp-stack-on-ubuntu-db77ac018116
+https://computingforgeeks.com/how-to-install-php-on-ubuntu/
+
+https://ubuntu.com/server/docs/programming-php
+
+mysql:
+apt-get install mysql-server mysql-client libmysqlclient-dev
+
+get rid of error messages in phpmyadming
+https://stackoverflow.com/questions/37002494/php-7-with-phpmyadmin-gives-lots-of-deprecation-notices
+
+http://localhost/phpmyadmin/prefs_forms.php?form=Features
+
+apache:
+did this:
+apt install apache2
+a2dismod mpm_event
+a2enmod mpm_prefork
+service apache2 restart
+
+then tried this:
+apt-get install apache2 apache2-doc apache2-utils libexpat1 ssl-cert
+
+php:
+apt install php php-cli php-fpm php-json php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
+
+phpmyadmin:
+sudo apt-get install phpmyadmin
+
+didn't work antill installed mbstring:
+sudo apt-get install php7.4-mbstring
+sudo apt-get install libapache2-mod-php7.4
+sudo service apache2 restart
+
+sudo service apache2 restart
+
+apache2 needs to be started/stopped with /etc/init.d/apache2 or apache2ctl.
+Calling /usr/bin/apache2 directly will not work with the default configuration
+
+~~~
+apache2.service is masked
+https://askubuntu.com/questions/959723/apache2-service-is-masked
+
+sudo systemctl unmask apache2
+sudo service apache2 restart
+
+~~~
+mysql -u root -p
+password: 111
+
+phpmyadmin
+111
+
+upload to mysql
+http://localhost/phpmyadmin/doc/html/faq.html#faq1-16
+login to mysql:
+mysql
+
+use command source (unzip file if it is zipped)
+mysql> source /home/al/backup/hyip/sql/hyip.sql
+
+~~~
+https://dev.mysql.com/doc/refman/5.7/en/mysqldump-sql-format.html
+
+Dump databases
+All databases
+mysqldump --all-databases > dump.sql
+
+only specific databases
+mysqldump --databases test test1 > dump.sql
+
+single database with data
+mysqldump --databases test > dump.sql
+
+single database without data
+sudo mysqldump --databases --no-data hyip > hyip.sql
+
+
+
+without --databases, the dump output contains no CREATE DATABASE or USE statements.
+mysqldump test > dump.sql
+
+reload a dump file written by mysqldump
+mysql < dump.sql
+
+Alternatively, from within mysql, use a source command:
+mysql> source dump.sql
+
+single-database dump not containing CREATE DATABASE and USE statements
+mysqladmin create db1
+mysql db1 < dump.sql
+
+from within mysql
+mysql> CREATE DATABASE IF NOT EXISTS db1;
+mysql> USE db1;
+mysql> source dump.sql
+
+The --no-data option tells mysqldump not to dump table data
+mysqldump --no-data test > dump-defs.sql
+
+the --no-create-info option tells mysqldump to suppress CREATE statements from the output, so that the dump file contains only table data.
+mysqldump --no-create-info test > dump-data.sql
+
+~~~
+import an SQL file using the command line in MySQL
+https://stackoverflow.com/questions/17666249/how-do-i-import-an-sql-file-using-the-command-line-in-mysql
+al@ubuntu:~$ mysql -u username -p database_name < file.sql
+
+change mysql user password
+https://dev.mysql.com/doc/refman/8.0/en/set-password.html
+SET PASSWORD = 'auth_string';
+
+With a FOR user clause, the statement sets the password for the named account, which must exist:
+SET PASSWORD FOR 'jeffrey'@'localhost' = 'auth_string';
+
+With no FOR user clause, the statement sets the password for the current user:
+SET PASSWORD = 'auth_string';
+
+Import a CSV file into a MySQL database
+https://phoenixnap.com/kb/import-csv-file-into-mysql
+
+LOAD DATA INFILE '/home/export_file.csv'
+INTO TABLE table_name
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+use mysqlimport
+mysqlimport -u al -p -c huy hyip test.csv
+
+problem
+The MySQL server is running with the --secure-file-priv option so it cannot execute this statement
+
+https://sebhastian.com/mysql-fix-secure-file-priv-error/
+login to mysql and run this to find out directory
+mysql> SHOW VARIABLES LIKE 'secure_file_priv';
+
+found
+/var/lib/mysql-files
+this needs root access
+sudo -i
+copyed csv file here and then succesfully uploded data to dadabase
+mysqlimport -u al -p -c huy hyip /var/lib/mysql-files/test.csv
+no good for shared hosting!!!
+
+use python script instead
+
+https://stackoverflow.com/questions/32737478/how-should-i-resolve-secure-file-priv-in-mysql
+
+~~~
+Enable Remote Access To MySQL Database Server
+https://www.cyberciti.biz/tips/how-do-i-enable-remote-access-to-mysql-database-server.html
+
+~~~
+php.ini Configuration File
+https://devanswers.co/ubuntu-php-php-ini-configuration-file/
+
+Apache
+/etc/php/8.1/apache2/php.ini
+sudo systemctl restart apache2
+
+Nginx or Apache with PHP-FPM
+/etc/php/8.1/fpm/php.ini
+sudo service php8.1-fpm restart
+sudo systemctl restart php8.1-fpm.service
+
+~~~
+Restart PHP by restarting your web-server
+# /etc/init.d/apache2 restart
+
+OR
+# apache2ctl restart
+
+~~~
+MySQL “show users”: How to show/list the users in a MySQL database
+select host, user from mysql.user;
+
+MySQL DESCRIBE TABLE
+https://www.javatpoint.com/mysql-describe-table
+
+mysql -u al -p -h 82.165.5.243
+https://www.tecmint.com/fix-error-1130-hy000-host-not-allowed-to-connect-mysql/
+https://www.digitalocean.com/community/tutorials/how-to-allow-remote-access-to-mysql
+
+get the sizes of the tables of a MySQL database
+https://stackoverflow.com/questions/9620198/how-to-get-the-sizes-of-the-tables-of-a-mysql-database
+
+SELECT
+    table_name AS `Table`,
+    round(((data_length + index_length) / 1024 / 1024), 2) `Size in MB`
+FROM information_schema.TABLES
+WHERE table_schema = "hyip"
+    AND table_name = "log";
+
+get size of mysql database
+https://stackoverflow.com/questions/1733507/how-to-get-size-of-mysql-database
+
+SELECT table_schema "DB Name",
+        ROUND(SUM(data_length + index_length) / 1024 / 1024, 1) "DB Size in MB"
+FROM information_schema.tables
+GROUP BY table_schema;
+
+~~~
+locate
+apt install mlocate
+
+use grep
+grep -R "DocumentRoot" /etc/apache2/sites-enabled
+
+
+~~~
+/var/lib/mysql/hwsrv-901788.hostwindsdns.pid
+
+~~~
+start mysql
+/etc/init.d/mysql start
+service mysql status
+
+~~~
+install MySQL
+https://ubuntu.com/server/docs/databases-mysql
+
+sudo apt install mysql-server
+
+check status
+sudo service mysql status
+
+create user with all previleges on mysql
+https://blog.runcloud.io/retrieve-your-root-password-and-other-invaluable-mysql-commands/
+
+sudo su root
+login to mysql as root (new mysql no password)
+mysql -u root
+CREATE USER 'UsernameHere'@'localhost' IDENTIFIED BY 'PasswordHere';
+GRANT ALL PRIVILEGES ON *.* TO 'UsernameHere'@'localhost'
+
+CREATE USER 'al'@'localhost' IDENTIFIED BY '111';
+GRANT ALL PRIVILEGES ON *.* TO 'al'@'localhost'
+WITH GRANT OPTION;
+
+The network status of the MySQL service
+sudo ss -tap | grep mysql
+
+copy database
+sudo mysqldump -u root hyip > dumpfilename.sql
+
+create a prepared statement http://php.net/manual/en/mysqli-stmt.prepare.php
+
+see all databases in mysql
+https://www.devart.com/dbforge/mysql/studio/how-to-show-all-database-list-in-mysql.html#:~:text=Open%20the%20Command%20Prompt%20and,command%20we%20have%20discussed%20above.
+SHOW DATABASES;
+
+~~~
+import sql
+post_max_size=100M
+upload_max_filesize=100M
+memory_limit=512M
+max_execution_time=3600
+max_input_time=3600
+
+~~~
+pip3
+https://www.educative.io/edpresso/installing-pip3-in-ubuntu
+
+sudo apt-get update
+sudo apt-get -y install python3-pip
+pip3 --version
+
+~~~
+selenium
+https://linuxhint.com/chrome_selenium_headless_running/
+https://blog.softhints.com/ubuntu-16-04-server-install-headless-google-chrome/
+
+ChromeDriver
+https://sites.google.com/chromium.org/driver/downloads?authuser=0
+https://sites.google.com/a/chromium.org/chromedriver/getting-started
+driver
+https://chromedriver.storage.googleapis.com/index.html?path=105.0.5195.52/
+
+had error
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created exception: Missing or invalid capabilities
+
+ChromeDriver had old version
+
+(Python only) include the path to ChromeDriver when instantiating webdriver.Chrome (see sample below)
+
+include the ChromeDriver location in your PATH environment variable
+
+cloudflare
+https://stackoverflow.com/questions/59174899/what-is-the-difference-in-accessing-cloudflare-website-using-chromedriver-chrome
+https://blog.m157q.tw/posts/2020/09/11/bypass-cloudflare-detection-while-using-selenium-with-chromedriver/
+add user-agent:
+option.add_argument("user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36")
+
+~~~
+Google Chrome
+cd temp
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i --force-depends google-chrome-stable_current_amd64.deb
+sudo apt-get install -f
+
+~~~
+/home/da/.local/lib/python3.8/site-packages
+
+~~~
+restart apache2
+sudo systemctl restart apache2
+service apache2 status
+/etc/apache2/sites-available/000-default.conf
+
+~~~
+Install Multiple PHP Versions
+https://askubuntu.com/questions/912638/error-module-php7-0-does-not-exist
+
+for each php version install
+sudo apt-get install libapache2-mod-php7.4
+
+and then disable all and enable the needed one
+sudo a2dismod php5.6
+sudo a2dismod php8.1
+sudo a2enmod php7.4
+
+fpm
+https://help.clouding.io/hc/en-us/articles/360021630059-How-to-Install-Multiple-PHP-Versions-7-2-7-4-8-0-and-8-1-on-Ubuntu-20-04
+
+apt-get install software-properties-common gnupg2 -y
+add-apt-repository ppa:ondrej/php
+apt-get update -y
+apt-get install php7.4 php7.4-fpm php7.4-cli -y
+apt-get install php8.1 php8.1-fpm php8.1-cli -y
+
+switch php versions
+sudo update-alternatives --config php
+
+see php versions
+sudo dpkg --list | grep ' php[0-9]\.[0-9] '
+
+check current php version
+php --version
+
+other way
+choose php version
+Virtual Hosts Method
+edit /etc/apache2/sites-available/000-default.conf
+sudo nano /etc/apache2/sites-available/000-default.conf
+add
+    <FilesMatch \.php> # Apache 2.4.10+ can proxy to unix socket
+        SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+    </FilesMatch>
+or
+    <FilesMatch \.php> # Apache 2.4.10+ can proxy to unix socket
+        SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+    </FilesMatch>
+
+restart apache2
+
+~~~
+Apache Web Root DocumentRoot
+https://www.digitalocean.com/community/tutorials/how-to-move-an-apache-web-root-to-a-new-location-on-ubuntu-16-04
+default: /var/www/html
+/home/da/var/www/html
+
+~~~
+Redirect Request to SSL
+https://cwiki.apache.org/confluence/display/HTTPD/RedirectSSL
+
+<VirtualHost *:80>
+   ServerName amkamdam.com
+   Redirect permanent / https://amkamdam.com
+</VirtualHost>
+
+~~~
+locate
+https://askubuntu.com/questions/215503/how-to-install-the-locate-command
+sudo apt-get install mlocate
+use:
+locate
+If you get a cannot stat error when you run locate, then you need to run sudo updatedb to populate the database
+
+~~~
+sysstat
+https://www.digitalocean.com/community/questions/how-to-install-and-configure-sar-sysstat-on-ubuntu
+
+~~~
+Install and Configure Apache
+https://ubuntu.com/tutorials/install-and-configure-apache#1-overview
+
+www-data permissions
+https://stackoverflow.com/questions/9133024/www-data-permissions
+
+Let's say you want to sftp into a directory sharing reading,
+writing and executing permissions with www-data, this is what you should do:
+1 - Add yourself to www-data group
+sudo usermod -a -G www-data <your_user>
+sudo usermod -a -G www-data al
+
+2 - Sets the wanted user:group ownership for your folder and files recursively
+sudo chown -R <your_user>:www-data <your_folder>
+sudo chown -R al:www-data html
+
+3 - This adds permissions (read write execute) to all users (a+rwx); Restrict permissions from others (o-rwx);
+ Sets the same (folder inherited) user:group for every new file created under that directory (ug+s).
+ This will be executed recursively and only in folder (probably exactly what you want)
+sudo find <folder_name> -type d -exec chmod a+rwx,o-rwx,ug+s {} +
+
+~~~
+Set Up Apache Virtual Hosts on Ubuntu
+https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-20-04
+
+sudo mkdir -p /var/www/xxx.com/public_html
+sudo chown -R al:www-data /var/www/xxx.com/public_html
+sudo chmod -R 755 /var/www
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/xxx.com.conf
+sudo nano /etc/apache2/sites-available/xxx.com.conf
+
+	ServerAdmin webmaster@xxx.com
+	ServerName xxx.com
+    ServerAlias www.xxx.com
+    DocumentRoot /var/www/xxx.com/public_html
+
+sudo a2ensite xxx.com.conf
+systemctl reload apache2
+
+for local development edit hosts file
+sudo nano /etc/hosts
+
+    127.0.0.1	xxx.com
+
+enable disable sites
+sudo a2ensite da-1.com.conf
+sudo a2dissite 000-default.conf
+systemctl reload apache2
+
+Setting Up Local Hosts File
+/etc/hosts
+127.0.0.1   localhost
+127.0.1.1   guest-desktop
+127.0.0.1   da.com
+your_server_IP your_domain_1
+your_server_IP your_domain_2
+
+redirect to not found page, if a page does not exist
+in
+/etc/apache2/sites-available/xxx.com.conf
+add
+ErrorDocument 404 /notfound.html
+
+and restart the server
+intspeed
+~~~
+ssl
+https://letsencrypt.org/getting-started/
+https://certbot.eff.org/lets-encrypt/ubuntufocal-apache
+
+sudo apt install snapd
+sudo apt-get remove certbot
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+sudo certbot --apache
+
+/etc/apache2/sites-available/000-default-le-ssl.conf
+
+~~~
+add your user to the dialout group
+sudo usermod -a -G dialout al
+
+To make the changes to your groups take effect, you need to either log out and back in, or you can use the newgrp command,
+which will let you use the new group straight away by changing your group ID to the one you specify, in this case dialout:
+newgrp dialout
+
+Then check you are in the dialout group:
+groups
+
+~~~
+iRedMail
+https://inguide.in/build-smtp-server-with-iredmail-on-ubuntu-simple-steps/
+https://www.youtube.com/watch?v=rvCw94PA3js
+
+~~~
+GoldCoders. Download:
+
+Download link
+HYIP Manager Pro (IonCube - PHP <= 5.6 zip archive - recommended version) (Last Update: 07, Jun 2021).
+
+Your license information:
+Domain: jkfund.com
+License code: UW4T4AZWP4HV6GW6QH2G
+Enter this license code when install.php script asks you.
+
+Installation:
+0. Download https://www.ioncube.com/loaders.php
+1. Generate a license code for your domain.
+2. Download an archive.
+2. Upload the files from the arhive to your server. Upload the files in binary mode only.
+3. Create a 'tmpl_c' folder (if not exists) and set 777 permissions for this folder.
+  Rename settings_default.php file to settings.php
+4. Run the install.php script and follow the instructions.
+
+~~~
+Perfect Money
+Use your ID with combination of password
+lisakalex@gmail.com
+huy
+Your personal Member ID: 6557695
+Alternate Passphrase: ZzabulaDdura19.&
+
+~~~
+find running web server
+netstat -tnlp | grep 80
+netstat -tnlp | grep 443
+
+~~~
+Connecting MetaMask to Binance Smart Chain
+https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain
+
+Mainnet (This is the one you are probably looking for)
+Network Name: Smart Chain
+New RPC URL: https://bsc-dataseed.binance.org/
+ChainID: 56
+Symbol: BNB
+Block Explorer URL: https://bscscan.com
+
+Testnet
+Network Name: Smart Chain - Testnet
+New RPC URL: https://data-seed-prebsc-1-s1.binance.org:8545/
+ChainID: 97
+Symbol: BNB
+Block Explorer URL: https://testnet.bscscan.com
+
+BNBtest https://data-seed-prebsc-1-s1.binance.org:8545/ https://testnet.bscscan.com
+
+~~~
+metamask
+focus horn wet split lab avoid split forward witness movie public panther
+
+chrome
+metamask
+ad kumpenot
+foster top enjoy silly define pottery turn hood enact right resemble strategy
+0x27077f445BAAf8c0a47A969769e62AD8Dbd82479
+
+
+~~~
+
+multiple php versions
+https://github.com/rafaelphp/lampp_switcher
+
+install lampp with php5 on /opt/lampp
+rename folder lampp to lampp5 after lampp installation
+sudo mv /opt/lampp /opt/lampp5
+
+install lampp with php7 on /opt/lampp
+rename folder lampp to lampp7 after lampp installation with php7
+sudo mv /opt/lampp /opt/lampp7
+
+sudo chmod +x lampp_switcher.sh
+./lampp_switcher.sh
+
+~~~
+ipfs
+https://github.com/ipfs/ipfs-desktop
+
+~~~
+discord
+https://discord.gg/XmWmUwFJVy
+
+~~~
+convert .HEIC to .jpg
+sudo apt install libheif-examples
+for file in *.HEIC; do heif-convert -q 100 $file ${file/%.HEIC/.jpg}; done
+
+~~~
+ball patch shy brass shadow express report sight subway knee inner proud
+initiate truffle project
+truffle init .
+
+might need this
+npm init -y
+
+~~~
+Node.js
+Manual installation (to install new version)
+https://github.com/nodesource/distributions/blob/master/README.md
+
+~~~
+install openzeppelin
+npm install @openzeppelin/contracts
+https://docs.openzeppelin.com/contracts/3.x/#overview
+
+~~~
+truffle console --network bscTestnet
+truffle console --network bnbtest
+truffle(bscTestnet)>
+await web3.eth.getAccounts()
+await web3.eth.getBalance("0xbdE3A5Ed1dd36d9ED56d1Ee6be9E1Ce01b3b2838")
+.exit
+migrate --reset
+
+let instance = await DydxFlashloaner.deployed()
+
+~~~
+flashloanTruffleBox
+let f = await Flashloan.deployed()
+f.addressesProvider()
+f.flashloan("0xdCf0aF9e59C002FA3AA091a46196b37530FD48a8")
+amount = web3.utils.toWei('1000')
+asset = '0xdCf0aF9e59C002FA3AA091a46196b37530FD48a8'
+asset = '0xff795577d9ac8bd7d90ee22b6c1703490b6512fd'
+f.flashloan(asset, amount)
+f.flashloan('0xff795577d9ac8bd7d90ee22b6c1703490b6512fd', web3.utils.toWei('1000'))
+
+get balance in BNB
+b = await web3.eth.getBalance("0x27077f445BAAf8c0a47A969769e62AD8Dbd82479")
+web3.utils.fromWei(b)
+
+~~~
+Your PAC is VRG822735 and expires on 08/01/2022.
+Right now, your Pay As You Go credit balance is £8.08.
+Unfortunately we won't be able to refund this if you leave.
+Don't forget that if you have an outstanding balance,
+it will still need to be paid. For more info, head to virginmobile.co.uk/youraccount
+
+vrg044191
+07915086680
+07531953527
+~~~
+hardhat
+npm init --yes
+npm install --save-dev hardhat
+npx hardhat
+npm install @openzeppelin/contracts
+npm install @nomiclabs/hardhat-etherscan
+npm install @nomiclabs/hardhat-waffle
+npm i pancakeswap-peripheral
+npm i @pancakeswap2/pancake-swap-core
+
+npx hardhat run scripts/deploy.js --network bnbtest
+npx hardhat verify 0x51aD43933418DF43b659c4359135B1e18cf6B931 --network bnbtest
+
+~~~
+pancakeswap test
+https://twitter.com/pancakeswap/status/1369547285160370182?lang=en-GB
+Factory: 0x6725F303b657a9451d8BA641348b6761A6CC7a17
+Factory: 0xb7926c0430afb07aa7defde6da862ae0bde767bc
+         0xB7926C0430Afb07AA7DEfDE6DA862aE0Bde767bc
+
+Router: 0xD99D1c33F9fC3444f8101754aBC46c52416550D1
+Router: 0x9Ac64Cc6e4415144C455BD8E4837Fea55603e5c3
+
+Wrapped BNB: 0xae13d989dac2f0debff460ac112a837c89baa7cd
+0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd
+
+npm install @openzeppelin/contracts@2.5.1
+
+pragma solidity >=0.6.0 <0.8.0;
+npm install @openzeppelin/contracts@3.4.0
+
+~~~
+Thank you for placing your order with TalkTalk. We will contact you if we need anymore information to complete your order.
+
+Your order number is N85491219
+
+You can track your order any time by logging-in to My Account and using Order Tracker or by calling us free on 0800 049 7971
+
+~~~
+talktalk order number
+N85604121
+
+Account number:
+
+1014006359
+
+Phone number:
+
+01293320603
+
+~~~
+Virtual Environments and Packages
+https://docs.python.org/3/tutorial/venv.html
+https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+
+python3 -m venv tutorial-env
+python3 -m venv ~/.venv
+source ~/.venv/bin/activate
+python3 -m pip install package
+python3 -m pip install --upgrade package
+python3 -m pip install package==2.6.0
+python3 -m pip uninstall package
+pip freeze > requirements.txt
+python3 -m pip install -r /var/www/requirements.txt
+deactivate
+
+update/upgrade pip itself
+pip install --upgrade pip
+
+had to run on new server
+sudo apt install python3.10-venv
+
+Automatically create file 'requirements.txt'
+https://stackoverflow.com/questions/31684375/automatically-create-file-requirements-txt
+
+# install
+pip3 install pipreqs
+
+# Run in current directory
+python3 -m  pipreqs.pipreqs .
+
+~~~
+heroku
+mkdir tcpsbkrucd
+tcpsbkru/
+heroku create
+git init
+heroku git:remote -a tcpsbkru
+git add .
+git commit -am "make it better"
+git push heroku master
+heroku logs
+heroku ps
+
+~~~
++447531953527
+
+
+~~~
+Install PyCharm
+sudo tar -xzf jetbrains-toolbox-1.17.7391.tar.gz -C /opt
+https://www.jetbrains.com/help/pycharm/installation-guide.html#toolbox
+
+~~~
+talktalk
+star
+Zaichik1xxx35
+
+admin
+3X4WT4FG
+
+~~~
+sftp server
+transfer files from Linux to iOS wirelessly
+it was FE File Explorer now Owlfiles
+https://www.addictivetips.com/ubuntu-linux-tips/transfer-files-from-linux-to-ios-wirelessly/amp/
+
+~~~
+0345 0507080
+
+~~~
+linux internet speed test
+https://opensource.com/article/20/1/internet-speed-tests
+sudo apt install speedtest-cli
+speedtest
+
+might not work, tru this
+speedtest-cli --secure
+
+~~~
+natasha.lisak@sodexo.com
+Summer2022
+
+~~~
+pip in a Python Virtual Environment
+go to the directory you need and run
+python3 -m venv venv
+source venv/bin/activate
+
+had error 
+Package python3.10-venv is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'python3.10-venv' has no installation candidate
+
+created venv by pycharm
+
+and then went there and activated
+source venv/bin/activate
+
+now can install
+pip install beautifulsoup4
+ 
+ deactivate venv:
+ deactivate
+ 
+ ~~~
+ install pip
+ sudo apt install python3-pip
+ sudo apt install python3.10-venv
+
+ if not then may be folow below
+ https://realpython.com/run-python-scripts/
+ https://pip.pypa.io/en/latest/installation/
+ 
+ downlaod file get-pip.py
+ https://realpython.com/what-is-pip/
+run
+ python3 get-pip.py
+
+ this time didn't work:
+ The virtual environment was not created successfully because ensurepip is not
+ available.
+
+ run
+ apt install python3.10-venv
+
+
+ checked version
+ pip --version
+ had pip version pip-21.3.1
+
+ updated to the latest pip-22.2.2:
+ /home/ubuntu/PycharmProjects/pythonProject/venv/local/bin/python -m pip install --upgrade pip
+ 
+ had warning
+ WARNING: The scripts pip, pip3 and pip3.10 are installed in '/home/ubuntu/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH
+  
+added to PATH
+
+create requirements.txt
+python -m pip freeze > requirements.txt
+install requirements
+python -m pip install -r requirements.txt
+
+~~~
+Add a Directory to PATH
+https://linuxize.com/post/how-to-add-directory-to-path-in-linux/
+
+Add a Directory bin located in your Home directory
+Per-user shell specific configuration files:
+ ~/.bashrc or ~/.zshrc
+ add the following line at the end of  ~/.bashrc
+ export PATH="$HOME/bin:$PATH"
+ 
+Save the file and load the new $PATH into the current shell session using the source command:
+
+source ~/.bashrc
+
+confirm that the directory was successfully added
+
+echo $PATH
+
+installed beautifulsoup by running:
+pip install beautifulsoup4
+
+~~~
+uninstall or remove  software package from Ubuntu
+sudo apt-get remove diodon
+
+Uninstall diodon including dependent package
+If you would like to remove diodon and it's dependent packages which are no longer needed from Ubuntu,
+sudo apt-get remove --auto-remove diodon
+
+Use Purging diodon
+If you use with purge options to diodon package all the configuration and dependent packages will be removed.
+sudo apt-get purge diodon
+
+If you use purge options along with auto remove, will be removed everything regarding the package, It's really useful when you want to reinstall again.
+sudo apt-get purge --auto-remove diodon
+ 
+~~~
+Setting current database schema
+https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000450924-Setting-current-database-schema
+
+~~~
+Beautiful Soup
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+If all else fails, the license for Beautiful Soup allows you to package the entire library with your application.
+You can download the tarball, copy its bs4 directory into your application’s codebase,
+and use Beautiful Soup without installing it at all.
+
+copy bs4 directory to:
+C:\Users\J1008607\AppData\Local\Programs\Python\Python38-32\Lib\site-packages
+
+~~~
+python script
+#!/var/www/html/venv/bin/python
+
+~~~
+copy a table to new table (create a copy)
+CREATE TABLE new_table LIKE monitor;
+INSERT INTO new_table SELECT * FROM monitor;
+
+~~~
+Proximity Sensor
+https://askubuntu.com/questions/1035209/how-to-turn-off-screen-rotation-in-ubuntu-18-04-lts
+sudo systemctl stop iio-sensor-proxy.service
+or
+sudo systemctl disable iio-sensor-proxy.service
+
+~~~
+recursively-rename-extension
+https://gist.github.com/bzerangue/2395572
+go into the directory and run this
+find . -name "*.html" | while read i; do mv "$i" "${i%.html}.php"; done
+
+~~~
+Git: list only "untracked" files (also, custom commands)
+https://stackoverflow.com/questions/3801321/git-list-only-untracked-files-also-custom-commands
+git status -u
+
+~~~
+highlight menu to the current page
+$("#advertisersMenu").addClass("active");
+
+~~~
+draw QR by google
+https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=bitcoin:tb1q96jmzcnyv0w3y0gafg0mz8tl0u9tt0qj49q2h3?amount=0.00600013
+
+chats
+https://developers.google.com/chart/interactive/docs/gallery/linechart
+~~~
+[xdebug]
+zend_extension=/usr/lib/php/20210902/xdebug.so
+xdebug.mode=debug
+
+~~~
+Tweak Tool
+https://linuxconfig.org/how-to-install-tweak-tool-on-ubuntu-22-04-lts-jammy-jellyfish-linux
+
+~~~
+No minimize on dock click
+https://askubuntu.com/questions/1030531/how-do-i-turn-off-minimize-on-click-option-for-ubuntu-dock
+When I click on any open app in the dock it doesn’t minimize. It can be activated with this terminal command:
+
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+
+revert back
+gsettings reset org.gnome.shell.extensions.dash-to-dock click-action
+
+Windows-like "click-action"
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
+
+~~~
+use X instead of wayland on 22.04
+https://askubuntu.com/questions/1410256/how-do-i-use-x-instead-of-wayland-on-22-04
+
+sudo nano /etc/gdm3/custom.conf
+uncomment
+#WaylandEnable=false
+reboot
+~~~
+save terminal output to a file
+          || visible in terminal ||   visible in file   || existing
+  Syntax  ||  StdOut  |  StdErr  ||  StdOut  |  StdErr  ||   file
+==========++==========+==========++==========+==========++===========
+    >     ||    no    |   yes    ||   yes    |    no    || overwrite
+    >>    ||    no    |   yes    ||   yes    |    no    ||  append
+          ||          |          ||          |          ||
+   2>     ||   yes    |    no    ||    no    |   yes    || overwrite
+   2>>    ||   yes    |    no    ||    no    |   yes    ||  append
+          ||          |          ||          |          ||
+   &>     ||    no    |    no    ||   yes    |   yes    || overwrite
+   &>>    ||    no    |    no    ||   yes    |   yes    ||  append
+          ||          |          ||          |          ||
+ | tee    ||   yes    |   yes    ||   yes    |    no    || overwrite
+ | tee -a ||   yes    |   yes    ||   yes    |    no    ||  append
+          ||          |          ||          |          ||
+ n.e. (*) ||   yes    |   yes    ||    no    |   yes    || overwrite
+ n.e. (*) ||   yes    |   yes    ||    no    |   yes    ||  append
+          ||          |          ||          |          ||
+|& tee    ||   yes    |   yes    ||   yes    |   yes    || overwrite
+|& tee -a ||   yes    |   yes    ||   yes    |   yes    ||  append
+
+~~~
+log fils
+grep -B 2 '404' huy-2.txt | grep "http" | cut -d " " -f 4 | sort -u
+
+~~~
+https://github.com/
+lisakalex
+huy
+token
+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
+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
+
+echo "# html" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/lisakalex/html.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/lisakalex/html.git
+git branch -M main
+git push -u origin main
+
+Git: gnutls_handshake() failed: Error in the pull function
+https://stackoverflow.com/questions/52379234/git-gnutls-handshake-failed-error-in-the-pull-function
+
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+
+~~~
+Count The Files By Extension Recursively
+https://www.2daygeek.com/how-to-count-files-by-extension-in-linux/
+
+Count The Files By Specific Extension Recursively Using ls
+ls -lR | grep --count \.html$
+
+Count All The Files Extension Recursively
+find . -type f | sed -n 's/..*\.//p' | sort | uniq -c
+
+Recursively counting all files
+find . -type f | wc -l
+
+~~~
+count all words Recursively (Grep Recursive and Count)
+https://stackoverflow.com/questions/884591/grep-recursive-and-count
+
+grep -roh "https://cryptonews.com" | grep -v "^Binary.*matches$" | grep -c ^
+
+this gives closer result to Intellij
+grep -r "word" * | tee >(wc -l)
+
+~~~
+a recursive find/replace of a string
+https://stackoverflow.com/questions/1583219/how-can-i-do-a-recursive-find-replace-of-a-string-with-awk-or-sed
+
+grep -rl oldtext . | xargs sed -i 's/oldtext/newtext/g'
+
+~~~
+create a directory recursively python
+use pathlib
+
+from pathlib import Path
+Path('new_directory').mkdir(parents=True, exist_ok=True)
+
+or
+
+https://www.tutorialspoint.com/How-to-create-a-directory-recursively-using-Python
+
+import os
+os.makedirs('my_folder/another/folder')
+
+# Leaf directory
+directory = "c"
+
+# Parent Directories
+parent_dir = "/home/User/Documents/GeeksforGeeks/a/b"
+
+# mode
+mode = 0o666
+
+path = os.path.join(parent_dir, directory)
+
+# Create the directory
+# 'c'
+
+os.makedirs(path, mode)
+
+remove a directory recursively
+https://www.tutorialspoint.com/How-to-remove-a-directory-recursively-using-Python
+
+import shutil
+shutil.rmtree('my_folder')
+
+~~~
+Getting today's date in YYYY-MM-DD in Python
+https://stackoverflow.com/questions/32490629/getting-todays-date-in-yyyy-mm-dd-in-python
+
+>>> from datetime import datetime
+>>> datetime.today().strftime('%Y-%m-%d')
+'2021-01-26'
+
+>>> datetime.today().strftime('%Y-%m-%d %H:%M:%S')
+'2021-01-26 16:50:03'
+
+now = datetime.today().isoformat()
+print(now)  # '2018-12-05T11:15:55.126382'
+
+from datetime import date
+today = date.today().isoformat()
+'2018-12-05'
+
+import time
+today = time.strftime("%Y-%m-%d")
+# 2023-04-13
+
+pip install arrow
+
+>>> import arrow
+>>> arrow.now().format('YYYY-MM-DD')
+'2017-02-17'
+
+~~~
+Meld not launching in Ubuntu
+https://stackoverflow.com/questions/71770562/meld-not-launching-in-ubuntu
+pip uninstall meld
+now /usr/bin/meld as was installed via:
+apt install meld
+works fine.
+
+~~~
+Max Cherechecha birthday 26/05 this year (23) he is 45
+Inna and Sasha jubelly 10 marrage 01/06/2023
+july Cherechecha birthday 02/08
+
+~~~
+Intellij IDE caret following cursor
+https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000577850-Intellij-IDE-caret-following-cursor
+
+I found a super easy fix for this issue!
+
+If you have a touch screen and this issue started to happen,
+just touch the screen to change the caret position in the IDE and it will stop it from following the cursor!
+
+~~~
+check free disk space
+https://opensource.com/article/18/7/how-check-free-disk-space-linux
+du -h
+sudo du -sh
+sudo fdisk -l
+
+~~~
+Intellij
+Configure synchronization with a server
+https://www.jetbrains.com/help/idea/configuring-synchronization-with-a-remote-host.html
+In the Settings dialog (Ctrl+Alt+S), go to Build, Execution, Deployment | Deployment
+To configure the upload to the default server, go to Build, Execution, Deployment | Deployment | Options.
+
+~~~
+https://amkamdam.com
+install SSl certificate on server
+https://www.ssldragon.com/how-to/install-ssl-certificate/ubuntu/
+https://ubuntu.com/server/docs/security-certificates
+
+download certificate and key files from the hosting provider and copy them to the server
+_.amkamdam.com_private_key.key
+amkamdam.com_ssl_certificate.cer
+_.amkamdam.com_ssl_certificate_INTERMEDIATE.cer
+
+Installing the Certificate
+You can install the key file server.key and certificate file server.cer,
+or the certificate file issued by your CA, by running following commands at a terminal prompt:
+
+sudo cp server.cer /etc/ssl/certs
+sudo cp server.key /etc/ssl/private
+
+Configure the Virtual Host block
+al@ubuntu:/etc/apache2/sites-enabled/000-default.conf
+
+DocumentRoot /var/www/site
+ServerName www.yourdomain.com
+SSLEngine on
+SSLCertificateFile /path/to/yourdomain.crt
+SSLCertificateKeyFile /path/to/yourdomain.key
+SSLCertificateChainFile /path/to/yourdomain.crt
+
+Restart the Apache
+sudo systemctl restart apache2
+
+al@ubuntu:s $ cat 000-default.conf (old)
+
+<VirtualHost *:80>
+	# The ServerName directive sets the request scheme, hostname and port that
+	# the server uses to identify itself. This is used when creating
+	# redirection URLs. In the context of virtual hosts, the ServerName
+	# specifies what hostname must appear in the request's Host: header to
+	# match this virtual host. For the default virtual host (this file) this
+	# value is not decisive as it is used as a last resort host regardless.
+	# However, you must set it for any further virtual host explicitly.
+	#ServerName www.example.com
+
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html
+
+	# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+	# error, crit, alert, emerg.
+	# It is also possible to configure the loglevel for particular
+	# modules, e.g.
+	#LogLevel info ssl:warn
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+	# For most configuration files from conf-available/, which are
+	# enabled or disabled at a global level, it is possible to
+	# include a line for only one particular virtual host. For example the
+	# following line enables the CGI configuration for this host only
+	# after it has been globally disabled with "a2disconf".
+	#Include conf-available/serve-cgi-bin.conf
+</VirtualHost>
+
+~~~
+setting up subdomain on ubuntu server
+https://askubuntu.com/questions/463618/setting-up-subdomain-on-ubuntu-server
+al@ubuntu:/etc/apache2/sites-enabled$ cat 000-default.conf (changed)
+add SSL, redirect if not found, redirect all 80 to 443, add subdomain hindex
+
+<VirtualHost *:443>
+	# The ServerName directive sets the request scheme, hostname and port that
+	# the server uses to identify itself. This is used when creating
+	# redirection URLs. In the context of virtual hosts, the ServerName
+	# specifies what hostname must appear in the request's Host: header to
+	# match this virtual host. For the default virtual host (this file) this
+	# value is not decisive as it is used as a last resort host regardless.
+	# However, you must set it for any further virtual host explicitly.
+	#ServerName www.example.com
+
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html
+	ServerName amkamdam.com
+	SSLEngine on
+	SSLCertificateFile /etc/ssl/certs/amkamdam.com_ssl_certificate.cer
+	SSLCertificateKeyFile /etc/ssl/private/_.amkamdam.com_private_key.key
+	SSLCertificateChainFile /etc/ssl/certs/_.amkamdam.com_ssl_certificate_INTERMEDIATE.cer
+
+	ErrorDocument 404 /notfound.html
+
+	# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+	# error, crit, alert, emerg.
+	# It is also possible to configure the loglevel for particular
+	# modules, e.g.
+	#LogLevel info ssl:warn
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+	# For most configuration files from conf-available/, which are
+	# enabled or disabled at a global level, it is possible to
+	# include a line for only one particular virtual host. For example the
+	# following line enables the CGI configuration for this host only
+	# after it has been globally disabled with "a2disconf".
+	#Include conf-available/serve-cgi-bin.conf
+</VirtualHost>
+
+<VirtualHost *:80>
+   ServerName amkamdam.com
+   Redirect permanent / https://amkamdam.com
+</VirtualHost>
+
+<VirtualHost *:443>
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/hindex
+	ServerName hindex.amkamdam.com
+
+	ErrorDocument 404 /notfound.html
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+http://amkamdam.com/
+sudo apache2ctl configtest
+~~~
+Install and Use Composer on Ubuntu
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04
+
+~~~
+PHPMailer
+https://github.com/PHPMailer/PHPMailer
+
+~~~
+add Cookie Consent
+(do not forget your bowser might have cookie consent blocker extension installed)
+https://github.com/orestbida/cookieconsent
+
+add directory
+cookie
+    cookieconsent-init.js
+
+add to head
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css">
+</head>
+
+add to body
+    <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script>
+    <script defer src="/assets/cookie/cookieconsent-init.js"></script>
+</body>
+
+edit in cookieconsent-init.js some liks and wording
+~~~
+Viewing and monitoring log files
+https://ubuntu.com/tutorials/viewing-and-monitoring-log-files#2-log-files-locations
+
+System log Location:
+/var/log/syslog
+
+on remote server copy syslog to user home directory
+al@ubuntu:~$ sudo cp /var/log/syslog.1 ~/
+
+on local machine copy from remote
+al@da:~$ scp al@82.165.5.243:~/syslog .
+
+~~~
+schedule a nightly reboot
+https://askubuntu.com/questions/13730/how-can-i-schedule-a-nightly-reboot
+
+sudo nano /etc/crontab
+scroll all the way to the bottom and enter the below command
+00 6 * * * root reboot
+
+~~~
+4 Ways to check last reboot time in Linux
+https://www.howtouselinux.com/post/check-last-reboot-time-in-linux
+
+last reboot|head -2
+uptime -s
+who -b
+dmesg | grep “systemd-” | head -n 20
+
+~~~
+Inkscape
+https://imagy.app/how-to-crop-in-inkscape/
+https://inkscape-manuals.readthedocs.io/en/latest/flowing-text-into-frame.html
+https://logosbynick.com/convert-text-to-a-path-in-inkscape/
+
+~~~
+Display a loading icon until the page loads completely
+https://smallenvelop.com/display-loading-icon-page-loads-completely/
+
+~~~
+wireshark
+https://askubuntu.com/questions/700712/how-to-install-wireshark
+
+sudo add-apt-repository ppa:wireshark-dev/stable
+sudo apt-get update
+sudo apt-get install wireshark
+
+you will be asked to add dumpcap in wireshark user group so you don't need to be root to execute it.
+(use tab to choose yes or no and space as enter)
+If you say:
+NO > you're good to go, but you gonna need root privileges to run it.
+YES > after installation finishes you should add yourself to wireshark user group:
+sudo adduser $USER wireshark
+
+run wireshark
+al@da:~$ wireshark
+
+~~~
+Using data attributes
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
+
+<article
+  id="electric-cars"
+  data-columns="3"
+  data-index-number="12314"
+  data-parent="cars">
+  …
+</article>
+
+const article = document.querySelector("#electric-cars");
+// The following would also work:
+// const article = document.getElementById("electric-cars")
+
+article.dataset.columns; // "3"
+article.dataset.indexNumber; // "12314"
+article.dataset.parent; // "cars"
+
+~~~
+chrome on apache2
+https://stackoverflow.com/questions/53330322/is-chrome-installation-needed-or-only-chromedriver-when-using-selenium/62449076#62449076
+
+Yes you do need a full-install of the browser, for example see the Selenium docs for Chrome
+"The server expects you to have Chrome installed in the default location for each system..."
+src: github.com/SeleniumHQ/selenium/wiki/ChromeDriver. That needs to contain the location of
+the complete full-blown browser standalone installation. –
+chickity china chinese chicken
+ Nov 16, 2018 at 2:02
+The selenium driver acts as a wrapper to the full browser: "The ChromeDriver consists of three
+separate pieces. There is the browser itself ("chrome"), the language bindings provided by the
+Selenium project ("the driver") and an executable downloaded from the Chromium project which acts
+as a bridge between "chrome" and the "driver". This executable is called "chromedriver"", which is similar for all browsers. src:
+
+~~~
+SSH to Connect to a Remote Server
+https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server
+
+~~~
+Using DD for disk cloning
+https://serverfault.com/questions/4906/using-dd-for-disk-cloning
+
+~~~
+kill a process by name
+https://stackoverflow.com/questions/160924/how-can-i-kill-a-process-by-name-instead-of-pid-on-linux
+pkill Xvfb
+pkill chrome
+pkill tor.py
+
+~~~
+created new email address for uses like hyip forums
+tcpskak@protonmail.com
+huy
+
+~~~
+How do I configure my DNS settings in Ubuntu server?
+https://askubuntu.com/questions/346838/how-do-i-configure-my-dns-settings-in-ubuntu-server
+
+~~~
+

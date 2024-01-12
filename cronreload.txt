@@ -13,9 +13,9 @@
 #0 19 * * * cd /var/www/da-1.com/ && ./editallfiles.py
 #* * * * * cd /var/www/da-1.com/test/click-iframe/ && ./tor.py
 #*/3 * * * * cd /var/www/ && ./tor.py
-#* * * * * cd /var/www/da-1.com/ && ./tor.py
-#* * * * * cd /var/www/da-1.com/ && ./tor1.py
-#* * * * * cd /var/www/da-1.com/ && ./tor2.py
-#* * * * * cd /var/www/da-1.com/ && ./tor3.py
-#* * * * * cd /var/www/da-1.com/ && ./tor4.py
-#* * * * * cd /var/www/da-1.com/ && ./tor5.py
+* * * * * cd /var/www/da-1.com/ && ./tor.py
+* * * * * cd /var/www/da-1.com/ && ./tor1.py
+* * * * * cd /var/www/da-1.com/ && ./tor2.py
+* * * * * cd /var/www/da-1.com/ && ./tor3.py
+* * * * * cd /var/www/da-1.com/ && ./tor4.py
+* * * * * cd /var/www/da-1.com/ && ./tor5.py

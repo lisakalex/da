@@ -1,4 +1,4 @@
-#!/home/al/.venv/bin/python3.10
+#!/home/al/.amkamdam/bin/python3.10
 import glob2
 from bs4 import BeautifulSoup
 import time
