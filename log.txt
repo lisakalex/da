@@ -2260,6 +2260,7 @@ for local development edit hosts file
 sudo nano /etc/hosts
 
     127.0.0.1	xxx.com
+    127.0.0.1	a.da.com
 
 enable disable sites
 sudo a2ensite da-1.com.conf

@@ -14,23 +14,18 @@ $(function () {
 
         document.title = siteName;
 
-        // try {
-        //     document.querySelector("#frontend-js-js").remove();
-        // } catch (err) {
-        // }
-
         try {
             document.querySelector('[data-clickout-type="native_table_box_processed"]').remove(); // lower advert
         } catch (err) {
         }
 
         try {
-            document.querySelector("body > div.main > main > section.container-fluid.bg-gradient").remove(); // Guides front page
+            document.querySelector("#style-css-css").remove(); // theirs style.css
         } catch (err) {
         }
 
         try {
-            document.querySelector("#style-css-css").remove(); // theirs style.css
+            document.querySelector("#style-new-css").remove(); // theirs style.css
         } catch (err) {
         }
 
@@ -76,17 +71,7 @@ $(function () {
         }
 
         try {
-            $("section").remove(":contains('Videos')");
-        } catch (err) {
-        }
-
-        try {
             $("script").remove(":contains('googletagmanager')");
-        } catch (err) {
-        }
-
-        try {
-            document.querySelector("body > div.main > main > section:nth-child(5)").remove(); // Buy/Sell at the best rates (front page)
         } catch (err) {
         }
 
@@ -97,7 +82,31 @@ $(function () {
             });
         } catch (err) {
         }
+        if (pathname === '/') {
+            try {
+                let sections = document.querySelectorAll("section")
+                sections[0].remove()
+                sections[1].remove()
+                sections[5].remove()
+                sections[7].remove()
+                sections[10].remove()
+                sections[11].remove()
+                sections[14].remove()
+            } catch (err) {
+            }
+        }
 
+        $('.slide-news-main-part').removeClass('slide-news-main-part').addClass('me-slide-news-main-part');
+        $('.slide-bot-line').removeClass('slide-bot-line').addClass('me-slide-bot-line');
+        // $('.follow-button').removeClass('follow-button').addClass('me-follow-button');
+        $('.newsletter-section').removeClass('newsletter-section');
+
+        try {
+            document.querySelectorAll(".follow-button").forEach((e) => { // tags
+                e.remove();
+            });
+        } catch (err) {
+        }
 
         $("head").prepend("<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-0WB7KX709G\"></script>" +
             "<script>\n" +
@@ -111,29 +120,9 @@ $(function () {
             "<link href=\"https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css\" rel=\"stylesheet\"/>" +
             "<script defer=\"\" src=\"/assets/js/cookieconsent.js\"></script>" +
             "<script defer=\"\" src=\"/assets/js/cookieconsent-init.js\"></script>" +
-            "<script defer=\"\" src=\"/assets/js/frontend.js\"></script>");
-
-        // $("#menu-header > li:nth-child(11) > ul").load("/kak-index.html #menu-header > li:nth-child(9) > ul > li", function () { // fix recommended
-        //     try {
-        //         document.querySelectorAll("a").forEach((e) => { // edit links
-        //             if (e.href.search('/ext/') === -1) {
-        //                 e.href = e.href.replace("https://cryptonews.com", "");
-        //             }
-        //         });
-        //     } catch (err) {
-        //     }
-        // });
-        //
-        // $("#menu-item-119744 > ul").load("/kak-index.html #menu-item-119744 > ul > li", function () { // fix recommended footer
-        //     try {
-        //         document.querySelectorAll("a").forEach((e) => { // edit links
-        //             if (e.href.search('/ext/') === -1) {
-        //                 e.href = e.href.replace("https://cryptonews.com", "");
-        //             }
-        //         });
-        //     } catch (err) {
-        //     }
-        // });
+            "<script defer=\"\" src=\"/assets/js/frontend.js\"></script>" +
+            "<link href=\"/assets/css/style-new.css\" rel=\"stylesheet\"/>"
+        );
 
         try {
             document.querySelectorAll("a").forEach((e) => { // edit links
@@ -193,13 +182,12 @@ $(function () {
             document.body.querySelectorAll('.layout-size').forEach(setSi);
         } catch (err) {
         }
-
         // insert ads
         // index.html
-        $("body > div.main > main > section:nth-child(2) > div > div > div.col-12.col-lg-9 > div.dslot.pb-20.d-md-none").load('/me-index.html [did="16"] > a');
-        $("body > div.main > main > section:nth-child(2) > div > div > div.col-12.col-lg-9 > div.dslot.pb-20.d-none.d-md-block").load('/me-index.html [did="11"] > iframe');
-        $("body > div.main > main > section:nth-child(2) > div > div > div.col-12.col-lg-3 > div.dslot").load('/me-index.html [did="1"] > a');
-        $("body > div.main > main > section:nth-child(5) > div > div").load('/me-index.html [did="2"] > a');
+        // $("body > div.main > main > section:nth-child(2) > div > div > div.col-12.col-lg-9 > div.dslot.pb-20.d-md-none").load('/me-index.html [did="16"] > a');
+        // $("body > div.main > main > section:nth-child(2) > div > div > div.col-12.col-lg-9 > div.dslot.pb-20.d-none.d-md-block").load('/me-index.html [did="11"] > iframe');
+        $("body > div > main > section.container.position-relative.choice-section > div > div:nth-child(3) > div > div > div").load('/me-index.html [did="1"] > iframe');
+        // $("body > div.main > main > section:nth-child(5) > div > div").load('/me-index.html [did="2"] > a');
 
         //news/index.html
         if (pathname === '/news/') {

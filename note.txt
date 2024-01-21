@@ -697,12 +697,39 @@ sudo chmod -R 755 /var/www
 sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/a.amkamdam.com.conf
 sudo nano /etc/apache2/sites-available/a.amkamdam.com.conf
 
-	ServerAdmin webmaster@a.amkamdam.com.conf
-	ServerName a.amkamdam.com.conf
-    ServerAlias www.a.amkamdam.com.conf
-    DocumentRoot /var/www/a.amkamdam.com/html
+        ServerAdmin webmaster@amkamdam.com
+        ServerName a.amkamdam.com
+        ServerAlias www.a.amkamdam.com
+        DocumentRoot /var/www/a.amkamdam.com/html
+
+        ServerName subdomain.domain.com
+        ServerAlias www.subdomain.domain.com
+        ServerAdmin admin@domain.com
+        DocumentRoot /var/www/subdomain.domain.com/public_html
 
 sudo a2ensite a.amkamdam.com.conf
+systemctl reload apache2
+
+nano index.html
+
+~~~
+sudo mkdir -p /var/www/a.da.com/html
+sudo chown -R al:www-data /var/www/a.da.com/html
+sudo chmod -R 755 /var/www
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/a.da.com.conf
+sudo nano /etc/apache2/sites-available/a.da.com.conf
+
+        ServerAdmin webmaster@da.com
+        ServerName a.da.com
+        ServerAlias www.a.da.com
+        DocumentRoot /var/www/a.da.com/html
+
+        ServerName subdomain.domain.com
+        ServerAlias www.subdomain.domain.com
+        ServerAdmin admin@domain.com
+        DocumentRoot /var/www/subdomain.domain.com/public_html
+
+sudo a2ensite a.da.com.conf
 systemctl reload apache2
 
 ~~~
@@ -776,6 +803,40 @@ systemctl reload apache2
 
 http://www.amkamdam.com/
 https://www.amkamdam.com/
-nhpkhiyxg
-huyh
+
+~~~
+python3 -m venv ~/.amkamdam
+source ~/.amkamdam/bin/activate
+python3 -m pip install package
+python3 -m pip install --upgrade package
+python3 -m pip install package==2.6.0
+python3 -m pip uninstall package
+pip freeze > requirements.txt
+python3 -m pip install -r /var/www/amkamdam.com/requirements.txt
+deactivate
+
+~~~
+	MX	aa	mx00.ionos.co.uk	Mail
+	MX	aa	mx01.ionos.co.uk	Mail
+	TXT	aa	"v=spf1 include:_spf-eu.ionos.com ~all"	Mail
+	CNAME	s1-ionos._domainkey.aa	s1.dkim.ionos.com	Mail
+	CNAME	s2-ionos._domainkey.aa	s2.dkim.ionos.com	Mail
+	CNAME	s42582890._domainkey.aa	s42582890.dkim.ionos.com	Mail
+	CNAME	autodiscover.aa	adsredir.ionos.info	Mail
+	A	aa	212.227.199.128	-
+
+* The following TLDs do not support WHOIS privacy: nl, mx, com.mx, net.mx, org.mx, gg, co.gg, net.gg, org.gg, je, co.je, net.je, org.je, bh, de, us, am, nyc, law, abogado, uk, co.uk, org.uk, me.uk, eu, in, co.in, net.in, org.in, firm.in, gen.in, ind.in, nrw, nz, co.nz, net.nz, org.nz
+
+hindex.uk
+
+LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\"" combined
+LogFormat "%h %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\" %{X-Forwarded-For}i %I" ui-format
+
+LogFormat "%v:%p %h %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\"" vhost_combined
+LogFormat "%h %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\"" combined
+LogFormat "%h %l %u %t \"%r\" %>s %O" common
+LogFormat "%{Referer}i -> %U" referer
+LogFormat "%{User-agent}i" agent
+
+
 

@@ -18,15 +18,15 @@ def get_current_ip():
         controller.authenticate(password="")
         controller.signal(Signal.NEWNYM)
 
-    display = Xvfb()
-    display.start()
+    # display = Xvfb()
+    # display.start()
     ua = UserAgent()
     userAgent = ua.random
     options = Options()
     options.add_argument('user-agent={}'.format(userAgent))
     PROXY = "socks5://localhost:9050"
     options.add_argument('--proxy-server=%s' % PROXY)
-    options.headless = True
+    # options.headless = True
 
     # driver = webdriver.Chrome(options=options, executable_path="/var/www/da-1.com/html/test/click-iframe/chromedriver")
     # driver = webdriver.Chrome(options=options, executable_path="./chromedriver")
@@ -43,37 +43,41 @@ def get_current_ip():
     # url = "https://www.amkamdam.com/"
     # driver.get("https://www.amkamdam.com/test/click-iframe/a.html")
     driver.get("https://www.amkamdam.com/")
-    # try:
-    #     driver.switch_to.frame('google_ads_iframe')
-    #     WebDriverWait(driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//*[@id="abgl"]'))).click()
-    #
-    #     # for i in range(3):
-    #     # driver.get("https://www.amkamdam.com/")
-    #
-    # finally:
-    driver.quit()
-    display.stop()
+    driver.set_window_size(1366, 1200)
+    WebDriverWait(driver, 10).until(ec.element_to_be_clickable((By.XPATH, '/html/body/header/div[2]/ul/li[3]/a'))).click()
+    # driver.find_element(By.XPATH, "/html/body/header/div[2]/ul/li[3]/a").click()
+    # driver.get("https://www.amkamdam.com/news/")
+    # driver.set_window_size(1366, 768)
+    # driver.set_window_size(1366, 1200)
+    # driver.save_screenshot("kak.png")
 
-# name = 'chrome'
-# try:
-#     for line in os.popen("ps ax | grep " + name + " | grep -v grep"):
-#         fields = line.split()
-#         pid = fields[0]
-#         os.kill(int(pid), signal.SIGKILL)
-#     print("Process Successfully terminated")
-#
-# except:
-#     print("Error Encountered while running script")
+# driver.get("http://da.com/news/")
+    try:
+        # driver.switch_to.frame('google_ads_iframe')
+        # WebDriverWait(driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//*[@id="abgl"]'))).click()
 
+        # driver.switch_to.frame('google_ads_iframe')
+        # driver.find_element(By.XPATH, '/html/body/div/main/section[2]/div/div/div[1]/div[2]/iframe')
+        # iframe = driver.find_elements(By.TAG_NAME, 'iframe')[1]
 
-# def renew_tor_ip():
-#     with Controller.from_port(port=9051) as controller:
-#         controller.authenticate(password="")
-#         controller.signal(Signal.NEWNYM)
+        iframe = driver.find_element(By.CSS_SELECTOR, ".huyslot > iframe")
+        driver.switch_to.frame(iframe)
+        # driver.find_element(By.XPATH, '/html/body/div/div[2]/a').click()
+        WebDriverWait(driver, 10).until(ec.element_to_be_clickable((By.XPATH, '/html/body/div/div[2]/a'))).click()
+        WebDriverWait(driver, 10).until(ec.element_to_be_clickable((By.XPATH, '/html/body/div/div[2]/div/a'))).click()
+        # driver.save_screenshot("kak1.png")
+        # driver.switch_to.default_content()
+        # driver.find_element(By.XPATH, "//*[@id=\"header\"]/a").click()
+
+    except Exception as e:
+        print(e)
+    finally:
+        driver.quit()
+        # display.stop()
 
 
 if __name__ == "__main__":
-    for i in range(5):
+    for i in range(1):
         # while True:
         get_current_ip()
         # renew_tor_ip()

@@ -1,4 +1,4 @@
-#!/home/al/.amkamdam/bin/python3.10
+#!/home/al/.venv/bin/python3.10
 import glob2
 from bs4 import BeautifulSoup
 import time
@@ -58,13 +58,13 @@ def insert_in_head(read_file1):
 
 files = ['html', 'htm']
 count_replace = 1
-with open('replaced.txt', "w") as file:
+with open('replaced', "w") as file:
     file.write('')
 
 for fl in files:
     for filepath in glob2.iglob('./a/cryptonews.com/**/*.' + fl, recursive=True):
         print(str(count_replace) + ' ' + filepath)
-        with open('replaced.txt', "a") as file:
+        with open('replaced', "a") as file:
             file.write(str(count_replace) + ' ' + filepath + '\n')
 
         with open(filepath) as file:
@@ -88,10 +88,10 @@ finish_time = round(finish_time / 60, 2)
 print('copied ' + str(count_replace) + ' files, time taken ' + str(finish_time) + ' min')
 
 todaytime = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
-with open('count_replace.txt', "a") as file:
-    file.write(todaytime + ' files ' + str(count_replace) + ', time ' + str(finish_time) + ' min\n')
+with open('count_replace', "a") as file:
+    file.write('\n' + todaytime + ' files ' + str(count_replace) + ', time ' + str(finish_time) + ' min\n')
 
-with open('replaced.txt', "a") as file:
+with open('replaced', "a") as file:
     file.write(todaytime + ' files ' + str(count_replace) + ', time ' + str(finish_time) + ' min\n')
 
 ha = None
