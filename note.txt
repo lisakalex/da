@@ -846,6 +846,7 @@ https://stackoverflow.com/questions/52095022/intellij-cannot-log-in-to-github
 https://github.com/settings/tokens
 Personal access tokens (classic)
 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
+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
 
 ~~~
 Push failed Invocation failed Server returned invalid Response.
@@ -862,6 +863,7 @@ at org.apache.xmlrpc.XmlRpcClient.execute(XmlRpcClient.java:178)
 at org.jetbrains.git4idea.http.GitAskPassXmlRpcClient.askUsername(GitAskPassXmlRpcClient.java:47)
  ... 1 more remote: No anonymous write access. Authentication failed for 'https://github.com/lisakalex/da/'
 
+ gandon
  gandon
  gandon
  gandon
