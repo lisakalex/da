@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="89.810341mm"
+   height="30.310957mm"
+   viewBox="0 0 89.810341 30.310957"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="209.00066"
+       y="258.04102"
+       width="526.48999"
+       height="135.01398"
+       id="rect1" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-43.28994,-62.06345)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,6.3588927,5.2412339)"
+       id="text1"
+       style="font-size:32px;font-family:'Young Serif';-inkscape-font-specification:'Young Serif, Normal';white-space:pre;shape-inside:url(#rect1);fill:#11ffff"><tspan
+         x="209"
+         y="285.7464"
+         id="tspan3"><tspan
+           style="fill:#1131ff"
+           id="tspan2">amkamdam</tspan></tspan></text>
+    <rect
+       style="display:inline;opacity:0;fill:#1131ff;fill-opacity:1;stroke-width:0.311431"
+       id="rect2"
+       width="89.810341"
+       height="30.310957"
+       x="43.28994"
+       y="62.06345" />
+  </g>
+</svg>

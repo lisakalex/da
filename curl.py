@@ -1,5 +1,5 @@
-#!/home/al/.venv/bin/python3.10
-import pycurl
+#!/home/al/.amkamdam/bin/python3.10
+# import pycurl
 import certifi
 from io import BytesIO
 from fake_useragent import UserAgent

@@ -2166,6 +2166,10 @@ body.rtl .sidebar:before {
     transform: rotate(180deg)
 }
 
+.section-latest-crypto-news .news-one {
+    margin-bottom: 15px
+}
+
 body.rtl .sidebar-list {
     padding-right: 30px
 }
@@ -2957,23 +2961,23 @@ div.article__badge .date-last {
 }
 
 .recommended-date .article__badge-date {
-    color: #E8E8E8
+    /*color: #E8E8E8*/
 }
 
 .recommended-date a {
-    color: rgba(255, 255, 255, .54);
+    /*color: rgba(255, 255, 255, .54);*/
     font-size: 12px;
     line-height: 16px;
     font-weight: 500
 }
 
 .recommended-date a:hover {
-    color: #E8E8E8;
+    /*color: #E8E8E8;*/
     text-decoration: underline
 }
 
 .recommended-section {
-    background: #211B2E;
+    /*background: #211B2E;*/
     clip-path: polygon(0 0, 93% 0, 100% 4%, 100% 100%, 100% 100%, 7% 100%, 0 96%, 0 0);
     padding-top: 20px;
     padding-bottom: 5px;
@@ -6790,7 +6794,7 @@ body.rtl .header-links > ul > li:first-child a {
     margin-bottom: 26px
 }
 
-.slider-tab button {
+.slider-tab button, .slider-tab div.slider-button {
     display: block;
     width: 100%;
     text-align: left;
@@ -6806,19 +6810,20 @@ body.rtl .header-links > ul > li:first-child a {
     color: #211B2E
 }
 
-.slider-tab button a.title-news-slider {
+.slider-tab button a.title-news-slider, .slider-tab div.slider-button a.title-news-slider {
     font-weight: 600;
     font-size: 17px;
     line-height: 24px;
-    color: #211B2E
+    color: #211B2E;
+    display: block
 }
 
-.slider-tab button a.title-news-slider:hover {
+.slider-tab button a.title-news-slider:hover, .slider-tab div.slider-button a.title-news-slider:hover {
     color: #211B2E;
     text-decoration: none
 }
 
-.slider-tab button:before {
+.slider-tab button:before, .slider-tab div.slider-button:before {
     content: "";
     position: absolute;
     left: 0;
@@ -6828,8 +6833,9 @@ body.rtl .header-links > ul > li:first-child a {
     border-top: 1px solid #e8e8e8
 }
 
-.slider-tab button.slider-active {
-    background-color: #f7ebf3
+.slider-tab button.slider-active, .slider-tab div.slider-button.slider-active {
+    /*background-color: #f7ebf3;*/
+    background-color: #eeeeee;
 }
 
 .slider-tabcontent-latest, .slider-tabcontent-choice {
@@ -6956,7 +6962,7 @@ body.rtl .header-links > ul > li:first-child a {
     margin-bottom: 25px
 }
 
-.slider-tab button .article__badge {
+.slider-tab button .article__badge, .slider-tab div.slider-button .article__badge {
     margin-top: 16px;
     font-weight: 500
 }
@@ -7084,7 +7090,7 @@ body.rtl .header-links > ul > li:first-child a {
 
     .slide-news-main-part::before {
         width: 5%;
-        top: -29px
+        top: -30px
     }
 
     .home-page .similar-news .button-more {
@@ -7192,6 +7198,17 @@ body.rtl .header-links > ul > li:first-child a {
         line-height: 16px
     }
 
+    .slide-bot-line {
+        background: url(../../../../../../themes/cryptonews/images/slide-bot-line-tablet.png);
+        width: 690px;
+        height: 30px
+    }
+
+    .main .container.position-relative.choice-section {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
     .statistic-section {
         padding: 0 15px 85px;
         background-image: url(../../../../../../themes/cryptonews/images/about-image-mob.png);
@@ -7293,7 +7310,7 @@ body.rtl .header-links > ul > li:first-child a {
         max-width: 100%
     }
 
-    .slider-tab button {
+    .slider-tab button, .slider-tab div.slider-button {
         font-size: 14px;
         line-height: 20px;
         padding: 10px 10px 15px
@@ -7626,6 +7643,14 @@ body.rtl .header-links > ul > li:first-child a {
 @media (max-width: 769px) {
     .header-center {
         max-width: 540px
+    }
+
+    .slide-bot-line {
+        width: 100%;
+        background: url(../../../../../../themes/cryptonews/images/slide-bot-line.png);
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat
     }
 }
 

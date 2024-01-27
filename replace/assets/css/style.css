@@ -1496,7 +1496,7 @@ p:has(>.selfcentered) {
 .header__logo {
     display: inline-block;
     margin-right: 20px;
-    padding: 20px;
+    padding: 18px 20px 0 0;
 }
 
 @media (max-width: 991.98px) {
@@ -2703,7 +2703,7 @@ button.cookieConsent__Button {
     font-size: 12px;
     font-weight: 700;
     line-height: 1.33;
-    text-transform: uppercase
+    /*text-transform: uppercase*/
 }
 
 .article__badge:hover {
@@ -2803,7 +2803,7 @@ button.cookieConsent__Button {
 }
 
 .article__title--recommended {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.5
 }
 

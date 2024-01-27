@@ -1,4 +1,4 @@
-#!/home/al/.venv/bin/python3.10
+#!/home/al/.amkamdam/bin/python3.10
 import glob2
 from bs4 import BeautifulSoup
 import time
@@ -39,7 +39,7 @@ def insert_in_head(read_file1):
     soup = BeautifulSoup("<script src=\"/assets/js/me.js\"></script>", features='html.parser')
     script1 = soup.script
 
-    soup = BeautifulSoup("<link href=\"/assets/css/style.css\" rel=\"stylesheet\">", features='html.parser')
+    soup = BeautifulSoup("<link href=\"/assets/css/style.css\" rel=\"stylesheet\"> id=\"me-style-css-css\"", features='html.parser')
     script2 = soup.link
 
     soup1 = BeautifulSoup(read_file1, features='html.parser')
@@ -64,8 +64,9 @@ with open('replaced', "w") as file:
 for fl in files:
     for filepath in glob2.iglob('./a/cryptonews.com/**/*.' + fl, recursive=True):
         print(str(count_replace) + ' ' + filepath)
+        todaytime = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
         with open('replaced', "a") as file:
-            file.write(str(count_replace) + ' ' + filepath + '\n')
+            file.write(todaytime + ' ' + str(count_replace) + ' ' + filepath + '\n')
 
         with open(filepath) as file:
             read_file = file.read()
@@ -79,7 +80,6 @@ for fl in files:
 
 shutil.rmtree('./html', ignore_errors=True)
 shutil.copytree('./a/cryptonews.com/', './html/', dirs_exist_ok=True)
-# shutil.copyfile('./kak-index.html', './html/kak-index.html')  # used to update recommended
 shutil.rmtree('./a/cryptonews.com', ignore_errors=True)
 
 finish_time = time.time() - start_time

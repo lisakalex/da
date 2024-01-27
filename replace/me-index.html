@@ -2,99 +2,111 @@
 
 <html lang="en">
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="/assets/js/me.js"></script>
-    <link href="/assets/css/style.css" rel="stylesheet"/>
 </head>
 <body>
 <header class="header" id="header">
     <div class="se-pre-con"></div>
-    <a class="header__logo" href="/">
-        <img alt="Crypto News" src="/assets/images/logo.svg"/>
-    </a>
-    <div class="header-links d-none d-lg-flex header-menu__dropdown">
-        <ul class="menu_header" id="menu-header">
-            <li></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a
-                    href="/news/press-releases/">Press Releases</a><span class="menu_icon"></span><span
-                    class="menu_icon mob"></span></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="/news/">News<span
-                    class="menu_icon"></span></a><span class="menu_icon mob"></span>
-                <ul class="sub-menu">
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/bitcoin-news/">Bitcoin
-                        News</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/ethereum-news/">Ethereum
-                        News</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/nft-news/">NFT
-                        News</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/defi-news/">DeFi
-                        News</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/altcoin-news/">Altcoin
-                        News</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                            href="/news/blockchain-news/">Blockchain News</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/press-releases/">Press
-                        Releases</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/sponsored/">Sponsored</a>
-                    </li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/industry-talk/">Industry
-                        Talk</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/ico-news/">ICO
-                        news</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/finance-news/">Finance
-                        News</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                            href="/news/technology-news/">Technology News</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                            href="/news/price-predictions/">Price Predictions</a></li>
-                </ul>
-            </li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a
-                    href="/guides/">Guides<span class="menu_icon"></span></a><span class="menu_icon mob"></span>
-                <ul class="sub-menu">
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/guides/bitcoin/">Bitcoin</a>
-                    </li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/guides/ethereum/">Ethereum</a>
-                    </li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/guides/nft/">NFT</a>
-                    </li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/guides/defi-guides/">Defi
-                        Guides</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/guides/altcoins/">Altcoins</a>
-                    </li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/guides/blockchain/">Blockchain</a>
-                    </li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                            href="/guides/cryptocurrency/">Cryptocurrency</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/guides/icos/">ICOs /
-                        STOs / IEOs</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                            href="/guides/trading-tools/">Trading Tools</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                            href="/guides/wallet-guides/">Wallet Guides</a></li>
-                </ul>
-            </li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/review_categories/exchanges/">Exchanges</a><span
-                    class="menu_icon"></span><span class="menu_icon mob"></span></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/industry-talk/">Industry
-                Talk</a><span class="menu_icon"></span><span class="menu_icon mob"></span></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                    href="/exclusives/features/">Features</a><span class="menu_icon"></span><span
-                    class="menu_icon mob"></span></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                    href="/exclusives/opinions/">Opinions</a><span class="menu_icon"></span><span
-                    class="menu_icon mob"></span></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/exclusives/people/">People In
-                Crypto</a><span class="menu_icon"></span><span class="menu_icon mob"></span></li>
-        </ul>
-    </div>
-    <div class="header-search">
-        <div class="header-menu__trigger d-md-none">
-            <svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
-                <g fill-rule="evenodd">
-                    <path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z"></path>
-                </g>
-            </svg>
+    <div class="header-center">
+        <a class="header__logo" href="/">
+            <img alt="Crypto News" src="/assets/images/logo.svg"/>
+        </a>
+        <div class="header-links d-none d-lg-flex header-menu__dropdown">
+            <ul class="menu_header" id="menu-header">
+                <li></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a
+                        href="/news/press-releases/">Press Releases</a><span class="menu_icon"></span><span
+                        class="menu_icon mob"></span></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a
+                        href="/news/">News<span
+                        class="menu_icon"></span></a><span class="menu_icon mob"></span>
+                    <ul class="sub-menu">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/news/bitcoin-news/">Bitcoin
+                            News</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/news/ethereum-news/">Ethereum
+                            News</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/nft-news/">NFT
+                            News</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/defi-news/">DeFi
+                            News</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/news/altcoin-news/">Altcoin
+                            News</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/news/blockchain-news/">Blockchain News</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/news/press-releases/">Press
+                            Releases</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/sponsored/">Sponsored</a>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/news/industry-talk/">Industry
+                            Talk</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/ico-news/">ICO
+                            news</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/news/finance-news/">Finance
+                            News</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/news/technology-news/">Technology News</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/news/price-predictions/">Price Predictions</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a
+                        href="/guides/">Guides<span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+                    <ul class="sub-menu">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/guides/bitcoin/">Bitcoin</a>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/guides/ethereum/">Ethereum</a>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/guides/nft/">NFT</a>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/guides/defi-guides/">Defi
+                            Guides</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/guides/altcoins/">Altcoins</a>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/guides/blockchain/">Blockchain</a>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/guides/icos/">ICOs
+                            /
+                            STOs / IEOs</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/guides/trading-tools/">Trading Tools</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                href="/guides/wallet-guides/">Wallet Guides</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                        href="/review_categories/exchanges/">Exchanges</a><span
+                        class="menu_icon"></span><span class="menu_icon mob"></span></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news/industry-talk/">Industry
+                    Talk</a><span class="menu_icon"></span><span class="menu_icon mob"></span></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                        href="/exclusives/features/">Features</a><span class="menu_icon"></span><span
+                        class="menu_icon mob"></span></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                        href="/exclusives/opinions/">Opinions</a><span class="menu_icon"></span><span
+                        class="menu_icon mob"></span></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/exclusives/people/">People
+                    In
+                    Crypto</a><span class="menu_icon"></span><span class="menu_icon mob"></span></li>
+            </ul>
+        </div>
+        <div class="header-search">
+            <div class="header-menu__trigger d-md-none">
+                <svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+                    <g fill-rule="evenodd">
+                        <path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z"></path>
+                    </g>
+                </svg>
+            </div>
         </div>
     </div>
 </header>
@@ -113,11 +125,11 @@
                 style="width:970px; height:250px; border:0px; padding:0; overflow:hidden; background-color: transparent;"></iframe>
     </div>
     <div did="1">
-<!--        <a href="/about-us.htm" target="_blank">-->
-<!--            <img alt="" class="img-fluid" src="/assets/images/me_banner/300x600.jpg" width=""/>-->
-<!--        </a>-->
-        <iframe data-aa='2296449' src='//ad.a-ads.com/2296449?size=300x600' style='width:300px; height:600px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
-
+        <!--        <a href="/about-us.htm" target="_blank">-->
+        <!--            <img alt="" class="img-fluid" src="/assets/images/me_banner/300x600.jpg" width=""/>-->
+        <!--        </a>-->
+        <iframe data-aa="2296449" src="//ad.a-ads.com/2296449?size=300x600"
+                style="width:300px; height:600px; border:0px; padding:0; overflow:hidden; background-color: transparent;"></iframe>
     </div>
     <div did="2">
         <a href="/about-us.htm" target="_blank">

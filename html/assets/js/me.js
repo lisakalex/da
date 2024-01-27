@@ -75,6 +75,13 @@ $(function () {
         } catch (err) {
         }
 
+        try {
+            document.querySelectorAll(".p1").forEach((e) => { // tags
+                e.remove();
+            });
+        } catch (err) {
+        }
+
         // get rid ot nasty button of their colour when clicked get security warning /home/al/Pictures/Screenshots/Screenshot from 2023-11-19 21-08-05.png
         try {
             document.querySelectorAll(".raw-html-embed").forEach((e) => {
@@ -82,18 +89,52 @@ $(function () {
             });
         } catch (err) {
         }
+
+        // try {
+        //     $("section").remove(":contains('Videos')");
+        // } catch (err) {
+        // }
+        //
+        // try {
+        //     $("section").remove(":contains('Buy/Sell at the best rates')");
+        // } catch (err) {
+        // }
+
         if (pathname === '/') {
             try {
-                let sections = document.querySelectorAll("section")
-                sections[0].remove()
-                sections[1].remove()
-                sections[5].remove()
-                sections[7].remove()
-                sections[10].remove()
-                sections[11].remove()
-                sections[14].remove()
+                // debugger
+                let sections = document.querySelectorAll("section").forEach((e) => {
+                    // if (e.innerText !== 'Latest Crypto News' || e.innerText !== 'Latest News' || e.innerText !== 'Crypto News' || e.innerText !== 'Readers\' choice' || e.innerText !== 'Altcoin News' || e.innerText !== 'Bitcoin News' || e.innerText !== 'Ethereum News' || e.innerText !== 'NFT News' || e.innerText !== 'All News') {
+                    if (e.innerText.search("Latest Crypto News") === -1
+                        && e.innerText.search("Crypto News") === -1
+                        && e.innerText.search("Altcoin News") === -1
+                        && e.innerText.search("Readers' choice") === -1
+                        && e.innerText.search("Bitcoin News") === -1
+                        && e.innerText.search("Ethereum News") === -1
+                        && e.innerText.search("NFT News") === -1
+                        && e.innerText.search("All News") === -1) {
+                        // if ("blah"  in e.innerText):
+                        e.remove()
+                    }
+                });
+                // sections[1].remove()
+                // sections[5].remove()
+                // sections[7].remove()
+                // sections[10].remove()
+                // sections[11].remove()
+                // sections[14].remove()
             } catch (err) {
             }
+        }
+
+        try {
+            document.getElementById('home-main-title').innerText = 'Latest News';
+        } catch (err) {
+        }
+
+        try {
+            document.getElementsByClassName('recommended-title')[0].innerText = 'Editor\' s choice';
+        } catch (err) {
         }
 
         $('.slide-news-main-part').removeClass('slide-news-main-part').addClass('me-slide-news-main-part');
@@ -121,8 +162,14 @@ $(function () {
             "<script defer=\"\" src=\"/assets/js/cookieconsent.js\"></script>" +
             "<script defer=\"\" src=\"/assets/js/cookieconsent-init.js\"></script>" +
             "<script defer=\"\" src=\"/assets/js/frontend.js\"></script>" +
+            "<link href=\"/assets/css/style.css\" rel=\"stylesheet\"/>" +
             "<link href=\"/assets/css/style-new.css\" rel=\"stylesheet\"/>"
         );
+
+        // try {
+        //     document.querySelector("#me-style-css-css").remove(); // my style.css
+        // } catch (err) {
+        // }
 
         try {
             document.querySelectorAll("a").forEach((e) => { // edit links
@@ -145,7 +192,7 @@ $(function () {
         } catch (err) {
         }
 
-        if (hostname === 'da-1.com' || hostname === 'intspeed.com' || hostname === 'amkamdam.com' || hostname === 'xxx.xx') {
+        if (hostname === 'da.com' || hostname === 'intspeed.com' || hostname === 'amkamdam.com' || hostname === 'xxx.xx') {
             setSite('#025360', 'Kanit')
         }
 
@@ -153,7 +200,7 @@ $(function () {
             setSite('pink', 'Oswald')
         }
 
-        if (hostname === 'huy-1.com' || hostname === 'da.com' || hostname === 'xxx.xx') {
+        if (hostname === 'huy-1.com' || hostname === 'xxx.xx' || hostname === 'xxx.xx') {
             setSite('red', 'Playfair Display')
         }
 
@@ -182,6 +229,7 @@ $(function () {
             document.body.querySelectorAll('.layout-size').forEach(setSi);
         } catch (err) {
         }
+
         // insert ads
         // index.html
         // $("body > div.main > main > section:nth-child(2) > div > div > div.col-12.col-lg-9 > div.dslot.pb-20.d-md-none").load('/me-index.html [did="16"] > a');
@@ -227,7 +275,7 @@ $(function () {
         // replace cryptonews's empty image
         try {
             document.querySelectorAll("img").forEach((e) => {
-                if (e.dataset.src === 'https://cimg.co/p/assets/empty-cryptonews.jpg' || e.dataset.lazySrc === 'https://cimg.co/p/assets/empty-cryptonews.jpg') {
+                if (e.dataset.src === 'https://cimg.co/p/assets/empty-cryptonews.jpg' || e.dataset.lazySrc === 'https://cimg.co/p/assets/empty-cryptonews.jpg' || e.src === 'https://cimg.co/p/assets/empty-cryptonews.jpg') {
                     e.dataset.src = "/assets/images/empty-kak-1.jpg";
                     e.dataset.lazySrc = "/assets/images/empty-kak-1.jpg";
                     e.src = "/assets/images/empty-kak-1.jpg";
