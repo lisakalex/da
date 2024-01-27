@@ -841,6 +841,11 @@ LogFormat "%{User-agent}i" agent
 ~~~
 sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
 
+~~~
+https://stackoverflow.com/questions/52095022/intellij-cannot-log-in-to-github
+https://github.com/settings/tokens
+Personal access tokens (classic)
+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
 
 
 
