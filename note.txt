@@ -863,4 +863,5 @@ at org.jetbrains.git4idea.http.GitAskPassXmlRpcClient.askUsername(GitAskPassXmlR
  ... 1 more remote: No anonymous write access. Authentication failed for 'https://github.com/lisakalex/da/'
 
  gandon
+ gandon
 
