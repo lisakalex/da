@@ -862,3 +862,5 @@ at org.apache.xmlrpc.XmlRpcClient.execute(XmlRpcClient.java:178)
 at org.jetbrains.git4idea.http.GitAskPassXmlRpcClient.askUsername(GitAskPassXmlRpcClient.java:47)
  ... 1 more remote: No anonymous write access. Authentication failed for 'https://github.com/lisakalex/da/'
 
+ gandon
+
