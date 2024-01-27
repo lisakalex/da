@@ -849,6 +849,8 @@ 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
 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
 
 ~~~
+Push failed Remote: No anonymous write access. Authentication failed for 'https://github.com/lisakalex/da/'
+~~
 Push failed Invocation failed Server returned invalid Response.
 java.lang.RuntimeException: Invocation failed Server returned invalid Response. at
 org.jetbrains.git4idea.http.GitAskPassXmlRpcClient.askUsername(GitAskPassXmlRpcClient.java:50)
