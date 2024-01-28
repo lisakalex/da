@@ -3127,7 +3127,7 @@ https://askubuntu.com/questions/13730/how-can-i-schedule-a-nightly-reboot
 
 sudo nano /etc/crontab
 scroll all the way to the bottom and enter the below command
-00 6 * * * root reboot
+0 23 * * * root reboot
 
 ~~~
 4 Ways to check last reboot time in Linux
