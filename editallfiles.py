@@ -32,29 +32,42 @@ def replace_header_footer(read_file1):
 
 
 def insert_in_head(read_file1):
-    soup = BeautifulSoup("<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>",
-                         features='html.parser')
+    soup = BeautifulSoup("<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>", features='html.parser')
     script = soup.script
 
     soup = BeautifulSoup("<script src=\"/assets/js/me.js\"></script>", features='html.parser')
     script1 = soup.script
-
-    soup = BeautifulSoup("<link href=\"/assets/css/style.css\" rel=\"stylesheet\"> id=\"me-style-css-css\"", features='html.parser')
-    script2 = soup.link
 
     soup1 = BeautifulSoup(read_file1, features='html.parser')
 
     if soup1.head is not None:
         soup1.head.insert(100, script)
         soup1.head.insert(101, script1)
-        soup1.head.insert(102, script2)
 
-    frontend_js_js = soup1.find('script', id='frontend-js-js')
-    if frontend_js_js is not None:
-        frontend_js_js.decompose()
+        style1 = soup1.find('link', id='style-css-css')
+        if style1 is not None and style1.has_attr('href'):
+            style1['href'] = "/assets/css/style.css"
+
+        style2 = soup1.find('link', id='style-new-css')
+        if style2 is not None and style2.has_attr('href'):
+            style2['href'] = "/assets/css/style-new.css"
+
+    # frontend_js_js = soup1.find('script', id='frontend-js-js')
+    # if frontend_js_js is not None:
+    #     frontend_js_js.decompose()
 
     return str(soup1)
 
+
+# with open("index.html") as file:
+#     read_file = file.read()
+#
+# # read_file = replace_header_footer(read_file)
+# read_file = insert_in_head(read_file)
+# # count_replace = count_replace + 1
+#
+# with open("index.html", "w") as file:
+#     file.write(read_file)
 
 files = ['html', 'htm']
 count_replace = 1

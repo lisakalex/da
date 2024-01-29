@@ -19,15 +19,15 @@ $(function () {
         } catch (err) {
         }
 
-        try {
-            document.querySelector("#style-css-css").remove(); // theirs style.css
-        } catch (err) {
-        }
-
-        try {
-            document.querySelector("#style-new-css").remove(); // theirs style.css
-        } catch (err) {
-        }
+        // try {
+        //     document.querySelector("#style-css-css").remove(); // theirs style.css
+        // } catch (err) {
+        // }
+        //
+        // try {
+        //     document.querySelector("#style-new-css").remove(); // theirs style.css
+        // } catch (err) {
+        // }
 
         try {
             document.querySelector("body > div.main > main > section.container.pb-20.pt-sm-60").remove(); // newsletter
@@ -160,10 +160,10 @@ $(function () {
             // "<link href=\"/assets/images/favicon.png\" rel=\"shortcut icon\"/>" +
             "<link href=\"https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css\" rel=\"stylesheet\"/>" +
             "<script defer=\"\" src=\"/assets/js/cookieconsent.js\"></script>" +
-            "<script defer=\"\" src=\"/assets/js/cookieconsent-init.js\"></script>" +
-            "<script defer=\"\" src=\"/assets/js/frontend.js\"></script>" +
-            "<link href=\"/assets/css/style.css\" rel=\"stylesheet\"/>" +
-            "<link href=\"/assets/css/style-new.css\" rel=\"stylesheet\"/>"
+            "<script defer=\"\" src=\"/assets/js/cookieconsent-init.js\"></script>"
+            // "<script defer=\"\" src=\"/assets/js/frontend.js\"></script>"
+            // "<link href=\"/assets/css/style.css\" rel=\"stylesheet\"/>" +
+            // "<link href=\"/assets/css/style-new.css\" rel=\"stylesheet\"/>"
         );
 
         // try {
@@ -292,14 +292,14 @@ $(window).load(function () {
 });
 
 // it is in every file but not working must be the lazy loading
-window.sid = "1"
-window.burl = "https://a2.cryptonews.com"
-window.cid = 1
-window.trans = {
-    ago: "ago",
-    ago_long: "minute, minutes, hour, hours, day, days",
-    time_seconds_ago: "[time] [seconds] [ago]",
-    time_minutes_ago: "[time] [minutes] [ago]",
-    time_hours_ago: "[time] [hours] [ago]",
-    time_days_ago: "[time] [days] [ago]",
-}
+// window.sid = "1"
+// window.burl = "https://a2.cryptonews.com"
+// window.cid = 1
+// window.trans = {
+//     ago: "ago",
+//     ago_long: "minute, minutes, hour, hours, day, days",
+//     time_seconds_ago: "[time] [seconds] [ago]",
+//     time_minutes_ago: "[time] [minutes] [ago]",
+//     time_hours_ago: "[time] [hours] [ago]",
+//     time_days_ago: "[time] [days] [ago]",
+// }

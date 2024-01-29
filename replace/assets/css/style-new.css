@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Oswald&family=Playfair+Display:ital,wght@1,400;1,900&family=Sedgwick+Ave+Display&display=swap');
+
 :root {
     --me-color: #007bff;
     --blue: #007bff;
@@ -28,7 +30,9 @@
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1360px;
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --me-font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
 }
 
 *, :after, :before {
@@ -50,7 +54,8 @@ article, figcaption, figure, footer, header, main, section {
 body {
     background-color: #fff;
     color: #212529;
-    font-family: 'Noto Sans', sans-serif;
+    /*font-family: 'Noto Sans', sans-serif;*/
+    font-family: var(--me-font-family);
     font-size: 1rem;
     line-height: 1.5;
     margin: 0;
@@ -1201,7 +1206,8 @@ body {
     color: #252525;
     display: flex;
     flex-direction: column;
-    font-family: 'Noto Sans', sans-serif;
+    /*font-family: 'Noto Sans', sans-serif;*/
+    font-family: var(--me-font-family);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.6;
@@ -1953,7 +1959,7 @@ p:has(>.selfcentered) {
 }
 
 .footer {
-    background-color: #211B2E;
+    background-color: var(--me-color);
     margin-top: auto
 }
 
@@ -2893,14 +2899,14 @@ div.article__badge .date-last {
 }
 
 .article__title {
-    color: #fff;
+    /*color: #fff;*/
     font-size: 16px;
     font-weight: 700;
     line-height: 22px
 }
 
 .article__title:hover {
-    color: #fff;
+    /*color: #fff;*/
     opacity: .8;
     text-decoration: underline
 }
@@ -6047,7 +6053,7 @@ figure table {
     font-weight: 500;
     margin-bottom: 5px;
     padding: 0;
-    /*opacity: .5*/
+    opacity: .5
 }
 
 .menu_footer > li:last-child ul li a.header-links__item {
