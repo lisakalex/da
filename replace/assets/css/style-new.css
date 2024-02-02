@@ -1088,7 +1088,7 @@ summary {
 }
 
 .badge, .bg-gradient, .exchanges .board > .list > div .rates > div > div[data-msg], .header-search__form, .tracker-rates__item-column[data-msg] {
-    background-image: linear-gradient(111deg, #930046, var(--me-color))
+    background-image: linear-gradient(111deg, var(--me-color), var(--me-color))
 }
 
 .bg-white {
@@ -1392,7 +1392,7 @@ textarea {
 }
 
 .info-section {
-    background-image: linear-gradient(152deg, #930046, var(--me-color));
+    background-image: linear-gradient(152deg, var(--me-color), var(--me-color));
     color: #fff;
     padding: 10px
 }
@@ -1722,7 +1722,7 @@ p:has(>.selfcentered) {
 }
 
 .header-links__item--is-active:after {
-    background-image: linear-gradient(90deg, #930046, #590089);
+    background-image: linear-gradient(90deg, var(--me-color), #590089);
     bottom: 0;
     content: "";
     display: block;
@@ -1734,7 +1734,7 @@ p:has(>.selfcentered) {
 
 .header-links__dropdown {
     background-color: #fff;
-    box-shadow: 0 6px 10px 0 rgba(89, 0, 138, .1);
+    box-shadow: 0 6px 10px 0 #CCCCCC;
     left: 0;
     opacity: 0;
     padding: 14px 20px 10px;
@@ -1930,7 +1930,7 @@ p:has(>.selfcentered) {
 
 .header-lang__dropdown {
     background-color: #fff;
-    box-shadow: 0 6px 10px 0 rgba(89, 0, 138, .1);
+    box-shadow: 0 6px 10px 0 #CCCCCC;
     opacity: 0;
     padding: 14px 20px 10px;
     pointer-events: none;
@@ -2741,7 +2741,7 @@ body.custom-price-tracker > #widget_container .next:before {
 }
 
 .button-more--gradient, .exchange .cta a {
-    background-image: linear-gradient(107deg, #930046, var(--me-color));
+    background-image: linear-gradient(107deg, var(--me-color), var(--me-color));
     color: #fff
 }
 
@@ -3034,7 +3034,7 @@ div.article__badge .date-last {
 }
 
 .guide-center-section {
-    background-image: linear-gradient(111deg, #591C7E, #351774);
+    background-image: linear-gradient(111deg, var(--me-color), #351774);
     margin-bottom: 10px;
     padding-top: 35px;
     padding-bottom: 35px
@@ -3286,7 +3286,7 @@ div.article__badge .date-last {
 
 .cta-content-button {
     clip-path: polygon(0 0, 92% 0, 100% 28%, 100% 100%, 100% 100%, 8% 100%, 0 70%, 0 0);
-    background-color: #591c7e;
+    background-color: var(--me-color);
     padding: 10px 20px;
     margin: 20px auto;
     max-width: fit-content
@@ -3773,7 +3773,7 @@ div.article__badge .date-last {
 }
 
 .exchange-item {
-    box-shadow: 0 6px 10px 0 rgba(89, 0, 138, .1);
+    box-shadow: 0 6px 10px 0 #CCCCCC;
     display: flex;
     padding: 20px 30px 30px;
     width: 100%
@@ -4228,11 +4228,11 @@ div.article__badge .date-last {
 }
 
 .calendar .fc-button.fc-prev-button {
-    background-image: url(/images/icon-arrow-left.svg?2e59d3d4e0c0dcc39a98c7890a07b073)
+    background-image: url(/assets/images/icons/icon-arrow-left.svg)
 }
 
 .calendar .fc-button.fc-next-button {
-    background-image: url(/images/icon-arrow-right.svg?99589f509123978a58e0ca23f31624c2)
+    background-image: url(/assets/images/icons/icon-arrow-right.svg)
 }
 
 .calendar .fc-scrollgrid {
@@ -4328,7 +4328,7 @@ div.article__badge .date-last {
 }
 
 .tag-item {
-    box-shadow: 0 6px 10px 0 rgba(89, 0, 138, .1);
+    box-shadow: 0 6px 10px 0 #CCCCCC;
     display: flex;
     justify-content: space-between;
     padding: 20px 30px 30px;
@@ -4399,13 +4399,13 @@ button.cookieConsent__Button--Close {
 
 @media (max-width: 767.98px) {
     .contact-sidebar {
-        background-image: linear-gradient(152deg, #930046, var(--me-color))
+        background-image: linear-gradient(152deg, var(--me-color), var(--me-color))
     }
 }
 
 @media (min-width: 768px) {
     .contact-sidebar:before {
-        background-image: linear-gradient(152deg, #930046, var(--me-color));
+        background-image: linear-gradient(152deg, var(--me-color), var(--me-color));
         content: "";
         display: block;
         height: 100%;
@@ -4514,7 +4514,7 @@ button.cookieConsent__Button--Close {
 }
 
 .author__image--has-bg {
-    box-shadow: 0 6px 10px 0 rgba(89, 0, 138, .1);
+    box-shadow: 0 6px 10px 0 #CCCCCC;
     padding: 11px
 }
 
@@ -4555,7 +4555,7 @@ button.cookieConsent__Button--Close {
 }
 
 .sidebar:before {
-    background-image: linear-gradient(152deg, #930046, var(--me-color));
+    background-image: linear-gradient(152deg, var(--me-color), var(--me-color));
     content: "";
     display: block;
     height: 100%;
@@ -4769,7 +4769,7 @@ button.cookieConsent__Button--Close {
 }
 
 .table-pagination button {
-    background-image: linear-gradient(107deg, #930046, var(--me-color));
+    background-image: linear-gradient(107deg, var(--me-color), var(--me-color));
     color: #fff;
     margin: 3px;
     padding: 5px 15px
@@ -5172,19 +5172,19 @@ figure table {
 }
 
 .slick-arrow.slick-prev {
-    background-image: url(/images/icon-arrow-left.svg?2e59d3d4e0c0dcc39a98c7890a07b073)
+    background-image: url(/assets/images/icons/icon-arrow-left.svg)
 }
 
 .slick-arrow.slick-next {
-    background-image: url(/images/icon-arrow-right.svg?99589f509123978a58e0ca23f31624c2)
+    background-image: url(/assets/images/icons/icon-arrow-right.svg)
 }
 
 .slick-arrow--white.slick-prev {
-    background-image: url(/images/icon-arrow-left-white.svg?9b3929825f14e8c165c585c243b29fe1)
+    background-image: url(/assets/images/icons/icon-arrow-left-white.svg)
 }
 
 .slick-arrow--white.slick-next {
-    background-image: url(/images/icon-arrow-right-white.svg?761d52baa8a5f8e3fc684afe6f57fddb)
+    background-image: url(/assets/images/icons/icon-arrow-right-white.svg)
 }
 
 .slick-dots {
@@ -5205,7 +5205,7 @@ figure table {
 }
 
 .slick-dots li:after, .slick-dots li:before {
-    background: linear-gradient(135deg, #930046, var(--me-color));
+    background: linear-gradient(135deg, var(--me-color), var(--me-color));
     border-radius: 100%;
     content: "";
     opacity: 0;
@@ -5719,7 +5719,7 @@ figure table {
 }
 
 .newsletter .input-group button, .footer-newsletter button {
-    background-color: #591C7E;
+    background-color: var(--me-color);
     border-radius: 0 !important;
     color: #fff;
     display: inline-block;
@@ -5736,7 +5736,7 @@ figure table {
 }
 
 .newsletter .input-group button {
-    border: 1px solid #591C7E;
+    border: 1px solid var(--me-color);
     padding: 14px 5px 12px !important
 }
 
@@ -5865,7 +5865,8 @@ figure table {
 }
 
 .menu_header > li:not(:first-child) > a .menu_icon:after {
-    content: url(../../../../../../themes/cryptonews/images/arrow-closed.svg)
+    /*content: url(../../../../../../themes/cryptonews/images/arrow-closed.svg)*/
+    content: "⌄"
 }
 
 .menu_header > li:not(:first-child) .menu_icon.mob {
@@ -5913,7 +5914,7 @@ figure table {
 
 .menu_header > li:not(:first-child) > ul {
     background-color: #fff;
-    box-shadow: 0 6px 10px 0 rgba(89, 0, 138, .1);
+    box-shadow: 0 6px 10px 0 #CCCCCC;
     display: none;
     left: 0;
     list-style: none;
@@ -6228,11 +6229,13 @@ figure table {
     }
 
     .menu_header > li:not(:first-child) .menu_icon.mob:after {
-        content: url(../../../../../../themes/cryptonews/images/arrow-opened.svg)
+        /*content: url(../../../../../../themes/cryptonews/images/arrow-opened.svg)*/
+        content: "⌄"
     }
 
     .menu_header > li.show .menu_icon:after {
-        content: url(../../../../../../themes/cryptonews/images/arrow-closed.svg) !important
+        /*content: url(../../../../../../themes/cryptonews/images/arrow-closed.svg) !important*/
+        content: "⌄" !important
     }
 }
 
@@ -6322,7 +6325,7 @@ figure table {
 
 .menu_header > li:not(:first-child) > ul > li ul {
     background: #fafafa;
-    box-shadow: 0 4px 4px 2px rgba(89, 0, 137, .04);
+    box-shadow: 0 4px 4px 2px #CCCCCC;
     display: none;
     left: 100%;
     padding: 0;
@@ -6332,7 +6335,8 @@ figure table {
 }
 
 .menu_header > li:not(:first-child):hover > a .menu_icon:after {
-    content: url(../../../../../../themes/cryptonews/images/arrow-opened.svg);
+    /*content: url(../../../../../../themes/cryptonews/images/arrow-opened.svg);*/
+    content: "⌃";
     position: relative;
     top: 1px
 }
@@ -6411,7 +6415,8 @@ figure table {
     }
 
     .menu_header > li.show .menu_icon:after {
-        content: url(../../../../../../themes/cryptonews/images/arrow-opened.svg)
+        /*content: url(../../../../../../themes/cryptonews/images/arrow-opened.svg)*/
+        content: "⌃"
     }
 
     .header-links > ul {
@@ -6632,11 +6637,11 @@ body.single-events main {
 .pagination_main a.next, .pagination_main a.prev {
     width: 36px;
     height: 36px;
-    background: url(../../../../../../themes/cryptonews/images/icon-arrow-left.svg) no-repeat center
+    background: url(/assets/images/icons/icon-arrow-left.svg) no-repeat center
 }
 
 .pagination_main a.next {
-    background: url(../../../../../../themes/cryptonews/images/icon-arrow-right.svg) no-repeat center
+    background: url(/assets/images/icons/icon-arrow-right.svg) no-repeat center
 }
 
 .pagination_main span {
@@ -6651,7 +6656,7 @@ body.single-events main {
 }
 
 .pagination_main span.current {
-    background: #591C7E;
+    background: var(--me-color);
     color: #fff
 }
 
@@ -6772,7 +6777,7 @@ body.rtl .header-links > ul > li:first-child a {
 .cta-btn {
     padding: 10px 60px 10px !important;
     border-radius: 5px !important;
-    background-image: linear-gradient(107deg, #930046, var(--me-color));
+    background-image: linear-gradient(107deg, var(--me-color), var(--me-color));
     color: #fff;
     background-color: hsla(0, 0%, 80%, .1);
     border: 0;

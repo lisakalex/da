@@ -149,22 +149,22 @@ $(function () {
         } catch (err) {
         }
 
-        $("head").prepend("<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-0WB7KX709G\"></script>" +
-            "<script>\n" +
-            "  window.dataLayer = window.dataLayer || [];\n" +
-            "  function gtag(){dataLayer.push(arguments);}\n" +
-            "  gtag('js', new Date());\n" +
-            "\n" +
-            "  gtag('config', 'G-0WB7KX709G');\n" +
-            "</script>" +
-            // "<link href=\"/assets/images/favicon.png\" rel=\"shortcut icon\"/>" +
-            "<link href=\"https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css\" rel=\"stylesheet\"/>" +
-            "<script defer=\"\" src=\"/assets/js/cookieconsent.js\"></script>" +
-            "<script defer=\"\" src=\"/assets/js/cookieconsent-init.js\"></script>"
-            // "<script defer=\"\" src=\"/assets/js/frontend.js\"></script>"
-            // "<link href=\"/assets/css/style.css\" rel=\"stylesheet\"/>" +
-            // "<link href=\"/assets/css/style-new.css\" rel=\"stylesheet\"/>"
-        );
+        // $("head").prepend("<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-0WB7KX709G\"></script>" +
+        //     "<script>\n" +
+        //     "  window.dataLayer = window.dataLayer || [];\n" +
+        //     "  function gtag(){dataLayer.push(arguments);}\n" +
+        //     "  gtag('js', new Date());\n" +
+        //     "\n" +
+        //     "  gtag('config', 'G-0WB7KX709G');\n" +
+        //     "</script>" +
+        //     // "<link href=\"/assets/images/favicon.png\" rel=\"shortcut icon\"/>" +
+        //     "<link href=\"https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css\" rel=\"stylesheet\"/>" +
+        //     "<script defer=\"\" src=\"/assets/js/cookieconsent.js\"></script>" +
+        //     "<script defer=\"\" src=\"/assets/js/cookieconsent-init.js\"></script>"
+        //     // "<script defer=\"\" src=\"/assets/js/frontend.js\"></script>"
+        //     // "<link href=\"/assets/css/style.css\" rel=\"stylesheet\"/>" +
+        //     // "<link href=\"/assets/css/style-new.css\" rel=\"stylesheet\"/>"
+        // );
 
         // try {
         //     document.querySelector("#me-style-css-css").remove(); // my style.css
@@ -207,6 +207,13 @@ $(function () {
         // change to site name
         try {
             document.querySelector(".breadcrumbs").children[0].textContent = siteName
+        } catch (err) {
+
+        }
+
+        // change to site name
+        try {
+            document.querySelector("#sitename").textContent = siteName;
         } catch (err) {
 
         }

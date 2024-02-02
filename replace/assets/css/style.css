@@ -1475,7 +1475,7 @@ p:has(>.selfcentered) {
 .header {
     align-items: center;
     background-color: #fff;
-    /*border-bottom: 1px solid #ccc;*/
+    /*border-bottom: 3px solid #CCCCCC;;*/
     display: flex;
     height: 75px;
     left: 0;
